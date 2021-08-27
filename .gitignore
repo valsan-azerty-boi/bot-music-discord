@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# others
+.mp3
+.mp4
+.webm
+/ffmpeg
