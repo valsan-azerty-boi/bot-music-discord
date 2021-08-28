@@ -7,8 +7,6 @@ from discord.ext import commands,tasks
 from discord.ext import commands
 from discord.utils import get
 from dotenv import load_dotenv
-import ffmpeg
-import nacl
 import os
 from os import system
 import youtube_dl
@@ -56,9 +54,6 @@ check_assign_global_resume_value(True)
 queue = []
 async def serverQueue(ctx):
 	try:
-		await ctx.send("method serverQueue:")
-		await ctx.send("is_playing: %s" % (ctx.message.guild.voice_client.is_playing()))
-		await ctx.send("resumeValue: %s" % (resumeValue))
 		if queue != [] and not ctx.message.guild.voice_client.is_playing() and resumeValue == True:
 			await play_audio(ctx, queue.pop(0))
 	except Exception:
@@ -159,9 +154,6 @@ async def play_audio(ctx, *args):
 			vid = info['entries'][0]["formats"][0]
 		elif 'formats' in info:
 			vid = info["formats"][0]
-		await ctx.send("method play_audio:")
-		await ctx.send("is_playing: %s" % (voice_client.is_playing()))
-		await ctx.send("resumeValue: %s" % (resumeValue))
 		if voice_client.is_playing() == False and resumeValue == True:
 			voice_channel.play(discord.FFmpegPCMAudio(vid["url"], **ffmpeg_options))
 			await ctx.send("Now playing audio.")
