@@ -16,6 +16,8 @@ load_dotenv()
 
 # Get the API token from the .env file.
 DISCORD_TOKEN = os.getenv("discord_token")
+BOT_DESCRIPTION = os.getenv("bot_description")
+BOT_DEFAULT_SONG_LINK = os.getenv("bot_default_song_link")
 
 intents = discord.Intents().all()
 client = discord.Client(intents=intents)
@@ -140,8 +142,8 @@ async def launch(ctx, *args):
 	except Exception:
 		pass
 		
-@bot.command(name='bob', help='Hey it`s me')
-async def bob(ctx):
+@bot.command(name='bot', help='Hey it`s me')
+async def thisbot(ctx):
 	await stop(ctx)
 	await join(ctx)
 	try:
@@ -149,9 +151,9 @@ async def bob(ctx):
 			server = ctx.message.guild
 			voice_channel = server.voice_client
 			with youtube_dl.YoutubeDL(ytdl_format_options) as ydl:
-				info = ydl.extract_info("https://www.youtube.com/watch?v=DL_u4NZTTqM", download=False)
+				info = ydl.extract_info(BOT_DEFAULT_SONG_LINK, download=False)
 			voice_channel.play(discord.FFmpegPCMAudio(info["formats"][0]["url"], **ffmpeg_options))	
-		await ctx.send("Hi I'm Bob, I love slaughtering people in South Africa, running away from the police and listening to my fellas Vulvodynia. Thanks for accepting me here and RIP Groovy buddy.")
+		await ctx.send(BOT_DESCRIPTION)
 	except Exception:
 		pass
 
