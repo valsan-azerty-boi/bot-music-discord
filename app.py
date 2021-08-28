@@ -46,11 +46,10 @@ ffmpeg_options = {'before_options': '-reconnect 1 -reconnect_streamed 1 -reconne
 ytdl = youtube_dl.YoutubeDL(ytdl_format_options)
 
 queue = []
-async def serverQueue(voice, message):
-    if queue != [] and not voice.is_playing():
-        await play(queue.pop(0), voice, message)
-        print('queue - ' + str(queue))
-
+async def serverQueue(ctx):
+	if queue != [] and not ctx.message.guild.voice_client.is_playing():
+		await launch(ctx, queue.pop(0))
+		
 class YTDLSource(discord.PCMVolumeTransformer):
 	def __init__(self, source, *, data, volume=0.5):
 		super().__init__(source, volume)
@@ -152,6 +151,18 @@ async def launch(ctx, *args):
 		await ctx.send(res)
 	except Exception:
 		pass
+
+@bot.command(name='n', help='To play the next song')
+async def n(ctx):
+	await n(ctx)
+		
+@bot.command(name='next', help='To play the next song')
+async def next(ctx):
+	await stop(ctx)
+	try:
+		await serverQueue(ctx)
+	except Exception:
+		pass
 		
 @bot.command(name='bot', help='Hey it`s me')
 async def thisbot(ctx):
@@ -171,5 +182,4 @@ async def thisbot(ctx):
 if __name__ == "__main__" :
 	bot.run(DISCORD_TOKEN)
 
-# TODO Finalize queue reading
-# TODO Add -next -n commands for song queue
+# TODO Finalize automatic queue reading
