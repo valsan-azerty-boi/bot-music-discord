@@ -26,6 +26,7 @@ youtube_dl.utils.bug_reports_message = lambda: ''
 
 ytdl_format_options = {
     'format': 'bestaudio/best',
+	'default_search': 'auto',
     'outtmpl': '%(extractor)s-%(id)s-%(title)s.%(ext)s',
     'restrictfilenames': True,
     'noplaylist': False,
@@ -38,10 +39,7 @@ ytdl_format_options = {
     'source_address': '0.0.0.0'
 }
 
-ffmpeg_options = {
-    'before_options': '-reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 5',
-    'options': '-vn'
-}
+ffmpeg_options = {'before_options': '-reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 5', 'options': '-vn'}
 
 ytdl = youtube_dl.YoutubeDL(ytdl_format_options)
 
@@ -118,7 +116,7 @@ async def stop(ctx):
 			await voice_client.stop()
 	except Exception:
 		pass
-    
+
 @bot.command(name='play', help='To play song')
 async def play(ctx,url):
 	await stop(ctx)
@@ -127,14 +125,13 @@ async def play(ctx,url):
 		async with ctx.typing():
 			server = ctx.message.guild
 			voice_channel = server.voice_client
-			ydl_opts = {'format': 'bestaudio', 'default_search': 'auto'}
-			with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+			with youtube_dl.YoutubeDL(ytdl_format_options) as ydl:
 				info = ydl.extract_info(url, download=False)
 			if 'entries' in info:
 				vid = info['entries'][0]["formats"][0]
 			elif 'formats' in info:
 				vid = info["formats"][0]
-			voice_channel.play(discord.FFmpegPCMAudio(vid["url"]))	
+			voice_channel.play(discord.FFmpegPCMAudio(vid["url"], **ffmpeg_options))	
 		await ctx.send("Now playing the requested song.")
 	except Exception:
 		pass
@@ -147,10 +144,9 @@ async def bob(ctx):
 		async with ctx.typing():
 			server = ctx.message.guild
 			voice_channel = server.voice_client
-			ydl_opts = {'format': 'bestaudio'}
-			with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+			with youtube_dl.YoutubeDL(ytdl_format_options) as ydl:
 				info = ydl.extract_info("https://www.youtube.com/watch?v=DL_u4NZTTqM", download=False)
-			voice_channel.play(discord.FFmpegPCMAudio(info["formats"][0]["url"]))	
+			voice_channel.play(discord.FFmpegPCMAudio(info["formats"][0]["url"], **ffmpeg_options))	
 		await ctx.send("Hi I'm Bob, I love slaughtering people in South Africa, running away from the police and listening to my fellas Vulvodynia. Thanks for accepting me here and RIP Groovy buddy.")
 	except Exception:
 		pass
