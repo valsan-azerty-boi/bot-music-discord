@@ -28,7 +28,7 @@ ytdl_format_options = {
     'format': 'bestaudio/best',
     'outtmpl': '%(extractor)s-%(id)s-%(title)s.%(ext)s',
     'restrictfilenames': True,
-    'noplaylist': True,
+    'noplaylist': False,
     'nocheckcertificate': True,
     'ignoreerrors': False,
     'logtostderr': False,
@@ -62,57 +62,79 @@ class YTDLSource(discord.PCMVolumeTransformer):
 
 @bot.command(name='join', help='Tells the bot to join a voice channel')
 async def join(ctx):
-    if not ctx.message.author.voice:
-        return
-    else:
-        channel = ctx.message.author.voice.channel
-    await channel.connect()
-
+	try:
+		if not ctx.message.author.voice:
+			return
+		else:
+			channel = ctx.message.author.voice.channel
+		await channel.connect()
+	except Exception:
+		pass
+    
 @bot.command(name='leave', help='To make the bot leave the voice channel')
 async def leave(ctx):
-    voice_client = ctx.message.guild.voice_client
-    if voice_client.is_connected():
-        await voice_client.disconnect()
-
+	try:
+		voice_client = ctx.message.guild.voice_client
+		if voice_client.is_connected():
+			await voice_client.disconnect()
+	except Exception:
+		pass
 @bot.command(name='disconnect', help='To make the bot leave the voice channel')
 async def disconnect(ctx):
     await leave(ctx)
 
-@bot.command(name='play', help='To play a song')
-async def play(ctx,url):
-    await join(ctx)
-    server = ctx.message.guild
-    ydl_opts = {'format': 'bestaudio'}
-    with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-        info = ydl.extract_info(url, download=False)
-    voice_channel = server.voice_client
-    voice_channel.play(discord.FFmpegPCMAudio(info['formats'][0]['url']))
-	
 @bot.command(name='p', help='To play a song')
 async def p(ctx,url):
     await play(ctx,url)
 
 @bot.command(name='pause', help='This command pauses the song')
 async def pause(ctx):
-    voice_client = ctx.message.guild.voice_client
-    if voice_client.is_playing():
-        await voice_client.pause()
-    
+    try:
+        voice_client = ctx.message.guild.voice_client
+        if voice_client.is_playing():
+            await voice_client.pause()
+    except Exception:
+        pass
+		
 @bot.command(name='resume', help='Resumes the song')
 async def resume(ctx):
-    voice_client = ctx.message.guild.voice_client
-    if voice_client.is_paused():
-        await voice_client.resume()
-
+	try:
+		voice_client = ctx.message.guild.voice_client
+		if voice_client.is_paused():
+			await voice_client.resume()
+	except Exception:
+			pass
+		
 @bot.command(name='unpause', help='Resumes the song')
 async def unpause(ctx):
     await resume(ctx)
 
 @bot.command(name='stop', help='Stops the song')
 async def stop(ctx):
-    voice_client = ctx.message.guild.voice_client
-    if voice_client.is_playing():
-        await voice_client.stop()
-
+	try:
+		voice_client = ctx.message.guild.voice_client
+		if voice_client.is_playing():
+			await voice_client.stop()
+	except Exception:
+		pass
+    
+@bot.command(name='play', help='To play song')
+async def play(ctx,url):
+	await stop(ctx)
+	await join(ctx)
+	try:
+		server = ctx.message.guild
+		voice_channel = server.voice_client
+		ydl_opts = {'format': 'bestaudio', 'default_search': 'auto'}
+		with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+			info = ydl.extract_info(url, download=False)
+		if 'entries' in info:
+			video_format = info['entries'][0]["formats"][0]
+		elif 'formats' in info:
+			video_format = info["formats"][0]
+		voice_channel.play(discord.FFmpegPCMAudio(video_format["url"]))	
+	except Exception:
+		pass
+	
 if __name__ == "__main__" :
 	bot.run(DISCORD_TOKEN)

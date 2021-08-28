@@ -1,7 +1,7 @@
-discord.py==1.7.3
-PyNaCl==1.4.0
 youtube_dl==2021.6.6
-wavelink==0.9.10
+PyNaCl==1.4.0
+discord.py==1.7.3
 discord==1.7.3
+discordSuperUtils==0.1.5
 nacl==0.0.0
 python-dotenv==0.19.0
