@@ -45,14 +45,21 @@ ytdl_format_options = {
 ffmpeg_options = {'before_options': '-reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 5', 'options': '-vn'}
 ytdl = youtube_dl.YoutubeDL(ytdl_format_options)
 
+# Assign bool if music is pause/stop or not
+resumeValue = None
+def check_assign_global_resume_value(bool):
+   global resumeValue
+   resumeValue = bool
+check_assign_global_resume_value(True)
+
 # Use queue for audio
-global resume
-resume = True
-global queue
 queue = []
 async def serverQueue(ctx):
 	try:
-		if queue != [] and not ctx.message.guild.voice_client.is_playing():
+		await ctx.send("method serverQueue:")
+		await ctx.send("is_playing: %s" % (ctx.message.guild.voice_client.is_playing()))
+		await ctx.send("resumeValue: %s" % (resumeValue))
+		if queue != [] and not ctx.message.guild.voice_client.is_playing() and resumeValue == True:
 			await play_audio(ctx, queue.pop(0))
 	except Exception:
 		pass
@@ -89,7 +96,7 @@ async def join(ctx):
 @bot.command(name='leave', help='To make the bot leave the voice channel')
 async def leave(ctx):
 	try:
-		resume = False
+		check_assign_global_resume_value(False)
 		voice_client = ctx.message.guild.voice_client
 		if voice_client.is_connected():
 			await voice_client.disconnect()
@@ -108,7 +115,7 @@ async def logout(ctx):
 @bot.command(name='pause', help='This command pauses the audio')
 async def pause(ctx):
 	try:
-		resume = False
+		check_assign_global_resume_value(False)
 		voice_client = ctx.message.guild.voice_client
 		if voice_client.is_playing():
 			await voice_client.pause()
@@ -119,7 +126,7 @@ async def pause(ctx):
 @bot.command(name='resume', help='Resumes the audio')
 async def resume(ctx):
 	try:
-		resume = True
+		check_assign_global_resume_value(True)
 		voice_client = ctx.message.guild.voice_client
 		if voice_client.is_paused():
 			await voice_client.resume()
@@ -134,7 +141,7 @@ async def unpause(ctx):
 @bot.command(name='stop', help='Stops the audio')
 async def stop(ctx):
 	try:
-		resume = False
+		check_assign_global_resume_value(False)
 		voice_client = ctx.message.guild.voice_client
 		await voice_client.stop()
 	except Exception:
@@ -152,12 +159,13 @@ async def play_audio(ctx, *args):
 			vid = info['entries'][0]["formats"][0]
 		elif 'formats' in info:
 			vid = info["formats"][0]
-		await ctx.send(voice_client.is_playing())
-		await ctx.send(resume.value) # TODO fix resume didnt work well
-		if voice_client.is_playing() == False and resume:
+		await ctx.send("method play_audio:")
+		await ctx.send("is_playing: %s" % (voice_client.is_playing()))
+		await ctx.send("resumeValue: %s" % (resumeValue))
+		if voice_client.is_playing() == False and resumeValue == True:
 			voice_channel.play(discord.FFmpegPCMAudio(vid["url"], **ffmpeg_options))
 			await ctx.send("Now playing audio.")
-			while voice_client.is_playing() == True or resume == False:
+			while voice_client.is_playing() == True or resumeValue == False:
 				await asyncio.sleep(3)
 			else:
 				asyncio.ensure_future(serverQueue(ctx));
@@ -169,10 +177,9 @@ async def play_audio(ctx, *args):
 
 @bot.command(name='launch', help='To play an audio')
 async def launch(ctx, *args):
-	resume = True
+	check_assign_global_resume_value(True)
 	await join(ctx)
 	await play_audio(ctx, *args)
-
 
 @bot.command(name='p', help='To play an audio')
 async def p(ctx, *args):
@@ -186,7 +193,7 @@ async def play(ctx, *args):
 @bot.command(name='next', help='To play the next audio')
 async def next(ctx):
 	await stop(ctx)
-	resume = True
+	check_assign_global_resume_value(True)
 	try:
 		await serverQueue(ctx)
 	except Exception:
@@ -200,7 +207,7 @@ async def n(ctx):
 @bot.command(name='bot', help='Hey it`s me')
 async def thisbot(ctx):
 	await stop(ctx)
-	resume = False
+	check_assign_global_resume_value(False)
 	await join(ctx)
 	try:
 		async with ctx.typing():
@@ -216,5 +223,3 @@ async def thisbot(ctx):
 # Run discord bot
 if __name__ == "__main__" :
 	bot.run(DISCORD_TOKEN)
-
-# TODO Finalize automatic queue reading
