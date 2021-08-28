@@ -123,18 +123,23 @@ async def play(ctx,url):
 	await stop(ctx)
 	await join(ctx)
 	try:
-		server = ctx.message.guild
-		voice_channel = server.voice_client
-		ydl_opts = {'format': 'bestaudio', 'default_search': 'auto'}
-		with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-			info = ydl.extract_info(url, download=False)
-		if 'entries' in info:
-			video_format = info['entries'][0]["formats"][0]
-		elif 'formats' in info:
-			video_format = info["formats"][0]
-		voice_channel.play(discord.FFmpegPCMAudio(video_format["url"]))	
+		async with ctx.typing():
+			server = ctx.message.guild
+			voice_channel = server.voice_client
+			ydl_opts = {'format': 'bestaudio', 'default_search': 'auto'}
+			with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+				info = ydl.extract_info(url, download=False)
+			if 'entries' in info:
+				vid = info['entries'][0]["formats"][0]
+			elif 'formats' in info:
+				vid = info["formats"][0]
+			voice_channel.play(discord.FFmpegPCMAudio(vid["url"]))	
+		await ctx.send("Now playing the requested song.")
 	except Exception:
 		pass
 	
 if __name__ == "__main__" :
 	bot.run(DISCORD_TOKEN)
+
+# TODO add a queue system for songs
+# TODO enhance play command for search args
