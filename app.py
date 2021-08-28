@@ -138,6 +138,22 @@ async def play(ctx,url):
 	except Exception:
 		pass
 	
+@bot.command(name='bob', help='Hey it`s me')
+async def bob(ctx):
+	await stop(ctx)
+	await join(ctx)
+	try:
+		async with ctx.typing():
+			server = ctx.message.guild
+			voice_channel = server.voice_client
+			ydl_opts = {'format': 'bestaudio'}
+			with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+				info = ydl.extract_info("https://www.youtube.com/watch?v=DL_u4NZTTqM", download=False)
+			voice_channel.play(discord.FFmpegPCMAudio(info["formats"][0]["url"]))	
+		await ctx.send("Hi I'm Bob, I love slaughtering people in South Africa, running away from the police and listening to my fellas Vulvodynia. Thanks for accepting me here and RIP Groovy buddy.")
+	except Exception:
+		pass
+
 if __name__ == "__main__" :
 	bot.run(DISCORD_TOKEN)
 
