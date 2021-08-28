@@ -45,6 +45,12 @@ ffmpeg_options = {'before_options': '-reconnect 1 -reconnect_streamed 1 -reconne
 
 ytdl = youtube_dl.YoutubeDL(ytdl_format_options)
 
+queue = []
+async def serverQueue(voice, message):
+    if queue != [] and not voice.is_playing():
+        await play(queue.pop(0), voice, message)
+        print('queue - ' + str(queue))
+
 class YTDLSource(discord.PCMVolumeTransformer):
 	def __init__(self, source, *, data, volume=0.5):
 		super().__init__(source, volume)
@@ -125,20 +131,25 @@ async def play(ctx, *args):
 	
 @bot.command(name='launch', help='To play a song')
 async def launch(ctx, *args):
-	await stop(ctx)
 	await join(ctx)
 	try:
 		async with ctx.typing():
 			server = ctx.message.guild
 			voice_channel = server.voice_client
+			voice_client = ctx.message.guild.voice_client
 			with youtube_dl.YoutubeDL(ytdl_format_options) as ydl:
 				info = ydl.extract_info("_".join(args), download=False)
 			if 'entries' in info:
 				vid = info['entries'][0]["formats"][0]
 			elif 'formats' in info:
 				vid = info["formats"][0]
-			voice_channel.play(discord.FFmpegPCMAudio(vid["url"], **ffmpeg_options))	
-		await ctx.send("Now playing the requested song.")
+			if not voice_client.is_playing():
+				voice_channel.play(discord.FFmpegPCMAudio(vid["url"], **ffmpeg_options))
+				res = "Now playing the requested song."
+			else:
+				queue.append(vid["url"])
+				res = "Added to queue successfully."
+		await ctx.send(res)
 	except Exception:
 		pass
 		
@@ -160,4 +171,5 @@ async def thisbot(ctx):
 if __name__ == "__main__" :
 	bot.run(DISCORD_TOKEN)
 
-# TODO add a queue system for songs
+# TODO Finalize queue reading
+# TODO Add -next -n commands for song queue
