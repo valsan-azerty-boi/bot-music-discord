@@ -81,11 +81,7 @@ async def leave(ctx):
 @bot.command(name='disconnect', help='To make the bot leave the voice channel')
 async def disconnect(ctx):
 	await leave(ctx)
-
-@bot.command(name='p', help='To play a song')
-async def p(ctx,url):
-	await play(ctx,url)
-
+	
 @bot.command(name='pause', help='This command pauses the song')
 async def pause(ctx):
 	try:
@@ -116,10 +112,17 @@ async def stop(ctx):
 			await voice_client.stop()
 	except Exception:
 		pass
-
-@bot.command(name='play', help='To play song')
+	
+@bot.command(name='p', help='To play a song')
+async def p(ctx, *args):
+	await launch(ctx, *args)
+	
+@bot.command(name='play', help='To play a song')
 async def play(ctx, *args):
-	await ctx.send('{} arguments: {}'.format(len(args), ', '.join(args)))
+	await launch(ctx, *args)
+	
+@bot.command(name='launch', help='To play a song')
+async def launch(ctx, *args):
 	await stop(ctx)
 	await join(ctx)
 	try:
@@ -127,7 +130,7 @@ async def play(ctx, *args):
 			server = ctx.message.guild
 			voice_channel = server.voice_client
 			with youtube_dl.YoutubeDL(ytdl_format_options) as ydl:
-				info = ydl.extract_info("", download=False)
+				info = ydl.extract_info("_".join(args), download=False)
 			if 'entries' in info:
 				vid = info['entries'][0]["formats"][0]
 			elif 'formats' in info:
@@ -137,10 +140,6 @@ async def play(ctx, *args):
 	except Exception:
 		pass
 		
-@bot.command(name='test', help='To play a test')
-async def test(ctx, *args):
-	await ctx.send('{} arguments: {}'.format(len(args), ', '.join(args)))
-	
 @bot.command(name='bob', help='Hey it`s me')
 async def bob(ctx):
 	await stop(ctx)
