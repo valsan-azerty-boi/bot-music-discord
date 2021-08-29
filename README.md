@@ -1,7 +1,7 @@
 # bot-music-discord
 ## This branch contains the requested file for heroku deployment
 ### Required conf vars on the heroku settings of your app :
-- discord_token = "The.bot.token"
+- discord_token = "The token of your discord bot"
 - client_id = "The oauth2 client id of your discord bot"
 - client_secret = "The oauth2 client secret of your discord bot"
 - bot_command_prefix = "A prefix like - or !"
