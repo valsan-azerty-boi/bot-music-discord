@@ -16,11 +16,12 @@ load_dotenv()
 DISCORD_TOKEN = os.getenv("discord_token")
 BOT_DESCRIPTION = os.getenv("bot_description")
 BOT_DEFAULT_SONG_LINK = os.getenv("bot_default_song_link")
+BOT_COMMAND_PREFIX = os.getenv("bot_command_prefix")
 
 # Setup discord bot
 intents = discord.Intents().all()
 client = discord.Client(intents=intents)
-bot = commands.Bot(command_prefix='-',intents=intents)
+bot = commands.Bot(command_prefix=BOT_COMMAND_PREFIX,intents=intents)
 
 # Suppress noise about console usage from errors
 youtube_dl.utils.bug_reports_message = lambda: ''
@@ -74,6 +75,17 @@ class YTDLSource(discord.PCMVolumeTransformer):
 			data = data['entries'][0]
 		filename = data['title'] if stream else ytdl.prepare_filename(data)
 		return filename
+
+# Commands list
+# join
+# leave - disconnect - logout
+# pause
+# resume - unpause
+# stop
+# launch - play - p
+# next - n
+# bot
+# help
 
 # Join channel command
 @bot.command(name='join', help='Tells the bot to join a voice channel')
@@ -195,7 +207,9 @@ async def next(ctx):
 async def n(ctx):
 	await next(ctx)
 
-# Bot presentation command		
+# Bot presentation command
+# Send bot details to text channel
+# In addition to the help command
 @bot.command(name='bot', help='Hey it`s me')
 async def thisbot(ctx):
 	await stop(ctx)
