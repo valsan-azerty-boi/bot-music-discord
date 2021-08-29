@@ -1,3 +1,4 @@
+git+https://github.com/Rapptz/discord.py@rewrite
 youtube_dl==2021.6.6
 PyNaCl==1.4.0
 discord.py==1.7.3
