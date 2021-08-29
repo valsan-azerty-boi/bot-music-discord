@@ -1,1 +1,1 @@
-worker: python app.pygit
+worker: python app.py
