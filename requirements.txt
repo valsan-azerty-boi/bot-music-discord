@@ -1,5 +1,8 @@
+git+https://github.com/Rapptz/discord.py
 youtube_dl==2021.6.6
 PyNaCl==1.4.0
 discord.py==1.7.3
+discord.py[voice]
 discord==1.7.3
+pip
 python-dotenv==0.19.0
