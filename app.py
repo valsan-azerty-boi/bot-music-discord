@@ -162,20 +162,22 @@ async def play_audio(ctx, *args):
 		voice_client = ctx.message.guild.voice_client
 		with youtube_dl.YoutubeDL(ytdl_format_options) as ydl:
 			info = ydl.extract_info("_".join(args), download=False)
+			title = ydl.prepare_filename(info)
+			print("{0}".format(info['title']))
 		if 'entries' in info:
 			vid = info['entries'][0]["formats"][0]
 		elif 'formats' in info:
 			vid = info["formats"][0]
 		if voice_client.is_playing() == False and resumeValue == True:
 			voice_channel.play(discord.FFmpegPCMAudio(vid["url"], **ffmpeg_options))
-			await ctx.send("Now playing audio.")
+			await ctx.send("Now playing: `{0}`".format(title))
 			while voice_client.is_playing() == True or resumeValue == False:
 				await asyncio.sleep(3)
 			else:
 				asyncio.ensure_future(serverQueue(ctx));
 		else:
 			queue.append(vid["url"])
-			await ctx.send("Added to queue.")	
+			await ctx.send("Added to queue: `{0}`".format(title))
 	except Exception:
 		pass
 
