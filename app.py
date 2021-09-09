@@ -162,8 +162,7 @@ async def play_audio(ctx, *args):
 		voice_client = ctx.message.guild.voice_client
 		with youtube_dl.YoutubeDL(ytdl_format_options) as ydl:
 			info = ydl.extract_info("_".join(args), download=False)
-			title = ydl.prepare_filename(info)
-			print("{0}".format(info['title']))
+			title = " ".join(args) if info.get('title', None) is None else info.get('title', None)
 		if 'entries' in info:
 			vid = info['entries'][0]["formats"][0]
 		elif 'formats' in info:
@@ -176,7 +175,7 @@ async def play_audio(ctx, *args):
 			else:
 				asyncio.ensure_future(serverQueue(ctx));
 		else:
-			queue.append(vid["url"])
+			queue.append("_".join(args))
 			await ctx.send("Added to queue: `{0}`".format(title))
 	except Exception:
 		pass
