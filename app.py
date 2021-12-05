@@ -52,11 +52,11 @@ def check_assign_global_resume_value(bool):
 check_assign_global_resume_value(True)
 
 # Use queue for audio
-queue = []
+queue = {}
 async def serverQueue(ctx):
 	try:
-		if queue != [] and not ctx.message.guild.voice_client.is_playing() and resumeValue == True:
-			await play_audio(ctx, queue.pop(0))
+		if not len(queue) == 0 and ctx.guild.id in queue and not len(queue[ctx.guild.id]) == 0 and not ctx.message.guild.voice_client.is_playing() and resumeValue == True:
+			await play_audio(ctx, queue[ctx.guild.id].pop(0))
 	except Exception:
 		pass
 
@@ -85,6 +85,14 @@ async def on_voice_state_update(member, before, after):
    if len(voice_state.channel.members) == 1:
       await voice_state.disconnect()
 
+# create a queue for the current server if not exist
+async def create_server_queue(ctx):
+	try:
+		if not ctx.guild.id in queue:
+			queue[ctx.guild.id] = []
+	except Exception:
+		pass
+
 # Commands list
 # bug
 # clear
@@ -103,7 +111,7 @@ async def on_voice_state_update(member, before, after):
 async def bug(ctx):
 	await stop(ctx)
 	await leave(ctx)
-	queue.clear()
+	queue[ctx.guild.id].clear()
 
 # Join channel command
 @bot.command(name='join', help='Tells the bot to join a voice channel')
@@ -165,7 +173,7 @@ async def unpause(ctx):
 # Clear the audio queue
 @bot.command(name='clear', help='Clear the audio queue')
 async def bug(ctx):
-	queue.clear()
+	queue[ctx.guild.id].clear()
 	await ctx.send("The queue have been cleared")
 
 # Stop audio command
@@ -199,7 +207,7 @@ async def play_audio(ctx, *args):
 			else:
 				asyncio.ensure_future(serverQueue(ctx));
 		else:
-			queue.append("_".join(args))
+			queue[ctx.guild.id].append("_".join(args))
 			await ctx.send("Added to queue: `{0}`".format(title))
 	except Exception:
 		pass
@@ -207,6 +215,7 @@ async def play_audio(ctx, *args):
 @bot.command(name='launch', help='To play an audio')
 async def launch(ctx, *args):
 	check_assign_global_resume_value(True)
+	await create_server_queue(ctx)
 	await join(ctx)
 	await play_audio(ctx, *args)
 
