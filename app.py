@@ -76,7 +76,18 @@ class YTDLSource(discord.PCMVolumeTransformer):
 		filename = data['title'] if stream else ytdl.prepare_filename(data)
 		return filename
 
+# Auto-disconnect bot if alone
+@bot.event
+async def on_voice_state_update(member, before, after):
+   voice_state = member.guild.voice_client
+   if voice_state is None:
+      return
+   if len(voice_state.channel.members) == 1:
+      await voice_state.disconnect()
+
 # Commands list
+# bug
+# clear
 # join
 # leave - disconnect - logout
 # pause
@@ -86,6 +97,13 @@ class YTDLSource(discord.PCMVolumeTransformer):
 # next - n
 # bot
 # help
+
+# If bot is bugged
+@bot.command(name='bug', help='If bot is bugged')
+async def bug(ctx):
+	await stop(ctx)
+	await leave(ctx)
+	queue.clear()
 
 # Join channel command
 @bot.command(name='join', help='Tells the bot to join a voice channel')
@@ -143,6 +161,12 @@ async def resume(ctx):
 @bot.command(name='unpause', help='Resumes the audio')
 async def unpause(ctx):
 	await resume(ctx)
+
+# Clear the audio queue
+@bot.command(name='clear', help='Clear the audio queue')
+async def bug(ctx):
+	queue.clear()
+	await ctx.send("The queue have been cleared")
 
 # Stop audio command
 @bot.command(name='stop', help='Stops the audio')
