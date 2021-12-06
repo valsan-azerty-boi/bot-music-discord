@@ -119,6 +119,7 @@ async def bug(ctx):
 @bot.command(name='join', help='Tells the bot to join a voice channel')
 async def join(ctx):
 	await createServerResumeValue(ctx)
+	await createServerQueue(ctx)
 	try:
 		if not ctx.message.author.voice:
 			return
@@ -218,6 +219,7 @@ async def play_audio(ctx, *args):
 @bot.command(name='launch', help='To play an audio')
 async def launch(ctx, *args):
 	resumeValue[ctx.guild.id] = True
+	await createServerResumeValue(ctx)
 	await createServerQueue(ctx)
 	await join(ctx)
 	await play_audio(ctx, *args)
