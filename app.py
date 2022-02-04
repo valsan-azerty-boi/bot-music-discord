@@ -9,6 +9,7 @@ from discord.utils import get
 from dotenv import load_dotenv
 import os
 from os import system
+import random
 import youtube_dl
 
 # Load env config file
@@ -104,6 +105,7 @@ async def on_voice_state_update(member, before, after):
 # stop
 # launch - play - p
 # next - n
+# roll
 # bot
 # help
 
@@ -245,6 +247,15 @@ async def next(ctx):
 @bot.command(name='n', help='To play the next audio')
 async def n(ctx):
 	await next(ctx)
+
+# Roll a dice command
+@bot.command(name='roll', help='To roll a dice')
+async def roll(ctx, *args):
+	try:
+		nb = "".join(args)
+		await ctx.send("Roll a d{0} dice: `result is {1}`".format(nb, random.randint(1,int(nb))))
+	except Exception as e:
+		pass
 
 # Bot presentation command
 # Send bot details to text channel
