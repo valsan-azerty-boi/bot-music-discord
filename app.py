@@ -254,7 +254,7 @@ async def roll(ctx, *args):
 	try:
 		nb = "".join(args)
 		await ctx.send("Roll a d{0} dice: `result is {1}`".format(nb, random.randint(1,int(nb))))
-	except Exception as e:
+	except Exception:
 		pass
 
 # Bot presentation command
