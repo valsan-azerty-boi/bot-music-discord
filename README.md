@@ -1,4 +1,5 @@
 # bot-music-discord
+## <span style="color:red">Heroku have announced that they are stopping all their free app hosting services from November 28 (2022). Since I will have to stop using their service and I will also stop updating this branch.</span>
 ## This branch contains the requested file for heroku deployment
 ### Required conf vars on the heroku settings of your app :
 - discord_token = "The token of your discord bot"
