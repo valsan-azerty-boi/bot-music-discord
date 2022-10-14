@@ -1,13 +1,23 @@
 # bot-music-discord
-### Required conf vars on the heroku settings of your app :
-- discord_token = "The token of your discord bot"
-- client_id = "The oauth2 client id of your discord bot"
-- client_secret = "The oauth2 client secret of your discord bot"
-- bot_command_prefix = "A prefix like - or !"
-- bot_description = "A bot description who represents your bot"
-- bot_default_song_link = "A youtube link to a song who represents your bot"
-### Required buildpacks :
-- https://github.com/kitcast/buildpack-ffmpeg.git
-- https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
-- https://github.com/xrisk/heroku-opus.git
-- https://github.com/guilherme-otran/heroku-buildpack-ffprobe.git
+### Deploy on Fly.io
+- Install Fly.io CLI on your local env
+- $flyctl auth signup / flyctl auth login
+- $fly launch
+- Edit your fly.toml file
+````
+# fly.toml
+app = "Your app name here"
+kill_signal = "SIGINT"
+kill_timeout = 5
+processes = []
+
+[env]
+````
+- $flyctl ips allocate-v4
+- $flyctl deploy
+- $flyctl secrets set discord_token=the_token_of_your_discord_bot
+- $flyctl secrets set client_id=the_oauth2_client_id_of_your_discord bot
+- $flyctl secrets set client_secret=the_oauth2_client_secret_of_your_discord bot
+- $flyctl secrets set bot_command_prefix=a_prefix_like_!
+- $flyctl secrets set bot_description=a_bot_description_who_represents_your_bot
+- $flyctl secrets set bot_default_song_link=a_youtube_link_to_a_song_who_represents_your_bot
