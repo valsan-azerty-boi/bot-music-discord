@@ -1,3 +1,4 @@
+pip
 youtube_dl==2021.6.6
 PyNaCl==1.4.0
 wheel
@@ -5,5 +6,5 @@ ffmpeg
 discord.py>=2.0.0,<3
 discord.py[voice]>=2.0.0,<3
 discord==1.7.3
-pip
+requests
 python-dotenv==0.20.0
