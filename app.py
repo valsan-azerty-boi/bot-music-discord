@@ -138,7 +138,7 @@ async def join(ctx):
         pass
 
 # Leave channel command
-@bot.command(name='leave', help='Make the bot quit voice chan, aliases are \'disconnect\' and \'logout\'')
+@bot.command(name='leave', aliases=['disconnect', 'logout'], help='Make the bot quit voice chan, aliases are \'disconnect\' and \'logout\'')
 async def leave(ctx):
     try:
         resumeValue[ctx.guild.id] = False
