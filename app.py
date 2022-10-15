@@ -1,7 +1,7 @@
 import asyncio
+import discord
 from discord import channel
 from discord.ext import commands
-import discord
 from discord import FFmpegPCMAudio
 from discord.ext import commands, tasks
 from discord.ext import commands
@@ -11,6 +11,7 @@ import os
 from os import system
 import random
 import youtube_dl
+import requests
 
 # Load env config file
 load_dotenv()
@@ -24,6 +25,7 @@ intents = discord.Intents().all()
 client = discord.Client(intents=intents)
 help_command = commands.DefaultHelpCommand(no_category='Commands')
 bot = commands.Bot(command_prefix=BOT_COMMAND_PREFIX, intents=intents, help_command=help_command)
+web_search_agent = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'}
 
 # Suppress noise about console usage from errors
 youtube_dl.utils.bug_reports_message = lambda: ''
@@ -136,7 +138,7 @@ async def join(ctx):
         pass
 
 # Leave channel command
-@bot.command(name='leave', help='To make the bot leave the voice channel')
+@bot.command(name='leave', help='Make the bot quit voice chan, aliases are \'disconnect\' and \'logout\'')
 async def leave(ctx):
     try:
         resumeValue[ctx.guild.id] = False
@@ -145,14 +147,6 @@ async def leave(ctx):
             await voice_client.disconnect()
     except Exception:
         pass
-
-@bot.command(name='disconnect', help='To make the bot leave the voice channel')
-async def disconnect(ctx):
-    await leave(ctx)
-
-@bot.command(name='logout', help='To make the bot leave the voice channel')
-async def logout(ctx):
-    await leave(ctx)
 
 # Pause audio command
 @bot.command(name='pause', help='This command pauses the audio')
@@ -166,7 +160,7 @@ async def pause(ctx):
         pass
 
 # Unpause audio command
-@bot.command(name='resume', help='Resumes the audio')
+@bot.command(name='resume', aliases=['unpause', 'continue'], help='Resumes the audio, aliases are \'unpause\' and \'continue\'')
 async def resume(ctx):
     try:
         resumeValue[ctx.guild.id] = True
@@ -175,10 +169,6 @@ async def resume(ctx):
             await voice_client.resume()
     except Exception:
         pass
-
-@bot.command(name='unpause', help='Resumes the audio')
-async def unpause(ctx):
-    await resume(ctx)
 
 # Clear the audio queue
 @bot.command(name='clear', help='Clear the audio queue')
@@ -222,24 +212,17 @@ async def play_audio(ctx, *args):
     except Exception:
         pass
 
-@bot.command(name='launch', help='To play an audio')
-async def launch(ctx, *args):
+@bot.command(name='play', aliases=['p', 'audio', 'launch'], help='To play an audio, aliases are \'p\' and \'launch\'')
+async def launchaudio(ctx, *args):
     resumeValue[ctx.guild.id] = True
     await createServerResumeValue(ctx)
     await createServerQueue(ctx)
     await join(ctx)
     await play_audio(ctx, *args)
 
-@bot.command(name='p', help='To play an audio')
-async def p(ctx, *args):
-    await launch(ctx, *args)
-
-@bot.command(name='play', help='To play an audio')
-async def play(ctx, *args):
-    await launch(ctx, *args)
 
 # Play next audio from queue command
-@bot.command(name='next', help='To play the next audio')
+@bot.command(name='next', aliases=['n', 'after'], help='To play the next audio, aliases are \'n\' and \'after\'')
 async def next(ctx):
     await stop(ctx)
     resumeValue[ctx.guild.id] = True
@@ -248,10 +231,6 @@ async def next(ctx):
     except Exception:
         pass
 
-@bot.command(name='n', help='To play the next audio')
-async def n(ctx):
-    await next(ctx)
-
 # Roll a dice command
 @bot.command(name='roll', help='To roll a dice')
 async def roll(ctx, *args):
@@ -259,6 +238,34 @@ async def roll(ctx, *args):
         nb = "".join(args)
         await ctx.send("Roll a d{0} dice: `result is {1}`".format(nb, random.randint(1, int(nb))))
     except Exception:
+        pass
+
+# Internet search command
+@bot.command(name='search', help='To search informations on internet')
+async def internetsearch(ctx, *args):
+    try:
+        req = requests.get("https://api.qwant.com/v3/search/images", params={'count': 1,'q': "%20".join(args),'t': 'images','safesearch': 1,'locale': 'en_US','offset': 0,'device': 'desktop'}, headers=web_search_agent)
+        embed = discord.Embed(title="Internet search: " + " ".join(args), url="https://www.google.com/search?q=" + "%20".join(args), description="")
+        json = req.json().get('data').get('result').get('items')
+        if len(json) > 0:
+            embed.set_thumbnail(url=json[0].get('media'))
+        await ctx.send(embed=embed)
+    except:
+        pass
+
+@bot.command(name='pic', help='To search images on internet')
+async def pic(ctx, *args):
+    try:
+        req = requests.get("https://api.qwant.com/v3/search/images", params={'count': 25,'q': "%20".join(args),'t': 'images','safesearch': 1,'locale': 'en_US','offset': 0,'device': 'desktop'}, headers=web_search_agent)
+        json = req.json().get('data').get('result').get('items');
+        embed = discord.Embed(title="Pic search: " + " ".join(args), url="https://www.google.com/search?tbm=isch&q=" + "%20".join(args), description="")
+        if len(json) >= 3:
+            pics = [req.get('media') for req in json]
+            embed.set_thumbnail(url=random.choice(pics))
+            embed.set_footer(text='',icon_url=random.choice(pics))
+            embed.set_image(url=random.choice(pics))
+        await ctx.send(embed=embed)
+    except:
         pass
 
 # Bot presentation command
