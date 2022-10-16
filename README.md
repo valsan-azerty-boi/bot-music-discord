@@ -1,6 +1,9 @@
 # bot-music-discord
 ## A simple discord bot for listening music, build with python 3
 This bot can stream music on your discord but not only, he also has some other "fun" functions.
+
+<img src="demo-readme.gif" width="400" />
+
 ### Install dependencies/requirements
 See the requirements.txt file
 ### Install ffmpeg binaries
