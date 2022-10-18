@@ -13,7 +13,6 @@ BOT_COMMAND_PREFIX = os.getenv("bot_command_prefix")
 intents = discord.Intents().all()
 client = discord.Client(intents=intents)
 help_command = commands.DefaultHelpCommand(no_category='Helps')
-startup_extensions = ["bot_audio", "bot_rand", "bot_misc"]
 activity = discord.Activity(type=discord.ActivityType.watching, name=f"{BOT_COMMAND_PREFIX}help")
 bot = commands.Bot(command_prefix=BOT_COMMAND_PREFIX, activity=activity, intents=intents, help_command=help_command, status=discord.Status.idle)
 
@@ -43,10 +42,7 @@ async def thisbot(ctx):
 
 # Run discord bot
 if __name__ == "__main__":
-    for extension in startup_extensions:
-        try:
-            bot.load_extension(extension)
-        except Exception as e:
-            print(e)
-    
+    bot.load_extension("./cogs/audio.py")
+    bot.load_extension("./cogs/rand.py")
+    bot.load_extension("./cogs/misc.py")
     bot.run(DISCORD_TOKEN)
