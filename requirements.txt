@@ -3,4 +3,5 @@ PyNaCl==1.4.0
 discord.py==1.7.3
 discord==1.7.3
 requests
+io
 python-dotenv==0.19.0

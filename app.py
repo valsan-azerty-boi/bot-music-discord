@@ -12,6 +12,7 @@ from os import system
 import random
 import youtube_dl
 import requests
+import io
 
 # Load env config file
 load_dotenv()
@@ -138,7 +139,7 @@ async def join(ctx):
         pass
 
 # Leave channel command
-@bot.command(name='leave', aliases=['disconnect', 'logout'], help='Make the bot quit voice chan, aliases are \'disconnect\' and \'logout\'')
+@bot.command(name='leave', aliases=['disconnect', 'logout'], help='Make the bot quit voice chan, aliases are \'disconnect\'|\'logout\'')
 async def leave(ctx):
     try:
         resumeValue[ctx.guild.id] = False
@@ -160,7 +161,7 @@ async def pause(ctx):
         pass
 
 # Unpause audio command
-@bot.command(name='resume', aliases=['unpause', 'continue'], help='Resumes the audio, aliases are \'unpause\' and \'continue\'')
+@bot.command(name='resume', aliases=['unpause', 'continue'], help='Resumes the audio, aliases are \'unpause\'|\'continue\'')
 async def resume(ctx):
     try:
         resumeValue[ctx.guild.id] = True
@@ -212,7 +213,7 @@ async def play_audio(ctx, *args):
     except Exception:
         pass
 
-@bot.command(name='play', aliases=['p', 'audio', 'launch'], help='To play an audio, aliases are \'p\' and \'launch\'')
+@bot.command(name='play', aliases=['p', 'audio', 'launch'], help='To play an audio, aliases are \'p\'|\'launch\'')
 async def launchaudio(ctx, *args):
     resumeValue[ctx.guild.id] = True
     await createServerResumeValue(ctx)
@@ -222,7 +223,7 @@ async def launchaudio(ctx, *args):
 
 
 # Play next audio from queue command
-@bot.command(name='next', aliases=['n', 'after'], help='To play the next audio, aliases are \'n\' and \'after\'')
+@bot.command(name='next', aliases=['n', 'after'], help='To play the next audio, aliases are \'n\'|\'after\'')
 async def next(ctx):
     await stop(ctx)
     resumeValue[ctx.guild.id] = True
@@ -240,12 +241,12 @@ async def roll(ctx, *args):
     except Exception:
         pass
 
-# Internet search command
-@bot.command(name='search', help='To search informations on internet')
+# Internet/Api commands
+@bot.command(name='search', help='Search informations on internet')
 async def internetsearch(ctx, *args):
     try:
         req = requests.get("https://api.qwant.com/v3/search/images", params={'count': 1,'q': "%20".join(args),'t': 'images','safesearch': 1,'locale': 'en_US','offset': 0,'device': 'desktop'}, headers=web_search_agent)
-        embed = discord.Embed(title="Internet search: " + " ".join(args), url="https://www.google.com/search?q=" + "%20".join(args), description="")
+        embed = discord.Embed(title="Internet search: " + " ".join(args), url="https://www.qwant.com/?t=web&q=" + "%20".join(args), description="")
         json = req.json().get('data').get('result').get('items')
         if len(json) > 0:
             embed.set_thumbnail(url=json[0].get('media'))
@@ -253,19 +254,68 @@ async def internetsearch(ctx, *args):
     except:
         pass
 
-@bot.command(name='pic', help='To search images on internet')
+@bot.command(name='pic', aliases=['img'], help='Search images on internet')
 async def pic(ctx, *args):
     try:
         req = requests.get("https://api.qwant.com/v3/search/images", params={'count': 25,'q': "%20".join(args),'t': 'images','safesearch': 1,'locale': 'en_US','offset': 0,'device': 'desktop'}, headers=web_search_agent)
         json = req.json().get('data').get('result').get('items');
-        embed = discord.Embed(title="Pic search: " + " ".join(args), url="https://www.google.com/search?tbm=isch&q=" + "%20".join(args), description="")
-        if len(json) >= 3:
+        embed = discord.Embed(title="Pic search: " + " ".join(args), url="https://www.qwant.com/?t=images&q=" + "%20".join(args), description="")
+        if len(json) >= 2:
             pics = [req.get('media') for req in json]
             embed.set_thumbnail(url=random.choice(pics))
-            embed.set_footer(text='',icon_url=random.choice(pics))
             embed.set_image(url=random.choice(pics))
         await ctx.send(embed=embed)
     except:
+        pass
+
+
+aiList = [];
+aiList.append({'arg':'artwork','title':'thisartworkdoesnotexist','uri':'https://thisartworkdoesnotexist.com/'})
+aiList.append({'arg':'cat','title':'thiscatdoesnotexist','uri':'https://thiscatdoesnotexist.com/'})
+aiList.append({'arg':'horse','title':'thishorsedoesnotexist','uri':'https://thishorsedoesnotexist.com/'})
+aiList.append({'arg':'person','title':'thispersondoesnotexist','uri':'https://thispersondoesnotexist.com/image'})
+
+@bot.command(name='ai', help='Search on AI some random \'artwork\'|\'cat\'|\'horse\'|\'person\'')
+async def ai(ctx, *args):
+    try:
+        for ai in aiList:
+            if ai['arg'] == args[0]:
+                req = requests.get(ai['uri'], params={}, headers=web_search_agent)
+                file = discord.File(io.BytesIO(req.content), "img.jpeg")
+                embed = discord.Embed(title=ai['title'], description="")
+                embed.set_image(url="attachment://img.jpeg")
+                await ctx.send(embed=embed, file=file)
+                break
+    except Exception:
+        pass
+
+@bot.command(name='mcu', help='Search what next in the MCU on internet')
+async def ai(ctx):
+    try:
+        req = requests.get("https://whenisthenextmcufilm.com/api", params={}, headers=web_search_agent)
+        json = req.json()
+        embed=discord.Embed(title=json.get('title'), description=json.get('overview'), color=0xc33232)
+        embed.set_thumbnail(url=json.get('poster_url'))
+        embed.set_author(name="What next in MCU ?")
+        embed.set_footer(text=f"{json.get('type')} comes out in {json.get('days_until')} days ({json.get('release_date')})")
+        await ctx.send(embed=embed)
+    except Exception:
+        pass
+
+@bot.command(name='steam', help='Search steam stats')
+async def steam(ctx):
+    try:
+        req1 = requests.get("https://www.valvesoftware.com/about/stats", params={}, headers=web_search_agent)
+        json1 = req1.json()
+        embed=discord.Embed(title="Steam stats", description=f"{json1.get('users_online')} online users and {json1.get('users_ingame')} in a game", color=0x1b2838)
+        embed.set_thumbnail(url="https://store.cloudflare.steamstatic.com/public/images/v6/logo_steam_footer.png")
+        embed.add_field(name="Official stats", value="https://store.steampowered.com/charts", inline=True)
+        embed.add_field(name="Steamdb stats", value="https://steamdb.info/graph", inline=True)
+        embed.add_field(name="Steamcharts stats", value="https://steamcharts.com", inline=True)
+        #TODO : requests.get("https://steamspy.com/api.php?request=top100in2weeks", params={}, headers=web_search_agent)
+        await ctx.send(embed=embed)
+    except Exception as e:
+        print(e)
         pass
 
 # Bot presentation command
