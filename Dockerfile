@@ -5,4 +5,4 @@ RUN apt-get update && apt-get install --no-install-recommends -y python3.9 pytho
 COPY requirements.txt /
 RUN pip install -r requirements.txt
 COPY . /
-CMD python app.py
+CMD python bot.py
