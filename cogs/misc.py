@@ -7,8 +7,8 @@ import random
 import requests
 import threading
 
-class Misc(commands.Cog):
-    def __init__(self, bot):
+class Misc(commands.Cog, name="Misc"):
+    def __init__(self, bot: commands.Bot):
         self.bot = bot
         self.longTask = {}
         self.web_search_agent = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'}
@@ -125,5 +125,5 @@ class Misc(commands.Cog):
         except:
             pass
 
-def setup(bot):
+def setup(bot: commands.Bot):
     bot.add_cog(Misc(bot))
