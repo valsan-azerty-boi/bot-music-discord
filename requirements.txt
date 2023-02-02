@@ -1,5 +1,5 @@
 pip
-youtube_dl==2021.6.6
+youtube_dl==2021.12.17
 PyNaCl==1.4.0
 wheel
 ffmpeg
