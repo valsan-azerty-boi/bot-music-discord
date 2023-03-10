@@ -18,30 +18,6 @@ class Misc(commands.Cog, name="Misc"):
             {'arg':'horse','title':'thishorsedoesnotexist :horse:','uri':'https://thishorsedoesnotexist.com/'},
             {'arg':'person','title':'thispersondoesnotexist :person_bald:','uri':'https://thispersondoesnotexist.com/image'}
         ]
-
-    # Dalle mini task
-    async def createServerLongTask(self, ctx):
-        try:
-            if not ctx.guild.id in self.longTask:
-                self.longTask[ctx.guild.id] = False
-        except:
-            pass
-
-    async def dalleminiTask(self, ctx, search):
-        try:
-            self.longTask[ctx.guild.id] = True
-            req = requests.post("https://backend.craiyon.com/generate", json={'prompt': search}, headers=self.web_search_agent, timeout=180)
-            json = req.json()
-            file = discord.File(io.BytesIO(base64.b64decode(json['images'][0])), "img1.jpeg")
-            embed = discord.Embed(title="DALL-E mini", description=search)
-            embed.set_image(url=f"attachment://img1.jpeg")
-            await ctx.send(embed=embed, file=file)
-            self.longTask[ctx.guild.id] = False
-        except Exception as e:
-            print(e)
-            self.longTask[ctx.guild.id] = False
-            await ctx.send("DALL-E mini AI error: Timeout")
-            pass
     
     # Internet/Api commands
     @commands.command(name='search', help='Search informations on internet')
@@ -81,20 +57,6 @@ class Misc(commands.Cog, name="Misc"):
                     embed.set_image(url="attachment://img.jpeg")
                     await ctx.send(embed=embed, file=file)
                     break
-        except:
-            pass
-
-    @commands.command(name='mini', aliases=['dalle', 'dall-e', 'dallemini'], help='Generate pic on DALL-E mini AI (Unstable/experimental feature)')
-    async def dallemini(self, ctx, *args):
-        try:
-            await self.createServerLongTask(ctx)
-            search = ' '.join(filter(None, args))
-            await ctx.send(f"Warning: this AI generation `{search}` can be slow")
-            if self.longTask[ctx.guild.id] is True:
-                await ctx.send("An AI generation is already processing")
-            else:
-                t = threading.Thread(target=asyncio.run, args=(self.dalleminiTask(ctx, search),))
-                t.start()
         except:
             pass
 
