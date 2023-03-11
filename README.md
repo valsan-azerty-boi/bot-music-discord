@@ -4,7 +4,8 @@ This bot can stream music on your discord but not only, he also has some other "
 
 <img src="demo-readme.gif" width="400" />
 
-## Local installation
+### Local installation
+- Install Python (version 3.9+)
 - Install dependencies/requirements
 See the requirements.txt file
 - Install ffmpeg binaries
@@ -17,7 +18,7 @@ bot_description = "A bot description who represents your bot"
 Enable PRESENCE INTENT
 Enable SERVER MEMBERS INTENT
 
-## Deploy on Fly.io
+### Deploy on Fly.io
 - Install Fly.io CLI on your local env
 - $flyctl auth signup / flyctl auth login
 - $fly launch
