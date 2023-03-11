@@ -48,7 +48,7 @@ class Misc(commands.Cog, name="Misc"):
             embed = discord.Embed(title="thiswaifudoesnotexist", description="")
             embed.set_image(url="attachment://img.jpg")
             await ctx.send(embed=embed, file=file)
-        except Exception as e:
+        except:
             pass
 
     @commands.command(name='ai', aliases=['aisearch'], help='Search on AI some random \'artwork\'|\'cat\'|\'horse\'|\'person\'')
