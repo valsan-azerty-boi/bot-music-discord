@@ -1,13 +1,13 @@
 import asyncio
 import discord
 from discord.ext import commands
-import youtube_dl
+import yt_dlp as youtube_dl
 
 # Suppress noise about console usage from errors
 youtube_dl.utils.bug_reports_message = lambda: ''
 
 # Setup audio/stream configuration
-ytdl_format_options = {
+ydl_opts = {
     'format': 'bestaudio/best',
     'default_search': 'auto',
     'outtmpl': '%(extractor)s-%(id)s-%(title)s.%(ext)s',
@@ -19,10 +19,17 @@ ytdl_format_options = {
     'quiet': True,
     'no_warnings': True,
     'default_search': 'auto',
-    'source_address': '0.0.0.0'
+    'source_address': '0.0.0.0',
+    'postprocessors': [{
+        'key': 'FFmpegExtractAudio',
+        'preferredcodec': 'mp3',
+        'preferredquality': '192',
+    }]
 }
-ffmpeg_options = {'before_options': '-reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 5', 'options': '-vn'}
-ytdl = youtube_dl.YoutubeDL(ytdl_format_options)
+ffmpeg_options = {
+    'before_options': '-reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 5 -probesize 200M', 
+    'options': '-vn'}
+ydl = youtube_dl.YoutubeDL(ydl_opts)
 
 class YTDLSource(discord.PCMVolumeTransformer):
     def __init__(self, source, *, data, volume=0.5):
@@ -34,10 +41,10 @@ class YTDLSource(discord.PCMVolumeTransformer):
     @classmethod
     async def from_url(cls, url, *, loop=None, stream=False):
         loop = loop or asyncio.get_event_loop()
-        data = await loop.run_in_executor(None, lambda: ytdl.extract_info(url, download=not stream))
+        data = await loop.run_in_executor(None, lambda: ydl.extract_info(url, download=not stream))
         if 'entries' in data:
             data = data['entries'][0]
-        filename = data['title'] if stream else ytdl.prepare_filename(data)
+        filename = data['title'] if stream else ydl.prepare_filename(data)
         return filename
 
 class Audio(commands.Cog, name="Audio"):
@@ -138,7 +145,7 @@ class Audio(commands.Cog, name="Audio"):
             server = ctx.message.guild
             voice_channel = server.voice_client
             voice_client = ctx.message.guild.voice_client
-            with youtube_dl.YoutubeDL(ytdl_format_options) as ydl:
+            with youtube_dl.YoutubeDL(ydl_opts) as ydl:
                 info = ydl.extract_info(' '.join(filter(None, args)), download=False)
                 title = ' '.join(filter(None, args)) if info.get('title', None) is None else info.get('title', None)
             if 'entries' in info:
@@ -147,7 +154,7 @@ class Audio(commands.Cog, name="Audio"):
                 vid = info["formats"][0]
             if voice_client.is_playing() == False and self.resumeValue[ctx.guild.id] == True:
                 voice_channel.play(discord.FFmpegPCMAudio(vid["url"], **ffmpeg_options))
-                await ctx.send("Now playing: `{0}`".format(title))
+                await ctx.send("WARNING: YouTube has been updated recently and broke a lot of discord audio bot, fix soon maybe. Now playing: `{0}`".format(title))
                 while voice_client.is_playing() == True or self.resumeValue[ctx.guild.id] == False:
                     await asyncio.sleep(3)
                 else:

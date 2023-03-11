@@ -1,6 +1,9 @@
-youtube_dl==2021.6.6
+pip
+yt-dlp==2023.3.4
 PyNaCl==1.4.0
+wheel
 discord.py==1.7.3
+discord.py[voice]==1.7.3
 discord==1.7.3
 requests
-python-dotenv==0.19.0
+python-dotenv==0.20.0
