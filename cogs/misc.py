@@ -12,12 +12,6 @@ class Misc(commands.Cog, name="Misc"):
         self.bot = bot
         self.longTask = {}
         self.web_search_agent = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'}
-        self.aiList = [
-            {'arg':'artwork','title':'thisartworkdoesnotexist :art:','uri':'https://thisartworkdoesnotexist.com/'},
-            {'arg':'cat','title':'thiscatdoesnotexist :cat:','uri':'https://thiscatdoesnotexist.com/'},
-            {'arg':'horse','title':'thishorsedoesnotexist :horse:','uri':'https://thishorsedoesnotexist.com/'},
-            {'arg':'person','title':'thispersondoesnotexist :person_bald:','uri':'https://thispersondoesnotexist.com/image'}
-        ]
     
     # Internet/Api commands
     @commands.command(name='search', help='Search informations on internet')
@@ -46,17 +40,21 @@ class Misc(commands.Cog, name="Misc"):
         except:
             pass
     
+    @commands.command(name='waifu', aliases=['aiwaifu'], help='Search on AI some random \'waifu\'')
+    async def waifuaisearch(self, ctx, *args):
+        try:
+            req = requests.get('https://www.thiswaifudoesnotexist.net/example-{0}.jpg'.format(random.randint(1, int(99999))), params={}, headers=self.web_search_agent)
+            file = discord.File(io.BytesIO(req.content), "img.jpg")
+            embed = discord.Embed(title="thiswaifudoesnotexist", description="")
+            embed.set_image(url="attachment://img.jpg")
+            await ctx.send(embed=embed, file=file)
+        except Exception as e:
+            pass
+
     @commands.command(name='ai', aliases=['aisearch'], help='Search on AI some random \'artwork\'|\'cat\'|\'horse\'|\'person\'')
     async def aisearch(self, ctx, *args):
         try:
-            for ai in self.aiList:
-                if ai['arg'] == args[0]:
-                    req = requests.get(ai['uri'], params={}, headers=self.web_search_agent)
-                    file = discord.File(io.BytesIO(req.content), "img.jpeg")
-                    embed = discord.Embed(title=ai['title'], description="")
-                    embed.set_image(url="attachment://img.jpeg")
-                    await ctx.send(embed=embed, file=file)
-                    break
+            await ctx.send("Official API and website for this-person/cat/horse/art-doesnotexist has been shut down by the Stability.AI company.")
         except:
             pass
 
@@ -76,9 +74,7 @@ class Misc(commands.Cog, name="Misc"):
     @commands.command(name='steam', help='Search steam stats')
     async def steam(self, ctx):
         try:
-            req = requests.get("https://www.valvesoftware.com/about/stats", params={}, headers=self.web_search_agent)
-            json = req.json()
-            embed=discord.Embed(title="Steam stats", description=f"{json.get('users_online')} online users and {json.get('users_ingame')} in a game", color=0x1b2838)
+            embed=discord.Embed(title="Steam stats", description="", color=0x1b2838)
             embed.set_thumbnail(url="https://store.cloudflare.steamstatic.com/public/images/v6/logo_steam_footer.png")
             embed.add_field(name="Official stats", value="https://store.steampowered.com/charts", inline=True)
             embed.add_field(name="Steamdb stats", value="https://steamdb.info/graph", inline=True)
