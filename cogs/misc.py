@@ -65,7 +65,7 @@ class Misc(commands.Cog, name="Misc"):
             json = req.json()
             embed=discord.Embed(title=json.get('title'), description=json.get('overview'), color=0xc33232)
             embed.set_thumbnail(url=json.get('poster_url'))
-            embed.set_author(name="What next in MCU ? :superhero:")
+            embed.set_author(name="What next in MCU ?")
             embed.set_footer(text=f"{json.get('type')} comes out in {json.get('days_until')} days ({json.get('release_date')})")
             await ctx.send(embed=embed)
         except:
