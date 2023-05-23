@@ -148,7 +148,15 @@ class Audio(commands.Cog):
             with youtube_dl.YoutubeDL(ydl_opts) as ydl:
                 info = ydl.extract_info(' '.join(filter(None, args)), download=False)
                 title = ' '.join(filter(None, args)) if info.get('title', None) is None else info.get('title', None)
-            if 'entries' in info:
+            # if 'entries' in info:
+            #     vid = info['entries'][0]["formats"][0]
+            # elif 'formats' in info:
+            #     vid = info["formats"][0]
+            if 'url' in info:
+                vid = info
+            elif 'requested_formats' in info:
+                vid = info['requested_formats'][0]
+            elif 'entries' in info:
                 vid = info['entries'][0]["formats"][0]
             elif 'formats' in info:
                 vid = info["formats"][0]
