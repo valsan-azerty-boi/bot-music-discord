@@ -1,14 +1,11 @@
-import asyncio
-import base64
 import discord
 from discord.ext import commands
 import io
 import random
 import requests
-import threading
 
-class Misc(commands.Cog, name="Misc"):
-    def __init__(self, bot: commands.Bot):
+class Misc(commands.Cog):
+    def __init__(self, bot):
         self.bot = bot
         self.longTask = {}
         self.web_search_agent = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'}
@@ -51,13 +48,6 @@ class Misc(commands.Cog, name="Misc"):
         except:
             pass
 
-    @commands.command(name='ai', aliases=['aisearch'], help='Search on AI some random \'artwork\'|\'cat\'|\'horse\'|\'person\'')
-    async def aisearch(self, ctx, *args):
-        try:
-            await ctx.send("Official API and website for this-person/cat/horse/art-doesnotexist has been shut down by the Stability.AI company.")
-        except:
-            pass
-
     @commands.command(name='mcu', help='Search what next in the MCU on internet')
     async def ai(self, ctx):
         try:
@@ -82,6 +72,3 @@ class Misc(commands.Cog, name="Misc"):
             await ctx.send(embed=embed)
         except:
             pass
-
-def setup(bot: commands.Bot):
-    bot.add_cog(Misc(bot))

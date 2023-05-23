@@ -47,8 +47,8 @@ class YTDLSource(discord.PCMVolumeTransformer):
         filename = data['title'] if stream else ydl.prepare_filename(data)
         return filename
 
-class Audio(commands.Cog, name="Audio"):
-    def __init__(self, bot: commands.Bot):
+class Audio(commands.Cog):
+    def __init__(self, bot):
         self.bot = bot
         self.resumeValue = {}
 
@@ -194,6 +194,3 @@ class Audio(commands.Cog, name="Audio"):
             self.resumeValue[ctx.guild.id] = None
         except:
             pass
-
-def setup(bot: commands.Bot):
-    bot.add_cog(Audio(bot))
