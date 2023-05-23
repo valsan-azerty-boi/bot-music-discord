@@ -23,13 +23,13 @@ async def on_ready():
     
 # Auto-disconnect bot if alone
 @bot.event
-async def on_voice_state_update(member, before, after):
+async def on_voice_state_update(ctx, before, after):
     try:
-        voice_state = member.guild.voice_client
+        voice_state = ctx.guild.voice_client
         if voice_state is None:
             return
         if len(voice_state.channel.members) == 1:
-            await voice_state.disconnect()
+            await voice_state.disconnect(force=True)
     except:
         pass
 

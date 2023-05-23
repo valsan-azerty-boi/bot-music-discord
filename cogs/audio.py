@@ -96,9 +96,9 @@ class Audio(commands.Cog, name="Audio"):
         try:
             self.resumeValue[ctx.guild.id] = False
             voice_client = ctx.message.guild.voice_client
-            if voice_client.is_connected():
-                await voice_client.disconnect()
-        except:
+            await voice_client.disconnect(force=True)
+        except Exception as ex:
+            print(ex)
             pass
 
     # Pause audio command
@@ -162,7 +162,8 @@ class Audio(commands.Cog, name="Audio"):
             else:
                 self.queue[ctx.guild.id].append(' '.join(filter(None, args)))
                 await ctx.send("Added to queue: `{0}`".format(title))
-        except:
+        except Exception as ex:
+            print(ex)
             pass
 
     @commands.command(name='play', aliases=['p', 'audio', 'launch'], help='To play an audio, aliases are \'p\'|\'launch\'')
