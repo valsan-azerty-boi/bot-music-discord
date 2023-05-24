@@ -13,7 +13,7 @@ class Help(commands.Cog):
         self.bot = bot
 
     # Command bot presentation
-    @commands.hybrid_command(name='bot', help='Hey it`s me', with_app_command=True)
+    @commands.hybrid_command(name='bot', help='I am a discord bot', with_app_command=True)
     async def thisbot(self, ctx):
         try:
             await ctx.send(BOT_DESCRIPTION)
