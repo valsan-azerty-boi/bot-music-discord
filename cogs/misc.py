@@ -37,8 +37,8 @@ class Misc(commands.Cog):
         except:
             pass
     
-    @commands.command(name='waifu', aliases=['aiwaifu'], help='Search on AI some random \'waifu\'')
-    async def waifuaisearch(self, ctx, *args):
+    @commands.hybrid_command(name='waifu', aliases=['aiwaifu'], help='Search on AI some random \'waifu\'', with_app_command=True)
+    async def waifuaisearch(self, ctx):
         try:
             req = requests.get('https://www.thiswaifudoesnotexist.net/example-{0}.jpg'.format(random.randint(1, int(99999))), params={}, headers=self.web_search_agent)
             file = discord.File(io.BytesIO(req.content), "img.jpg")
@@ -48,7 +48,7 @@ class Misc(commands.Cog):
         except:
             pass
 
-    @commands.command(name='mcu', help='Search what next in the MCU on internet')
+    @commands.hybrid_command(name='mcu', help='Search what next in the MCU on internet', with_app_command=True)
     async def ai(self, ctx):
         try:
             req = requests.get("https://whenisthenextmcufilm.com/api", params={}, headers=self.web_search_agent)
@@ -61,7 +61,7 @@ class Misc(commands.Cog):
         except:
             pass
 
-    @commands.command(name='steam', help='Search steam stats')
+    @commands.hybrid_command(name='steam', help='Search steam stats', with_app_command=True)
     async def steam(self, ctx):
         try:
             embed=discord.Embed(title="Steam stats", description="", color=0x1b2838)

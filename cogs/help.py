@@ -11,6 +11,7 @@ BOT_DESCRIPTION = os.getenv("bot_description")
 class Help(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
+        self.canSync = True
 
     # Command bot presentation
     @commands.hybrid_command(name='bot', help='I am a discord bot', with_app_command=True)
@@ -30,3 +31,16 @@ class Help(commands.Cog):
                 if not command.hidden:
                     embed.add_field(name=f"`{command.name}`", value=f"`{command.help}`", inline=False)
         await ctx.send(embed=embed)
+
+    @commands.hybrid_command(name='sync', help='Commands sync', with_app_command=True)
+    async def syncCommands(self, ctx):
+        try:
+            if self.canSync is True:
+                self.canSync = False
+                await ctx.bot.tree.sync()
+                await ctx.send("Yes, milord.")
+            else:
+                await ctx.send("I refuse.")
+        except Exception as ex:
+            print(ex)
+            pass

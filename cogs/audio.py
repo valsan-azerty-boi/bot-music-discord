@@ -77,7 +77,7 @@ class Audio(commands.Cog):
             pass
 
     # Join channel command
-    @commands.command(name='join', help='Tells the bot to join a voice channel')
+    @commands.hybrid_command(name='join', help='Tells the bot to join a voice channel', with_app_command=True)
     async def join(self, ctx):
         await self.createServerResumeValue(ctx)
         await self.createServerQueue(ctx)
@@ -91,7 +91,7 @@ class Audio(commands.Cog):
             pass
 
     # Leave channel command
-    @commands.command(name='leave', aliases=['disconnect', 'logout'], help='Make the bot quit voice chan, aliases are \'disconnect\'|\'logout\'')
+    @commands.hybrid_command(name='leave', aliases=['disconnect', 'logout'], help='Make the bot quit voice chan, aliases are \'disconnect\'|\'logout\'', with_app_command=True)
     async def leave(self, ctx):
         try:
             self.resumeValue[ctx.guild.id] = False
@@ -102,7 +102,7 @@ class Audio(commands.Cog):
             pass
 
     # Pause audio command
-    @commands.command(name='pause', help='This command pauses the audio')
+    @commands.hybrid_command(name='pause', help='This command pauses the audio', with_app_command=True)
     async def pause(self, ctx):
         try:
             self.resumeValue[ctx.guild.id] = False
@@ -113,7 +113,7 @@ class Audio(commands.Cog):
             pass
 
     # Unpause audio command
-    @commands.command(name='resume', aliases=['unpause', 'continue'], help='Resumes the audio, aliases are \'unpause\'|\'continue\'')
+    @commands.hybrid_command(name='resume', aliases=['unpause', 'continue'], help='Resumes the audio, aliases are \'unpause\'|\'continue\'', with_app_command=True)
     async def resume(self, ctx):
         try:
             self.resumeValue[ctx.guild.id] = True
@@ -124,13 +124,13 @@ class Audio(commands.Cog):
             pass
 
     # Clear the audio queue
-    @commands.command(name='clear', help='Clear the audio queue')
+    @commands.hybrid_command(name='clear', help='Clear the audio queue', with_app_command=True)
     async def clearQueue(self, ctx):
         self.queue[ctx.guild.id].clear()
         await ctx.send("The queue have been cleared")
 
     # Stop audio command
-    @commands.command(name='stop', help='Stops the audio')
+    @commands.hybrid_command(name='stop', help='Stops the audio', with_app_command=True)
     async def stop(self, ctx):
         try:
             self.resumeValue[ctx.guild.id] = False
@@ -179,7 +179,7 @@ class Audio(commands.Cog):
         await self.play_audio(ctx, *args)
 
     # Play next audio from queue command
-    @commands.command(name='next', aliases=['n', 'after'], help='To play the next audio, aliases are \'n\'|\'after\'')
+    @commands.hybrid_command(name='next', aliases=['n', 'after'], help='To play the next audio, aliases are \'n\'|\'after\'', with_app_command=True)
     async def next(self, ctx):
         await self.stop(ctx)
         self.resumeValue[ctx.guild.id] = True
@@ -189,7 +189,7 @@ class Audio(commands.Cog):
             pass
 
     # Command if bot is bugged
-    @commands.command(name='bug', aliases=['audiobug'], help='Use this command if bot is bugged')
+    @commands.hybrid_command(name='bug', aliases=['audiobug'], help='Use this command if bot is bugged', with_app_command=True)
     async def bug(self, ctx):
         try:
             await self.stop(ctx)

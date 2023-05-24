@@ -14,7 +14,7 @@ class Rand(commands.Cog):
         except:
             pass
 
-    @commands.command(name='headsortails', aliases=['pileouface'], help='To roll a heads or tails')
+    @commands.hybrid_command(name='headsortails', aliases=['pileouface'], help='To roll a heads or tails', with_app_command=True)
     async def headsortails(self, ctx):
         try:
             if random.randint(1,2) == 1:
