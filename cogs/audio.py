@@ -148,10 +148,6 @@ class Audio(commands.Cog):
             with youtube_dl.YoutubeDL(ydl_opts) as ydl:
                 info = ydl.extract_info(' '.join(filter(None, args)), download=False)
                 title = ' '.join(filter(None, args)) if info.get('title', None) is None else info.get('title', None)
-            # if 'entries' in info:
-            #     vid = info['entries'][0]["formats"][0]
-            # elif 'formats' in info:
-            #     vid = info["formats"][0]
             if 'url' in info:
                 vid = info
             elif 'requested_formats' in info:
@@ -162,7 +158,7 @@ class Audio(commands.Cog):
                 vid = info["formats"][0]
             if voice_client.is_playing() == False and self.resumeValue[ctx.guild.id] == True:
                 voice_channel.play(discord.FFmpegPCMAudio(vid["url"], **ffmpeg_options))
-                await ctx.send("WARNING: YouTube has been updated recently and broke a lot of discord audio bot, fix soon maybe. Now playing: `{0}`".format(title))
+                await ctx.send("WARNING: YouTube has been updated recently and broke a lot of discord audio bot, the audio can be broken. Now playing: `{0}`".format(title))
                 while voice_client.is_playing() == True or self.resumeValue[ctx.guild.id] == False:
                     await asyncio.sleep(3)
                 else:
