@@ -1,0 +1,1 @@
+# Keep this folder "downloads" for the bot when he try to audio

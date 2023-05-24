@@ -1,8 +1,8 @@
 from discord.ext import commands
 import random
 
-class Rand(commands.Cog, name="Rand"):
-    def __init__(self, bot: commands.Bot):
+class Rand(commands.Cog):
+    def __init__(self, bot):
         self.bot = bot
     
     # Roll a dice command
@@ -14,7 +14,7 @@ class Rand(commands.Cog, name="Rand"):
         except:
             pass
 
-    @commands.command(name='headsortails', aliases=['pileouface'], help='To roll a heads or tails')
+    @commands.hybrid_command(name='headsortails', aliases=['pileouface'], help='To roll a heads or tails', with_app_command=True)
     async def headsortails(self, ctx):
         try:
             if random.randint(1,2) == 1:
@@ -23,6 +23,3 @@ class Rand(commands.Cog, name="Rand"):
                 await ctx.send("Tails")
         except:
             pass
-
-def setup(bot: commands.Bot):
-    bot.add_cog(Rand(bot))

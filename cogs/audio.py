@@ -47,8 +47,8 @@ class YTDLSource(discord.PCMVolumeTransformer):
         filename = data['title'] if stream else ydl.prepare_filename(data)
         return filename
 
-class Audio(commands.Cog, name="Audio"):
-    def __init__(self, bot: commands.Bot):
+class Audio(commands.Cog):
+    def __init__(self, bot):
         self.bot = bot
         self.resumeValue = {}
 
@@ -77,7 +77,7 @@ class Audio(commands.Cog, name="Audio"):
             pass
 
     # Join channel command
-    @commands.command(name='join', help='Tells the bot to join a voice channel')
+    @commands.hybrid_command(name='join', help='Tells the bot to join a voice channel', with_app_command=True)
     async def join(self, ctx):
         await self.createServerResumeValue(ctx)
         await self.createServerQueue(ctx)
@@ -91,18 +91,18 @@ class Audio(commands.Cog, name="Audio"):
             pass
 
     # Leave channel command
-    @commands.command(name='leave', aliases=['disconnect', 'logout'], help='Make the bot quit voice chan, aliases are \'disconnect\'|\'logout\'')
+    @commands.hybrid_command(name='leave', aliases=['disconnect', 'logout'], help='Make the bot quit voice chan, aliases are \'disconnect\'|\'logout\'', with_app_command=True)
     async def leave(self, ctx):
         try:
             self.resumeValue[ctx.guild.id] = False
             voice_client = ctx.message.guild.voice_client
-            if voice_client.is_connected():
-                await voice_client.disconnect()
-        except:
+            await voice_client.disconnect(force=True)
+        except Exception as ex:
+            print(ex)
             pass
 
     # Pause audio command
-    @commands.command(name='pause', help='This command pauses the audio')
+    @commands.hybrid_command(name='pause', help='This command pauses the audio', with_app_command=True)
     async def pause(self, ctx):
         try:
             self.resumeValue[ctx.guild.id] = False
@@ -113,7 +113,7 @@ class Audio(commands.Cog, name="Audio"):
             pass
 
     # Unpause audio command
-    @commands.command(name='resume', aliases=['unpause', 'continue'], help='Resumes the audio, aliases are \'unpause\'|\'continue\'')
+    @commands.hybrid_command(name='resume', aliases=['unpause', 'continue'], help='Resumes the audio, aliases are \'unpause\'|\'continue\'', with_app_command=True)
     async def resume(self, ctx):
         try:
             self.resumeValue[ctx.guild.id] = True
@@ -124,13 +124,13 @@ class Audio(commands.Cog, name="Audio"):
             pass
 
     # Clear the audio queue
-    @commands.command(name='clear', help='Clear the audio queue')
+    @commands.hybrid_command(name='clear', help='Clear the audio queue', with_app_command=True)
     async def clearQueue(self, ctx):
         self.queue[ctx.guild.id].clear()
         await ctx.send("The queue have been cleared")
 
     # Stop audio command
-    @commands.command(name='stop', help='Stops the audio')
+    @commands.hybrid_command(name='stop', help='Stops the audio', with_app_command=True)
     async def stop(self, ctx):
         try:
             self.resumeValue[ctx.guild.id] = False
@@ -148,13 +148,17 @@ class Audio(commands.Cog, name="Audio"):
             with youtube_dl.YoutubeDL(ydl_opts) as ydl:
                 info = ydl.extract_info(' '.join(filter(None, args)), download=False)
                 title = ' '.join(filter(None, args)) if info.get('title', None) is None else info.get('title', None)
-            if 'entries' in info:
+            if 'url' in info:
+                vid = info
+            elif 'requested_formats' in info:
+                vid = info['requested_formats'][0]
+            elif 'entries' in info:
                 vid = info['entries'][0]["formats"][0]
             elif 'formats' in info:
                 vid = info["formats"][0]
             if voice_client.is_playing() == False and self.resumeValue[ctx.guild.id] == True:
                 voice_channel.play(discord.FFmpegPCMAudio(vid["url"], **ffmpeg_options))
-                await ctx.send("WARNING: YouTube has been updated recently and broke a lot of discord audio bot, fix soon maybe. Now playing: `{0}`".format(title))
+                await ctx.send("WARNING: YouTube has been updated recently and broke a lot of discord audio bot, the audio can be broken. Now playing: `{0}`".format(title))
                 while voice_client.is_playing() == True or self.resumeValue[ctx.guild.id] == False:
                     await asyncio.sleep(3)
                 else:
@@ -162,7 +166,8 @@ class Audio(commands.Cog, name="Audio"):
             else:
                 self.queue[ctx.guild.id].append(' '.join(filter(None, args)))
                 await ctx.send("Added to queue: `{0}`".format(title))
-        except:
+        except Exception as ex:
+            print(ex)
             pass
 
     @commands.command(name='play', aliases=['p', 'audio', 'launch'], help='To play an audio, aliases are \'p\'|\'launch\'')
@@ -174,7 +179,7 @@ class Audio(commands.Cog, name="Audio"):
         await self.play_audio(ctx, *args)
 
     # Play next audio from queue command
-    @commands.command(name='next', aliases=['n', 'after'], help='To play the next audio, aliases are \'n\'|\'after\'')
+    @commands.hybrid_command(name='next', aliases=['n', 'after'], help='To play the next audio, aliases are \'n\'|\'after\'', with_app_command=True)
     async def next(self, ctx):
         await self.stop(ctx)
         self.resumeValue[ctx.guild.id] = True
@@ -184,7 +189,7 @@ class Audio(commands.Cog, name="Audio"):
             pass
 
     # Command if bot is bugged
-    @commands.command(name='bug', aliases=['audiobug'], help='Use this command if bot is bugged')
+    @commands.hybrid_command(name='bug', aliases=['audiobug'], help='Use this command if bot is bugged', with_app_command=True)
     async def bug(self, ctx):
         try:
             await self.stop(ctx)
@@ -193,6 +198,3 @@ class Audio(commands.Cog, name="Audio"):
             self.resumeValue[ctx.guild.id] = None
         except:
             pass
-
-def setup(bot: commands.Bot):
-    bot.add_cog(Audio(bot))

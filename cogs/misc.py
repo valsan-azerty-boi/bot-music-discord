@@ -1,14 +1,11 @@
-import asyncio
-import base64
 import discord
 from discord.ext import commands
 import io
 import random
 import requests
-import threading
 
-class Misc(commands.Cog, name="Misc"):
-    def __init__(self, bot: commands.Bot):
+class Misc(commands.Cog):
+    def __init__(self, bot):
         self.bot = bot
         self.longTask = {}
         self.web_search_agent = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'}
@@ -40,38 +37,31 @@ class Misc(commands.Cog, name="Misc"):
         except:
             pass
     
-    @commands.command(name='waifu', aliases=['aiwaifu'], help='Search on AI some random \'waifu\'')
-    async def waifuaisearch(self, ctx, *args):
+    @commands.hybrid_command(name='waifu', aliases=['aiwaifu'], help='Search on AI some random \'waifu\'', with_app_command=True)
+    async def waifuaisearch(self, ctx):
         try:
             req = requests.get('https://www.thiswaifudoesnotexist.net/example-{0}.jpg'.format(random.randint(1, int(99999))), params={}, headers=self.web_search_agent)
             file = discord.File(io.BytesIO(req.content), "img.jpg")
             embed = discord.Embed(title="thiswaifudoesnotexist", description="")
             embed.set_image(url="attachment://img.jpg")
             await ctx.send(embed=embed, file=file)
-        except Exception as e:
-            pass
-
-    @commands.command(name='ai', aliases=['aisearch'], help='Search on AI some random \'artwork\'|\'cat\'|\'horse\'|\'person\'')
-    async def aisearch(self, ctx, *args):
-        try:
-            await ctx.send("Official API and website for this-person/cat/horse/art-doesnotexist has been shut down by the Stability.AI company.")
         except:
             pass
 
-    @commands.command(name='mcu', help='Search what next in the MCU on internet')
+    @commands.hybrid_command(name='mcu', help='Search what next in the MCU on internet', with_app_command=True)
     async def ai(self, ctx):
         try:
             req = requests.get("https://whenisthenextmcufilm.com/api", params={}, headers=self.web_search_agent)
             json = req.json()
             embed=discord.Embed(title=json.get('title'), description=json.get('overview'), color=0xc33232)
             embed.set_thumbnail(url=json.get('poster_url'))
-            embed.set_author(name="What next in MCU ? :superhero:")
+            embed.set_author(name="What next in MCU ?")
             embed.set_footer(text=f"{json.get('type')} comes out in {json.get('days_until')} days ({json.get('release_date')})")
             await ctx.send(embed=embed)
         except:
             pass
 
-    @commands.command(name='steam', help='Search steam stats')
+    @commands.hybrid_command(name='steam', help='Search steam stats', with_app_command=True)
     async def steam(self, ctx):
         try:
             embed=discord.Embed(title="Steam stats", description="", color=0x1b2838)
@@ -82,6 +72,3 @@ class Misc(commands.Cog, name="Misc"):
             await ctx.send(embed=embed)
         except:
             pass
-
-def setup(bot: commands.Bot):
-    bot.add_cog(Misc(bot))
