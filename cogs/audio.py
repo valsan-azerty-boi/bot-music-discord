@@ -164,8 +164,11 @@ class Audio(commands.Cog):
                 else:
                     asyncio.ensure_future(self.serverQueue(ctx))
             else:
-                self.queue[ctx.guild.id].append(' '.join(filter(None, args)))
-                await ctx.send("Added to queue: `{0}`".format(title))
+                if len(self.queue[ctx.guild.id]) <= 10:
+                    self.queue[ctx.guild.id].append(' '.join(filter(None, args)))
+                    await ctx.send("Added to queue: `{0}`".format(title))
+                else:
+                    await ctx.send("The queue is full")
         except Exception as ex:
             print(ex)
             pass

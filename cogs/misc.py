@@ -4,11 +4,30 @@ import io
 import random
 import requests
 
+class CancelledItem():
+    cancelTarget = ""
+    cancelReason = ""
+    cancelAuthor = ""
+
+    def __init__(self, target, reason, author):
+        self.cancelTarget = target
+        self.cancelReason = reason
+        self.cancelAuthor = author
+
 class Misc(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.longTask = {}
         self.web_search_agent = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'}
+    
+    # Use a cancel list
+    cancelList = {}
+    async def createServerCancelList(self, ctx):
+        try:
+            if not ctx.guild.id in self.cancelList:
+                self.cancelList[ctx.guild.id] = []
+        except:
+            pass
     
     # Internet/Api commands
     @commands.command(name='search', help='Search informations on internet')
@@ -71,4 +90,41 @@ class Misc(commands.Cog):
             embed.add_field(name="Steamcharts stats", value="https://steamcharts.com", inline=True)
             await ctx.send(embed=embed)
         except:
+            pass
+
+    # Cancel someone
+    @commands.command(name='cancel', help='Cancel someone, with a reason')
+    async def cancel(self, ctx, *args):
+        try:
+            await self.createServerCancelList(ctx)
+            if args[0] == "list":
+                await self.cancellist(ctx)
+            else:
+                target = args[0];
+                args = args[1:]
+                reason = " ".join(args);
+                author = ctx.message.author.mention;
+                if len(self.cancelList[ctx.guild.id]) >= 10:
+                    self.cancelList[ctx.guild.id].pop(0)
+                cancelRoll = random.randint(1, 20)
+                if (cancelRoll == 20):
+                    self.cancelList[ctx.guild.id].append(CancelledItem(author, "Critical failure", "D20 dice"))
+                    await ctx.send("A perfect 20 from a :game_die: D20 :game_die: roll: " + target + " have been saved from an arbitrary cancel, " + author + " is now cancelled")
+                else:
+                    self.cancelList[ctx.guild.id].append(CancelledItem(target, reason, author))
+                    await ctx.reply(":x: " + target + " :x: has been successfully cancelled by " + author + " ! Reason: " + reason)
+        except Exception as ex:
+            print(ex)
+            pass
+
+    @commands.hybrid_command(name='cancellist', aliases=['clist'], help='Get the actual cancel list', with_app_command=True)
+    async def cancellist(self, ctx):
+        try:
+            await self.createServerCancelList(ctx)
+            response = "Cancelled: "
+            for cancelled in self.cancelList[ctx.guild.id]:
+                response = response + "\n- " + cancelled.cancelTarget + " / Reason: " + cancelled.cancelReason + " / Author: " + cancelled.cancelAuthor
+            await ctx.send(response)
+        except Exception as ex:
+            print(ex)
             pass
