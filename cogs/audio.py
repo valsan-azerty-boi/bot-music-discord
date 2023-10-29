@@ -173,6 +173,21 @@ class Audio(commands.Cog):
             print(ex)
             pass
 
+    @commands.hybrid_command(name='radio', aliases=['webradio'], help='Listen webradio (experimental feature)', with_app_command=True)
+    async def play_radio(self, ctx):
+        try:
+            self.resumeValue[ctx.guild.id] = True
+            await self.createServerResumeValue(ctx)
+            await self.createServerQueue(ctx)
+            await self.stop(ctx)
+            await self.join(ctx)
+            server = ctx.message.guild
+            voice_channel = server.voice_client
+            voice_channel.play(discord.FFmpegPCMAudio('http://fallout.fm:8000/falloutfm1.ogg', **ffmpeg_options))
+            self.resumeValue[ctx.guild.id] = True
+        except Exception as e:
+            pass
+
     @commands.command(name='play', aliases=['p', 'audio', 'launch'], help='To play an audio, aliases are \'p\'|\'launch\'')
     async def launchaudio(self, ctx, *args):
         self.resumeValue[ctx.guild.id] = True

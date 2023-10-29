@@ -66,6 +66,17 @@ class Misc(commands.Cog):
             await ctx.send(embed=embed, file=file)
         except:
             pass
+    
+    @commands.hybrid_command(name='person', aliases=['aiperson'], help='Search on AI some random \'person\'', with_app_command=True)
+    async def personaisearch(self, ctx):
+        try:
+            req = requests.get('https://thispersondoesnotexist.com/', params={}, headers=self.web_search_agent)
+            file = discord.File(io.BytesIO(req.content), "img.jpg")
+            embed = discord.Embed(title="thispersondoesnotexist", description="")
+            embed.set_image(url="attachment://img.jpg")
+            await ctx.send(embed=embed, file=file)
+        except:
+            pass
 
     @commands.hybrid_command(name='mcu', help='Search what next in the MCU on internet', with_app_command=True)
     async def ai(self, ctx):
