@@ -142,6 +142,9 @@ class Audio(commands.Cog):
     # Play audio command
     async def play_audio(self, ctx, *args):
         try:
+            if any("list=" in arg for arg in args):
+                await ctx.send("Playlists are not allowed.")
+                return
             server = ctx.message.guild
             voice_channel = server.voice_client
             voice_client = ctx.message.guild.voice_client
