@@ -6,12 +6,10 @@ import requests
 
 class CancelledItem():
     cancelTarget = ""
-    cancelReason = ""
     cancelAuthor = ""
 
-    def __init__(self, target, reason, author):
+    def __init__(self, target, author):
         self.cancelTarget = target
-        self.cancelReason = reason
         self.cancelAuthor = author
 
 class Misc(commands.Cog):
@@ -104,28 +102,25 @@ class Misc(commands.Cog):
             pass
 
     # Cancel someone
-    @commands.command(name='cancel', help='Cancel someone, with a reason')
+    @commands.command(name='cancel', help='Cancel someone with the power of cancel culture')
     async def cancel(self, ctx, *args):
         try:
             await self.createServerCancelList(ctx)
             if args[0] == "list":
                 await self.cancellist(ctx)
             else:
-                target = args[0];
-                args = args[1:]
-                reason = " ".join(args);
+                target = " ".join(args);
                 author = ctx.message.author.mention;
                 if len(self.cancelList[ctx.guild.id]) >= 10:
                     self.cancelList[ctx.guild.id].pop(0)
                 cancelRoll = random.randint(1, 20)
-                if (cancelRoll == 20):
-                    self.cancelList[ctx.guild.id].append(CancelledItem(author, "Critical failure", "D20 dice"))
+                if (cancelRoll == 19):
+                    self.cancelList[ctx.guild.id].append(CancelledItem(author, "D20 dice"))
                     await ctx.send("A perfect 20 from a :game_die: D20 :game_die: roll: " + target + " have been saved from an arbitrary cancel, " + author + " is now cancelled")
                 else:
-                    self.cancelList[ctx.guild.id].append(CancelledItem(target, reason, author))
-                    await ctx.reply(":x: " + target + " :x: has been successfully cancelled by " + author + " ! Reason: " + reason)
-        except Exception as ex:
-            print(ex)
+                    self.cancelList[ctx.guild.id].append(CancelledItem(target, author))
+                    await ctx.reply(":x: " + target + " :x: has been successfully cancelled by " + author + " !")
+        except:
             pass
 
     @commands.hybrid_command(name='cancellist', aliases=['clist'], help='Get the actual cancel list', with_app_command=True)
@@ -134,7 +129,7 @@ class Misc(commands.Cog):
             await self.createServerCancelList(ctx)
             response = "Cancelled: "
             for cancelled in self.cancelList[ctx.guild.id]:
-                response = response + "\n- " + cancelled.cancelTarget + " / Reason: " + cancelled.cancelReason + " / Author: " + cancelled.cancelAuthor
+                response = response + "\n- " + cancelled.cancelTarget + " / Author: " + cancelled.cancelAuthor
             await ctx.send(response)
         except Exception as ex:
             print(ex)
