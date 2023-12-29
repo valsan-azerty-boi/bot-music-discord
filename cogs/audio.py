@@ -1,7 +1,13 @@
 import asyncio
 import discord
+from dotenv import load_dotenv
 from discord.ext import commands
 import yt_dlp as youtube_dl
+import os
+
+# Load env config file
+load_dotenv()
+WEBRADIO_URI = os.getenv("webradio_uri")
 
 # Suppress noise about console usage from errors
 youtube_dl.utils.bug_reports_message = lambda: ''
@@ -161,7 +167,8 @@ class Audio(commands.Cog):
                 vid = info["formats"][0]
             if voice_client.is_playing() == False and self.resumeValue[ctx.guild.id] == True:
                 voice_channel.play(discord.FFmpegPCMAudio(vid["url"], **ffmpeg_options))
-                await ctx.send("WARNING: YouTube has been updated recently and broke a lot of discord audio bot, the audio can be broken. Now playing: `{0}`".format(title))
+                # await ctx.send("WARNING: YouTube has been updated recently and broke a lot of discord audio bot, the audio can be broken. Now playing: `{0}`".format(title))
+                await ctx.send("Now playing: `{0}`".format(title))
                 while voice_client.is_playing() == True or self.resumeValue[ctx.guild.id] == False:
                     await asyncio.sleep(3)
                 else:
@@ -186,9 +193,14 @@ class Audio(commands.Cog):
             await self.join(ctx)
             server = ctx.message.guild
             voice_channel = server.voice_client
-            voice_channel.play(discord.FFmpegPCMAudio('http://fallout.fm:8000/falloutfm1.ogg', **ffmpeg_options))
+            if WEBRADIO_URI:
+                voice_channel.play(discord.FFmpegPCMAudio(WEBRADIO_URI, **ffmpeg_options))
+            else:
+                voice_channel.play(discord.FFmpegPCMAudio('http://fallout.fm:8000/falloutfm1.ogg', **ffmpeg_options))
+            await ctx.send("Now playing: `webradio`")
             self.resumeValue[ctx.guild.id] = True
         except Exception as e:
+            print(e)
             pass
 
     @commands.command(name='play', aliases=['p', 'audio', 'launch'], help='To play an audio, aliases are \'p\'|\'launch\'')
