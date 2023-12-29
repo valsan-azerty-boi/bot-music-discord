@@ -22,7 +22,7 @@ class Help(commands.Cog):
             pass
 
     # Help command
-    @commands.hybrid_command(name='help', help='The help command', with_app_command=True)
+    @commands.hybrid_command(name='help', help='The help command (experimental feature, 60s active reaction)', with_app_command=True)
     async def help(self, ctx):
         try:
             cogs = list(self.bot.cogs.keys())
