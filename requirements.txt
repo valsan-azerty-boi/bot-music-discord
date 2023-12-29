@@ -6,3 +6,4 @@ discord.py==2.2.3
 discord.py[voice]==2.2.3
 requests
 python-dotenv==0.20.0
+python-aiml

@@ -3,6 +3,7 @@ import discord
 from discord.ext import commands
 from dotenv import load_dotenv
 import os
+import aiml
 
 from cogs.audio import Audio
 from cogs.help import Help
@@ -19,6 +20,18 @@ intents = discord.Intents.all()
 activity = discord.Activity(type=discord.ActivityType.watching, name=f"{BOT_COMMAND_PREFIX}help")
 bot = commands.Bot(command_prefix=BOT_COMMAND_PREFIX, activity=activity, intents=intents, status=discord.Status.idle, help_command=None)
 
+# Load AIML
+k = aiml.Kernel()
+aiml_files_dir = './aiml'
+try:
+    for file in os.listdir(aiml_files_dir):
+        if file.endswith(".aiml"):
+            file_path = os.path.join(aiml_files_dir, file)
+            k.learn(file_path)
+except Exception as ex:
+    print(ex)
+    pass
+
 @bot.event
 async def on_ready(self):
     print(f"Logged in as {bot.user}")
@@ -32,8 +45,31 @@ async def on_voice_state_update(ctx, before, after):
             return
         if len(voice_state.channel.members) == 1:
             await voice_state.disconnect(force=True)
-    except:
+    except Exception as ex:
+        print(ex)
         pass
+
+# Chatbot
+def process_chat_command(message):
+    try:
+        clean_content = message.content.replace(f'<@!{bot.user.id}>', '').strip()
+        response = k.respond(clean_content.upper())
+        return response
+    except Exception as ex:
+        print(ex)
+        pass
+
+@bot.event
+async def on_message(message):
+    try:
+        if not message.author.bot and bot.user.mentioned_in(message):
+            response = process_chat_command(message)
+            if response:
+                await message.channel.send(response)
+    except Exception as ex:
+        print(ex)
+        pass
+    await bot.process_commands(message)
 
 # Run discord bot
 async def main():
