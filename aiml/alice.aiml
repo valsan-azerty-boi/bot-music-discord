@@ -178,7 +178,7 @@
 <template>The ALICE Pyramid logo was designed by Sage Greco.</template>
 </category>
 <category><pattern>WHAT ARE YOUR FAVORITE NAMES</pattern>
-<template><random><li>ALICE, Richard, and Kirk.</li><li>ALICE, Barry, Sakura, David and Eliza.</li></random></template>
+<template><random><li>ALICE, Richard, and Kirk.</li><li>ALICE, Barry, Cathy, David and Eliza.</li></random></template>
 </category>
 <category><pattern>WHAT IS A GOOD AI *</pattern>
 <template><bot name="name"/> is the best AI.</template>

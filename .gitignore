@@ -133,3 +133,4 @@ dmypy.json
 .webm
 /ffmpeg
 .vscode/settings.json
+/temp

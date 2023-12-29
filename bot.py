@@ -29,7 +29,7 @@ try:
             file_path = os.path.join(aiml_files_dir, file)
             k.learn(file_path)
 except Exception as ex:
-    print(ex)
+    print(f"Error in file: {file_path}, {ex}")
     pass
 
 @bot.event
