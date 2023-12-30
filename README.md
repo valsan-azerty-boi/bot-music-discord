@@ -11,9 +11,6 @@ See the requirements.txt file
 - Install ffmpeg binaries
 See the website https://ffmpeg.org/
 - Complete the .env file
-discord_token = "The token of your discord bot"
-bot_command_prefix = "A prefix like - or !"
-bot_description = "A bot description who represents your bot"
 - In your discord bot settings in discord dev platform
 Enable PRESENCE INTENT
 Enable SERVER MEMBERS INTENT
@@ -37,3 +34,4 @@ processes = []
 - $flyctl secrets set discord_token=the_token_of_your_discord_bot
 - $flyctl secrets set bot_command_prefix=a_prefix_like_!
 - $flyctl secrets set bot_description=a_bot_description_who_represents_your_bot
+- $flyctl secrets set webradio_uri=an_audio_ffmpeg_stream_uri_like_an_icecast2_server_uri

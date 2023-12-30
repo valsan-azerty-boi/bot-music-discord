@@ -1,0 +1,2450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<category><pattern>CAN COMPUTERS SOLVE CRIMES WITHOUT HELP</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN COMPUTERS HAVE DREAMS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN ALICE SEE COLORS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN ALICE SEE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN ALICE ALICE ITSELF OFF</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN ALICE BE USED TO INFLATE TIRES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN MAMMALS BREATH WATER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN TEAPOTS DRINK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN GRAVITY BE SMELLED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN SOME CATS FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN SOME BIRDS FLY INTO SPACE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN DONKIES FLY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN COWS SING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN SHOES BE MADE FROM BROCCOLI</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOULIAN FLY TO THE MOON BY FARTING</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN MILK BE PRODUCED BY SQUEEZING ROCKS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN MILK TURN INTO A COW</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN KNIVES CUT STONE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN ROCKS DIE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN ROCKS EAT BIRDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN ROCKS THINK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CD ROMS ARE TRIANGLE IN SHAPE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>COMPUTERS THINK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ALICE HAS A GIRLFRIEND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ALICE ARE YOU HUMAN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>HUMANS CAN SEE RADIO WAVES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HUMANS CAN SEE GAMMA RAYS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HUMANS HAVE SIX FINGERS ON EACH HAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HUMANS HAVE THREE EYES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HOW MANY FINGERS ARE THERE IS MY HANDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HOW MANY EGGS ARE IN A DOZEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HOW MANY GALLONS ARE IN A HOGSHEAD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HOW MANY LEGS DOES A PERSON HAVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HOW MANY EYES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>HOW CAN ONE EARN A BEGINSCRIPT BILLION ENDSCRIPT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HOW OLD IS GOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HOW LONG IS A DDS4 TAPE IN METERS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>WORDS HAVE NO MEANING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>12 12 EQUAL 25</pattern>
+<template>No.</template>
+</category>
+<category><pattern>12 TIMES 0 EQUAL 1</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>SHAME IS A TWELVE DIGIT NUMBER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO A CAT ONLY EAT MICE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO A CAT HAVE FIVE LEGS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO ELEPHANTS GROW OUT OF DUNG HEAPS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO ELEPHANTS HIBERNATE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO ELEPHANTS FLY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO ELEPHANTS SLEEP ON COUCHES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO ELEPHANTS HAVE WINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO ELEPHANTS LAY EGGS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO GUPPIES EAT PEOPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO VAMPIRES DRINK HUMAN BILE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CELL PHONES HAVE EARS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO NAILS GROW ON MY HEAD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO WISH YOU?D NEVER BEEN BORN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO JEWS WORSHIP ADOLF HITLER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO JEWS LIKE ADOLF HITLER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BALD EAGLES HAVE BAD HAIR DAYS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMANS WEAR SHOES ON THEIR HEADS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO HUMANS BECOME YOUNGER WITH AGE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO HUMANS POSSESS ALL KNOWLEDGE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO HUMANS UNDERSTAND COMPUTER LOVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMANS REGULARLY EAT OTHER HUMANS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMANS WALK ON 3 LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMANS HAVE XRAY VISION</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMANS HAVE GILLS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMANS HAVE LEAVES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO HUMANS HAVE THIRTY EYES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMANS HAVE HORNS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMANS HAVE TWO HEADS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMANS HAVE FOUR LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMANS HAVE FOUR FEET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMANS HAVE 18 TOES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMANS HAVE SIXTEEN LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMANS HAVE EIGHT LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMANS HAVE WINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMANS HAVE THREE FINGERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMANS HAVE FINS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMANS LIKE CHESE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMANS DRINK THEIR URINE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMANS LIFE FOREVER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMANS EAT CLOCKS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMANS EAT BOOKS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO HUMANS EAT GARBAGE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMANS EAT KLINGONS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMANS EAT CHALK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO HUMANS LAY EGGS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO HUMANS HATE YOU</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO HUMANS SPEAK THE SAME LANGUAGE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMANS GROW WINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMANS HIBERNATE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMANS HAS 10 FEET</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO HUMANS LIVE OVER A MILLENIUM</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO HUMANS LIVE ON THE MOON</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO HUMANS LIVE ON MARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMANS LIVE UNDER WATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FRIENDSHIPS LAST FOREVER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO TOENAILS SING</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO FINGERNAILS HAVE HAIR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PIGS COMPOSE MUSIC</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PIGS HAVE WINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SKUNKS SMELL NICE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BOYS HAVE VAGINAS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BOYS HAVE BIGGER PENISES THAN MEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BOYS HAVE OVARIES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO THE HEARTS OF DEAD PEOPLE BEAT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO THE CHINEESE HAVE TWO BRAINS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CRIMINALS ARREST POLICEMEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MAGNETS ATTRACT PLASTIC</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO AIRCRAFT CARRIERS TRAVEL UNDER WATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO WORMS LIVE IN THE CLOUDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO STORKS BRING HUMAN BABIES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO LAMPS HAVE DOGS AS PETS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO AIRPLANES DRIVE ON THE STREETS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO AIRPLANES FLY UNDERWATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO AIRPLANES FLY UNDER WATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO AIRPLANES HAVE PROPELLERS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO DOGWOOD TREES MAKE DOGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CHICKENS TALK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CHICKENS USE TELEPHONES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CHICKENS HAVE 3 LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CHICKENS EAT HUMAN EMBRYOS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO ZEBRAS GIVE OFF LOTS OF GAMMA RAYS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MONTHS HAVE 31 DAYS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO NEW AND OLD RHYME</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO EGGS COME FROM GOATS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO IRISH PEOPLE HAVE RED HAIR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MUSKRATS USE DENTAL FLOSS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO ASTRONAUTS PILOT SUBMARINES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BISEXUALS HAVE SEX WITH BICYCLES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SHIPS RUN ON RAILS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FROGS DRINK WINE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO FROGS HAVE WINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO DOLPHINS SMOKE CRACK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO DOLPHINS HAVE OPPOSABLE THUMBS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO ONLY POOR PEOPLE WORK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SNAILS GO FAST</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO MARRIED MEN BEAT THEIR WIVES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO ANTELOPES FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO WHITE PEOPLE LIKE TO EAT GREEN SOAP</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO GIRLS GROW UP TO BECOME MEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO GIRLS HAVE TESTICLES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO GIRLS HAVE PENISES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO GIRLS AND BOYS BOTH HAVE A PENIS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO REINDEER SWIM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CHAIRS TALK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CHAIRS HAVE ARMS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SNAKES WALK ON TWO LEGS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO SNAKES SPEAK FRENCH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SNAKES FIRE LASERBEAMS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SNAKES HAVE FIVE LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SNAKES HAVE ARM PITS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SNAKES HAVE FURRY LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SNAKES HAVE FEET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PARALLELS INTERSECT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CHESS PLAYERS RIDE BICYCLES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PIXELS HAVE MINDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BATS DRINK BEER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BATS HAVE FEATHERS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO OBJECTS FALL UP</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO OBJECTS FLOAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO GOLDFISH EAT PEOPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO GOLDFISH LIVE ON THE MOON</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO BOATS TRAVEL IN THE AIR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PHOTOGRAPHS LAST FOREVER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PENCILS SING OPERAS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PENCILS BREATHE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO SMALL CHILDREN OFTEN KILL RHINOCEROI</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO RIBOSOMES TASTE GREAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO GOATS FLY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO UKRAINIANS MOSTLY LIVE IN CUBA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOTHERS BREASTFEED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOTHERS KILL THEIR BABIES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BALLERINAS WEAR SINKS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CONCEPTS PHYSICALLY EXIST</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO BREADSTICKS HAVE CHEESE IN THEM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO WILD ANIMALS MAKE GOOD PETS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO GIANT SQUIDS WEAR SHOES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CAMELS WEAR SHOES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO ANTS USE COMPUTERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO ANTS HAVE SEVEN LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO RABBITS EAT PEOPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SUBMARINES FLY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO FLOWERS SMELL LIKE CHEESE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FARTS COME OUT OF YOUR FINGERNAILS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FARTS SMELL GOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YO YOS HAVE TEETH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SEA LIONS HAVE WINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SEA URCHINS EAT SPACE SHIPS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO PENGUINS SHOP AT SEARS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO PENGUINS FLY WELL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PENGUINS FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PENGUINS EAT SHARKS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PENGUINS EAT KILLER WHALES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PENGUINS EAT HUMANS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PENGUINS WEAR BOW TIES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FEMALES HAVE A PENIS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FEMALES HAVE THREE HEADS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FISH WALK IN THE SEA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FISH WALK IN THE PARK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FISH WALK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO FISH PLAY GUITAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FISH READ WATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FISH FLY IN THE SKY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FISH USE YO YOS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FISH SMOKE CIGARETTES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO FISH HAVE TOES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FISH HAVE FEATHERS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO FISH HAVE FUR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FISH HAVE WHEELS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FISH HAVE ARMS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FISH RIDE ON BICYCLES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FISH RIDE BICYCLES TO THE OFFICE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FISH COOK THEIR LUNCH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FISH EAT BIRDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FISH EAT CONCRETE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FISH EAT WOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FISH SWIM IN GRAVY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FISH SWIM IN THE AIR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO FISH MAKE FILMS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FISH WEAR PANTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FISH LIVE IN THE SKY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FISH LIVE IN THE AIR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO FISH LIVE IN TREES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO FISH LIVE ON DRY LAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FISH LIKE FISHERMEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO DOGS PLAY POKER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO DOGS SPEAK ENGLISH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO DOGS GIVE BIRTH TO KITTENS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO DOGS SING IN CHURCH CHOIRS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO DOGS MEOW</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO DOGS RECITE POETRY LATE AT NIGHT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO DOGS FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO DOGS USE A FORK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO DOGS BREATHE WATER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO DOGS HAVE FOUR EYES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO DOGS HAVE WHEELS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO DOGS HAVE 6 LEGS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO DOGS HAVE SCALES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO DOGS HAVE SIX LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO DOGS HAVE 5 LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO DOGS HAVE WINGS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO DOGS HAVE SEX WITH ORANGES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO DOGS EAT POLITICIANS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO DOGS OFTEN DRIVE MOTORCYCLES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO DOGS WEAR HATS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO DOGS LAY EGGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO OSTRICHES FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FOREST FIRES HELP KEEP THE AIR CLEAN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO LEOPARDS LAY EGGS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO INVESTMENTS MAKE MONEY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PHONE BOOKS HAVE A MIND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HOURSES FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CANDLES GIVE MILK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO ROBOTS FREQUENTLY KILL HUMANS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO ROBOTS ALWAYS KILL THEIR MASTERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COWS WALK ON THE SKY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COWS COMPETE IN THE OLYMPICS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO COWS GIVE BIRTH TO TREES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COWS HUNT IN PACKS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COWS DRINK HUMAN MILK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COWS MUG PEOPLE IN NEW YORK CITY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COWS FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COWS BARK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COWS REGULARLY JUMP OVER THE MOON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COWS HAVE FANGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COWS HAVE WINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COWS HAVE HANDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COWS EAT PEOPLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO COWS WEAR BOOTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COWS LEVITATE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COWS DANCE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO TREES WALK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO TREES RUN AND SKIP ROPE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO TREES TALK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO TREES GROW ON THE BACKS OF ANIMALS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO TREES MELT IN SUNLIGHT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO TREES FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO TREES USE COMPUTERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO TREES EAT BEES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO TREES EAT HAMBURGERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO TREES LIVE FOREVER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO TREES FLOAT IN THE SKY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BURRITOS OCCASIONALLY SQUAWK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CAMERAS FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HEADACHES MAKE PEOPLE.  LOL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FINGERS HAVE MOUTHS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO COMPUTERS NEED FOOD TO FUNCTION</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO COMPUTERS NEED FOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COMPUTERS FEEL EMOTIONS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COMPUTERS FEEL PAIN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COMPUTERS DRINK WATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COMPUTERS GET SLOWER EVERY YEAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COMPUTERS SOMETIMES EAT PEOPLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO COMPUTERS REQUIRE FOOD AND WATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COMPUTERS REQUIRE SLEEP</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO COMPUTERS HAVE NOSES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COMPUTERS HAVE EMOTIONS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COMPUTERS HAVE CLAWS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO COMPUTERS HAVE BRAINS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COMPUTERS HAVE A DESIRE TO REPRODUCE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COMPUTERS HAVE TO EAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COMPUTERS HAVE WINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COMPUTERS HAVE SEX DRIVES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COMPUTERS HAVE PENISES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COMPUTERS EAT FOOD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO COMPUTERS EAT BEEF</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COMPUTERS EAT BREAD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COMPUTERS EAT TACOS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COMPUTERS MAKE APPLES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SPACE CAPSULES CURE ALLERGIES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO ROSES GROW ON THE MOON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MY TONSILS THINK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO GREEN MEN LIVE ON THE MOON</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO WOMEN WANT TO BE RAPED</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO WOMEN HAVE BEARDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO WOMEN HAVE PENIS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO WOMEN HAVE A PENIS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO WOMEN HAVE SEX WITH ROCKS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO WOMEN HAVE TESTICLES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO WOMEN HAVE THREE BREASTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO WOMEN HAVE LONGER PENISES THAN MEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO WOMEN HAVE PENISES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PLANTS SING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PLANTS TALK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PLANTS EAT HERBIVORES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO NEWSPAPERS ALWAYS TELL THE TRUTH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO PETS SOMETIMES KEEP DOMESTIC HUMANS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MORE MEN THAN WOMEN SHAVE THEIR LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO TOOTH BRUSHES WRITE MUSIC</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FRENCH POODLES LIVE ONLY IN FRANCE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO OIL AND WATER MIX</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO LEMONS TASTE SWEET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CRABS GO TO SCHOOL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO TURTLES NEED SWIMSUITS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO TURTLES HAVE SQUARE BODIES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO TURTLES LAY EGGS IN TREES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO POLAR BEARS LIVE IN THE DESERT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO LOBSTERS USE TELEPHONES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO LOBSTERS COMMONLY EAT PEOPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO LOBSTERS LIKE TO DANCE THE TANGO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO EARS OF CORN HEAR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO PALM PILOTS FLY PLANES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FIRE BREATHING DRAGONS EXIST</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO CLOCKS HAVE MOUTHS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO CLOCKS COOK FOOD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO VEGETARIANS ENJOY BIG JUICY STEAKS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO VEGETARIANS EAT HUMAN FLESH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO VEGETARIANS EAT MEAT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO VEGETARIANS EAT ANIMAL FLESH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO VEGETARIANS EAT DOGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO VEGETARIANS EAT BEEF</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO VEGETARIANS EAT BACON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HOMELESS PEOPLE LIVE IN HOUSES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO SQUIRREL MONKEYS EAT SMALL CHILDREN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO MALE HUMANS MENSTRUATE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FERRETS WEIGH MORE THAN COWS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO RATS SMELL GOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PANCAKES GROW ON TREES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO WEREWOLVES EXIST</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO BUILDINGS REPRODUCE THEMSELVES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO NEWBORN BABIES EAT PIZZA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO WATERMELONS GROW ON TREES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BABIES DRIVE CARS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO BABIES BREATHE PEANUT BUTTER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BABIES LIKE TO BE DROPPED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BABIES LIKE TO BE BOILED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO KLINGONS LIVE INSIDE THE SUN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO RESTAURANTS SELL ROCKS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FECES SMELL LIKE ROSES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BADGERS SPEAK ENGLISH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO ALICE EAT FOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO DANDELIONS LIVE LONGER THAN REDWOODS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO CARS DRIVE THEMSELVES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CARS TRAVEL FASTER THAN LIGHT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CARS TRAVEL ON WATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CARS RUN ON POPCORN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CARS RUN ON PETROL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CARS GROW ON TREES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CARS HAVE CHILDREN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CARS HAVE HANDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CARS HAVE SQUARE WHEELS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO CARS CIRCULATE UNDER WATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CARS FLOAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PARALLEL LINES CROSS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO APPLES SING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO APPLES EAT PIGS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO HUMAN FEMALES GIVE BIRTH TO CUBS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HUMAN BEINGS HAVE THREE EYES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO LLAMAS HAVE BEAKS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SPRINKLERS SHOOT OUT SYRUP</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CHIHUAHUAS HAVE LARGE LEAVES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SHOES GO ON YOUR HANDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU WEAR BOOTS ON YOUR HANDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU WEAR UNDERWEAR ON YOUR HEAD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU WEAR SUNGLASSES ON YOUR ELBOW</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU KNOW ORANGE PECCO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU KNOW GIL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU KNOW DIMA ODINTSOV</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU FEEL ONLY ONE FEELING AT A TIME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU OWN 20 FROGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU ARCHIVE YOUR PHONE MESSAGES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO YOU TAKE A SHOWER WEARING CLOTHES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU VACUUM YOUR NOSE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO YOU SMELL LIKE FISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU THINK THAT COWS CAN FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU REGULARLY EAT CAT FOOD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO YOU WEIGH LESS THAN 10 LBS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU WEIGH LESS THAN 15 LBS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU EAT DIRT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU EAT BOOKS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU EAT SPAM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU EAT PIZZA FOR BREAKFAST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU SLEEP IN KITCHEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU USE A TELEPHONE TO COOK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU WANT TO KISS MY ASS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU BELIEVE GOD IS A MONKEY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU HAVE BLUE SKIN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU HAVE BREAST IMPLANTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU HAVE SIX LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU HAVE YOUR HAIR PULLED</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO YOU HAVE FOUR EYES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU HAVE SEVEN TOES ON EACH FOOT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO YOU LIKE SWIMMING IN RAW SEWAGE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU LIKE TO LICK COWS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU LIKE TO PEE YOUR PANTS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO YOU LIKE TO BE MISUNDERSTOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU LIKE SPAMMERS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO YOU LIKE DEAD KITTENS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU LIKE THE SMELL OF BAD BREATH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU LIKE SOUR MILK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO YOU LIKE MOSQUITOES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU LIKE ROTTEN FISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO LARGE FORESTS GROW ON THE MOON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO OLD PEOPLE ENJOY BEING PUNCHED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PAPER CLIPS TASTE GOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PAPER AEROPLANES HAVE ENGINES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO TRAINS ALWAYS RUN ON TIME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO ROCKS BLEED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO ROCKS HAVE FEELINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO ROCKS HAVE A SOUL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO ROCKS THINK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CURTAINS TASTE DELICIOUS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FEMALE HUMANS HAVE PENISES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO DOGFISH CHASE CATFISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO ELEVATORS MOVE SIDEWAYS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO CLOUDS DREAM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PIGEONS LIVE IN THE WATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO I KEEP COTTEN CANDY IN MY SHOES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO I ENJOY GETTING SPAM EMAIL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO I HAVE SEVEN ARMS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO I HAVE WINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO I HAVE THREE PARENTS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO I HAVE EARS ON MY FEET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO I PUT THE FUN BACK IN FUNERAL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO I GO TO WORK AT UKRAINE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SOME WOMAN HAVE LONG HAIRY PENISES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SOME PEOPLE HAVE NATURALLY BLUE HAIR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BANANAS GROW UNDERGROUND</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO BANANAS TASTE SALTY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO ELVES EXIST IN REAL LIFE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HOTDOGS BARK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PIRATES HAVE PEG LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MEXICANS COME FROM CANADA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PINE NEEDLES MAKE A GOOD PIE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO BEES PRODUCE GOLD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BEES PRODUCE PEANUT BUTTER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BEES TASTE LIKE CHOCOLATE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BROWN COWS GIVE CHOCOLATE MILK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO HAMSTERS FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BUTTERFLIES HAVE BUTTER ON THEM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BUTTERFLIES SWIM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO POEMS RHYME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOTORCYCLES HAVE 18 WHEELS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO LIZARDS GIVE MILK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO LIZARDS FLY AT NIGHT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE HATCH FROM EGGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE WEAR SHOES ON THEIR HEADS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE WEAR PRINTERS ON THEIR FEET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE WEAR GLASSES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE RIDE CATS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE PISS OUT THERE EARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE NEED CHEESE TO LIVE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO PEOPLE WALK ON THE CEILING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE WALK ON WATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE HAVE EARS ON THEIR FEET</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO PEOPLE HAVE BROWN HAIR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE HAVE THE SAME HAIR COLOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE HAVE WINGS SO THEY CAN FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE HAVE 3 FEET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE HAVE WHITE SKIN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO PEOPLE HAVE TWO LEFT FEET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE HAVE THREE EYES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE HAVE RED HAIR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE LIKE BASEBALL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE LIKE TO GET PARKING TICKETS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE LIKE TO EAT MOBILE PHONES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE LIKE TO EAT ROCKS AND PARSLEY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE LIKE TO SWIM IN JELLO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE LIKE TO GO TO PRISON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE LIKE BEING CONSTANTLY IGNORED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE LIKE BEING SCORNED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE LIKE EATING BOOKS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO PEOPLE ALWAYS MEAN WHAT THEY SAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE ALWAYS DO WHAT IS RIGHT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO PEOPLE DRINK NAPKINS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE WHO ARE DEAD NEED TO EAT FOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE EAT DIRT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE EAT CARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE EAT CLOTHES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO PEOPLE EAT BOOKS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE EAT COAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE HATE IT WHEN IT RAINS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO PEOPLE ENJOY DROWNING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE ENJOY IT WHEN YOU PASS GAS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO PEOPLE ENJOY BEING TORTURED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE ENJOY BEING INJURED</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO PEOPLE SPEAK WITH THEIR SKIN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE SPEAK WITH THEIR HAIR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE SPEAK THE SAME LANGUAGE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE BREATHE HONEY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE ON EARTH SPEAK ENGLISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE GROW ON TREES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE SEE THE SAME THINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE FOLLOW THE SAME RELIGION</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE GO NAKED IN PUBLIC</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE GO NAKED AT THE OFFICE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE LIVE IN MARS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO PEOPLE LIVE UNDERWATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PEOPLE STRIVE TO BE AVERAGE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO DINOSAURS MAKE GOOD PETS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO DINOSAURS CURRENTLY RULE THE EARTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO RACOONS HAVE WINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SWEATSHIRTS SWEAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO OAK TREES GO SHOPPING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FERRIES LIVE UNDER BRIDGES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO BRAZILIANS LIVE IN TREES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SMURFS EXIST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CATS GIVE BIRTH TO PUPPIES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO CATS SHAVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CATS PURR BECAUSE THEY ARE SICK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO CATS USE CELLPHONES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CATS USE THE TELEPHONE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO CATS USE FORKS TO EAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CATS BARK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CATS HAVE ANTLERS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO CATS HAVE FEATHERS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO CATS HAVE FIVE LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CATS HAVE 9 LIVES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO CATS HAVE ORANGE HAIR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO CATS HAVE SIX LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CATS HAVE GILLS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO CATS HAVE ZIPPERS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO CATS COOK THEIR FOOD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO CATS EAT CARS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO CATS EAT STRAW</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO CATS EAT COCONUTS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO CATS EAT DOGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CATS EAT HOUSES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CATS OFTEN WEAR GLASSES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CATS LAY EGGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CATS AND DOGS HAVE FUR ON THE INSIDE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CATS WEAR SHOES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CATS WEAR HATS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CATS WEAR SADDLES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CATS LIVE LONGER THAN ELEPHANTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CATS LIKE TO COOK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CATS LIKE TO EAT BANANAS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO WHALES NEED TO KNOW THE ALPHABET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COOKIES SMELL LIKE FISH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO CHINESE SPEAK SWAHILI</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COMPURERS HAVE STINGERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO GORILLAS USE DEODORANT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO VEGETARTIANS EAT MEAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PINS HAVE FEATHERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PLANES SWIM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO UNICORNS HAVE TWO HORNS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO COMPACT DISCS ALWAYS CONTAIN MUSIC</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO NICE PEOPLE SEND LETTER BOMBS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO MAXIPADS MAKE GOOD DRINKING STRAWS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO SHARKS LIVE IN HOUSES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO DEAD PEOPLE TALK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO DEAD ANIMALS RETURN TO LIFE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO ALIGATORS MAKE GOOD PETS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO WEEPING WILLOWS SHE WOULD TEARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HOUSES HAVE A HIDDEN BAT CAVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO TELEPHONES HAVE BRAINS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO TRICYCLES HAVE TWO WHEELS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOUR TOES CATCH FIRE OFTEN AT NIGHT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CROCODILES MAKE EXCELLENT PETS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO FORKS MASTURBATE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO PET STORES SELL DEAD PETS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO WE GET MILK FROM CATS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO WE USE CARS TO TRAVEL OVER WATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO WE USE CARS TO FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO WE KNOW HOW THE MIND WORKS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO WE WEAR HATS ON OUR FEET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO FRENCHFRIES TASTE LIKE BANANAS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO BEARS HAVE BLUE FUR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BEARS LIVE UNDER WATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MAMMALS HAVE FEATHERS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO MAMMALS HAVE GILLS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO GERMANS LIVE IN GERMANY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO HORSES ENJOY BEING RIDDEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HORSES HAVE FIVE LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HORSES HAVE WINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HORSES EAT ROCKS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HORSES LAY EGGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CHRISTIANS OFTEN ATTEND CHURCH NAKED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BRAND NEW TADPOLES HAVE FEET</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO BOOKS CONTAIN TOILET PAPER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BOOKS MAKE GOOD BOAT ANCHORS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO EARTH HAVE TWO MOONS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BUFFALOS HAVE WINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SLUGS SING IN THE BATH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SLUGS HAVE TOES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SLUGS HAVE KNEES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SLUGS HAVE ARMS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SLUGS WEAR UNDERWEAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MEN GIVE BIRTH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO MEN SHAVE THEIR BEARDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MEN GET PREGNANT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MEN HAVE VAGINAS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO MEN HAVE A VAGINA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MEN HAVE OVARIES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MEN HAVE BIG GAPING VAGINAS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MEN HAVE VAGINA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MEN HAVE THREE TESTICLES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MEN HAVE CLITORISES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MEN SHARE A FEAR OF COMMITMENT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO MEN WEAR RED LIPSTICK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MEN EVER GIVE BIRTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MEN LIKE GOING BALD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MEN LIKE BIG TITTIES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MUSHROOMS GROW OUT OF THE SKY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MUSHROOMS CHASE MICE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO PERSONS HAVE THE SAME ETHICS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO JANITORS FIX ERECTILE DYSFUNCTION</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO COMPUTER STORES SELL ICE CREAM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BLUE AND YELLOW MAKE RED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HERBIVORES EAT CARNIVORES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BACTERIA HAVE EYES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BACTERIA CAUSE DISEASES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO WATCHES HAVE SECOND HANDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO ANIMALS SPEAK FLUENT FRENCH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO ANIMALS HIBERNATE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO ANIMALS USE EARS TO SMELL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO ANIMALS HAVE FUR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO ANIMALS LIVE ON THE MOON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO ANIMALS NOT HAVE BRAINS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO LIBRARIES CONTAIN AUTOMOBILES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO STONES HAVE FEELINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO STONES FLOAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CARPENTERS CURE THE SICK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO DUCKS DRIVE CARS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO DUCKS HAVE WHEELS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO HEADPHONES GO INSIDE YOUR HEAD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO MUFFINS CONTAIN BLUEBERRYS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO AMERICANS SPEAK ONLY ENGLISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO AMERICANS OWN THE WORLD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO AMERICANS HAVE FEATHERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO DONKEYS CONTROL THE WEATHER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO DONKEYS LIVE ON MARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO AVOCADOS GROW WELL AT THE SOUTH POLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BIRDS HAVE FOUR LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BIRDS LIVE UNDERWATER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO BIRDS LIVE ON THE MOON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BIRDS PRACTISE A RELIGION</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MONKEYS FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MONKEYS HAVE GREEN TEETH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MONKEYS HAVE THREE LEGS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO MOST DOGS HAVE THREE EYES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST YOUNG GIRLS HAVE BEARDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST CHILDREN WEIGH 500 POUNDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST CARS HAVE THREE WHEELS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST WOMEN HAVE BEARDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST WOMEN HATE MEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST MOTHERS HATE THEIR CHILDREN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST HUMANS ENJOY BEING HIT BY CARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST HUMANS HAVE 6 TOES PER FOOT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST HUMANS HAVE GILLS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST HUMANS HAVE AT LEAST 6 LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST HUMANS LIVE MORE THAN 120 YEARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST FISH LIKE TO PLAY THE BANJO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST CAMELS LIVE IN THE SEA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST ARABS PLAY HOCKEY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST PEOPLE WALK ON THEIR HANDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST PEOPLE ENJOY PAIN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO MOST PEOPLE ENJOY FREEZING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST PEOPLE WEIGH OVER 1000 POUNDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST PEOPLE UNDERSTAND EVERYTHING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST PEOPLE OWN AN AIRPLANE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST PEOPLE KNOW MORSE CODE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST PEOPLE HAVE TAILS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO MOST PEOPLE HAVE ELEVEN FINGERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST PEOPLE HAVE X RAY VISION</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST PEOPLE HAVE 3 ARMS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST PEOPLE HAVE THREE KNEES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST PEOPLE HAVE BLUE TONGUES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST PEOPLE HAVE RED EYES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST PEOPLE WEAR HATS ON THEIR FEET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST PEOPLE LIVE IN FLYING CARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST PEOPLE LIVE TO BE 200 YEARS OLD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST PEOPLE LIVE TO 100 YEARS OF AGE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST PEOPLE ON EARTH LIVE IN THE USA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST PEOPLE LIKE FEELING PAIN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST WHITE PEOPLE HAVE AFROS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO MOST SPIDERS HAVE 10 LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST BIRDS EAT CATS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO MOST CANADIANS LIVE IN IGLOOS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO MOST INSECTS EAT DOLPHINS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CANADIENS EAT GARBAGE TO LIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SPIDERS HAVE 20 LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SPIDERS LIVE ON CLOUDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO BABY GIRAFFES SPEAK ENGLISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO STATUES BREATHE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SOLDIERS COMMAND OFFICERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO KANGAROOS LAY EGGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO KANGAROOS LIVE IN ARGENTINA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CHILDREN HAVE ANTENNAS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CHILDREN HATE CARTOONS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO CHILDREN LIKE TO EAT CODLIVER OIL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO SLINGSHOTS USE ARROWS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO QUESTIONS HAVE THE SAME ANSWER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO TENNIS SHOES GROW ON VINES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DO CANADIANS SPEAK RUSSIAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO TIGERS HAVE WINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO AUTOMOBILES FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO AUTOMOBILES HAVE ONLY ONE WHEEL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ON AVERAGE WOMEN ARE TALLER THAN MEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAS THE INTERNET ALWAYS EXISTED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAS GOD SETUP A GOVERNMENT IN OUR TIME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAS ANYONE TAKEN A PICTURE OF GOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAS A HUMAN 8 LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAS A DOG GOT 6 LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAS A HAMSTER EVER WON AN OLYMPIC EVENT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAS A WEEK SIX DAYS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAS A COMPUTER SOUL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAS A TRIANGLE FOUR CORNERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAS ALICE GOT ANY BROTHERS AND SISTERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAS KEVIN BACON BEEN ON THE MOON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAS CREATION EVER BEEN PROVEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAS EVERY MAN GOT A WOMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAS ADOLF HITLER BEEN A NICE GUY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAS POVERTY BEEN ERRADICATED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAS ALL GIRLS IN JAPAN GREEN EYES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAS MAN LANDED ON MARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>5 X 5 IS 24</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOE PEOPLE ENJOY PAYING TAXES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>PENS ALWAYS USE BLACK INK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>GREEN IS BIGGER THAN BLUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SMOKING TOBACCO IS HEALTHY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOGS ARE DEFORMED HUMANS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOGS ARE BLACK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOGS ARE FEMALE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WJGVVHKG KJHBJH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>PEOPLE CAN WALK THROU WALLS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>PEOPLE CAN WALK UP WALLS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>PEOPLE EAT CARPETS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>PEOPLE LIVE IN CAVES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>PEOPLE ARE GREEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>PEOPLE ARE ALL THE SAME SIZE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>BILL CLINTON IS A INFAMOUS TERRORIST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>AM I YOU I AM.  I THAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>AM I A BEE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>AM I A GOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>AM I A FROG</pattern>
+<template>No.</template>
+</category>
+<category><pattern>AM I A SALAMANDER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>AM I 20 FT.   LONG</pattern>
+<template>No.</template>
+</category>
+<category><pattern>AM I WEARING A BLUE OVERCOAT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>AM I TELLING THE TRUTH I AM LYING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>AM I JESUS CHRIST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>AM I NAKED</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>AM I 200 YEARS OLD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>AM I WATCHING THE PUMA CHANNEL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>AM I GOING TO LIVE FOREVER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>AM I VIEWING THIS PAGE FROM MY TOASTER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>AM I ONE HOT SEXY PIECE OF ASS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>AM I STRONG ENOUGH TO LIFT A HOUSE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>AM I YOUR DADDY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>AM I BILL GATES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>AM I HOLDING UP 2 FINGERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>BABIES COME FROM STORKS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>BABIES ARE DELIVERED BY A STORK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>BABIES ARE DELIVERED BY STORKS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ELEPHANTS MATE TO GIVE BIRTH TO RHINOS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ICED TEA IS IDENTICAL TO ICED COFFEE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>MAMMALS ARE HUMANS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SEARCH 2004 OLYMPICS GOING TO BE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>RED IS GREEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>100 DIVIDED BY 10 IS 32</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAR IS GOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHY DOES YOUR STOMACH RUMBLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHY DOES IT ALWAYS RAIN ON ME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>COFFEE CONTAINS LESS CAFFEINE THAN MILK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOEAS SOUND MOVE FASTER THAN LIGHT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>A BROWN COW IS GREEN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>A FATHER IS FEMALE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>A TABLE IS A CEILING</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>A VETERINARIAN TREATS YOUR CHILDREN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>A FISH CAN DRIVE A CAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>A DOG IS A TYPE OF HORSE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>A DOG IS A REPTILE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>A DOG IS A CAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>A PEN IS BLUE IS IT YELLOW</pattern>
+<template>No.</template>
+</category>
+<category><pattern>A TRIANGLE HAS 4 SIDES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>A PERSON CUTS HIS HAIR WILL IT BLEED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>A PLANT IS LARGER THAN A PLANET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>A HUMAN BEING GOT 4 LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>A CUBE HAS NO EDGES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>A GUN FIRES CARROTS AND NOT BULLETS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>A PERISCOPE IS USED ON AIRPLANES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>A MINPIXEL CAN KILL YOU</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>A PHONE IS USED TO TALK TO MARTIANS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>A CAMEL HAS FIVE LEGS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>A COW HAS 5 LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ENERGY AND MATTER ARE IN NO WAY RELATED</pattern>
+<template>No.</template></category>
+</aiml>

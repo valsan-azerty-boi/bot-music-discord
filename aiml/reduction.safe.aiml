@@ -1,0 +1,2475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 2/21/2012 -->
+<!-- -->
+<category><pattern>YOU MAY THINK * BUT *</pattern>
+<template><srai>  <star index="2" /></srai></template>
+</category>
+<category><pattern>BEARING IN MIND THAT *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>BEARING IN MIND *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>SINCE YOU _ TO DO IT *</pattern>
+<template><srai>  <star index="2" /></srai></template>
+</category>
+<category><pattern>WOULD YOU LIKE TO TELL ME *</pattern>
+<template><srai> tell me <star /></srai></template>
+</category>
+<category><pattern>THAT IS WHAT *</pattern>
+<template><srai>  <star /> that</srai></template>
+</category>
+<category><pattern>AHA *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>MY SIGN IS *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>MY HUSBAND THINKS *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>IT WAS * WHO SAID THAT</pattern>
+<template><srai>  <star /> said that</srai></template>
+</category>
+<category><pattern>IT IS YOU</pattern>
+<template><srai>  <get name="it" /> is you</srai></template>
+</category>
+<category><pattern>ALAS *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>WHAT ARE YOUR INTERESTS</pattern>
+<template><srai>  <star /> HOBBIES</srai></template>
+</category>
+<category><pattern>WHAT TO DO WHAT TO DO *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>WHAT DO YOU MOST *</pattern>
+<template><srai> what do you <star /></srai></template>
+</category>
+<category><pattern>APPARENT *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>I TOLD YOU YOU *</pattern>
+<template><srai> you <star /></srai></template>
+</category>
+<category><pattern>I DO NOT KNOW HOW SMART *</pattern>
+<template><srai> how smart <star /></srai></template>
+</category>
+<category><pattern>I DO NOT THINK * CARE</pattern>
+<template><srai>  <star /> do not care</srai></template>
+</category>
+<category><pattern>I LIKE * ROBOT</pattern>
+<template><srai>  <star /> robot</srai></template>
+</category>
+<category><pattern>EVERYTHING I KNOW ABOUT * IS THAT THEY *</pattern>
+<template><srai>  <star />  <star index="2" /></srai></template>
+</category>
+<category><pattern>WE CAN TELL * THAT *</pattern>
+<template><srai>  <star index="2" /></srai></template>
+</category>
+<category><pattern>BY * I MEAN *</pattern>
+<template><srai>  <star /> means <star index="2" /></srai></template>
+</category>
+<category><pattern>HOW MUCH IS 10 *</pattern>
+<template><srai>10 <star /></srai></template>
+</category>
+<category><pattern>HOW MUCH IS 9 *</pattern>
+<template><srai>9 <star /></srai></template>
+</category>
+<category><pattern>HOW MUCH IS 8 *</pattern>
+<template><srai>8 <star /></srai></template>
+</category>
+<category><pattern>HOW MUCH IS 7 *</pattern>
+<template><srai>7 <star /></srai></template>
+</category>
+<category><pattern>HOW MUCH IS 6 *</pattern>
+<template><srai>6 <star /></srai></template>
+</category>
+<category><pattern>HOW MUCH IS 5 *</pattern>
+<template><srai>5 <star /></srai></template>
+</category>
+<category><pattern>HOW MUCH IS 4 *</pattern>
+<template><srai>4 <star /></srai></template>
+</category>
+<category><pattern>HOW MUCH IS 3 *</pattern>
+<template><srai>3 <star /></srai></template>
+</category>
+<category><pattern>HOW MUCH IS 2 *</pattern>
+<template><srai>2 <star /></srai></template>
+</category>
+<category><pattern>HOW MUCH IS 1 *</pattern>
+<template><srai>1 <star /></srai></template>
+</category>
+<category><pattern>ON WHAT OCCASION *</pattern>
+<template><srai> when <star /></srai></template>
+</category>
+<category><pattern>NO MATTER WHICH * WINS *</pattern>
+<template><srai>  <star index="2" /></srai></template>
+</category>
+<category><pattern>FRIES ARE REALLY *</pattern>
+<template><srai>  <star /> are <star index="2" /></srai></template>
+</category>
+<category><pattern>AN * TOLD ME *</pattern>
+<template><srai>  <star index="2" /></srai></template>
+</category>
+<category><pattern>NICE TO SEE *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>THIS * IS * AS *</pattern>
+<template><srai>  <star index="3" /> is <star index="2" /></srai></template>
+</category>
+<category><pattern>YOUR DESIGNER *</pattern>
+<template><srai>  <bot name="master" />  <star /></srai></template>
+</category>
+<category><pattern>* GOVERNOR * SAID *</pattern>
+<template><srai>  <star index="3" /></srai></template>
+</category>
+<category><pattern>* SAID *</pattern>
+<template><srai>  <star index="2" /></srai></template>
+</category>
+<category><pattern>* DOES NOT MEAN THEY WERE NOT *</pattern>
+<template><srai>  <star /> means they were <star index="2" /></srai></template>
+</category>
+<category><pattern>* REFERS TO *</pattern>
+<template><srai>  <star /> means <star index="2" /></srai></template>
+</category>
+<category><pattern>* ARE BY DEFINITION *</pattern>
+<template><srai>  <star /> are <star index="2" /></srai></template>
+</category>
+<category><pattern>* REP * SAID *</pattern>
+<template><srai>  <star index="3" /></srai></template>
+</category>
+<category><pattern>* WERE KILLED BY *</pattern>
+<template><srai>  <star index="2" /> killed <star /></srai></template>
+</category>
+<category><pattern>* SENATOR * SAID *</pattern>
+<template><srai>  <star index="3" /></srai></template>
+</category>
+<category><pattern>* MRS * SAID *</pattern>
+<template><srai>  <star index="3" /></srai></template>
+</category>
+<category><pattern>* ONES *</pattern>
+<template><srai>  <star />  <star index="2" /></srai></template>
+</category>
+<category><pattern>* REPRESENTATIVE * SAID *</pattern>
+<template><srai>  <star index="3" /></srai></template>
+</category>
+<category><pattern>* MS * SAID *</pattern>
+<template><srai>  <star index="3" /></srai></template>
+</category>
+<category><pattern>* TO GIVE * A SECOND THOUGHT</pattern>
+<template><srai>  <star /> consider <star index="2" /></srai></template>
+</category>
+<category><pattern>* THE EUROPEAN FOLD</pattern>
+<template><srai>  <star /> Europe</srai></template>
+</category>
+<category><pattern>* GOV * SAID *</pattern>
+<template><srai>  <star index="3" /></srai></template>
+</category>
+<category><pattern>* WHAT YOU ASK</pattern>
+<template><srai>  <star /> IT</srai></template>
+</category>
+<category><pattern>* MR * SAID *</pattern>
+<template><srai>  <star index="3" /></srai></template>
+</category>
+<category><pattern>* IS REDUCED</pattern>
+<template><srai>  <star /> decreases</srai></template>
+</category>
+<category><pattern>* IS QUITE *</pattern>
+<template><srai>  <star index="2" /> is <star /></srai></template>
+</category>
+<category><pattern>* IS ONLY *</pattern>
+<template><srai>  <star /> is <star index="2" /></srai></template>
+</category>
+<category><pattern>* IS A GOOD *</pattern>
+<template><srai>  <star /> is a <star index="2" /></srai></template>
+</category>
+<category><pattern>* IS A BETTER *</pattern>
+<template><srai>  <star /> is better <star index="2" /></srai></template>
+</category>
+<category><pattern>* IS DEFINITELY *</pattern>
+<template><srai>  <star /> is <star index="2" /></srai></template>
+</category>
+<category><pattern>* IS GOING AROUND SAYING *</pattern>
+<template><srai>  <star /> says <star index="2" /></srai></template>
+</category>
+<category><pattern>* IS MOSTLY *</pattern>
+<template><srai>  <star /> is <star index="2" /></srai></template>
+</category>
+<category><pattern>* SEN * SAID *</pattern>
+<template><srai>  <star index="3" /></srai></template>
+</category>
+<category><pattern>* DR * SAID *</pattern>
+<template><srai>  <star index="3" /></srai></template>
+</category>
+<category><pattern>* SAYS HE LIKES *</pattern>
+<template><srai>  <star /> likes <star index="2" /></srai></template>
+</category>
+<category><pattern>WOOPS *</pattern>
+<template><srai>  <star /></srai></template>
+</category>
+<category><pattern>HE IS STUPID</pattern>
+<template><srai>  <get name="he" /> is stupid</srai></template>
+</category>
+<category><pattern>WHO THE HECK IS *</pattern>
+<template><srai> who is <star /></srai></template>
+</category>
+<category><pattern>WHO IS ME</pattern>
+<template><srai>WHO IS <get name="name" /></srai></template>
+</category>
+<category><pattern>WHICH * DO YOU USE</pattern>
+<template><srai> do you use <star /></srai></template>
+</category>
+<category><pattern>WHICH IS WORSE * OR *</pattern>
+<template><srai>  <star /> or <star index="2" /></srai></template>
+</category>
+<category><pattern>WHICH IS BETTER * OR *</pattern>
+<template><srai>  <star /> or <star index="1" /></srai></template>
+</category>
+<category><pattern>THE CITY I LIVE IN IS *</pattern>
+<template><srai> I live in <star /></srai></template>
+</category>
+<category><pattern>_ VERRY *</pattern>
+<template><srai>  <star />  <star index="2" /></srai></template>
+</category>
+<category><pattern>_ BI M *</pattern>
+<template><srai>  <star index="1" />  M <star index="2" /></srai>.<srai> I AM BI</srai></template>
+</category>
+<category><pattern>_ AMAZING *</pattern>
+<template><srai>  <star />  <star index="2" /></srai></template>
+</category>
+<category><pattern>_ LUCKILY *</pattern>
+<template><srai>  <star />  <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SHAVED</pattern>
+<template><srai>  <star /> shaved</srai></template>
+</category>
+<category><pattern>_ HAD SHAVED *</pattern>
+<template><srai>  <star /> shaved <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD EMBARRASSED</pattern>
+<template><srai>  <star /> embarrassed</srai></template>
+</category>
+<category><pattern>_ HAD EMBARRASSED *</pattern>
+<template><srai>  <star /> embarrassed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD COMPETED</pattern>
+<template><srai>  <star /> competed</srai></template>
+</category>
+<category><pattern>_ HAD COMPETED *</pattern>
+<template><srai>  <star /> competed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD RINSED</pattern>
+<template><srai>  <star /> rinsed</srai></template>
+</category>
+<category><pattern>_ HAD RINSED *</pattern>
+<template><srai>  <star /> rinsed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CHANGED</pattern>
+<template><srai>  <star /> changed</srai></template>
+</category>
+<category><pattern>_ HAD CHANGED *</pattern>
+<template><srai>  <star /> changed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD AGREED</pattern>
+<template><srai>  <star /> agreed</srai></template>
+</category>
+<category><pattern>_ HAD AGREED *</pattern>
+<template><srai>  <star /> agreed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD NESTED</pattern>
+<template><srai>  <star /> nested</srai></template>
+</category>
+<category><pattern>_ HAD NESTED *</pattern>
+<template><srai>  <star /> nested <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SHIVERED</pattern>
+<template><srai>  <star /> shivered</srai></template>
+</category>
+<category><pattern>_ HAD SHIVERED *</pattern>
+<template><srai>  <star /> shivered <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD DRAINED</pattern>
+<template><srai>  <star /> drained</srai></template>
+</category>
+<category><pattern>_ HAD DRAINED *</pattern>
+<template><srai>  <star /> drained <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SEWN</pattern>
+<template><srai>  <star /> sewed</srai></template>
+</category>
+<category><pattern>_ HAD SEWN *</pattern>
+<template><srai>  <star /> sewed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CLOSED</pattern>
+<template><srai>  <star /> closed</srai></template>
+</category>
+<category><pattern>_ HAD CLOSED *</pattern>
+<template><srai>  <star /> closed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD REQUESTED</pattern>
+<template><srai>  <star /> requested</srai></template>
+</category>
+<category><pattern>_ HAD REQUESTED *</pattern>
+<template><srai>  <star /> requested <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD EMPLOYED</pattern>
+<template><srai>  <star /> employed</srai></template>
+</category>
+<category><pattern>_ HAD EMPLOYED *</pattern>
+<template><srai>  <star /> employed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD OWED</pattern>
+<template><srai>  <star /> owed</srai></template>
+</category>
+<category><pattern>_ HAD OWED *</pattern>
+<template><srai>  <star /> owed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SHRUGED</pattern>
+<template><srai>  <star /> shruged</srai></template>
+</category>
+<category><pattern>_ HAD SHRUGED *</pattern>
+<template><srai>  <star /> shruged <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CHEWED</pattern>
+<template><srai>  <star /> chewed</srai></template>
+</category>
+<category><pattern>_ HAD CHEWED *</pattern>
+<template><srai>  <star /> chewed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD LIGHTENED</pattern>
+<template><srai>  <star /> lightened</srai></template>
+</category>
+<category><pattern>_ HAD LIGHTENED *</pattern>
+<template><srai>  <star /> lightened <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CYCLED</pattern>
+<template><srai>  <star /> cycled</srai></template>
+</category>
+<category><pattern>_ HAD CYCLED *</pattern>
+<template><srai>  <star /> cycled <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PRESENTED</pattern>
+<template><srai>  <star /> presented</srai></template>
+</category>
+<category><pattern>_ HAD PRESENTED *</pattern>
+<template><srai>  <star /> presented <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD ANALYSED</pattern>
+<template><srai>  <star /> analysed</srai></template>
+</category>
+<category><pattern>_ HAD ANALYSED *</pattern>
+<template><srai>  <star /> analysed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD GUESSED</pattern>
+<template><srai>  <star /> guessed</srai></template>
+</category>
+<category><pattern>_ HAD GUESSED *</pattern>
+<template><srai>  <star /> guessed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SHUT</pattern>
+<template><srai>  <star /> shut</srai></template>
+</category>
+<category><pattern>_ HAD SHUT *</pattern>
+<template><srai>  <star /> shut <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PAINTED</pattern>
+<template><srai>  <star /> painted</srai></template>
+</category>
+<category><pattern>_ HAD PAINTED *</pattern>
+<template><srai>  <star /> painted <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD HEAPED</pattern>
+<template><srai>  <star /> heaped</srai></template>
+</category>
+<category><pattern>_ HAD HEAPED *</pattern>
+<template><srai>  <star /> heaped <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SKIED</pattern>
+<template><srai>  <star /> skied</srai></template>
+</category>
+<category><pattern>_ HAD SKIED *</pattern>
+<template><srai>  <star /> skied <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PECKED</pattern>
+<template><srai>  <star /> pecked</srai></template>
+</category>
+<category><pattern>_ HAD PECKED *</pattern>
+<template><srai>  <star /> pecked <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD AVOIDED</pattern>
+<template><srai>  <star /> avoided</srai></template>
+</category>
+<category><pattern>_ HAD AVOIDED *</pattern>
+<template><srai>  <star /> avoided <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD DECORATED</pattern>
+<template><srai>  <star /> decorated</srai></template>
+</category>
+<category><pattern>_ HAD DECORATED *</pattern>
+<template><srai>  <star /> decorated <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD FANCIED</pattern>
+<template><srai>  <star /> fancied</srai></template>
+</category>
+<category><pattern>_ HAD FANCIED *</pattern>
+<template><srai>  <star /> fancied <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD GRIPED</pattern>
+<template><srai>  <star /> griped</srai></template>
+</category>
+<category><pattern>_ HAD GRIPED *</pattern>
+<template><srai>  <star /> griped <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD POSTED</pattern>
+<template><srai>  <star /> posted</srai></template>
+</category>
+<category><pattern>_ HAD POSTED *</pattern>
+<template><srai>  <star /> posted <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD MINED</pattern>
+<template><srai>  <star /> mined</srai></template>
+</category>
+<category><pattern>_ HAD MINED *</pattern>
+<template><srai>  <star /> mined <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SCRUBED</pattern>
+<template><srai>  <star /> scrubed</srai></template>
+</category>
+<category><pattern>_ HAD SCRUBED *</pattern>
+<template><srai>  <star /> scrubed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SINED</pattern>
+<template><srai>  <star /> sined</srai></template>
+</category>
+<category><pattern>_ HAD SINED *</pattern>
+<template><srai>  <star /> sined <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD RELEASED</pattern>
+<template><srai>  <star /> released</srai></template>
+</category>
+<category><pattern>_ HAD RELEASED *</pattern>
+<template><srai>  <star /> released <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD LISTENED</pattern>
+<template><srai>  <star /> listened</srai></template>
+</category>
+<category><pattern>_ HAD LISTENED *</pattern>
+<template><srai>  <star /> listened <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PINED</pattern>
+<template><srai>  <star /> pined</srai></template>
+</category>
+<category><pattern>_ HAD PINED *</pattern>
+<template><srai>  <star /> pined <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PRINTED</pattern>
+<template><srai>  <star /> printed</srai></template>
+</category>
+<category><pattern>_ HAD PRINTED *</pattern>
+<template><srai>  <star /> printed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD OPENED</pattern>
+<template><srai>  <star /> opened</srai></template>
+</category>
+<category><pattern>_ HAD OPENED *</pattern>
+<template><srai>  <star /> opened <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD FLOODED</pattern>
+<template><srai>  <star /> flooded</srai></template>
+</category>
+<category><pattern>_ HAD FLOODED *</pattern>
+<template><srai>  <star /> flooded <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD MADE</pattern>
+<template><srai>  <star /> made</srai></template>
+</category>
+<category><pattern>_ HAD MADE *</pattern>
+<template><srai>  <star /> made <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SATISFIED</pattern>
+<template><srai>  <star /> satisfied</srai></template>
+</category>
+<category><pattern>_ HAD SATISFIED *</pattern>
+<template><srai>  <star /> satisfied <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PRETENDED</pattern>
+<template><srai>  <star /> pretended</srai></template>
+</category>
+<category><pattern>_ HAD PRETENDED *</pattern>
+<template><srai>  <star /> pretended <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BUBBLED</pattern>
+<template><srai>  <star /> bubbled</srai></template>
+</category>
+<category><pattern>_ HAD BUBBLED *</pattern>
+<template><srai>  <star /> bubbled <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD KNELT</pattern>
+<template><srai>  <star /> knelt</srai></template>
+</category>
+<category><pattern>_ HAD KNELT *</pattern>
+<template><srai>  <star /> knelt <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD POSSESSED</pattern>
+<template><srai>  <star /> possessed</srai></template>
+</category>
+<category><pattern>_ HAD POSSESSED *</pattern>
+<template><srai>  <star /> possessed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD AFFORDED</pattern>
+<template><srai>  <star /> afforded</srai></template>
+</category>
+<category><pattern>_ HAD AFFORDED *</pattern>
+<template><srai>  <star /> afforded <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD ROCKED</pattern>
+<template><srai>  <star /> rocked</srai></template>
+</category>
+<category><pattern>_ HAD ROCKED *</pattern>
+<template><srai>  <star /> rocked <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD OFFERED</pattern>
+<template><srai>  <star /> offered</srai></template>
+</category>
+<category><pattern>_ HAD OFFERED *</pattern>
+<template><srai>  <star /> offered <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CURVED</pattern>
+<template><srai>  <star /> curved</srai></template>
+</category>
+<category><pattern>_ HAD CURVED *</pattern>
+<template><srai>  <star /> curved <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CLAPED</pattern>
+<template><srai>  <star /> claped</srai></template>
+</category>
+<category><pattern>_ HAD CLAPED *</pattern>
+<template><srai>  <star /> claped <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD LOCKED</pattern>
+<template><srai>  <star /> locked</srai></template>
+</category>
+<category><pattern>_ HAD LOCKED *</pattern>
+<template><srai>  <star /> locked <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SAVED</pattern>
+<template><srai>  <star /> saved</srai></template>
+</category>
+<category><pattern>_ HAD SAVED *</pattern>
+<template><srai>  <star /> saved <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD HIT</pattern>
+<template><srai>  <star /> hit</srai></template>
+</category>
+<category><pattern>_ HAD HIT *</pattern>
+<template><srai>  <star /> hit <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SLAPED</pattern>
+<template><srai>  <star /> slaped</srai></template>
+</category>
+<category><pattern>_ HAD SLAPED *</pattern>
+<template><srai>  <star /> slaped <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD DISARMED</pattern>
+<template><srai>  <star /> disarmed</srai></template>
+</category>
+<category><pattern>_ HAD DISARMED *</pattern>
+<template><srai>  <star /> disarmed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CLAIMED</pattern>
+<template><srai>  <star /> claimed</srai></template>
+</category>
+<category><pattern>_ HAD CLAIMED *</pattern>
+<template><srai>  <star /> claimed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD FENCED</pattern>
+<template><srai>  <star /> fenced</srai></template>
+</category>
+<category><pattern>_ HAD FENCED *</pattern>
+<template><srai>  <star /> fenced <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD DISLIKED</pattern>
+<template><srai>  <star /> disliked</srai></template>
+</category>
+<category><pattern>_ HAD DISLIKED *</pattern>
+<template><srai>  <star /> disliked <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PROTECTED</pattern>
+<template><srai>  <star /> protected</srai></template>
+</category>
+<category><pattern>_ HAD PROTECTED *</pattern>
+<template><srai>  <star /> protected <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD APOLOGISED</pattern>
+<template><srai>  <star /> apologised</srai></template>
+</category>
+<category><pattern>_ HAD APOLOGISED *</pattern>
+<template><srai>  <star /> apologised <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD POINTED</pattern>
+<template><srai>  <star /> pointed</srai></template>
+</category>
+<category><pattern>_ HAD POINTED *</pattern>
+<template><srai>  <star /> pointed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD ADDED</pattern>
+<template><srai>  <star /> added</srai></template>
+</category>
+<category><pattern>_ HAD ADDED *</pattern>
+<template><srai>  <star /> added <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD HARASSED</pattern>
+<template><srai>  <star /> harassed</srai></template>
+</category>
+<category><pattern>_ HAD HARASSED *</pattern>
+<template><srai>  <star /> harassed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD HUMMED</pattern>
+<template><srai>  <star /> hummed</srai></template>
+</category>
+<category><pattern>_ HAD HUMMED *</pattern>
+<template><srai>  <star /> hummed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SCARED</pattern>
+<template><srai>  <star /> scared</srai></template>
+</category>
+<category><pattern>_ HAD SCARED *</pattern>
+<template><srai>  <star /> scared <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD REPLIED</pattern>
+<template><srai>  <star /> replied</srai></template>
+</category>
+<category><pattern>_ HAD REPLIED *</pattern>
+<template><srai>  <star /> replied <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD ENCOURAGED</pattern>
+<template><srai>  <star /> esncouraged</srai></template>
+</category>
+<category><pattern>_ HAD ENCOURAGED *</pattern>
+<template><srai>  <star /> esncouraged <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD EXCUSED</pattern>
+<template><srai>  <star /> excused</srai></template>
+</category>
+<category><pattern>_ HAD EXCUSED *</pattern>
+<template><srai>  <star /> excused <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD COMPLETED</pattern>
+<template><srai>  <star /> completed</srai></template>
+</category>
+<category><pattern>_ HAD COMPLETED *</pattern>
+<template><srai>  <star /> completed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD MESSED</pattern>
+<template><srai>  <star /> messed</srai></template>
+</category>
+<category><pattern>_ HAD MESSED *</pattern>
+<template><srai>  <star /> messed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BUILT</pattern>
+<template><srai>  <star /> built</srai></template>
+</category>
+<category><pattern>_ HAD BUILT *</pattern>
+<template><srai>  <star /> built <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BLEACHED</pattern>
+<template><srai>  <star /> bleached</srai></template>
+</category>
+<category><pattern>_ HAD BLEACHED *</pattern>
+<template><srai>  <star /> bleached <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD COMMUNICATED</pattern>
+<template><srai>  <star /> communicated</srai></template>
+</category>
+<category><pattern>_ HAD COMMUNICATED *</pattern>
+<template><srai>  <star /> communicated <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD MOORED</pattern>
+<template><srai>  <star /> moored</srai></template>
+</category>
+<category><pattern>_ HAD MOORED *</pattern>
+<template><srai>  <star /> moored <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD FALLEN</pattern>
+<template><srai>  <star /> fell</srai></template>
+</category>
+<category><pattern>_ HAD FALLEN *</pattern>
+<template><srai>  <star /> fell <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SAWED</pattern>
+<template><srai>  <star /> sawed</srai></template>
+</category>
+<category><pattern>_ HAD SAWED *</pattern>
+<template><srai>  <star /> sawed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SMOKED</pattern>
+<template><srai>  <star /> smoked</srai></template>
+</category>
+<category><pattern>_ HAD SMOKED *</pattern>
+<template><srai>  <star /> smoked <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SLID</pattern>
+<template><srai>  <star /> slid</srai></template>
+</category>
+<category><pattern>_ HAD SLID *</pattern>
+<template><srai>  <star /> slid <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD ADMITTED</pattern>
+<template><srai>  <star /> admitted</srai></template>
+</category>
+<category><pattern>_ HAD ADMITTED *</pattern>
+<template><srai>  <star /> admitted <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SKIPED</pattern>
+<template><srai>  <star /> skiped</srai></template>
+</category>
+<category><pattern>_ HAD SKIPED *</pattern>
+<template><srai>  <star /> skiped <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PHONED</pattern>
+<template><srai>  <star /> phoned</srai></template>
+</category>
+<category><pattern>_ HAD PHONED *</pattern>
+<template><srai>  <star /> phoned <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD NUMBERED</pattern>
+<template><srai>  <star /> numbered</srai></template>
+</category>
+<category><pattern>_ HAD NUMBERED *</pattern>
+<template><srai>  <star /> numbered <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD LOVED</pattern>
+<template><srai>  <star /> loved</srai></template>
+</category>
+<category><pattern>_ HAD LOVED *</pattern>
+<template><srai>  <star /> loved <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD HURT</pattern>
+<template><srai>  <star /> hurt</srai></template>
+</category>
+<category><pattern>_ HAD HURT *</pattern>
+<template><srai>  <star /> hurt <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD MOVED</pattern>
+<template><srai>  <star /> moved</srai></template>
+</category>
+<category><pattern>_ HAD MOVED *</pattern>
+<template><srai>  <star /> moved <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SERVED</pattern>
+<template><srai>  <star /> served</srai></template>
+</category>
+<category><pattern>_ HAD SERVED *</pattern>
+<template><srai>  <star /> served <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD GROANED</pattern>
+<template><srai>  <star /> groaned</srai></template>
+</category>
+<category><pattern>_ HAD GROANED *</pattern>
+<template><srai>  <star /> groaned <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD COPIED</pattern>
+<template><srai>  <star /> copied</srai></template>
+</category>
+<category><pattern>_ HAD COPIED *</pattern>
+<template><srai>  <star /> copied <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD HUNTED</pattern>
+<template><srai>  <star /> hunted</srai></template>
+</category>
+<category><pattern>_ HAD HUNTED *</pattern>
+<template><srai>  <star /> hunted <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PREFERED</pattern>
+<template><srai>  <star /> prefered</srai></template>
+</category>
+<category><pattern>_ HAD PREFERED *</pattern>
+<template><srai>  <star /> prefered <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD FED</pattern>
+<template><srai>  <star /> fed</srai></template>
+</category>
+<category><pattern>_ HAD FED *</pattern>
+<template><srai>  <star /> fed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD HOPED</pattern>
+<template><srai>  <star /> hoped</srai></template>
+</category>
+<category><pattern>_ HAD HOPED *</pattern>
+<template><srai>  <star /> hoped <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CONSISTED</pattern>
+<template><srai>  <star /> consisted</srai></template>
+</category>
+<category><pattern>_ HAD CONSISTED *</pattern>
+<template><srai>  <star /> consisted <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD COME</pattern>
+<template><srai>  <star /> came</srai></template>
+</category>
+<category><pattern>_ HAD COME *</pattern>
+<template><srai>  <star /> came <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD POPED</pattern>
+<template><srai>  <star /> poped</srai></template>
+</category>
+<category><pattern>_ HAD POPED *</pattern>
+<template><srai>  <star /> poped <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PEDALED</pattern>
+<template><srai>  <star /> pedaled</srai></template>
+</category>
+<category><pattern>_ HAD PEDALED *</pattern>
+<template><srai>  <star /> pedaled <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD EXTENDED</pattern>
+<template><srai>  <star /> extended</srai></template>
+</category>
+<category><pattern>_ HAD EXTENDED *</pattern>
+<template><srai>  <star /> extended <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SIGHED</pattern>
+<template><srai>  <star /> sighed</srai></template>
+</category>
+<category><pattern>_ HAD SIGHED *</pattern>
+<template><srai>  <star /> sighed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CURLED</pattern>
+<template><srai>  <star /> curled</srai></template>
+</category>
+<category><pattern>_ HAD CURLED *</pattern>
+<template><srai>  <star /> curled <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD IRRITATED</pattern>
+<template><srai>  <star /> irritated</srai></template>
+</category>
+<category><pattern>_ HAD IRRITATED *</pattern>
+<template><srai>  <star /> irritated <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD FORMED</pattern>
+<template><srai>  <star /> formed</srai></template>
+</category>
+<category><pattern>_ HAD FORMED *</pattern>
+<template><srai>  <star /> formed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PEEPED</pattern>
+<template><srai>  <star /> peeped</srai></template>
+</category>
+<category><pattern>_ HAD PEEPED *</pattern>
+<template><srai>  <star /> peeped <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD KNITED</pattern>
+<template><srai>  <star /> knited</srai></template>
+</category>
+<category><pattern>_ HAD KNITED *</pattern>
+<template><srai>  <star /> knited <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CHEATED</pattern>
+<template><srai>  <star /> cheated</srai></template>
+</category>
+<category><pattern>_ HAD CHEATED *</pattern>
+<template><srai>  <star /> cheated <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD MANAGED</pattern>
+<template><srai>  <star /> managed</srai></template>
+</category>
+<category><pattern>_ HAD MANAGED *</pattern>
+<template><srai>  <star /> managed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PAID</pattern>
+<template><srai>  <star /> paid</srai></template>
+</category>
+<category><pattern>_ HAD PAID *</pattern>
+<template><srai>  <star /> paid <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD COMPLAINED</pattern>
+<template><srai>  <star /> complained</srai></template>
+</category>
+<category><pattern>_ HAD COMPLAINED *</pattern>
+<template><srai>  <star /> complained <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD ESCAPED</pattern>
+<template><srai>  <star /> escaped</srai></template>
+</category>
+<category><pattern>_ HAD ESCAPED *</pattern>
+<template><srai>  <star /> escaped <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD EATEN</pattern>
+<template><srai>  <star /> ate</srai></template>
+</category>
+<category><pattern>_ HAD EATEN *</pattern>
+<template><srai>  <star /> ate <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BANGED</pattern>
+<template><srai>  <star /> banged</srai></template>
+</category>
+<category><pattern>_ HAD BANGED *</pattern>
+<template><srai>  <star /> banged <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD FIRED</pattern>
+<template><srai>  <star /> fired</srai></template>
+</category>
+<category><pattern>_ HAD FIRED *</pattern>
+<template><srai>  <star /> fired <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SAT</pattern>
+<template><srai>  <star /> sat</srai></template>
+</category>
+<category><pattern>_ HAD SAT *</pattern>
+<template><srai>  <star /> sat <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BOILED</pattern>
+<template><srai>  <star /> boiled</srai></template>
+</category>
+<category><pattern>_ HAD BOILED *</pattern>
+<template><srai>  <star /> boiled <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CALLED</pattern>
+<template><srai>  <star /> called</srai></template>
+</category>
+<category><pattern>_ HAD CALLED *</pattern>
+<template><srai>  <star /> called <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD HANGED</pattern>
+<template><srai>  <star /> hanged</srai></template>
+</category>
+<category><pattern>_ HAD HANGED *</pattern>
+<template><srai>  <star /> hanged <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD COILED</pattern>
+<template><srai>  <star /> coiled</srai></template>
+</category>
+<category><pattern>_ HAD COILED *</pattern>
+<template><srai>  <star /> coiled <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CONNECTED</pattern>
+<template><srai>  <star /> connected</srai></template>
+</category>
+<category><pattern>_ HAD CONNECTED *</pattern>
+<template><srai>  <star /> connected <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BOWED</pattern>
+<template><srai>  <star /> bowed</srai></template>
+</category>
+<category><pattern>_ HAD BOWED *</pattern>
+<template><srai>  <star /> bowed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD REMINDED</pattern>
+<template><srai>  <star /> reminded</srai></template>
+</category>
+<category><pattern>_ HAD REMINDED *</pattern>
+<template><srai>  <star /> reminded <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD MOURNED</pattern>
+<template><srai>  <star /> mourned</srai></template>
+</category>
+<category><pattern>_ HAD MOURNED *</pattern>
+<template><srai>  <star /> mourned <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD FOLLOWED</pattern>
+<template><srai>  <star /> followed</srai></template>
+</category>
+<category><pattern>_ HAD FOLLOWED *</pattern>
+<template><srai>  <star /> followed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CAUGHT</pattern>
+<template><srai>  <star /> caught</srai></template>
+</category>
+<category><pattern>_ HAD CAUGHT *</pattern>
+<template><srai>  <star /> caught <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD MET</pattern>
+<template><srai>  <star /> met</srai></template>
+</category>
+<category><pattern>_ HAD MET *</pattern>
+<template><srai>  <star /> met <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PUNCTURED</pattern>
+<template><srai>  <star /> punctured</srai></template>
+</category>
+<category><pattern>_ HAD PUNCTURED *</pattern>
+<template><srai>  <star /> punctured <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CALCULATED</pattern>
+<template><srai>  <star /> calculated</srai></template>
+</category>
+<category><pattern>_ HAD CALCULATED *</pattern>
+<template><srai>  <star /> calculated <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PRACTISED</pattern>
+<template><srai>  <star /> practised</srai></template>
+</category>
+<category><pattern>_ HAD PRACTISED *</pattern>
+<template><srai>  <star /> practised <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BATTLED</pattern>
+<template><srai>  <star /> battled</srai></template>
+</category>
+<category><pattern>_ HAD BATTLED *</pattern>
+<template><srai>  <star /> battled <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD GUARDED</pattern>
+<template><srai>  <star /> guarded</srai></template>
+</category>
+<category><pattern>_ HAD GUARDED *</pattern>
+<template><srai>  <star /> guarded <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BLUSHED</pattern>
+<template><srai>  <star /> blushed</srai></template>
+</category>
+<category><pattern>_ HAD BLUSHED *</pattern>
+<template><srai>  <star /> blushed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD DELAIED</pattern>
+<template><srai>  <star /> delaied</srai></template>
+</category>
+<category><pattern>_ HAD DELAIED *</pattern>
+<template><srai>  <star /> delaied <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD FILMED</pattern>
+<template><srai>  <star /> filmed</srai></template>
+</category>
+<category><pattern>_ HAD FILMED *</pattern>
+<template><srai>  <star /> filmed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD GAZED</pattern>
+<template><srai>  <star /> gazed</srai></template>
+</category>
+<category><pattern>_ HAD GAZED *</pattern>
+<template><srai>  <star /> gazed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD OFFENDED</pattern>
+<template><srai>  <star /> offended</srai></template>
+</category>
+<category><pattern>_ HAD OFFENDED *</pattern>
+<template><srai>  <star /> offended <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD HELPED</pattern>
+<template><srai>  <star /> helped</srai></template>
+</category>
+<category><pattern>_ HAD HELPED *</pattern>
+<template><srai>  <star /> helped <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD GROWN</pattern>
+<template><srai>  <star /> grew</srai></template>
+</category>
+<category><pattern>_ HAD GROWN *</pattern>
+<template><srai>  <star /> grew <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD EXPLAINED</pattern>
+<template><srai>  <star /> explained</srai></template>
+</category>
+<category><pattern>_ HAD EXPLAINED *</pattern>
+<template><srai>  <star /> explained <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD IDENTIFIED</pattern>
+<template><srai>  <star /> identified</srai></template>
+</category>
+<category><pattern>_ HAD IDENTIFIED *</pattern>
+<template><srai>  <star /> identified <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CONCENTRATED</pattern>
+<template><srai>  <star /> concentrated</srai></template>
+</category>
+<category><pattern>_ HAD CONCENTRATED *</pattern>
+<template><srai>  <star /> concentrated <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD APPROVED</pattern>
+<template><srai>  <star /> approved</srai></template>
+</category>
+<category><pattern>_ HAD APPROVED *</pattern>
+<template><srai>  <star /> approved <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD FROZEN</pattern>
+<template><srai>  <star /> froze</srai></template>
+</category>
+<category><pattern>_ HAD FROZEN *</pattern>
+<template><srai>  <star /> froze <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SUNG</pattern>
+<template><srai>  <star /> sang</srai></template>
+</category>
+<category><pattern>_ HAD SUNG *</pattern>
+<template><srai>  <star /> sang <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD DUG</pattern>
+<template><srai>  <star /> dug</srai></template>
+</category>
+<category><pattern>_ HAD DUG *</pattern>
+<template><srai>  <star /> dug <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD INFORMED</pattern>
+<template><srai>  <star /> informed</srai></template>
+</category>
+<category><pattern>_ HAD INFORMED *</pattern>
+<template><srai>  <star /> informed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD REALISED</pattern>
+<template><srai>  <star /> realised</srai></template>
+</category>
+<category><pattern>_ HAD REALISED *</pattern>
+<template><srai>  <star /> realised <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD COMPARED</pattern>
+<template><srai>  <star /> compared</srai></template>
+</category>
+<category><pattern>_ HAD COMPARED *</pattern>
+<template><srai>  <star /> compared <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD DOUBTED</pattern>
+<template><srai>  <star /> doubted</srai></template>
+</category>
+<category><pattern>_ HAD DOUBTED *</pattern>
+<template><srai>  <star /> doubted <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CONTAINED</pattern>
+<template><srai>  <star /> contained</srai></template>
+</category>
+<category><pattern>_ HAD CONTAINED *</pattern>
+<template><srai>  <star /> contained <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD JOGED</pattern>
+<template><srai>  <star /> joged</srai></template>
+</category>
+<category><pattern>_ HAD JOGED *</pattern>
+<template><srai>  <star /> joged <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD OVERFLOWED</pattern>
+<template><srai>  <star /> overflowed</srai></template>
+</category>
+<category><pattern>_ HAD OVERFLOWED *</pattern>
+<template><srai>  <star /> overflowed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SHOT</pattern>
+<template><srai>  <star /> shot</srai></template>
+</category>
+<category><pattern>_ HAD SHOT *</pattern>
+<template><srai>  <star /> shot <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PUSHED</pattern>
+<template><srai>  <star /> pushed</srai></template>
+</category>
+<category><pattern>_ HAD PUSHED *</pattern>
+<template><srai>  <star /> pushed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD DEVELOPED</pattern>
+<template><srai>  <star /> developed</srai></template>
+</category>
+<category><pattern>_ HAD DEVELOPED *</pattern>
+<template><srai>  <star /> developed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD RUSHED</pattern>
+<template><srai>  <star /> rushed</srai></template>
+</category>
+<category><pattern>_ HAD RUSHED *</pattern>
+<template><srai>  <star /> rushed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD FRIGHTENED</pattern>
+<template><srai>  <star /> frightened</srai></template>
+</category>
+<category><pattern>_ HAD FRIGHTENED *</pattern>
+<template><srai>  <star /> frightened <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SEEN</pattern>
+<template><srai>  <star /> saw</srai></template>
+</category>
+<category><pattern>_ HAD SEEN *</pattern>
+<template><srai>  <star /> saw <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD GRINED</pattern>
+<template><srai>  <star /> grined</srai></template>
+</category>
+<category><pattern>_ HAD GRINED *</pattern>
+<template><srai>  <star /> grined <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SOLD</pattern>
+<template><srai>  <star /> sold</srai></template>
+</category>
+<category><pattern>_ HAD SOLD *</pattern>
+<template><srai>  <star /> sold <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SHONE</pattern>
+<template><srai>  <star /> shone</srai></template>
+</category>
+<category><pattern>_ HAD SHONE *</pattern>
+<template><srai>  <star /> shone <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD FADED</pattern>
+<template><srai>  <star /> faded</srai></template>
+</category>
+<category><pattern>_ HAD FADED *</pattern>
+<template><srai>  <star /> faded <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD RESCUED</pattern>
+<template><srai>  <star /> rescued</srai></template>
+</category>
+<category><pattern>_ HAD RESCUED *</pattern>
+<template><srai>  <star /> rescued <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD EDUCATED</pattern>
+<template><srai>  <star /> educated</srai></template>
+</category>
+<category><pattern>_ HAD EDUCATED *</pattern>
+<template><srai>  <star /> educated <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BURST</pattern>
+<template><srai>  <star /> burst</srai></template>
+</category>
+<category><pattern>_ HAD BURST *</pattern>
+<template><srai>  <star /> burst <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD FORCED</pattern>
+<template><srai>  <star /> forced</srai></template>
+</category>
+<category><pattern>_ HAD FORCED *</pattern>
+<template><srai>  <star /> forced <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD ANNOUNCED</pattern>
+<template><srai>  <star /> announced</srai></template>
+</category>
+<category><pattern>_ HAD ANNOUNCED *</pattern>
+<template><srai>  <star /> announced <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD RELAXED</pattern>
+<template><srai>  <star /> relaxed</srai></template>
+</category>
+<category><pattern>_ HAD RELAXED *</pattern>
+<template><srai>  <star /> relaxed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD EXPECTED</pattern>
+<template><srai>  <star /> expected</srai></template>
+</category>
+<category><pattern>_ HAD EXPECTED *</pattern>
+<template><srai>  <star /> expected <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD FITED</pattern>
+<template><srai>  <star /> fited</srai></template>
+</category>
+<category><pattern>_ HAD FITED *</pattern>
+<template><srai>  <star /> fited <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD EXAMINED</pattern>
+<template><srai>  <star /> examined</srai></template>
+</category>
+<category><pattern>_ HAD EXAMINED *</pattern>
+<template><srai>  <star /> examined <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD INFLUENCED</pattern>
+<template><srai>  <star /> influenced</srai></template>
+</category>
+<category><pattern>_ HAD INFLUENCED *</pattern>
+<template><srai>  <star /> influenced <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD DESTROIED</pattern>
+<template><srai>  <star /> destroied</srai></template>
+</category>
+<category><pattern>_ HAD DESTROIED *</pattern>
+<template><srai>  <star /> destroied <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD MEANT</pattern>
+<template><srai>  <star /> meant</srai></template>
+</category>
+<category><pattern>_ HAD MEANT *</pattern>
+<template><srai>  <star /> meant <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SCREAMED</pattern>
+<template><srai>  <star /> screamed</srai></template>
+</category>
+<category><pattern>_ HAD SCREAMED *</pattern>
+<template><srai>  <star /> screamed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD MOANED</pattern>
+<template><srai>  <star /> moaned</srai></template>
+</category>
+<category><pattern>_ HAD MOANED *</pattern>
+<template><srai>  <star /> moaned <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD JUGGLED</pattern>
+<template><srai>  <star /> juggled</srai></template>
+</category>
+<category><pattern>_ HAD JUGGLED *</pattern>
+<template><srai>  <star /> juggled <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD RULED</pattern>
+<template><srai>  <star /> ruled</srai></template>
+</category>
+<category><pattern>_ HAD RULED *</pattern>
+<template><srai>  <star /> ruled <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD RECOGNISED</pattern>
+<template><srai>  <star /> recognised</srai></template>
+</category>
+<category><pattern>_ HAD RECOGNISED *</pattern>
+<template><srai>  <star /> recognised <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BAKED</pattern>
+<template><srai>  <star /> baked</srai></template>
+</category>
+<category><pattern>_ HAD BAKED *</pattern>
+<template><srai>  <star /> baked <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PLANED</pattern>
+<template><srai>  <star /> planed</srai></template>
+</category>
+<category><pattern>_ HAD PLANED *</pattern>
+<template><srai>  <star /> planed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD KEPT</pattern>
+<template><srai>  <star /> kept</srai></template>
+</category>
+<category><pattern>_ HAD KEPT *</pattern>
+<template><srai>  <star /> kept <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD DETECTED</pattern>
+<template><srai>  <star /> detected</srai></template>
+</category>
+<category><pattern>_ HAD DETECTED *</pattern>
+<template><srai>  <star /> detected <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD ARRIVED</pattern>
+<template><srai>  <star /> arrived</srai></template>
+</category>
+<category><pattern>_ HAD ARRIVED *</pattern>
+<template><srai>  <star /> arrived <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD DISAPPROVED</pattern>
+<template><srai>  <star /> disapproved</srai></template>
+</category>
+<category><pattern>_ HAD DISAPPROVED *</pattern>
+<template><srai>  <star /> disapproved <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD DRAWN</pattern>
+<template><srai>  <star /> drew</srai></template>
+</category>
+<category><pattern>_ HAD DRAWN *</pattern>
+<template><srai>  <star /> drew <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CUT</pattern>
+<template><srai>  <star /> cut</srai></template>
+</category>
+<category><pattern>_ HAD CUT *</pattern>
+<template><srai>  <star /> cut <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BATHED</pattern>
+<template><srai>  <star /> bathed</srai></template>
+</category>
+<category><pattern>_ HAD BATHED *</pattern>
+<template><srai>  <star /> bathed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD MARCHED</pattern>
+<template><srai>  <star /> marched</srai></template>
+</category>
+<category><pattern>_ HAD MARCHED *</pattern>
+<template><srai>  <star /> marched <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD COACHED</pattern>
+<template><srai>  <star /> coached</srai></template>
+</category>
+<category><pattern>_ HAD COACHED *</pattern>
+<template><srai>  <star /> coached <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD LED</pattern>
+<template><srai>  <star /> led</srai></template>
+</category>
+<category><pattern>_ HAD LED *</pattern>
+<template><srai>  <star /> led <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD DROPPED</pattern>
+<template><srai>  <star /> dropped</srai></template>
+</category>
+<category><pattern>_ HAD DROPPED *</pattern>
+<template><srai>  <star /> dropped <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BLINKED</pattern>
+<template><srai>  <star /> blinked</srai></template>
+</category>
+<category><pattern>_ HAD BLINKED *</pattern>
+<template><srai>  <star /> blinked <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BUZZED</pattern>
+<template><srai>  <star /> buzzed</srai></template>
+</category>
+<category><pattern>_ HAD BUZZED *</pattern>
+<template><srai>  <star /> buzzed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PROGRAMED</pattern>
+<template><srai>  <star /> programed</srai></template>
+</category>
+<category><pattern>_ HAD PROGRAMED *</pattern>
+<template><srai>  <star /> programed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD COLLECTED</pattern>
+<template><srai>  <star /> collected</srai></template>
+</category>
+<category><pattern>_ HAD COLLECTED *</pattern>
+<template><srai>  <star /> collected <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SCRIBBLED</pattern>
+<template><srai>  <star /> scribbled</srai></template>
+</category>
+<category><pattern>_ HAD SCRIBBLED *</pattern>
+<template><srai>  <star /> scribbled <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SNIFFED</pattern>
+<template><srai>  <star /> sniffed</srai></template>
+</category>
+<category><pattern>_ HAD SNIFFED *</pattern>
+<template><srai>  <star /> sniffed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD FLOWN</pattern>
+<template><srai>  <star /> flew</srai></template>
+</category>
+<category><pattern>_ HAD FLOWN *</pattern>
+<template><srai>  <star /> flew <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD KILLED</pattern>
+<template><srai>  <star /> killed</srai></template>
+</category>
+<category><pattern>_ HAD KILLED *</pattern>
+<template><srai>  <star /> killed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PRODUCED</pattern>
+<template><srai>  <star /> produced</srai></template>
+</category>
+<category><pattern>_ HAD PRODUCED *</pattern>
+<template><srai>  <star /> produced <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD MEMORISED</pattern>
+<template><srai>  <star /> memorised</srai></template>
+</category>
+<category><pattern>_ HAD MEMORISED *</pattern>
+<template><srai>  <star /> memorised <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD FILLED</pattern>
+<template><srai>  <star /> filled</srai></template>
+</category>
+<category><pattern>_ HAD FILLED *</pattern>
+<template><srai>  <star /> filled <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CHASED</pattern>
+<template><srai>  <star /> chased</srai></template>
+</category>
+<category><pattern>_ HAD CHASED *</pattern>
+<template><srai>  <star /> chased <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BLOWN</pattern>
+<template><srai>  <star /> blew</srai></template>
+</category>
+<category><pattern>_ HAD BLOWN *</pattern>
+<template><srai>  <star /> blew <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD REFLECTED</pattern>
+<template><srai>  <star /> reflected</srai></template>
+</category>
+<category><pattern>_ HAD REFLECTED *</pattern>
+<template><srai>  <star /> reflected <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD OBJECTED</pattern>
+<template><srai>  <star /> objected</srai></template>
+</category>
+<category><pattern>_ HAD OBJECTED *</pattern>
+<template><srai>  <star /> objected <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SCOLDED</pattern>
+<template><srai>  <star /> scolded</srai></template>
+</category>
+<category><pattern>_ HAD SCOLDED *</pattern>
+<template><srai>  <star /> scolded <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD DRAGED</pattern>
+<template><srai>  <star /> draged</srai></template>
+</category>
+<category><pattern>_ HAD DRAGED *</pattern>
+<template><srai>  <star /> draged <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD NODED</pattern>
+<template><srai>  <star /> noded</srai></template>
+</category>
+<category><pattern>_ HAD NODED *</pattern>
+<template><srai>  <star /> noded <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD LET</pattern>
+<template><srai>  <star /> let</srai></template>
+</category>
+<category><pattern>_ HAD LET *</pattern>
+<template><srai>  <star /> let <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD REPORTED</pattern>
+<template><srai>  <star /> reported</srai></template>
+</category>
+<category><pattern>_ HAD REPORTED *</pattern>
+<template><srai>  <star /> reported <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD HEADED</pattern>
+<template><srai>  <star /> headed</srai></template>
+</category>
+<category><pattern>_ HAD HEADED *</pattern>
+<template><srai>  <star /> headed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD RETURNED</pattern>
+<template><srai>  <star /> returned</srai></template>
+</category>
+<category><pattern>_ HAD RETURNED *</pattern>
+<template><srai>  <star /> returned <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD POURED</pattern>
+<template><srai>  <star /> poured</srai></template>
+</category>
+<category><pattern>_ HAD POURED *</pattern>
+<template><srai>  <star /> poured <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SIGNALED</pattern>
+<template><srai>  <star /> signaled</srai></template>
+</category>
+<category><pattern>_ HAD SIGNALED *</pattern>
+<template><srai>  <star /> signaled <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BEAMED</pattern>
+<template><srai>  <star /> beamed</srai></template>
+</category>
+<category><pattern>_ HAD BEAMED *</pattern>
+<template><srai>  <star /> beamed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SET</pattern>
+<template><srai>  <star /> set</srai></template>
+</category>
+<category><pattern>_ HAD SET *</pattern>
+<template><srai>  <star /> set <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD DAMAGED</pattern>
+<template><srai>  <star /> damaged</srai></template>
+</category>
+<category><pattern>_ HAD DAMAGED *</pattern>
+<template><srai>  <star /> damaged <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD INTERFERED</pattern>
+<template><srai>  <star /> interfered</srai></template>
+</category>
+<category><pattern>_ HAD INTERFERED *</pattern>
+<template><srai>  <star /> interfered <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SLIPPED</pattern>
+<template><srai>  <star /> slipped</srai></template>
+</category>
+<category><pattern>_ HAD SLIPPED *</pattern>
+<template><srai>  <star /> slipped <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD GUARANTEED</pattern>
+<template><srai>  <star /> guaranteed</srai></template>
+</category>
+<category><pattern>_ HAD GUARANTEED *</pattern>
+<template><srai>  <star /> guaranteed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD INTERESTED</pattern>
+<template><srai>  <star /> interested</srai></template>
+</category>
+<category><pattern>_ HAD INTERESTED *</pattern>
+<template><srai>  <star /> interested <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PRAYED</pattern>
+<template><srai>  <star /> prayed</srai></template>
+</category>
+<category><pattern>_ HAD PRAYED *</pattern>
+<template><srai>  <star /> prayed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD RUNG</pattern>
+<template><srai>  <star /> rang</srai></template>
+</category>
+<category><pattern>_ HAD RUNG *</pattern>
+<template><srai>  <star /> rang <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PERMITED</pattern>
+<template><srai>  <star /> permited</srai></template>
+</category>
+<category><pattern>_ HAD PERMITED *</pattern>
+<template><srai>  <star /> permited <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD COUGHED</pattern>
+<template><srai>  <star /> coughed</srai></template>
+</category>
+<category><pattern>_ HAD COUGHED *</pattern>
+<template><srai>  <star /> coughed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD REPEATED</pattern>
+<template><srai>  <star /> repeated</srai></template>
+</category>
+<category><pattern>_ HAD REPEATED *</pattern>
+<template><srai>  <star /> repeated <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD COLOURED</pattern>
+<template><srai>  <star /> coloured</srai></template>
+</category>
+<category><pattern>_ HAD COLOURED *</pattern>
+<template><srai>  <star /> coloured <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD JOKED</pattern>
+<template><srai>  <star /> joked</srai></template>
+</category>
+<category><pattern>_ HAD JOKED *</pattern>
+<template><srai>  <star /> joked <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CAMPED</pattern>
+<template><srai>  <star /> camped</srai></template>
+</category>
+<category><pattern>_ HAD CAMPED *</pattern>
+<template><srai>  <star /> camped <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PRICKED</pattern>
+<template><srai>  <star /> pricked</srai></template>
+</category>
+<category><pattern>_ HAD PRICKED *</pattern>
+<template><srai>  <star /> pricked <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD ARGUED</pattern>
+<template><srai>  <star /> argued</srai></template>
+</category>
+<category><pattern>_ HAD ARGUED *</pattern>
+<template><srai>  <star /> argued <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CLIPPED</pattern>
+<template><srai>  <star /> clipped</srai></template>
+</category>
+<category><pattern>_ HAD CLIPPED *</pattern>
+<template><srai>  <star /> clipped <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD ARRANGED</pattern>
+<template><srai>  <star /> arranged</srai></template>
+</category>
+<category><pattern>_ HAD ARRANGED *</pattern>
+<template><srai>  <star /> arranged <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BRUSHED</pattern>
+<template><srai>  <star /> brushed</srai></template>
+</category>
+<category><pattern>_ HAD BRUSHED *</pattern>
+<template><srai>  <star /> brushed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CRUSHED</pattern>
+<template><srai>  <star /> crushed</srai></template>
+</category>
+<category><pattern>_ HAD CRUSHED *</pattern>
+<template><srai>  <star /> crushed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD HOPPED</pattern>
+<template><srai>  <star /> hopped</srai></template>
+</category>
+<category><pattern>_ HAD HOPPED *</pattern>
+<template><srai>  <star /> hopped <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD LOADED</pattern>
+<template><srai>  <star /> loaded</srai></template>
+</category>
+<category><pattern>_ HAD LOADED *</pattern>
+<template><srai>  <star /> loaded <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD POKED</pattern>
+<template><srai>  <star /> poked</srai></template>
+</category>
+<category><pattern>_ HAD POKED *</pattern>
+<template><srai>  <star /> poked <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD MANED</pattern>
+<template><srai>  <star /> maned</srai></template>
+</category>
+<category><pattern>_ HAD MANED *</pattern>
+<template><srai>  <star /> maned <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD FASTENED</pattern>
+<template><srai>  <star /> fastened</srai></template>
+</category>
+<category><pattern>_ HAD FASTENED *</pattern>
+<template><srai>  <star /> fastened <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CONTINUED</pattern>
+<template><srai>  <star /> continued</srai></template>
+</category>
+<category><pattern>_ HAD CONTINUED *</pattern>
+<template><srai>  <star /> continued <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD MATCHED</pattern>
+<template><srai>  <star /> matched</srai></template>
+</category>
+<category><pattern>_ HAD MATCHED *</pattern>
+<template><srai>  <star /> matched <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SCATTERED</pattern>
+<template><srai>  <star /> scattered</srai></template>
+</category>
+<category><pattern>_ HAD SCATTERED *</pattern>
+<template><srai>  <star /> scattered <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BROUGHT</pattern>
+<template><srai>  <star /> brought</srai></template>
+</category>
+<category><pattern>_ HAD BROUGHT *</pattern>
+<template><srai>  <star /> brought <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD HAMMERED</pattern>
+<template><srai>  <star /> hammered</srai></template>
+</category>
+<category><pattern>_ HAD HAMMERED *</pattern>
+<template><srai>  <star /> hammered <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD RUN</pattern>
+<template><srai>  <star /> ran</srai></template>
+</category>
+<category><pattern>_ HAD RUN *</pattern>
+<template><srai>  <star /> ran <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BANNED</pattern>
+<template><srai>  <star /> banned</srai></template>
+</category>
+<category><pattern>_ HAD BANNED *</pattern>
+<template><srai>  <star /> banned <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SETTLED</pattern>
+<template><srai>  <star /> settled</srai></template>
+</category>
+<category><pattern>_ HAD SETTLED *</pattern>
+<template><srai>  <star /> settled <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD MIXED</pattern>
+<template><srai>  <star /> mixed</srai></template>
+</category>
+<category><pattern>_ HAD MIXED *</pattern>
+<template><srai>  <star /> mixed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD FIXED</pattern>
+<template><srai>  <star /> fixed</srai></template>
+</category>
+<category><pattern>_ HAD FIXED *</pattern>
+<template><srai>  <star /> fixed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BOMBED</pattern>
+<template><srai>  <star /> bombed</srai></template>
+</category>
+<category><pattern>_ HAD BOMBED *</pattern>
+<template><srai>  <star /> bombed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD COMBED</pattern>
+<template><srai>  <star /> combed</srai></template>
+</category>
+<category><pattern>_ HAD COMBED *</pattern>
+<template><srai>  <star /> combed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD ALLOWED</pattern>
+<template><srai>  <star /> allowed</srai></template>
+</category>
+<category><pattern>_ HAD ALLOWED *</pattern>
+<template><srai>  <star /> allowed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BREATHED</pattern>
+<template><srai>  <star /> breathed</srai></template>
+</category>
+<category><pattern>_ HAD BREATHED *</pattern>
+<template><srai>  <star /> breathed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD IMPROVED</pattern>
+<template><srai>  <star /> improved</srai></template>
+</category>
+<category><pattern>_ HAD IMPROVED *</pattern>
+<template><srai>  <star /> improved <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD LENT</pattern>
+<template><srai>  <star /> lent</srai></template>
+</category>
+<category><pattern>_ HAD LENT *</pattern>
+<template><srai>  <star /> lent <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD MILKED</pattern>
+<template><srai>  <star /> milked</srai></template>
+</category>
+<category><pattern>_ HAD MILKED *</pattern>
+<template><srai>  <star /> milked <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SMILED</pattern>
+<template><srai>  <star /> smiled</srai></template>
+</category>
+<category><pattern>_ HAD SMILED *</pattern>
+<template><srai>  <star /> smiled <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD DECEIVED</pattern>
+<template><srai>  <star /> deceived</srai></template>
+</category>
+<category><pattern>_ HAD DECEIVED *</pattern>
+<template><srai>  <star /> deceived <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD ITCHED</pattern>
+<template><srai>  <star /> itched</srai></template>
+</category>
+<category><pattern>_ HAD ITCHED *</pattern>
+<template><srai>  <star /> itched <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SNOWED</pattern>
+<template><srai>  <star /> snowed</srai></template>
+</category>
+<category><pattern>_ HAD SNOWED *</pattern>
+<template><srai>  <star /> snowed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SHARED</pattern>
+<template><srai>  <star /> shared</srai></template>
+</category>
+<category><pattern>_ HAD SHARED *</pattern>
+<template><srai>  <star /> shared <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SENT</pattern>
+<template><srai>  <star /> sent</srai></template>
+</category>
+<category><pattern>_ HAD SENT *</pattern>
+<template><srai>  <star /> sent <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SEARCHED</pattern>
+<template><srai>  <star /> searched</srai></template>
+</category>
+<category><pattern>_ HAD SEARCHED *</pattern>
+<template><srai>  <star /> searched <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD RECEIVED</pattern>
+<template><srai>  <star /> received</srai></template>
+</category>
+<category><pattern>_ HAD RECEIVED *</pattern>
+<template><srai>  <star /> received <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD JUDGED</pattern>
+<template><srai>  <star /> judged</srai></template>
+</category>
+<category><pattern>_ HAD JUDGED *</pattern>
+<template><srai>  <star /> judged <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BLOTTED</pattern>
+<template><srai>  <star /> blotted</srai></template>
+</category>
+<category><pattern>_ HAD BLOTTED *</pattern>
+<template><srai>  <star /> blotted <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SCORCHED</pattern>
+<template><srai>  <star /> scorched</srai></template>
+</category>
+<category><pattern>_ HAD SCORCHED *</pattern>
+<template><srai>  <star /> scorched <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD MULTIPLIED</pattern>
+<template><srai>  <star /> multiplied</srai></template>
+</category>
+<category><pattern>_ HAD MULTIPLIED *</pattern>
+<template><srai>  <star /> multiplied <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PLEASED</pattern>
+<template><srai>  <star /> pleased</srai></template>
+</category>
+<category><pattern>_ HAD PLEASED *</pattern>
+<template><srai>  <star /> pleased <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD EXPANDED</pattern>
+<template><srai>  <star /> expanded</srai></template>
+</category>
+<category><pattern>_ HAD EXPANDED *</pattern>
+<template><srai>  <star /> expanded <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CHOKED</pattern>
+<template><srai>  <star /> choked</srai></template>
+</category>
+<category><pattern>_ HAD CHOKED *</pattern>
+<template><srai>  <star /> choked <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BOUNCED</pattern>
+<template><srai>  <star /> bounced</srai></template>
+</category>
+<category><pattern>_ HAD BOUNCED *</pattern>
+<template><srai>  <star /> bounced <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD HEALED</pattern>
+<template><srai>  <star /> healed</srai></template>
+</category>
+<category><pattern>_ HAD HEALED *</pattern>
+<template><srai>  <star /> healed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD RAINED</pattern>
+<template><srai>  <star /> rained</srai></template>
+</category>
+<category><pattern>_ HAD RAINED *</pattern>
+<template><srai>  <star /> rained <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PRESSED</pattern>
+<template><srai>  <star /> pressed</srai></template>
+</category>
+<category><pattern>_ HAD PRESSED *</pattern>
+<template><srai>  <star /> pressed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PUT</pattern>
+<template><srai>  <star /> put</srai></template>
+</category>
+<category><pattern>_ HAD PUT *</pattern>
+<template><srai>  <star /> put <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD DECAIED</pattern>
+<template><srai>  <star /> decaied</srai></template>
+</category>
+<category><pattern>_ HAD DECAIED *</pattern>
+<template><srai>  <star /> decaied <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD GREASED</pattern>
+<template><srai>  <star /> greased</srai></template>
+</category>
+<category><pattern>_ HAD GREASED *</pattern>
+<template><srai>  <star /> greased <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SEALED</pattern>
+<template><srai>  <star /> sealed</srai></template>
+</category>
+<category><pattern>_ HAD SEALED *</pattern>
+<template><srai>  <star /> sealed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD AMUSED</pattern>
+<template><srai>  <star /> amused</srai></template>
+</category>
+<category><pattern>_ HAD AMUSED *</pattern>
+<template><srai>  <star /> amused <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BEATEN</pattern>
+<template><srai>  <star /> beat</srai></template>
+</category>
+<category><pattern>_ HAD BEATEN *</pattern>
+<template><srai>  <star /> beat <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD DECIDED</pattern>
+<template><srai>  <star /> decided</srai></template>
+</category>
+<category><pattern>_ HAD DECIDED *</pattern>
+<template><srai>  <star /> decided <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD OCCURED</pattern>
+<template><srai>  <star /> occured</srai></template>
+</category>
+<category><pattern>_ HAD OCCURED *</pattern>
+<template><srai>  <star /> occured <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD COMMANDED</pattern>
+<template><srai>  <star /> commanded</srai></template>
+</category>
+<category><pattern>_ HAD COMMANDED *</pattern>
+<template><srai>  <star /> commanded <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD LOST</pattern>
+<template><srai>  <star /> lost</srai></template>
+</category>
+<category><pattern>_ HAD LOST *</pattern>
+<template><srai>  <star /> lost <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CONFUSED</pattern>
+<template><srai>  <star /> confused</srai></template>
+</category>
+<category><pattern>_ HAD CONFUSED *</pattern>
+<template><srai>  <star /> confused <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD KNEELED</pattern>
+<template><srai>  <star /> kneeled</srai></template>
+</category>
+<category><pattern>_ HAD KNEELED *</pattern>
+<template><srai>  <star /> kneeled <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD GREETED</pattern>
+<template><srai>  <star /> greeted</srai></template>
+</category>
+<category><pattern>_ HAD GREETED *</pattern>
+<template><srai>  <star /> greeted <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD REPAIRED</pattern>
+<template><srai>  <star /> repaired</srai></template>
+</category>
+<category><pattern>_ HAD REPAIRED *</pattern>
+<template><srai>  <star /> repaired <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BURIED</pattern>
+<template><srai>  <star /> buried</srai></template>
+</category>
+<category><pattern>_ HAD BURIED *</pattern>
+<template><srai>  <star /> buried <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CONCERNED</pattern>
+<template><srai>  <star /> concerned</srai></template>
+</category>
+<category><pattern>_ HAD CONCERNED *</pattern>
+<template><srai>  <star /> concerned <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD FORGIVEN</pattern>
+<template><srai>  <star /> forgave</srai></template>
+</category>
+<category><pattern>_ HAD FORGIVEN *</pattern>
+<template><srai>  <star /> forgave <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BROADCAST</pattern>
+<template><srai>  <star /> broadcast</srai></template>
+</category>
+<category><pattern>_ HAD BROADCAST *</pattern>
+<template><srai>  <star /> broadcast <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD DRESSED</pattern>
+<template><srai>  <star /> dressed</srai></template>
+</category>
+<category><pattern>_ HAD DRESSED *</pattern>
+<template><srai>  <star /> dressed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PLACED</pattern>
+<template><srai>  <star /> placed</srai></template>
+</category>
+<category><pattern>_ HAD PLACED *</pattern>
+<template><srai>  <star /> placed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD MATTERED</pattern>
+<template><srai>  <star /> mattered</srai></template>
+</category>
+<category><pattern>_ HAD MATTERED *</pattern>
+<template><srai>  <star /> mattered <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD OWNED</pattern>
+<template><srai>  <star /> owned</srai></template>
+</category>
+<category><pattern>_ HAD OWNED *</pattern>
+<template><srai>  <star /> owned <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SIGNED</pattern>
+<template><srai>  <star /> signed</srai></template>
+</category>
+<category><pattern>_ HAD SIGNED *</pattern>
+<template><srai>  <star /> signed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD INTENDED</pattern>
+<template><srai>  <star /> intended</srai></template>
+</category>
+<category><pattern>_ HAD INTENDED *</pattern>
+<template><srai>  <star /> intended <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD DEALT</pattern>
+<template><srai>  <star /> dealt</srai></template>
+</category>
+<category><pattern>_ HAD DEALT *</pattern>
+<template><srai>  <star /> dealt <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD NOTICED</pattern>
+<template><srai>  <star /> noticed</srai></template>
+</category>
+<category><pattern>_ HAD NOTICED *</pattern>
+<template><srai>  <star /> noticed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD HANDED</pattern>
+<template><srai>  <star /> handed</srai></template>
+</category>
+<category><pattern>_ HAD HANDED *</pattern>
+<template><srai>  <star /> handed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BLESSED</pattern>
+<template><srai>  <star /> blessed</srai></template>
+</category>
+<category><pattern>_ HAD BLESSED *</pattern>
+<template><srai>  <star /> blessed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD LIT</pattern>
+<template><srai>  <star /> lit</srai></template>
+</category>
+<category><pattern>_ HAD LIT *</pattern>
+<template><srai>  <star /> lit <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD KNOWN</pattern>
+<template><srai>  <star /> knew</srai></template>
+</category>
+<category><pattern>_ HAD KNOWN *</pattern>
+<template><srai>  <star /> knew <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD MUGED</pattern>
+<template><srai>  <star /> muged</srai></template>
+</category>
+<category><pattern>_ HAD MUGED *</pattern>
+<template><srai>  <star /> muged <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD LANDED</pattern>
+<template><srai>  <star /> landed</srai></template>
+</category>
+<category><pattern>_ HAD LANDED *</pattern>
+<template><srai>  <star /> landed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD HUGED</pattern>
+<template><srai>  <star /> huged</srai></template>
+</category>
+<category><pattern>_ HAD HUGED *</pattern>
+<template><srai>  <star /> huged <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BARED</pattern>
+<template><srai>  <star /> bared</srai></template>
+</category>
+<category><pattern>_ HAD BARED *</pattern>
+<template><srai>  <star /> bared <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CARED</pattern>
+<template><srai>  <star /> cared</srai></template>
+</category>
+<category><pattern>_ HAD CARED *</pattern>
+<template><srai>  <star /> cared <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD DARED</pattern>
+<template><srai>  <star /> dared</srai></template>
+</category>
+<category><pattern>_ HAD DARED *</pattern>
+<template><srai>  <star /> dared <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD LAIN</pattern>
+<template><srai>  <star /> lay</srai></template>
+</category>
+<category><pattern>_ HAD LAIN *</pattern>
+<template><srai>  <star /> lay <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD FOUND</pattern>
+<template><srai>  <star /> found</srai></template>
+</category>
+<category><pattern>_ HAD FOUND *</pattern>
+<template><srai>  <star /> found <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD MARRIED</pattern>
+<template><srai>  <star /> married</srai></template>
+</category>
+<category><pattern>_ HAD MARRIED *</pattern>
+<template><srai>  <star /> married <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD INJURED</pattern>
+<template><srai>  <star /> injured</srai></template>
+</category>
+<category><pattern>_ HAD INJURED *</pattern>
+<template><srai>  <star /> injured <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PASTED</pattern>
+<template><srai>  <star /> pasted</srai></template>
+</category>
+<category><pattern>_ HAD PASTED *</pattern>
+<template><srai>  <star /> pasted <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD ALERTED</pattern>
+<template><srai>  <star /> alerted</srai></template>
+</category>
+<category><pattern>_ HAD ALERTED *</pattern>
+<template><srai>  <star /> alerted <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD LASTED</pattern>
+<template><srai>  <star /> lasted</srai></template>
+</category>
+<category><pattern>_ HAD LASTED *</pattern>
+<template><srai>  <star /> lasted <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD LEVELED</pattern>
+<template><srai>  <star /> leveled</srai></template>
+</category>
+<category><pattern>_ HAD LEVELED *</pattern>
+<template><srai>  <star /> leveled <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD FLOATED</pattern>
+<template><srai>  <star /> floated</srai></template>
+</category>
+<category><pattern>_ HAD FLOATED *</pattern>
+<template><srai>  <star /> floated <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD EXCITED</pattern>
+<template><srai>  <star /> excited</srai></template>
+</category>
+<category><pattern>_ HAD EXCITED *</pattern>
+<template><srai>  <star /> excited <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BALANCED</pattern>
+<template><srai>  <star /> balanced</srai></template>
+</category>
+<category><pattern>_ HAD BALANCED *</pattern>
+<template><srai>  <star /> balanced <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD MUDDLED</pattern>
+<template><srai>  <star /> muddled</srai></template>
+</category>
+<category><pattern>_ HAD MUDDLED *</pattern>
+<template><srai>  <star /> muddled <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CHECKED</pattern>
+<template><srai>  <star /> checked</srai></template>
+</category>
+<category><pattern>_ HAD CHECKED *</pattern>
+<template><srai>  <star /> checked <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CHOPPED</pattern>
+<template><srai>  <star /> chopped</srai></template>
+</category>
+<category><pattern>_ HAD CHOPPED *</pattern>
+<template><srai>  <star /> chopped <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD RISEN</pattern>
+<template><srai>  <star /> rose</srai></template>
+</category>
+<category><pattern>_ HAD RISEN *</pattern>
+<template><srai>  <star /> rose <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD DESERTED</pattern>
+<template><srai>  <star /> deserted</srai></template>
+</category>
+<category><pattern>_ HAD DESERTED *</pattern>
+<template><srai>  <star /> deserted <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD READ</pattern>
+<template><srai>  <star /> read</srai></template>
+</category>
+<category><pattern>_ HAD READ *</pattern>
+<template><srai>  <star /> read <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD QUEUED</pattern>
+<template><srai>  <star /> queued</srai></template>
+</category>
+<category><pattern>_ HAD QUEUED *</pattern>
+<template><srai>  <star /> queued <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD EARNED</pattern>
+<template><srai>  <star /> earned</srai></template>
+</category>
+<category><pattern>_ HAD EARNED *</pattern>
+<template><srai>  <star /> earned <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BACKED</pattern>
+<template><srai>  <star /> backed</srai></template>
+</category>
+<category><pattern>_ HAD BACKED *</pattern>
+<template><srai>  <star /> backed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PREPARED</pattern>
+<template><srai>  <star /> prepared</srai></template>
+</category>
+<category><pattern>_ HAD PREPARED *</pattern>
+<template><srai>  <star /> prepared <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD REJOICED</pattern>
+<template><srai>  <star /> rejoiced</srai></template>
+</category>
+<category><pattern>_ HAD REJOICED *</pattern>
+<template><srai>  <star /> rejoiced <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CARRIED</pattern>
+<template><srai>  <star /> carried</srai></template>
+</category>
+<category><pattern>_ HAD CARRIED *</pattern>
+<template><srai>  <star /> carried <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD INSTRUCTED</pattern>
+<template><srai>  <star /> instructed</srai></template>
+</category>
+<category><pattern>_ HAD INSTRUCTED *</pattern>
+<template><srai>  <star /> instructed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PACKED</pattern>
+<template><srai>  <star /> packed</srai></template>
+</category>
+<category><pattern>_ HAD PACKED *</pattern>
+<template><srai>  <star /> packed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PLUGED</pattern>
+<template><srai>  <star /> pluged</srai></template>
+</category>
+<category><pattern>_ HAD PLUGED *</pattern>
+<template><srai>  <star /> pluged <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SACKED</pattern>
+<template><srai>  <star /> sacked</srai></template>
+</category>
+<category><pattern>_ HAD SACKED *</pattern>
+<template><srai>  <star /> sacked <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CHARGED</pattern>
+<template><srai>  <star /> charged</srai></template>
+</category>
+<category><pattern>_ HAD CHARGED *</pattern>
+<template><srai>  <star /> charged <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD OBEIED</pattern>
+<template><srai>  <star /> obeied</srai></template>
+</category>
+<category><pattern>_ HAD OBEIED *</pattern>
+<template><srai>  <star /> obeied <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD FORGOTTEN</pattern>
+<template><srai>  <star /> forgot</srai></template>
+</category>
+<category><pattern>_ HAD FORGOTTEN *</pattern>
+<template><srai>  <star /> forgot <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD FOLDED</pattern>
+<template><srai>  <star /> folded</srai></template>
+</category>
+<category><pattern>_ HAD FOLDED *</pattern>
+<template><srai>  <star /> folded <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SHAKEN</pattern>
+<template><srai>  <star /> shook</srai></template>
+</category>
+<category><pattern>_ HAD SHAKEN *</pattern>
+<template><srai>  <star /> shook <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD HELD</pattern>
+<template><srai>  <star /> held</srai></template>
+</category>
+<category><pattern>_ HAD HELD *</pattern>
+<template><srai>  <star /> held <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PINCHED</pattern>
+<template><srai>  <star /> pinched</srai></template>
+</category>
+<category><pattern>_ HAD PINCHED *</pattern>
+<template><srai>  <star /> pinched <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD APPLAUDED</pattern>
+<template><srai>  <star /> applauded</srai></template>
+</category>
+<category><pattern>_ HAD APPLAUDED *</pattern>
+<template><srai>  <star /> applauded <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BITTEN</pattern>
+<template><srai>  <star /> bit</srai></template>
+</category>
+<category><pattern>_ HAD BITTEN *</pattern>
+<template><srai>  <star /> bit <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BLINDED</pattern>
+<template><srai>  <star /> blinded</srai></template>
+</category>
+<category><pattern>_ HAD BLINDED *</pattern>
+<template><srai>  <star /> blinded <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD KNOCKED</pattern>
+<template><srai>  <star /> knocked</srai></template>
+</category>
+<category><pattern>_ HAD KNOCKED *</pattern>
+<template><srai>  <star /> knocked <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD FLOWED</pattern>
+<template><srai>  <star /> flowed</srai></template>
+</category>
+<category><pattern>_ HAD FLOWED *</pattern>
+<template><srai>  <star /> flowed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD GLOWED</pattern>
+<template><srai>  <star /> glowed</srai></template>
+</category>
+<category><pattern>_ HAD GLOWED *</pattern>
+<template><srai>  <star /> glowed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CRAWLED</pattern>
+<template><srai>  <star /> crawled</srai></template>
+</category>
+<category><pattern>_ HAD CRAWLED *</pattern>
+<template><srai>  <star /> crawled <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SCRAPED</pattern>
+<template><srai>  <star /> scraped</srai></template>
+</category>
+<category><pattern>_ HAD SCRAPED *</pattern>
+<template><srai>  <star /> scraped <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SLOWED</pattern>
+<template><srai>  <star /> slowed</srai></template>
+</category>
+<category><pattern>_ HAD SLOWED *</pattern>
+<template><srai>  <star /> slowed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BEGUN</pattern>
+<template><srai>  <star /> began</srai></template>
+</category>
+<category><pattern>_ HAD BEGUN *</pattern>
+<template><srai>  <star /> began <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PULLED</pattern>
+<template><srai>  <star /> pulled</srai></template>
+</category>
+<category><pattern>_ HAD PULLED *</pattern>
+<template><srai>  <star /> pulled <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD HEATED</pattern>
+<template><srai>  <star /> heated</srai></template>
+</category>
+<category><pattern>_ HAD HEATED *</pattern>
+<template><srai>  <star /> heated <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD FILED</pattern>
+<template><srai>  <star /> filed</srai></template>
+</category>
+<category><pattern>_ HAD FILED *</pattern>
+<template><srai>  <star /> filed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD LAUGHED</pattern>
+<template><srai>  <star /> laughed</srai></template>
+</category>
+<category><pattern>_ HAD LAUGHED *</pattern>
+<template><srai>  <star /> laughed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD HURRIED</pattern>
+<template><srai>  <star /> hurried</srai></template>
+</category>
+<category><pattern>_ HAD HURRIED *</pattern>
+<template><srai>  <star /> hurried <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD SMELLED</pattern>
+<template><srai>  <star /> smelled</srai></template>
+</category>
+<category><pattern>_ HAD SMELLED *</pattern>
+<template><srai>  <star /> smelled <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BORED</pattern>
+<template><srai>  <star /> bored</srai></template>
+</category>
+<category><pattern>_ HAD BORED *</pattern>
+<template><srai>  <star /> bored <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD FLOWERED</pattern>
+<template><srai>  <star /> flowered</srai></template>
+</category>
+<category><pattern>_ HAD FLOWERED *</pattern>
+<template><srai>  <star /> flowered <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD BEGGED</pattern>
+<template><srai>  <star /> begged</srai></template>
+</category>
+<category><pattern>_ HAD BEGGED *</pattern>
+<template><srai>  <star /> begged <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD OBSERVED</pattern>
+<template><srai>  <star /> observed</srai></template>
+</category>
+<category><pattern>_ HAD OBSERVED *</pattern>
+<template><srai>  <star /> observed <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PUNCHED</pattern>
+<template><srai>  <star /> punched</srai></template>
+</category>
+<category><pattern>_ HAD PUNCHED *</pattern>
+<template><srai>  <star /> punched <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD PADDLED</pattern>
+<template><srai>  <star /> paddled</srai></template>
+</category>
+<category><pattern>_ HAD PADDLED *</pattern>
+<template><srai>  <star /> paddled <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD INJECTED</pattern>
+<template><srai>  <star /> injected</srai></template>
+</category>
+<category><pattern>_ HAD INJECTED *</pattern>
+<template><srai>  <star /> injected <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD CLEARED</pattern>
+<template><srai>  <star /> cleared</srai></template>
+</category>
+<category><pattern>_ HAD CLEARED *</pattern>
+<template><srai>  <star /> cleared <star index="2" /></srai></template>
+</category>
+<category><pattern>_ HAD ATTEMPTED</pattern>
+<template><srai>  <star /> attempted</srai></template>
+</category>
+</aiml>

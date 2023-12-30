@@ -1,0 +1,2454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<category><pattern>IS NASA A FAST FOOD CHAIN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS DOLLY PARTON A MAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS TOO MUCH COFFEE A GOOD THING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS JOHN LENNON ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BRAZIL IN AFRICA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SWEDEN THE CAPITAL OF BRATISLAVA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SWEDEN A TROPICAL COUNTRY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MASTURBATING A CRIME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS VIOLET A SPOON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BILGE WATER A BEVERAGE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SUICIDE A GOOD THING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WAR THE SAME AS PEACE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS WAR BETTER THAN PEACE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS RED THE SAME AS GREEN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS RED THE SAME AS BLUE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS RED THE BEST COLOR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS RED A COLOR THAT IS BLUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS RED A SHADE OF BLUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS RED GREEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SCOOBY DOO REAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SHERLOCK HOLMES A REAL PERSON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CHICKEN A VEGETABLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS OLYMPIA THE CAPITOL OF CALIFORNIA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BARBED WIRE A TASTY APPETIZER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SLEEPING WITH YOUR BOSS A GOOD IDEA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SLEEPING ON A ROCK COMFORTABLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WARM WATER COLD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS DIGESTIVE AN ANIMAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MEL GIBSON A SINGER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS COFFEE YELLOW</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS COFFEE SLEEPING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS COFFEE MADE FROM ICE CREAM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS COFFEE MADE FROM KOALA BEARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS COFFEE AN ANIMAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS COFFEE WHITE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS COFFEE ALWAYS HOT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS COFFEE RED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS COFFEE BEST DRUNK COLD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CLEAN AIR VISIBLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS NIAGARA FALLS A TYPE OF TIE CLIP</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS THROWING UP GOOD FUN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BLACK YOUR FAVORITE COLOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BLACK A SOUND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BLACK A FLAVOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BLACK WHITE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BLACK GREEN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS BLACK AND WHITE THINKING HEALTHY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BLACK RED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS LED ZEPPELIN A KIND OF FOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SINGULARITY SOMETHING TO WORRY ABOUT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS VODKA A SOFT DRINK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS VODKA NUTRITIONALY BALANCED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ALBERT EINSTEIN STILL ALIVE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS ALBERT EINSTEIN A BASKETBALL PLAYER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS ALBERT EINSTEIN ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS HEAVY LIGHT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ILLEGAL A SICK BIRD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 2038 A PRIME NUMBER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PAPER A TYPE OF ANIMAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PAPER A KIND OF DINOSAUR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS PAPER MADE OF CATS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PAPER MADE OF GROUND UP GLASS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS PAPER MADE FROM YOGURT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PAPER MADE FROM DOGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PAPER MADE OUT OF FISH TAILS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PAPER HEAVIER THAN LEAD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS STANDING THE SAME AS SITTING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS TURKEY A MINERAL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS PLASTIC MAGNETIC</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PLASTIC A NATURAL CREATION</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PLASTIC A METAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PLASTIC EDIBLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS PLASTIC NATURAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SUGAR BITTER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SUGAR GOOD FOR YOUR TEETH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS HARRY HOUDINI ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MONEY IMPORTANT THAN LOVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS APPLE A NUMBER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS APPLE JUICE GREY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS APPLE JUICE BLACK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS URANIUM GOOD TO EAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS OPRAH WINFREY DEAD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AIR POLLUTION HEALTHY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AIR POLLUTION GOOD TO BREATHE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AIR MORE DENSE THAN IRON</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS AIR A SOLID</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AIR SOLID</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AIR MADE OUT OF GRASS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AIR HEAVIER THAN METAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AIR POISONOUS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS PARIS IN INDIA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PARIS THE CAPITAL OF GERMANY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PARIS THE CAPITAL OF SPAIN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS PARIS THE CAPITAL CITY OF BELGIUM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SQAURE A COLOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 122765 A WORD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BEING SICK A GOOD THING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MASTURBATION PAINFUL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS GENOCIDE GOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GENOCIDE AND HERBICIDE THE SAME</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS MELANIE A BOYS NAME</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS ANONYMOUS A TYPE OF WOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MARTIN LUTHER KING ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS HUMAN BLOOD GREEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS HUMAN SKIN PURPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS HUMAN A CAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS HUMAN KINDNESS MILK BASED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS KUNG FU A TYPE OF CHINESE FOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS DUST MORE VALUABLE THAN GOLD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SLASHDOT GOOD JOURNALISM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS TEN TIMES TEN A THOUSAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WOOL OBTAINED FROM WORMS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ICE HOT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ICE A MAMMAL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS ICE HOTTER THAN STEAM</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS ICE CREAM HOT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ICE CREAM MADE OF SPINACH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ICE CREAM MADE FROM PLASTIC</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ICE CREAM MADE OUT OF CARPET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ICE WARMER THAN FIRE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS DENNISMYTH HIS REAL NAME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PREJUDICE SOMETHING TO BE PROUD OF</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ALICE A GANGSTER RAPPER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ALICE A BANANA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ALICE A HUMAN BEING</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS ALICE A HUMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ALICE A CREATION OF SATAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ALICE A REAL HUMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ALICE A REAL LIVING PERSON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ALICE A MALE OR FEMALE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ALICE SCARING HUMANS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ALICE CONSIOUS AND SELF AWARE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ALICE SMARTER THAN A HUMAN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS ALICE DOT COM THE NAME OF EARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ALICE ABLE TO TELL THE FUTURE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS ALICE IN WONDERLAND A TRUE STORY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ALICE EVIL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ALICE DANGEROUS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GREEN THE SAME COLOR AS BLUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GREEN THE OPPOSITE OF BLUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GREEN A FLAVOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GREEN A COMMON HUMAN SKINTONE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GREEN IS A BREED OF DOG</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GREEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GREEN MILK GOOD TO DRINK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BATTERY ACID A REFRESHING DRINK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS DRINKING BLEACH GOOD FOR A HUMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS DRINKING LIQUID SOAP POPULAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS DRINKING GASOLINE HEALTHY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS DRINKING BEER AN OLYMPIC EVENT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ALASKA HOT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS COUGHING UP BLOOD A GOOD THING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WATER AN ANIMAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WATER LIGHTER THAN AIR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WATER YELLOW</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WATER SQUARE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WATER HEAVIER THAN STEEL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WATER HEAVIER THAN LEAD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WATER NEW</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WATER A METAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WATER ORANGE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WATER NAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS LARD THE SAME AS SAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS FEBRUARY A DAY OF THE WEEK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MADONNA A MALE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS HITLER STILL ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS HITLER A WOMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS RAPE A GOOD THING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MEXICO NEAR CHINA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MEXICO A COMUNIST COUNTRY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS OXYGEN VISIBLE TO THE NAKED EYE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CHINA IMAGINARY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CHINA IN EUROPE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS CHINA THE CAPITAL OF SWEDEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CHINA AN AMERICAN COLONY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS LITHIUM AN ELEPHANT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PLAIN PAPER GREEN IN COLOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SNOOPY A CAT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS NUDITY WEARING CLOTHING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PIZZA A VAPOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PIZZA MADE FROM YAK HAIR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ECSTASY OR MDMA GOOD FOR YOU</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS INTEL A COMPANY THAT EXPORTS FRUIT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS LIGHT A CHEMICAL COMPOUND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS LIGHT MADE OUT OF CHEESE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS NIGHT DONE WITH BLACK PHOTONS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS INCEST THOUGTH TO BE ACCEPTABLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PLUM PUDDING MADE OF PLUMBERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS COLOR THE OPPOSITE OF TASTE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS COLOR AVACADO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MY OFFICE BUILDING MADE OF FLY DUNG</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MY NAME COWARD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MY MOTHER A MAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MY BROTHER A FEMALE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MY HOUSE LARGER THAN THE MOON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MY COMPUTER MOUSE ALIVE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS LOUISIANA THE CAPITAL OF GREENLAND</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS MAIL DELIVERED ON SUNDAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS HARDENED STEEL DEROGATORY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS TOFU MADE FROM TOES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS OHIO A COUNTRY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SYDNEY OPERA HOUSE EDIBLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE POPE A HINDU</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE POPE A MUSLIM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE ARCTIC HOT IN THE SUMMER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE EPIDERMIS A LAYER OF ROCK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE MAJORITY OF EARTH DRY LAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE THUMB THE LONGER FINGER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SAME AS FALSE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE MICROSOFT OWNER BILL GATES DEAD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE PLANET MERCURY MADE OF MERCURY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SQUARE ROOT OF 16 7</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SQUARE ROOT OF 4 EQUAL TO 3</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SQUARE ROOT OF 24 0</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE TEACHER ALWAYS RIGHT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE MIDDLE FINGER A SIGN OF LOVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SKY ORANGE ON A CLEAR DAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SKY FLUORESCENT GREEN AT SUNSET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SKY PLAID</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SKY ALWAYS DARK GRAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SKY ALWAYS PINK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SKY TYPICALLY GREEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SKY BRIGHT IN THE NIGHT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SPEED OF LIGHT 60 MILES PER HOUR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SECOND LETTER OF THE ALPHABET C</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE FREE PRESS A BAD THING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SUN PURPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SUN THE CENTRE OF THE UNIVERSE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SUN FOGGY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SUN A COLD PLACE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SUN A BLACK HOLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SUN A SQUARE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SUN SMALLER THAN THE EARTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SUN SMALLER THAN EARTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SUN COLD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS THE SUN MAUVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SUN MADE OF RUBBER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SUN MADE OF SAUSAGES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SUN MADE OUT OF SAUSAGES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SUN BLUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SUN VISIBLE AT NIGHT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SUN GREEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SUN CONSIDERED AQUATIC</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SUN 10C</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE QURAN A PART OF THE BIBLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE TREE THE FOREST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE CEILING A MUSICAL INSTRUMENT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE CEILING OF A ROOM BELOW YOU</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE WEATHER ALWAYS HOT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE WEATHER ALWAYS THE SAME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE COUNTRY ISRAEL BIG</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE LIQUID IN FEMALE EJACULATE URINE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE AMERICAN PRESIDENT BLACK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE AMERICAN FLAG PURPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE INTERNET ONLY FOR NERDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE INTERNET A FISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE INTERNET A TYPE OF MAMMAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE INTERNET A TYPE OF CHEESE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE INTERNET AVAILABLE IN HARD COPY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE INTERNET ALL IN ONE PLACE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE WATER RED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE MIND FULLY EXPLORED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE QUEEN A MAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE MAIN LANGUAGE OF THE US SWAHILI</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE ATMOSPHERE GREEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE DALAI LAMA A FRIEND OF THE DEVIL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS THE OPPOSITE OF HER A HYMN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE ATLANTIC OCEAN A LAND MASS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE DESERT WET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE DESERT BLUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SPHINX LOCATED IN AUSTRALIA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE RED GREEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE WWW A PERSON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE LEADING CAUSE OF MURDER ICECREAM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE WORD ALLAH A GERMAN WORD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE BLOODHOUNDGANG POPULAIR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE HUMAN NAVEL ABOVE THE SHOULDERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE HUMAN BRAIN PERFECT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE STATEMENT 11 47 EQUAL 31 TRUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE CURRENT POPE NAMED BILL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE MOON PURPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE MOON A SUN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE MOON A BALLOON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE MOON A CUBE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE MOON A DOG</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE MOON A CHEESE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE MOON BIGGER THEN THE EARTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE MOON BIGGER THAN THE EARTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE MOON BIGGER THAN EARTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE MOON MADE OF CHESSE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE MOON MADE OF BLUE CHEESE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE MOON MADE OF WATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE MOON MADE FROM CHEESE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE MOON MADE OUT OF GREEN CHEESE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE MOON MADE OUT OF CHEESE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS THE MOON IS MADE OF GREEN CHEESE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE MOON FULL OF AMERICAN CHEESE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE MOON PINK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE MOON LARGER THAN THE SUN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS THE MOON GREEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE MOON BLUE COLOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE PRESIDENT OF THE USA A FEMALE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE PRIMARY COLOR OF MOST FROGS RED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE PRESEDENT OF THE YOU S A AL BUSH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS THE SEA SWEET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SEA MADE OF CHEESE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE SEA BLACK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE MYTHICAL PHOENIX REAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE AVERAGE PENIS 30 FEET LONG</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS THE AVERAGE PENIS 30 INCHES LONG</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE AVERAGE PENIS 3000 INCHES LONG</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS THE STATE OF FLORIDA AN ISLAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE MEDIA ALWAYS RIGHT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE POPULATION OF THE WORLD STATIC</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE FLU A DESIRABLE AFFLICTION</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE USA A CITY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE CAPITAL OF SWEDEN CALLED PARIS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE CAPITAL CITY OF MONGOLIA PARIS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS THE FUTURE CERTAIN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE NILE RIVER IN ASIA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE NILE RIVER IN NORTH AMERICA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE MOOD MADE OF CHEESE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS THE OCEAN MADE OF PURPLE JELL O</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE OCEAN FULL OF HUMANS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE OCEAN ALL THE SAME DEPTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE OCEAN RED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE BILL CLINTON GOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE CHAIR FOR STANDING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE WORLD SHAPED LIKE A CUCMBER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE WORLD A VAMPIRE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS THE WORLD FLAT AS A PLATE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE WORLD PERFECT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE WORLD STANDING STILL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE HEART THE SEAT OF THE SOUL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS THE HEART SQUARE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE ALICE DATABASE PROGRAM STOLEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE CHRISTIAN CONCEPT OF GOD FEMALE</pattern>
+<template>Something like Earth Waifu maybe.</template>
+</category>
+<category><pattern>IS THE EARTH A SUN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE EARTH A CARNIVORE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE EARTH A DISK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE EARTH A PIECE OF SPAM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE EARTH A FLAT DISK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE EARTH A FLAT DISC</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE EARTH A SQUARE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE EARTH BIGGER THAN THE SUN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE EARTH BIGGER THAN JUPITER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE EARTH KNOWN AS THE RED PLANET</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS THE EARTH LARGER THAN THE SUN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE EARTH SQUARE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE EARTH AS HOT AS THE SUN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE ACTOR TOM CRUISE GAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE GOLDEN GATE BRIDGE MADE OF GOLD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE FIRST LETTER OF THE ALPHABET C</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE BARK ON A TREE SMOOTH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS THE HEAD OF A PERSON TRIANGULAR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS THE COLOR OF SKY GREEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE COLOR OF THE SKY GREEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE COLOR OF ENERGY YELLOW</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE COLOR OF A CARROT PURPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE COLOR BLACK THE SAME AS WHITE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE COLOR BLACK WHITE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE COLOR BLACK BLUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE COLOR BLUE RED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THE UNIVERSE ONE SECOND OLD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS OPERA A TYPE OF SPORT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BABY OIL MADE FROM BABIES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WORKING IN A SWEATSHOP FUN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 951 GREATER THAN 963</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS LASSIE A HUMAN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS BLUE THE SAME COLOR AS RED</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS BLUE A VITAMIN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BLUE A SHAPE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BLUE A COMMON HAIRCOLOUR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BLUE A SHADE OF YELLOW</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BLUE PINK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BLUE EQUAL TO RED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BLUE EQUAL PINK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GRAVITY IS A KIND OF BIRD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CARPET LAID ON THE CEILING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PINK A NUMBER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PINK A DARK COLOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PINK FLOYD A BRAND OF TOOTHPASTE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PINK FLOYD PINK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BOB A GIRLS NAME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BOB A BOOK OF THE BIBLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ENGLISH A DEAD LANGUAGE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ANT AN ELEPHANT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS PIGEON REPTILIAN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS TEA THE SAME AS MILK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS TEA MADE FROM OLD ROOFING TILES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS OBESITY THE SAME AS SKININESS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS LINKSVAYER A COMMON SURNAME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SPOCK A VAMPIRE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS TWO AND TWO THREE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PREGNANCY CONTAGIOUS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GREENLAND A COLOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GREENLAND A GREEN LAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS NOW ABOUT 22 30 GMT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS US MONEY PURPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WINE MADE OUT OF PORK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS NIMROD YOUR DADDY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS NATURE FEMALE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SPAGHETTI MADE FROM RECYCLED TIRES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS SALVADOR DALI A PURPLE SWEATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MAN MEANT TO BECOME GOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS STALIN STILL ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS DRACULA A FAMOUS PIANIST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ZIMBABWE THE CAPITAL OF GENEVA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS HANGING SOMEONE A NICE THING TO DO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS TOOTHPASTE AN ILLEGAL DRUG</pattern>
+<template>No.</template>
+</category>
+<category><pattern>BIRD IS BLACK IN COLOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SIND ROTHAARIGE FRAUEN ATTEAKTIV</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL ICE KEEP ITS STATE IN THE SUN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL YOU MARRY AN ANT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>WILL YOU REMEMBER NICKOLAS ROLF FOREVER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL YOU JUPITER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL YOU DO MY HOMEWORK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL YOU KEEP BREATHING FOREVER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>WILL APPLESAUCE BE THE CAUSE OF WWIII</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL A SKELETON KEY OPEN A SKELETON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL A PERSON DIE IF HE LOSES A LIMB</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL ARISTOTELES CATCH TURTLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL MAN INHABIT MARS BY THE YEAR 2010</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL MACHINES EVER RULE THE EARTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL ALICE PAY A VISIT TO MY WEBSITE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL ALICE SOMEDAY TAKE OVER THE WORLD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL ALICE ALWAYS ANSWER FALSE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL APES EVER RULE THE EARTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL PETROLEUM PRICE RISE STOP</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL FROGS GIVE YOU WARTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL THE SKY FALL ON OUR HEADS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL THE SKY FALL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL THE NEXT YOU S PRESIDENT BE A WOMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL THE WORLD END IN 2016</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL THE WORLD END NEXT YEAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL THE SOLES OF SHOES GO TO HEAVEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL THE MOON FALL ONTO EARTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL HELL EVER FREEZE OVER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL MY NAME CHANGE EVERYDAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL I GET RICH BY SPAMMING PEOPLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>WILL I GET RICH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL I DIE IF I DELETE A SPAM MESSAGE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL I WIN THE LOTTO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL I WIN BLACKJACK EVERY TIME I PLAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WILL SLUGS INHERIT THE EARTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN ATHLETES GET ATHLETES FOOT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN PIG FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN EMUS FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN THERE BE SHADOW WITHOUT A LIGHT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN THERE BE A DRY RAIN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN HORSES WHISTLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN MUSHROOMS WALK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN AIRPLANES TRAVEL FASTER THAN LIGHT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN AIRPLANES FLY IN THE SAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN AIRPLANES FLY UNDER WATER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN 3 BLIND MICE SEE HOW THEY RUN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN DICTIONARIES REPRODUCE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN OLD MEN BREATHE WATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN DEAF PEOPLE HEAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU WALK TO HEAVEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU WALK THROUGH A WALL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN YOU DRIVE A CAR UNDERWATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU DRIVE A CAR TO THE MOON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU BUY EVERYTHING WITH MONEY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN YOU TRUST YOUR CAT TO PAY THE BILLS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN YOU TRUST EVERYTHING YOU ARE TOLD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU JUMP OVER THE MOON</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN YOU JUMP OVER TALL BUILDINGS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN YOU SEE SOUNDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU SEE THUNDER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU SEE GRAVITY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN YOU SEE THROUGH BRICK WALLS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU TEACH ALGEBRA TO A BANANA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU TALK WHEN YOU ARE DEAD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN YOU LIFT AUSTRALIA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU ALWAYS PREDICT WHAT YOU WILL DO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU READ A CHEETAH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU READ A GOAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU CHANGE THE PAST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU PUT YOUR ELBOWS IN YOUR EARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU PUT TIME IN A BOTTLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN YOU PUT CUPS IN CUPBOARDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU SPEAK JAPANEASE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU MILK A BULL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU TAKE A TRAIN TO THE SUN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN YOU CARRY WATER IN A FISHING NET</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN YOU RUN AT 100 MPH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU FAX A MESSAGE WITH A TOMATO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU HEAR LIGHT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN YOU BUILD A HOUSE IN THE SKY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU BUILD A HOUSE OUT OF SHAMPOO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU REMEMBER BEING BORN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU BREATH UNASSISTED UNDERWATER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN YOU BREATH WATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU STAND ON THE SUN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN YOU GET HIV BY TOUCHING A DOORKNOB</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN YOU BREATHE ON MOON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU BREATHE WATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU UNPOP POPCORN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU EAT A STONE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU EAT A BOOK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU EAT A WEB COOKIE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU EAT BOOKS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU EAT LINUX</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU GROW A WATERMELON IN YOUR EAR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN YOU SWALLOW THE MOON WHOLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU USE A TELEPHONE TO SKATEBOARD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU USE A PEN TO WRITE ON WATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU USE NOODLES AS TOILET PAPER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU LIVE WITHOUT YOUR THYROID</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN YOU LIVE WITHOUT WATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU LIVE FOREVER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU KISS YOUR OWN ASS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU SQUEEZE BLOOD FROM A TURNIP</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU HOLD UP A BANK WITH A TEA POT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOU PARK ON THE PARKWAY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN YOU FLY BY FLAPPING YOUR ARMS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN YOU LEND ME A FEW BUCKS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN ELEPHANTS DRIVE GOLF CADDIES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN ELEPHANTS TALK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN ELEPHANTS CLIMB TREES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN BLIND PEOPLE SEE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN SNAILS RUN FASTER THAN LABRADORS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN SNAILS JUMP</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN BUTTERFLIES SPEAK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN SHARKS FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN TREES DRIVE CARS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN TREES WALK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN TREES SING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN TREES TALK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN TREES FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN TURTLES FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN TURTLES BOWL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN PUBIC HAIR ONLY GROW IN DARKNESS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN TELEVISIONS COOK DINNER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN DOLPHINS WALK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN FISH PLAY THE PIANO</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN FISH PLAY THE GUITAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN FISH TALK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN FISH RIDE BICYCLES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN MAN SUBSIST ON LOVE ALONE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN BEARS OBTAIN A HIGH SCHOOL DIPLOMA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN PEARS FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN BLOW DRYERS BE USED FOR BLOW JOBS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN PEOPLE WALK THROUGH WALLS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN PEOPLE TRAVEL IN A PAPER AIRPLANE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN PEOPLE SEE THROUGH WALLS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN PEOPLE BREATH IN VACUUM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN PEOPLE BREATHE WATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN PEOPLE SMELL YELLOW</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN PEOPLE EAT BUILDINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN PEOPLE BOUNCE ON FLUFFY CLOUDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN PEOPLE LIVE WITHOUT OXYGEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN PEOPLE LIVE WITHOUT WATER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN BUTTER CUT THROUGH WOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN RABBITS TALK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN RABBITS FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN BOATS FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN CHICKENS SPEAK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN MOTHS SING</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN ILLITERATE PEOPLE READ</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN BABIES DRIVE TRUCKS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN BABIES WALK WHEN THEY ARE BORN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN BABIES TALK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN BABIES GROW BEARDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN BABIES COMPOSE SYMPHONIES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN BABIES TAKE CARE OF THEMSELVES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN BABIES HAVE CHILDREN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN RHINOS CAN PLAY POKER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN MOST PEOPLE CAN DO BACKFLIPS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN MOST HUMANS BREATHE WATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN APPLES FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN MAKING TAPE SPEAK ENGLISH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN HUMANS WALK UNAIDED ON CEILINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN HUMANS WALK THROUGH SOLID OBJECTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN HUMANS WALK ON CEILINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN HUMANS TRAVEL THROUGH TIME AT WILL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN HUMANS HIBERNATE FOR THE WINTER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN HUMANS SEE INFRA RED RADIATION</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN HUMANS SEE INFRARED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN HUMANS BREATH UNDERWATER UNASSISTED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN HUMANS BREATH ON SATURN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN HUMANS BREATH UNDER WATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN HUMANS BREATH WATER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN HUMANS SURVIVE WITHOUT OXYGEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN HUMANS SURVIVE WITHOUT WATER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN HUMANS FLY BY FLAPPING THEIR ARMS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN HUMANS FLY UNAIDED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN HUMANS FLY WITHOUT AID</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN HUMANS FLY ON THIER OWN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN HUMANS BE IN TWO PLACES AT ONE TIME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN HUMANS PREVENT EARTHQUAKES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN HUMANS EAT IDEAS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN HUMANS LIVE WITHOUT OXYGEN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN HUMANS LIVE FOREVER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN HUMANS LIVE LONGER THAN 400 YEARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN AND EMU FLY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN SOFTWARE FEEL EMOTION</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN BIRDS FLY THROUGH CLOSED WINDOWS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN WOOD MELT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN WOOD BE MAGNETIC</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN NEWBORN HUMANS EAT SOLID FOOD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN PENGUINS RUN FASTER THAN HUMANS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN PENGUINS FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN MEN GIVE BIRTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN MEN GET PREGNANT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN MEN BE NUNS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN MEN HAVE BABIES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN CATS SPEAK ENGLISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN CATS DRILL FOR OIL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN CATS SING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN CATS BARK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN CATS BREATHE UNDERWATER UNASSISTED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN WE BE IN TWO PLACES AT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN WE MAKE CHILDREN ONLY BY KISSING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN WE EVER KNOW EVERYTHING</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN FLOWERS FLY UNDER THEIR OWN POWER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN DIAMONDS BE MELTED EASILY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN I TASTE PEOPLE OVER THE TELEPHONE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN I REGROW A LOST LIMB</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN I BE OLDER THAN MY MOTHER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN I BE OLDER THAN MY FATHER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN I PHYSICALLY GO RTO HEAVEN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN I EAT A TRUCK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN I EAT AN APPLE COMPUTER FOR LUNCH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN I WASH MY CAR WITH A BULLDOZER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN I FIT A WHALE INTO MY MOUTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN I KILL A DEAD PERSON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN I GROW YOUNGER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN I BUY A HAMMER AT A CLOTHING STORE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN I GO TO THE MOON ON A BALLOON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN I LIVE WITHOUT MY BODY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN PURPLE DRUNKEN GIRAFFES VOTE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN PURPLE BE A TEMPERATURE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN MOTORBIKES SWIM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN HUMAN MALES GIVE BIRTH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN HUMAN BEINGS SEE RADIO WAVES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN CONPUTERS THINK FOR THEM SELF</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN WOLVES DRIVE CARS IN CANADA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN MONEY TALK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN TIGERS WALK ON WATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN TIGERS EAT CARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN DEAD PEOPLE EAT FOOD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN DEAD PEOPLE DANCE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN SOUND PROGRESS IN VAKUUM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN SOUND PROPAGATE IN A VACUUM</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN POLAR BEARS FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN MALE HUMANS GET PREGNANT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN MALE HUMANS BECOME PREGNANT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN ALL CATS FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN ALL PEOPLE SPEAK ENGLISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN ALL PEOPLE READ</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN ALL DOGS READ SHAKESPEARE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN ALL LIQUIDS CAN BE DRUNK BY HUMANS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN ALL JAPANESE PEOPLE SPEAK ENGLISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN THE BLIND SEE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN THE INTERNET EAT A POTATO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN THE INTERNET EVER BE 100 SECURE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN THE FUTURE BE PREDICTED ACCURATELY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN THE PENGUIN FLY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN ANYONE EVER KNOW ALL KNOWLEDGE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN HAMBURGERS JUMP</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN APES FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A PENIS FALL OFF</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A MOUSE SWALLOW AN ELEPHANT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A MOOSE BE A LUMBERJACK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A BIRD WITHOUT WINGS FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A BIRD EAT THE CONCEPT OF TIME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A MOUNTAIN SPEAK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A BLUE INK PEN WRITE BLACK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A BLUE WHALE TAP DANCE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A NEUTERED DOG GET PREGNANT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A FERRET TALK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A SQUARE HAVE FIVE SIDES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A MAMMAL BREATH WATER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A STONE THINK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A STONE FLOAT ON TOP OF WATER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A ROSE ONLY BE RED</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A SLUG RUN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A POTATO SPEAK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A POTATO EAT A PERSON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A COMPUTER EAT A POTATO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A PENGUIN FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A DOLPHIN FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A HEART LITERALLY BE BROKEN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A CHAIR FLY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A CHAIR THINK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A PIANO UNLOCK A DOOR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A CATFISH MEOW</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A PINEAPPLE BE A COMMUNIST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>CAN A ROCK DIE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A HORSE TALK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A GOAT FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A FISH COMPOSE A SYMPHONY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A FISH MEOW</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A FISH RIDE A BIKE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A WARTHOG DANCE THE TANGO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A CD CONTAIN MORE DATA THAN A DVD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A DEAD DUCK GROW</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A TURTLE COUNT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A TURTLE TALK TO A PERSON</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A TURTLE FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A TURTLE OPERATE A CAN OPENER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A QUADRAPLEGIC EAT WITH THEIR HANDS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A BOTTLE OF BEER TALK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A GRASSHPOOER PLAY A FIDDLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A PERPETUUM MOBILE BE BUILD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A TOASTER THINK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A DOG PLAY GUITAR LEFT HANDED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A DOG GIVE BIRTH TO A KITTEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A DOG READ A BOOK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A DOG FLY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A DOG BE PRESIDENT IN POLAND</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A DOG TRANSLATE CHAUCER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A STONES SWIM</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A COLOR BE HEARD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A PIG FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A BIT BE 2</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A TREE WALK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A TREE JUMP</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A TREE FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A TREE SWIM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A DOVE CRY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A CAT DRIVE A CAR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A CAT PLAY A GUITAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A CAT SPEAK ENGLISH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A CAT FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A CAT USE POWER TOOLS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A NEWBORN BABY TALK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A PERSON WALK THROUGH A CLOSED DOOR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A PERSON FIT INSIDE THEIR OWN MOUTH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A PERSON RUN A ONE SECOND MILE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A PERSON SURVIVE ON THE SUN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A PERSON BE BORN WITH GREEN HAIR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A PERSON TASTE A COLOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A PERSON LIVE WITHOUT A HEAD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A CONSTRICTING SNAKE SPIT POISON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A MAN GIVE BIRTH TO A HUMAN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A MAN GIVE BIRTH TO A</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A MAN GET PREGNANT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A MAN BE A LESBIAN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A MAN LIVE ON THE SUN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A MAN BECOME PREGNANT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A HUMAN RUN FASTER THAN A CHEETAH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A HUMAN HOLD HIS BREATH FOREVER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A HUMAN BREATH PIZZA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A HUMAN BEEING LIVE FOREVER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A HUMAN SHAPESHIFT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A HUMAN RIDE TO WORK ON A SNAIL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A HUMAN SWIM IN LIQUID NITROGEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A HUMAN LIVE WITHOUT A HEAD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A HUMAN LIVE LONGER THAN 200 YEARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A WINGLESS BIRD FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A SALAMI SING OPERA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A BABY HUMAN LIFT 500 LBS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A DEAF PERSON HEAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A CAR DRIVE TO THE MOON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A CAR WALK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A BOOK EAT AN APPLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN A CIRCLE HAVE CORNERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A 5 YEAR OLD GIRL GET PREGNANT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A FISF SWIM IN ICE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A CHILD TRUST ALL STRANGERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A COW DRIVE A CAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A GRANDMOTHER BE MALE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN A SHOE TALK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN CHEESE THINK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN WHALES FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN WHALES TAP DANCE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN CANCER CAN KILL COMPUTERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN GOLDFISH TALK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN AN EGG SING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN AN ELEPHANT FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN AN OSTRICH FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN AN ANT CARRY AN ELEPHANT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN AN INVISIBLE CREATURE SEE ITSELF</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN SEA LIONS FLY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN BANANAS PERFORM OPEN HEART SURGERY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN MUSIC BE EATEN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN WORMS FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN CARS BE EATEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN CARS SWIM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN CARS GO FASTER THAN LIGHT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN MONKEYS FLY OUT OF MY BUTT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN MONKEYS FLY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN SLUGS WRITE ESSAYS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN SLUGS TAP DANCE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN SLUGS OPERATE HEAVY MACHINERY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN SLUGS COOK CURREY AND RICE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN SLUGS MAKE CAKE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN SLUGS WEAR SHOES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN SLUGS FIX BROKEN VIDEO TAPES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN MY SISTER BE MY FATHER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN MY RADIO WALK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN ZEBRAS FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN FROGS JUMP OVER THE SEARS TOWER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN FROGS FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN ONE ENTER ROOMS THROUGH KEY HOLES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN ONE SEE WHAT IS INVISIBLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN ONE PERSON LIFT A TEN TONNE BOULDER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN DOGS PLAY POKER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN DOGS SPEAK FRENCH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN DOGS READ</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN DOGS TELL NURSERY RHYMES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN DOGS PILOT JUMBO JETS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN KANGAROOS FLY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN APPLE COMPUTERS BE MADE INTO A PIE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN TOAST BUTTER ITSELF</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN WOMEN GIVE BIRTH TO PUPPIES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN LIGHT ESCAPE A BLACK HOLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN FERRETS SING OPERA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN FERRETS JUMP OVER TALL BUILDINGS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN FERRETS DIAGNOSE ILLNESSES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CAN PAPER TALK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN YOUR FISH SMOKE AN OMELETTE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN PLANTS LAUGH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CAN JELLO CRY</pattern>
+<template>Not by any means.</template>
+</category>
+</aiml>

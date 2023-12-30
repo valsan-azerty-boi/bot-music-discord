@@ -1,7 +1,13 @@
 import asyncio
 import discord
+from dotenv import load_dotenv
 from discord.ext import commands
 import yt_dlp as youtube_dl
+import os
+
+# Load env config file
+load_dotenv()
+WEBRADIO_URI = os.getenv("webradio_uri")
 
 # Suppress noise about console usage from errors
 youtube_dl.utils.bug_reports_message = lambda: ''
@@ -142,6 +148,9 @@ class Audio(commands.Cog):
     # Play audio command
     async def play_audio(self, ctx, *args):
         try:
+            if any("list=" in arg for arg in args):
+                await ctx.send("Playlists are not allowed.")
+                return
             server = ctx.message.guild
             voice_channel = server.voice_client
             voice_client = ctx.message.guild.voice_client
@@ -158,16 +167,40 @@ class Audio(commands.Cog):
                 vid = info["formats"][0]
             if voice_client.is_playing() == False and self.resumeValue[ctx.guild.id] == True:
                 voice_channel.play(discord.FFmpegPCMAudio(vid["url"], **ffmpeg_options))
-                await ctx.send("WARNING: YouTube has been updated recently and broke a lot of discord audio bot, the audio can be broken. Now playing: `{0}`".format(title))
+                # await ctx.send("WARNING: YouTube has been updated recently and broke a lot of discord audio bot, the audio can be broken. Now playing: `{0}`".format(title))
+                await ctx.send("Now playing: `{0}`".format(title))
                 while voice_client.is_playing() == True or self.resumeValue[ctx.guild.id] == False:
                     await asyncio.sleep(3)
                 else:
                     asyncio.ensure_future(self.serverQueue(ctx))
             else:
-                self.queue[ctx.guild.id].append(' '.join(filter(None, args)))
-                await ctx.send("Added to queue: `{0}`".format(title))
+                if len(self.queue[ctx.guild.id]) <= 10:
+                    self.queue[ctx.guild.id].append(' '.join(filter(None, args)))
+                    await ctx.send("Added to queue: `{0}`".format(title))
+                else:
+                    await ctx.send("The queue is full")
         except Exception as ex:
             print(ex)
+            pass
+
+    @commands.hybrid_command(name='radio', aliases=['webradio'], help='Listen webradio (experimental feature)', with_app_command=True)
+    async def play_radio(self, ctx):
+        try:
+            self.resumeValue[ctx.guild.id] = True
+            await self.createServerResumeValue(ctx)
+            await self.createServerQueue(ctx)
+            await self.stop(ctx)
+            await self.join(ctx)
+            server = ctx.message.guild
+            voice_channel = server.voice_client
+            if WEBRADIO_URI:
+                voice_channel.play(discord.FFmpegPCMAudio(WEBRADIO_URI, **ffmpeg_options))
+            else:
+                voice_channel.play(discord.FFmpegPCMAudio('http://fallout.fm:8000/falloutfm1.ogg', **ffmpeg_options))
+            await ctx.send("Now playing: `webradio`")
+            self.resumeValue[ctx.guild.id] = True
+        except Exception as e:
+            print(e)
             pass
 
     @commands.command(name='play', aliases=['p', 'audio', 'launch'], help='To play an audio, aliases are \'p\'|\'launch\'')

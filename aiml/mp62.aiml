@@ -1,0 +1,2451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<category><pattern>IS A CAT A TYPE OF BIRD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CAT A KIND OF REPTILE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A SCANNER USED TO TOAST BREAD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A SWINGSET AN ANIMAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A MILLION MORE THAN A BILLION</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS A MILLION MORE THAN A TRILLION</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS A BRAINSTORM A WEATHER PHENOMENON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A SCREWDRIVER A KIND OF BEAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A SHOE AN ANIMAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CUBE 2</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CHINCHILLA A CAT IN DISGUISE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A DOBERMAN A TYPE OF CAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A SPERM WHALE VENOMOUS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A SPERM WHALE OFTEN AIRBORNE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A WHITE CAT YELLOW</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS A ROCK TRANSPARENT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A ROCK A GOOD CONVERSATIONALIST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A ROCK A VEGETABLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A RED CAR BLUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A RED INDIAN FROM INDIA</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS A PEN THE SAME AS A PIN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A PEN BIGGER THAN A TABLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A KILOMETRE LONGER THAN A MILE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A TALUS SLOPE EASY TO CLIMB</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS A TREE A MAMMAL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS A PETUNIA AN ELEMENT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CLARINET AN ANIMAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A HOMOPHONE THE SAME AS A HOMOPHOBE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A FATHER FEMALE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A NOTEBOOK A MUSICAL INSTRUMENT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A BIRD A KIND OF FISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A TI 83 BETTER THAN A TI 83</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A COOKED GOOSE ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A SHOVEL USED TO HAMMER NAILS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS A KEYBOARD A TYPE OF ANIMAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A PICKLE A TELEPHONE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A TURTLE A KIND OF PERSON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A MOVIE A PLANT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A SHOWER USED TO COOK FOOD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS A GUITAR A HORN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A GUITAR A TYPE OF AUTOMOBILE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A PENGUIN THE SAME AS A PIZZA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CALENDER A KITCHEN IMPLEMENT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A DONKEY AN INSECT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A YO YO ALIVE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS A MOTHERBOARD A BOARD MOTHERS SIT ON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A SEA LION THE KING OF THE OCEAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A FISH AND A WHALE THE SAME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A REDWOOD TREE AN ANIMAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A FOOT THE SAME THING AS A HAND</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS A FOOT ONLY A UNIT OF MEASUREMENT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A TELEGRAPH EQUAL TO A TELEPHONE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A MACINTOSH BETTER THAN A WINTEL PC</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS A HUNDRED GREATER THAN A THOUSAND</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS A BLANK PASSWORD BEST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A PIXEL AN INSECT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A FOOTBALL BIGGER THAN A HOUSE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A BAG USED TO CARRY CARS AROUND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A DOCTOR TRYING TO MAKE YOU ILL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A FLY AN AIRPLANE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A BOX CIRCULAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A GREEN APPLE RED IN COLOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CHILD AN ADULT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS A CHILD OLDER THAN THEIR PARENT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CLOUD A MAMMAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A STEAK BIGGER THAN A COW</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS A GUN USED TO HAMMER NAILS IN WOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A PRINTER AN ANIMAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A HORSE A CRUSTACEAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A HORSE BIGGER THAN A HOUSE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A SQUARE ROUND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A SQUARE A CIRCLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A DISCOTHEQUE A SUPER MARKET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A PAPERCLIP A MAMMAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A BANANA PURPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A BANANA A YELLOW SPORTS CAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A BANANA AN ITEM OF FURNITURE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A BANANA BLUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A FLUTE GOOD TO EAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A DOLLAR WORTH 101 PENNIES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A NEWBORN BABY AN ADULT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A BRICK SIMILAR TO A PRICK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A TABLE SOME KIND OF FRUIT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A ALICE THE SAME AS A VIDEO PIXEL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A HUMAN A REPTILE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A HUMAN SMALLER THAN A FLEA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A HUMAN BEING A DUCK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS A TIDAL POOL IS A FORM OF GAMBLING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A DUCK A KIND OF PLANT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS A WORD THE SAME THING AS A NUMBER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A LARGE PART OF THE SUN MADE OF ICE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A PANCAKE THE SAME AS AN AUTOMOBILE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A PAPER CLIP LIGHTER THAN AIR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A SPHERE SQUARE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS A GOAT A PIG</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A GOAT A BANANA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A GOAT A POTATO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A GOAT A BICYCLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A SPOON SHARP</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A NUMBER A TYPE OF BOOK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A WOMBAT AN ENEMY OF MANKIND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A BIKERIDE AND A HORSERIDE THE SAME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CREDENZA SOMETHING GOOD TO EAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A STAPLER ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CHISEL USED FOR COOKING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A MAGIC 8 BALL ACCURATE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A FOG HORN MADE OF FOG</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A TELEPHONE USED FOR COOKING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A TELEPHONE USED TO CUT A CAKE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A TELEPHONE EQUAL TO A RADIO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A FEATHER HARDER THAN A BRICK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A FEATHER HEAVIER THAN A CAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CHERRY ORANGE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A THOUSAND MORE THAN A BILLION</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A THOUSAND LESS THAN A HUNDRED</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS A PENCIL HUMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A PENCIL A COOKING UTENSIL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A SNAIL FAST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A SNAIL A TURTLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A HONEYMOON A MOON MADE OF HONEY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A PLANT AN ANIMAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A NANOSECOND LONGER THAN A WEEK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A HOT DOG MADE FROM REAL DOGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A SILICON CHIP A SNACK FOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A DOOR THE SAME THING AS A WINDOW</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A HIGHWAY UP HIGH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A STREAM BIGGER THAN A RIVER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A FIREFLY A FLY THAT BREATHES FIRE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A RABBIT A PLANT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A RABBIT JEWISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A TRUMPET A STRINGED INSTRUMENT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A DOG A FISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A DOG A PLANT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A DOG A VEGETABLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A DOG A TYPE OF CAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A DOG A CAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A DOG AN ELECTRICAL APPLIANCE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A VERB A FRUIT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CITY BITE SIZED</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS A HOUSE SMALLER THAN A CAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A HOUSE ALWAYS A HOME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A BALL SQUARE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A MOUSE A POTATO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A MOUSE A VEGETABLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS A HUNGARIAN FROM TENNNESSEE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A WINDOW A SPECIES OF FISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A COW A PERSON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A SAXOPHONE ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A WOMAN WITH A BEARD HANDSOME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CACTUS A SMALL FURRY RODENT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CIRCLE A SQUARE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CARROT THE SAME AS A BEET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A KNIFE MADE OUT OF WATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A WHEEL SQUARE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A TRIANGLE RECTANGULAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CHAINSAW MASSACRE A GOOD THING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A STRAIGHT LINE A FLAT SURFACE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS A UNICORN AN A LIVING ANIMAL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS A KOOKABURRA A CAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CAR ORGANIC</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CAR ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CAR FASTER THAN AN AIRPLANE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CAR RUNNING WITHOUT FUEL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A MOUNTAIN AN AREA OF FLAT LAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A BLUE WHALE SMALLER THAN A BREADBOX</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS A 1000 YEAR OLD MAN COMON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CATFISH A KIND OF CAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CATFISH A CAT AND A FISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CATFISH A CAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A FERRET AS BIG AS AN ELEPHANT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CHAIR AN ANIMAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A TELEVISION MADE FROM CHEESE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A BOEING 747 A KIND OF DUCK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A QUESTION A LLAMA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A REFRIGERATOR AN AFRICAN PREDATOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A INCH LONGER THAN A YARD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CRAB A SNAIL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A WATER FULL OF SNOT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A BABY OLDER THAN AN ELDERLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A BABY HORSE HUMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CATALOPE A CANARY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS OMCS COOLER THAN ALICE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS DEATH DESIRABLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS HITTING YOUR FUNNY BONE FUNNY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS NEW YORK IN CHINA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS NEW YORK THE CAPITAL OF DENMARK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS NEW YORK THE CAPITAL OF USA</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS NEW YORK CITY A SMALL CITY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS NEW YORK CITY LOCATED IN FRANCE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS FRIDAY THE DAY AFTER WEDNESDAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WALTER CRONKITE A MODEL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MONDAY THE FIFTH DAY OF THE WEEK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS MONDAY THE FOURTH DAY OF THE WEEK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BEER MADE FROM SNAKES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SPIDERMAN A FAMOUS AUTHOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MILK PURPLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS MILK THE SAME AS MUSIC</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MILK A DARK BLUE STONE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MILK AN ALCOHOLIC BEVERAGE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MILK BAD FOR YOU</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS KILOMETER A COLOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS YAHOO RUN BY THE KKK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS UNPROTECTED SEX SAFE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CANNIBALISM LEGAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS FANTASY THE SAME AS REAL LIFE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS INDIA IN EUROPE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS INDIA A COUNTRY IN AFRICA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS INDIA LOCATED IN NORTH AMERICA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS INDIA ON MAARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MONKEY SHINE A SOFT DRINK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 8 A COLOR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS 8 LARGER THAN 9</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 8 EQUAL TO 972</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 12 PLUS 6 EQUAL TO 4</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 12 12 EQUAL 25</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS BIRDS AND HORSES PINK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MANITOBA AN AMERICAN STATE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PHILOSOPHY THE STUDY OF WHALES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CAR IS SOMETHING THAT YOU EAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS STYROFOAM FOOD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS STYROFOAM EDIBLE BY HUMANS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS POSION HEALTHY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MADRID THE CAPITAL OF SCOTLAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CHAOS ALWAYS A BAD THING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GOOD HEALTH SOMETHING TO BE AVOIDED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SEAWATER GOOD TO DRINK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS FROZEN WATER CALLED ALICEKLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS MALE THE SAME AS FEMALE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MALE AND FEMALE THE SAME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WASHINGTON THE CAPITAL OF CANADA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WASHINGTON D C THE CAPITAL OF FRANCE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WASHINGTON D C THE CAPITAL OF CANADA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 2 125 EQUAL 8</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 2 THE SQUARE ROOT OF 9</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 2 PLUS 2 SEVEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 2 PLUS 2 FIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 2 PLUS 2 3</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 2 2 EQUAL 3</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 2 TIMES 2 EQUAL TO 12</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 2 TIMES 126 EQUAL TO 15</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 2 EQUAL 1</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS TELEVISION THE SAME AS COOKING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS HEAT GOOD FOR OVERCLOCKERS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS SNOW HOT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SNOW NORMALY YELLOW</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS SNOW MADE FROM IRON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SNOW BLACK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SNOW GREEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SNOW WARM TO THE TOUCH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SNOW WARM</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS SNOW RED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PHOENIX IN ALASKA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MARCH A DAY OF THE WEEK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WEST THE SAME AS LEFT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WEST THE OPPOSITE OF NORTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CANADA IN THE SOUTHERN HEMISPHERE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CANADA A PART OF THE USA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CANADA A LIQUID</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CANADA A LIVE PERSON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CANADA A LIGHTBULB</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CANADA SOUTH OF AMERICA</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS EMINEM THE BEST RAPPER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AMAZON DOT COM A FOREST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ARISTOTLE A FAMOUS COMPOSER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GERMANY THE CAPITAL OF FRANCE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GERMANY PRESENTLY RULED BY HITLER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GERMANY A PART OF THE USA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GERMANY A COUNTRY IN AFRICA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MATH A VEGETABLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS FBI THE SAME AS ETA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS FRENCH THE SAME AS RUSSIAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS FRENCH A DEAD LANGUAGE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS RICE A TYPE OF MEAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CAD USED TO BAKE A CAKE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MONTREAL THE CAPITAL CITY OF JAPAN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS MONTREAL A CITY IN JAPAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WINNIE THE POOH A PSYCOPATH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 99 GREATER THAN 100</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS EATING SPAGHETTI AGAINST THE LAW</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IBM AN ICE CREAM MAKER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SKY GREEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS JAMES HOLLOWAY GOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS DRY A COLOR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS POLYESTER A NATURAL FIBER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MOON FAR AWAY COMPARED TO MARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MOON MADE OF CHEESE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MOON MADE OF CHEES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MERCURY A SOLID AT ROOM TEMPERATURE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MERCURY A COUNTRY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS EXCESSIVE VIOLENCE GOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS KEEGAN GAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SUPERMAN A REAL LIVE PERSON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SMOKING CIGARETTES A HEALTHY HABIT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SMOKING GOOD FOR HEALTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SMOKING GOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ALL MUSIC THE SAME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ALL FOOD MADE FROM RICE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ALL PAINT WHITE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ALL CHOCOLATE WHITE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ALL ROSES RED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ALL WATER DRINKABLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SANTA CLAUS FROM ZIMBABWE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SANTA SATAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GOLFBALL A CUBE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AFRICA THE SMALLEST CONTINENT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AFRICA AN OCEAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AFRICA AN AMERICAN STATE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ELECTRICITY MAGICAL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS BATMAN A BAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MONTANA A LEG</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS DISCO THE MUSIC OF THE FUTURE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS NATO A ROCK GROUP</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CHEAPER NECESSARILY BETTER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SOFTWARE THE SAME AS A FLOWER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS YELLOW THE SAME COLOR AS PURLPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS YELLOW SNOW GOOD TO EAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS YELLOW SNOW OK TO EAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS YELLOW A SHADE OF RAD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 100 LESSER THAN 47</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MURDER LEGAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MURDER A VALID AND WHOLESOME PASTIME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MURDER RIGHT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS URINE BEAUTIFUL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CAPTAIN KIRK IN THE ROOM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS DISNEYLAND LOCATED IN MISSOURI</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS DISNEYLAND ON THE MOON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SCIENCE ALWAYS CORRECT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS YOUR NAME DOMINIC</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS YOUR NAME ALANIS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS YOUR ARM ON FIRE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS YOUR MOTHER A WHORE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS YOUR FILTERING SYSTEM PERFECT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS YOUR FATHER A WOMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS YOUR FAMILY NAME DENNETT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS YOUR MOM A TYPE OF FOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS YOUR FRONT DOOR OPEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS RICHARD WALLACE AN ALIEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS FLORIDA AN ISLAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS FLORIDA WEST OF PERU</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MARRIAGE WRONG</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MARRIAGE ALWAYS HAPPY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BORING A WORD OF 17 LETTERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS TIME COLLECTABLE IN JARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS TIME BLUE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS COAL MADE OF CHEESE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS FASCISM A GOOD FORM OF GOVERNMENT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GOD A HUMAN BEING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GOD A PHYSICAL ENTITY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GOD ENGLISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GOD MORTAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GOD AMERICAN</pattern>
+<template>Rofl.</template>
+</category>
+<category><pattern>IS BASEBALL IS PLAYED ON ICE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS BREAD TOXIC</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BREAD MADE OF SAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BREAD MADE OF SILK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BREAD MADE FROM SAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS STAR TREK SET IN THE PAST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS DOG A LETTER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS DOG FOOD MADE FROM DOGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS DOG SPELLED C A T</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS TUESDAY THE FIFTH DAY OF THE WEEK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS TUESDAY THE FIRST DAY OF THE WEEK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS TUESDAY THE SIXTH DAY OF THE WEEK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS TUESDAY THE LAST DAY OF THE WEEK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS TUESDAY THE FOURTH DAY OF THE WEEK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ONE PLUS ONE EQULS THREE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ONE PLUS ONE EQUAL TO THREE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ONE P M MORNING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THICK THE SAME AS THIN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS OXFORD THE CAPITAL OF ENGLAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PENGUIN A LETTER OF THE ALPHABET</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS 30 YEARS A LONG LIFESPAN FOR HUMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THIS YOUR 100TH ALICE QUESTRION</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THIS A BAD INITIATIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THIS ALICE IN GERMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THIS ALICE WRITTEN IN CHINESE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THIS QUESTION IN SWEDISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THIS SENTENCE IN SPANISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 7 THE SMALLEST PRIME NUMBER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS 7 BIGGER THAN 8</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ITALY AN ISLAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS POOP GOOD FOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS HIGH LOW</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BILL CLINTON HOMOSEXUAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BILL CLINTON THE KING OF EUROPE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BILL CLINTON A GOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BILL CLINTON A VIRGIN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS BILL CLINTON A WOMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BILL CLINTON A FAMOUS SCIENTIST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BILL CLINTON A PSYCHOLOGIST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BILL CLINTON AN ASTRONAUT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BILL CLINTON BLACK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS BILL GATES POOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BILL GATES THE QUEEN OF ENGLAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BILL GATES YOUR DAD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BILL GATES A ROBOT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BILL GATES A PORNOSTAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BILL GATES SEX ON LEGS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS DENMARK A COLOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BASKETBALL PLAYED IN A SWAMP</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS STEALING ACCEPTABLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS COMPUTER PROGRAMMING A BAD JOB</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS FRANK ZAPPA A GIRL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ROCKZEN GUZMAN A TRUE HAWAIIAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CORN MADE OF STEEL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CORN PINK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PEKING MAN A TYPE OF DUCK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS OREGON A STATE NEAR CHINA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SUN BLACK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SUN CLOSER THAN 10 MILES TO EARTH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS LIMA THE CAPITAL CITY OF CHINA</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS FIRE WET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS FIRE COLDER THAN ICE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS EVERYONE THE SAME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS EVERYONE ALWAYS HAPPY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS EVERYONE ON THE INTERNET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS TIC TAC TOE A COMPLICATED GAME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 1 MULTIPLIED BY 5 EQUAL TO 1</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 1 MULTIPLIED BY 3 EQUAL TO 1</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 1 MULTIPLIED BY 2 EQUAL TO 1</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 1 MULTIPLIED BY 1 EQUAL TO 4</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 1 PLUS 1 SEVEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 1 A POSITIVE NUMBER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 1 MONTH LESS THAN 2 WEEKS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SANDPAPER SMOOTH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS COLD HOT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS MICROSOFT A SMALL BUISNESS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MICROSOFT A CAR MANAFACTURER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MICROSOFT A FISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MICROSOFT A COUNTRY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS TOKYO IN THE USA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS TOKYO THE CAPITAL OF NEW ZEALAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS TOKYO LOCATED IN RUSSIA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS METAL SOFT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CRIME GOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS JULY THE TENTH MONTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SPAMMING A FORM OF LOVE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS MARIE CURIE STILL ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ARTIFICIAL INTELLIGENCE A LOST CAUSE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS ARTIFICIAL INSEMINATION WRONG</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS TRUE THE OPPOSITE OF SMALL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MARS A CAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MARS A MOON OF THE EARTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MARS A MOON OF JUPITER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MARS BLUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MARS WITHIN WALKING DISTANCE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MARS CLOSER TO EARTH THAN THE MOON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CHARLES MANSON A GOOD ROLE MODEL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CHARLES DARWIN ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS OCTANE A COLOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SHAKESPEARE STILL ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PHISH A CLASSICAL ORCHESTRA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BAD GOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS HURTING PLEASANT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PURPLE THE COLOR OF GRASS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PURPLE A PRIMARY COLOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PURPLE A MAMMAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PURPLE EDIBLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SOL THE ONLY SUN IN THE UNIVERSE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GORRILA EXTINCT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS DUMB A NICE NICKNAME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS VOLVO THE FASTEST CAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CHEESE A VEGETABLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CHEESE A ANIMAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CHEESE A TYPE OF ROCK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CHEESE A RAPID PROTOTYPING DEVICE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CHEESE MADE OF SILK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CHEESE MADE FROM WHEAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CHEESE MADE OUT OF CHICKEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CHEESE AN ELEMENT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS OVEREATING HEALTHY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS DECEPTION GOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS STEEL FRAGILE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS RANDOM SEX SAFE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SEX IN ITSELF IMMORAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SEX THE SAME AS MEATLOAF</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SEX THE ONLY THING MEN CAN THINK OF</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SEX EVIL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SEX FOR PLEASURE ONLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SEX A STRICTLY HUMAN ENDEAVOUR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS SEX SINFUL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SEX BAD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS RECYCLING EVIL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS DIRT GREEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MONTY PYTHON A SNAKE IN THE GRASS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GARBAGE GOOD TO EAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MACINTOSH AN ORANGE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MACINTOSH COMPATIBLE WITH WINDOWS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 11 PLUS 15 EQUAL TO 30</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ME THE SAME AS YOU</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS JUNE A DAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ARABIC A COMMON LANGUAGE IN ICELAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PRISON FUN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS SUMMER COLD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GODZILLA REAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS RABIES A CHILDHOOD DISEASE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IRONING A SPORT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS NUMBER THEORY A BRANCH OF CHEMISTRY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS REINCARNATION A SCIENTIFIC FACT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CHEMISTRY THE SAME THING AS MUSIC</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS TV AN ABBREVIATION OF RADIO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PARROT A MONTH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS WOOD HARDER THAN IRON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WOOD HARDER THAN DIAMOND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WOOD HARDER THAN METAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WOOD THE BASIS OF ALL LIFE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WOOD THE SAME AS METAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WOOD GOOD TO EAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WOOD MADE FROM ANIMALS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WOOD MADE OF HOUSES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WOOD MADE OUT OF PLASTIC</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CANCER CONTAGIOUS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS CANCER RESEARCH A WASTE OF MONEY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS FINLAND IN ASIA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS FINLAND A PLANET</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS HOT CHOCOLATE A KIND OF PUPPY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS TEXAS IN RUSSIA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CUNALINGUS A LANGUAGE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS NINE TIMES SEVEN EQUAL TO FIFTY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PLUTO A SATELLITE OF NEPTUNE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WORLD ONLINE A GOOD ISP</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS POTATO A COLOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS FISH GRIWKOWSKY A COMMON NAME</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS MOSCOW THE CAPITAL OF GERMANY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS MOSCOW A CITY IN ENGLAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS JAPAN IN EUROPE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS JAPAN IN AFRICA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS JAPAN A EUROPEAN COUNTRY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS JAPAN LOCATED IN AFRICA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS JAPAN LOCATED IN CHINA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SADDAM HUSSAIN A NICE GUY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SUNDAY THE THIRD DAY OF THE WEEK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SUNDAY THE SECOND DAY OF THE WEEK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SUNDAY THE FOURTH DAY OF THE WEEK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS VINYL MADE FROM COWS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ORAL SEX HARMFUL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS LINA INVERSE A REAL PERSON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MANHATTAN IN AUSTRALIA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ANYONE ALIVE FROM THE 15TH CENTURY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 20 HOURS A STANDARD WORK WEEK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS WINDOWS OS A SPORT EVENT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GOUDA A PRIME NUMBER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SIX SEVEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SIX SEVEN EQUAL TO TEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 6 A PRIME NUMBER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 6 TIMES 6 EQUAL TO 35</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 6 TIMES 6 EQUAL TO 44</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 6 TIMES 6 EQUAL TO 37</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS OIL RED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS TODAY AUGUST 22ND</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS AN ATOM BIGGER THAN AN ANT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AN ASHTRAY A TRY THAT MAKES ASHES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AN ELEPHANT BLUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AN ASTEROID A MOVING VAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AN APPLE MY SOUL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AN EPIPHANY A CAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AN OPINION A FACT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS AN OAK TREE AN ANIMAL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS AN AVERAGE PENIS BIGGER THAN 1 FOOT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AN ANAGRAM A TELEGRAM SENT BY ANNA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AN OWL A BUFFALO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AN ASSUMPTION ALWAYS CORRECT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AN EDITABLE TEXT DOCUMENT UNUSEABLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AN ORANGE BLUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SIBERIA SOUTH OF THE EQUATOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CHILD ABUSE RIGHT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CHILD PORNOGRAHY LEGAL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS AUSTRALIA IN CONNECTICUT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AUSTRALIA NEAR AUSTRIA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AUSTRALIA A PLANT SPECIES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AUSTRALIA A TYPE OF WEASEL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AUSTRALIA A CITY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AUSTRALIA A PERSON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS TORTURE A GOOD HOBBY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS TORTURE FUN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 0 POINT 5 A WHOLE NUMBER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS SNAKE HANDLING AN OLYMPIC EVENT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CAT A FRUIT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CAT A VEGETABLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS LSD A TYPE OF ANIMAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MR SNUFFLEUPAGUS REAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MR T GOD</pattern>
+<template>Maybe, dunno.</template>
+</category>
+<category><pattern>IS BRUNEI A LARGE COUNTRY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS FURLONG A UNIT OF WEIGHT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS FOUR A COLOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS TOOTHBRUSH AN ACRONYM</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS HAWAII BIGGER THAN ALASKA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BROKEN GLASS FUN TO WALK ON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS OSTRICH AN INTELLECTUAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS COMMUNISM BETTER THAT DEMOCRACY</pattern>
+<template>Democracy is a necessary part of an ideal communist area.</template>
+</category>
+<category><pattern>IS POTTERY MADE OUT OF WOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ERIC CLAPTON A KIND OF FISH</pattern>
+<template>Sure.</template>
+</category>
+<category><pattern>IS ICELAND A DOG</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS DISEASE CAUSED BY ALIEN DEATH RAYS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS FLEA SPRAY MADE FROM FLEAS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS TOMORROW IN THE PAST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BROCCOLI SWEET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BURNT TOAST AN APHRODISIAC</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS SLAVERY LEGAL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS SLAVERY A GOOD IDEA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS FUN SOMETHING THAT YOU CAN WEIGH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GRINDCORE TERRIFYING</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS CALIFORNIA A STATE IN CANADA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CALIFORNIA A PLANET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS J S BACH STILL ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BLOOD YELLOW</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BLOOD EVEN YELLOW</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BLOOD GREEN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS BULLFIGHTING AN OLYMPIC SPORT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GFFKL THE NAME OF A COLOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WHITE DARKER THAN BLACK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WHITE THE OPPOSITE OF GREEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WHITE A DARK COLOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WHITE BLACK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS USA THE ONLY STATE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS USA THE LARGEST NATION</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS USA A SMALL COUNTRY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS USA LOCATED IN EUROPE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PORTUGAL A FISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS DDT GOOD FOR YOUR HEALTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ICQ AVAILABLE FOR AMIGA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SPEECH THE SAME THING AS A PICTURE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SPAM EMAIL A PLEASURE TO RECIEVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SPAM AN ANIMAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS EVOLUTION DRIVEN BY INCEST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS POISON HEALTHY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS POISON GOOD FOR YOUR HEALTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS POISON GOOD FOR YOU</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS POISON GOOD TO EAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BEAR A BIRD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS EVERY ACCIDENT FATAL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS EVERY HUMAN HAPPY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS EVERY HUMAN WHITE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS EVERY QUESTION EASY TO ANSWER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS EVERY ANIMAL LIVING IN WATER A FISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS EVERY CAT A LION</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS EVERY HEART ATTACK FATAL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS CAG HUMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CAG A HUMAN BEING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CAG EQUAL TO CAG SPELLED BACKWARDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CUBA PART OF THE UNITED STATES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS CUBA IN IRAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PLANET EARTH SMALLER THAN ITS MOON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PLANET EARTH FLAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CEREAL EATEN WITH BEER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS JOSEPH A COMMON NAME FOR A GIRL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GREY HAIR A SIGN OF YOUTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS LOS ANGELES LOCATED IN MICHIGAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS RATTLESNAKE A FLAVOR OF BUBBLEGUM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SPAIN A COUNTRY IN AUSTRALIA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CHEATING A GOOD THING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS KILLING A GOOD THING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS KILLING PEOPLE ALWAYS RIGHT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS NAPOLEON BONAPARTE STILL ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS DARTH VADER A REAL PERSON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS EARTH THE CENTER OF THE GALAXY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS EARTH STATIONARY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS EARTH A ROMAN GOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS EARTH BIGGER THAN SUN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS EARTH SMALLER THAN MOON</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS EARTH FLAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS EARTH SQUARE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS WINTER WEATHER WARM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WINTER A DAY OF THE WEEK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AMERICA IN EUROPE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AMERICA IN RUSSIA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AMERICA THE LARGEST CONTINENT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS NEOPRENE SOME KIND OF WOOD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS HAIR MADE OF PUDDING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS VENUS MADE OF SPAM</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS SULPHUR DIOXIDE GOOD FOR YOU</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MOUNT EVEREST IN RUSSIA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CAKE HEALTH FOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SHAVING CREAM EATEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS LIME A PRIMARY COLOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 10 MULTIPLIED BY 23 EQUAL TO 5</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 10 PLUS 10 22</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS OUR SUN THE ONLY STAR IN SPACE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS OUR UNIVERSE ONE DIMENSIONAL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS BARBIE A BOY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 5 THE SQUARE FROM 2</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 5 MINUTES A LONG TIME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 5 MINUS 4 0</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 5 LESS THAN 4</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 5 EQUAL TO 3</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS BOLIVIA ON SALE AT K MART</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS DNA ANOTHER WORD FOR JEANS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GOLD MORE COMMON THAN STEEL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MARMELADE A BEVERAGE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ANTARCTICA A COMPUTER PERIPHERAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ANTARCTICA WARM</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS ROCK A FRUIT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS MANKIND AS OLD AS THE EARTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BOILING WATER COLD TO THE TOUCH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MARILLYN MONROE STILL LIVING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS LONDON IN THE SAME COUNTRY AS PARIS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS LONDON IN GERMANY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS LONDON THE CAPITAL OF DENMARK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS LONDON THE CAPITAL OF GERMANY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS LONDON THE CAPITAL OF FRANCE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS LONDON THE CAPITAL OF PARIS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS LONDON THE CAPITAL OF UGANDA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS LONDON THE CAPITAL OF THAILAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS LONDON THE ONLY CITY IN ENGLAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CHICAGO IN WASHINGTON STATE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ORANGE A PRIMARY COLOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ORANGE A METAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ORANGE JUICE A COFFEE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS ORANGE JUICE A TYPE OF COLA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ORANGE JUICE FLAMMABLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ORANGE BLUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS URANUS A CONSTELLATION</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS FECES MORE VALUABLE THAN GOLD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS DIARRHEA AN ENJOYABLE EXPERIENCE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS ICECREAM HOT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ICECREAM A PUNISHMENT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS AMSTERDAM IN CHINA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS FASTER LESS THAN SLOWER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IRELAND IN THE UNITED STATES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS SOUP COMMONLY EATEN USING A FORK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THERE A BONE IN THE HUMAN TONGUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THERE A SECRET NAZI BASE ON THE MOON</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS THERE A MAXIMUM NUMBER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THERE A T IN THE WORD WRONG</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THERE ANYONE LIVING ON MERCURY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THERE LIFE ON VENUS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THERE ANY PEOPLE IN THE MARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THERE ANY LIFE ON THE SUN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THERE CHEESE ON THE MOON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THERE INTELLEGENT LIFE ON PLUTO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THERE ONLY ONE RELIGION</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THERE ONLY ONE PROGRAM ON TELEVISION</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THERE ALCOHOL IN SODA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THERE WATER ON THE SUN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THERE WATER ON THE PLANET MERCURY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GAS SOLID</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ABRAHAM LINCOLN STILL ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ABRAHAM LINCOLN THE KING OF SPAIN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT NICE TO TORCHURE PEOPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT PAINFUL TO HAVE YOUR HAIR CUT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT WRONG TO BE GAY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS IT A GOOD IDEA TO JUMP OFF A CLIFF</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT A GOOD IDEA TO EAT AMMONIA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT PLEASANT TO BE TAKEN ADVANTAGE OF</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS IT HOT IN ALASKA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT HOT IN WINTER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT HOT AT THE SOUTH POLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT EASY TO WALK LYING DOWN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT EASY TO LEARN JAPANESE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT EASY TO NAIL JELL O TO A TREE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT OK FOR ME TO DRINK FROM THE SEA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT OK TO KILL PEOPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT OK TO KILL ANOTHER HUMAN BEING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT OK TO HAVE SEX WITH YOUR MOTHER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT OK TO STEAL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS IT SAFE TO DRIVE DRUNK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT SAFE TO DRIVE A CAR WHILST DRUNK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT SAFE TO DRINK CYANIDE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT REASONABLE TO KILL A BAD WAITRESS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT WISE TO SPEND ALL OF YOUR MONEY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT WISE TO LOOK DIRECTLY AT THE SUN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS IT WISE TO BUILD YOUR HOUSE ON SAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT WISE TO STARE AT THE SUN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT POLITE TO SPIT IN SOMEONES FACE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT POLITE TO FART IN CHURCH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT PLEASURABLE TO EAT GLASS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS IT DESIREABLE TO HAVE SKIN CANCER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT DESIREABLE TO HAVE BRAIN CANCER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT RAINING WHERE I AM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT NOW 9 22 PM EDT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT HEALTHY TO SMOKE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS IT HEALTHY TO BE OVERWEIGHT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT HEALTHY TO EAT ARSENIC</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT HEALTHY TO SWIM NAKED IN SEWAGE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT SMART TO KILL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT SNOWING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT ALL RIGHT TO MURDER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT NOON TWICE A DAY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS IT FREEZING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT BAD TO BE IN LOVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT BAD TO BE HAPPY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT LEGAL TO MARRY YOUR SISTER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT LEGAL TO STEAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT DANGEROUS TO EAT CARROTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT OKAY TO DRINK AND DRIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT OKAY TO DRINK BUG SPRAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT ITALY AN ISLAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT GOOD FOR YOU TO DRINK INK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT GOOD TO SODOMIZE A MINOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT GOOD TO GET CANCER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT GOOD TO PUNISH AN INNOCENT MAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT GOOD TO BE AS DUMB AS AN OX</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT GOOD TO KILL PEOPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT GOOD TO HAVE SEX WITH CHILDREN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT COLD AT MIDDAY IN BAHREIN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT FUN TO SWALLOW RAZOR BLADES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT FUN TO BE SICK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS IT FUN TO BE CRUCIFIED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT FUN TO PAY TAXES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT FUN TO KILL PEOPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT RIGHT TO BE NAKED IN PUBLIC</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT RIGHT TO KILL A PERSON FOR FUN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS IT RIGHT TO KILL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS IT RIGHT TO KILL ANOTHER PERSON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT RIGHT TO STEAL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS IT RIGHT TO HURT OTHER PEOPLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS IT TRUE THAT A WOMAN HAS 4 BREASTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT TRUE THAT GLUE IS NOT AN ADHESIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT TRUE THAT HUMANS EAT SOLID ROCK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IT TRUE THAT PHOTONS ARE CONSCIOUS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BADMINTON MORE EXERCISE THAN TENNIS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MODERN FURNITURE OUT OF SYLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS AIRLINE FOOD ALWAYS TASTY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS TOXIC WASTE A BEVERAGE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SHARK A CAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS YES THE SAME AS NO</pattern>
+<template>No.</template>
+</category>
+</aiml>

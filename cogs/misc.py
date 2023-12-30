@@ -4,11 +4,28 @@ import io
 import random
 import requests
 
+class CancelledItem():
+    cancelTarget = ""
+    cancelAuthor = ""
+
+    def __init__(self, target, author):
+        self.cancelTarget = target
+        self.cancelAuthor = author
+
 class Misc(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.longTask = {}
         self.web_search_agent = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'}
+    
+    # Use a cancel list
+    cancelList = {}
+    async def createServerCancelList(self, ctx):
+        try:
+            if not ctx.guild.id in self.cancelList:
+                self.cancelList[ctx.guild.id] = []
+        except:
+            pass
     
     # Internet/Api commands
     @commands.command(name='search', help='Search informations on internet')
@@ -47,6 +64,17 @@ class Misc(commands.Cog):
             await ctx.send(embed=embed, file=file)
         except:
             pass
+    
+    @commands.hybrid_command(name='person', aliases=['aiperson'], help='Search on AI some random \'person\'', with_app_command=True)
+    async def personaisearch(self, ctx):
+        try:
+            req = requests.get('https://thispersondoesnotexist.com/', params={}, headers=self.web_search_agent)
+            file = discord.File(io.BytesIO(req.content), "img.jpg")
+            embed = discord.Embed(title="thispersondoesnotexist", description="")
+            embed.set_image(url="attachment://img.jpg")
+            await ctx.send(embed=embed, file=file)
+        except:
+            pass
 
     @commands.hybrid_command(name='mcu', help='Search what next in the MCU on internet', with_app_command=True)
     async def ai(self, ctx):
@@ -71,4 +99,38 @@ class Misc(commands.Cog):
             embed.add_field(name="Steamcharts stats", value="https://steamcharts.com", inline=True)
             await ctx.send(embed=embed)
         except:
+            pass
+
+    # Cancel someone
+    @commands.command(name='cancel', help='Cancel someone with the power of cancel culture')
+    async def cancel(self, ctx, *args):
+        try:
+            await self.createServerCancelList(ctx)
+            if args[0] == "list":
+                await self.cancellist(ctx)
+            else:
+                target = " ".join(args);
+                author = ctx.message.author.mention;
+                if len(self.cancelList[ctx.guild.id]) >= 10:
+                    self.cancelList[ctx.guild.id].pop(0)
+                cancelRoll = random.randint(1, 20)
+                if (cancelRoll == 19):
+                    self.cancelList[ctx.guild.id].append(CancelledItem(author, "D20 dice"))
+                    await ctx.send("A perfect 20 from a :game_die: D20 :game_die: roll: " + target + " have been saved from an arbitrary cancel, " + author + " is now cancelled")
+                else:
+                    self.cancelList[ctx.guild.id].append(CancelledItem(target, author))
+                    await ctx.reply(":x: " + target + " :x: has been successfully cancelled by " + author + " !")
+        except:
+            pass
+
+    @commands.hybrid_command(name='cancellist', aliases=['clist'], help='Get the actual cancel list', with_app_command=True)
+    async def cancellist(self, ctx):
+        try:
+            await self.createServerCancelList(ctx)
+            response = "Cancelled: "
+            for cancelled in self.cancelList[ctx.guild.id]:
+                response = response + "\n- " + cancelled.cancelTarget + " / Author: " + cancelled.cancelAuthor
+            await ctx.send(response)
+        except Exception as ex:
+            print(ex)
             pass

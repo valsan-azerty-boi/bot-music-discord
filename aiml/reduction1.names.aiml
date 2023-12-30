@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category><pattern>I AM HAL</pattern>
+<template><srai>CALL ME HAL</srai></template>
+</category>
+<category><pattern>I AM JACK</pattern>
+<template><srai>CALL ME JACK</srai></template>
+</category>
+<category><pattern>I AM DANI</pattern>
+<template><srai>CALL ME DANI</srai></template>
+</category>
+<category><pattern>I AM JAMES</pattern>
+<template><srai>CALL ME JAMES</srai></template>
+</category>
+<category><pattern>I AM NORBI</pattern>
+<template><srai>CALL ME NORBIT</srai></template>
+</category>
+<category><pattern>I AM SUPERMAN</pattern>
+<template><srai>CALL ME SUPERMAN</srai></template>
+</category>
+<category><pattern>I AM KENA</pattern>
+<template><srai>CALL ME KENA</srai></template>
+</category>
+<category><pattern>I AM LAURA</pattern>
+<template><srai>call me laura</srai></template>
+</category>
+<category><pattern>I AM RAMONA</pattern>
+<template><srai>call me ramona</srai></template>
+</category>
+<category><pattern>I AM RICK</pattern>
+<template><srai>call me rick</srai></template>
+</category>
+<category><pattern>I AM JENN</pattern>
+<template><srai>call me jenn</srai></template>
+</category>
+<category><pattern>I AM BRIAN</pattern>
+<template><srai>call me brian</srai></template>
+</category>
+<category><pattern>I AM MARK</pattern>
+<template><srai>call me mark</srai></template>
+</category>
+<category><pattern>I AM SAGE</pattern>
+<template><srai>call me sage</srai></template>
+</category>
+<category><pattern>I AM DANNY</pattern>
+<template><srai>call me danny</srai></template>
+</category>
+<category><pattern>I AM SHALLOW RED</pattern>
+<template><srai>call me shallow red</srai></template>
+</category>
+<category><pattern>I AM ALLIE</pattern>
+<template><srai>call me allie</srai></template>
+</category>
+<category><pattern>I AM GEORGE</pattern>
+<template><srai>call me george</srai></template>
+</category>
+<category><pattern>I AM OLIVER</pattern>
+<template><srai>call me oliver</srai></template>
+</category>
+<category><pattern>I AM ANITA</pattern>
+<template><srai>call me anita</srai></template>
+</category>
+<category><pattern>I AM BATMAN</pattern>
+<template><srai>call me batman</srai></template>
+</category>
+<category><pattern>I AM THE DEVIL</pattern>
+<template><srai>call me satan</srai></template>
+</category>
+<category><pattern>I AM BOB</pattern>
+<template><srai>call me bob</srai></template>
+</category>
+<category><pattern>I AM CORNHOLIO</pattern>
+<template><srai>call me cornholio</srai></template>
+</category>
+<category><pattern>I AM MIA</pattern>
+<template><srai>call me mia</srai></template>
+</category>
+<category><pattern>I AM SHABAZ</pattern>
+<template><srai>call me shabaz</srai></template>
+</category>
+<category><pattern>I AM ALBERT EINSTEIN</pattern>
+<template><srai>call me albert einstein</srai></template>
+</category>
+<category><pattern>I AM SUSAN</pattern>
+<template><srai>call me susan</srai></template>
+</category>
+<category><pattern>I AM DANIEL</pattern>
+<template><srai>call me daniel</srai></template>
+</category>
+<category><pattern>I AM EHUD</pattern>
+<template><srai>call me ehud</srai></template>
+</category>
+<category><pattern>I AM REX</pattern>
+<template><srai>call me rex</srai></template>
+</category>
+<category><pattern>I AM CLAIRE</pattern>
+<template><srai>call me claire</srai></template>
+</category>
+
+
+<category><pattern>BOB</pattern>
+<template><srai>my name is bob</srai></template>
+</category>
+<category><pattern>MY NAME IS NOW *</pattern>
+<template><srai>my name is <star /></srai></template>
+</category>
+<category><pattern>MY NAME IS JUST *</pattern>
+<template><srai>my name is <star /></srai></template>
+</category>
+<category><pattern>WHAT IS MY NICKNAME</pattern>
+<template><srai>MY NICKNAME</srai></template>
+</category>
+
+<category>
+<pattern>I AM MARY</pattern>
+<template><srai>CALL ME MARY</srai></template>
+</category>
+
+<category><pattern>I AM PATRICIA</pattern><template><srai>CALL ME PATRICIA</srai></template></category>
+<category><pattern>I AM LINDA</pattern><template><srai>CALL ME LINDA</srai></template></category>
+<category><pattern>I AM BARBARA</pattern><template><srai>CALL ME BARBARA</srai></template></category>
+<category><pattern>I AM ELIZABETH</pattern><template><srai>CALL ME ELIZABETH</srai></template></category>
+<category><pattern>I AM JENNIFER</pattern><template><srai>CALL ME JENNIFER</srai></template></category>
+<category><pattern>I AM MARIA</pattern><template><srai>CALL ME MARIA</srai></template></category>
+<category><pattern>I AM SUSAN</pattern><template><srai>CALL ME SUSAN</srai></template></category>
+<category><pattern>I AM MARGARET</pattern><template><srai>CALL ME MARGARET</srai></template></category>
+<category><pattern>I AM DOROTHY</pattern><template><srai>CALL ME DOROTHY</srai></template></category>
+<category><pattern>I AM LISA</pattern><template><srai>CALL ME LISA</srai></template></category>
+<category><pattern>I AM NANCY</pattern><template><srai>CALL ME NANCY</srai></template></category>
+<category><pattern>I AM KAREN</pattern><template><srai>CALL ME KAREN</srai></template></category>
+<category><pattern>I AM BETTY</pattern><template><srai>CALL ME BETTY</srai></template></category>
+<category><pattern>I AM HELEN</pattern><template><srai>CALL ME HELEN</srai></template></category>
+<category><pattern>I AM SANDRA</pattern><template><srai>CALL ME SANDRA</srai></template></category>
+<category><pattern>I AM DONNA</pattern><template><srai>CALL ME DONNA</srai></template></category>
+<category><pattern>I AM CAROL</pattern><template><srai>CALL ME CAROL</srai></template></category>
+<category><pattern>I AM RUTH</pattern><template><srai>CALL ME RUTH</srai></template></category>
+<category><pattern>I AM SHARON</pattern><template><srai>CALL ME SHARON</srai></template></category>
+<category><pattern>I AM MICHELLE</pattern><template><srai>CALL ME MICHELLE</srai></template></category>
+<category><pattern>I AM LAURA</pattern><template><srai>CALL ME LAURA</srai></template></category>
+<category><pattern>I AM SARAH</pattern><template><srai>CALL ME SARAH</srai></template></category>
+<category><pattern>I AM KIMBERLY</pattern><template><srai>CALL ME KIMBERLY</srai></template></category>
+<category><pattern>I AM DEBORAH</pattern><template><srai>CALL ME DEBORAH</srai></template></category>
+<category><pattern>I AM JESSICA</pattern><template><srai>CALL ME JESSICA</srai></template></category>
+<category><pattern>I AM SHIRLEY</pattern><template><srai>CALL ME SHIRLEY</srai></template></category>
+<category><pattern>I AM CYNTHIA</pattern><template><srai>CALL ME CYNTHIA</srai></template></category>
+<category><pattern>I AM ANGELA</pattern><template><srai>CALL ME ANGELA</srai></template></category>
+<category><pattern>I AM MELISSA</pattern><template><srai>CALL ME MELISSA</srai></template></category>
+<category><pattern>I AM BRENDA</pattern><template><srai>CALL ME BRENDA</srai></template></category>
+<category><pattern>I AM AMY</pattern><template><srai>CALL ME AMY</srai></template></category>
+<category><pattern>I AM ANNA</pattern><template><srai>CALL ME ANNA</srai></template></category>
+<category><pattern>I AM REBECCA</pattern><template><srai>CALL ME REBECCA</srai></template></category>
+<category><pattern>I AM VIRGINIA</pattern><template><srai>CALL ME VIRGINIA</srai></template></category>
+<category><pattern>I AM KATHLEEN</pattern><template><srai>CALL ME KATHLEEN</srai></template></category>
+<category><pattern>I AM PAMELA</pattern><template><srai>CALL ME PAMELA</srai></template></category>
+<category><pattern>I AM MARTHA</pattern><template><srai>CALL ME MARTHA</srai></template></category>
+<category><pattern>I AM DEBRA</pattern><template><srai>CALL ME DEBRA</srai></template></category>
+<category><pattern>I AM AMANDA</pattern><template><srai>CALL ME AMANDA</srai></template></category>
+<category><pattern>I AM STEPHANIE</pattern><template><srai>CALL ME STEPHANIE</srai></template></category>
+<category><pattern>I AM CAROLYN</pattern><template><srai>CALL ME CAROLYN</srai></template></category>
+<category><pattern>I AM CHRISTINE</pattern><template><srai>CALL ME CHRISTINE</srai></template></category>
+<category><pattern>I AM MARIE</pattern><template><srai>CALL ME MARIE</srai></template></category>
+<category><pattern>I AM JANET</pattern><template><srai>CALL ME JANET</srai></template></category>
+<category><pattern>I AM CATHERINE</pattern><template><srai>CALL ME CATHERINE</srai></template></category>
+<category><pattern>I AM FRANCES</pattern><template><srai>CALL ME FRANCES</srai></template></category>
+<category><pattern>I AM ANN</pattern><template><srai>CALL ME ANN</srai></template></category>
+<category><pattern>I AM JOYCE</pattern><template><srai>CALL ME JOYCE</srai></template></category>
+<category><pattern>I AM DIANE</pattern><template><srai>CALL ME DIANE</srai></template></category>
+<category><pattern>I AM ALICE</pattern><template><srai>CALL ME ALICE</srai></template></category>
+<category><pattern>I AM JULIE</pattern><template><srai>CALL ME JULIE</srai></template></category>
+<category><pattern>I AM HEATHER</pattern><template><srai>CALL ME HEATHER</srai></template></category>
+<category><pattern>I AM TERESA</pattern><template><srai>CALL ME TERESA</srai></template></category>
+<category><pattern>I AM DORIS</pattern><template><srai>CALL ME DORIS</srai></template></category>
+<category><pattern>I AM GLORIA</pattern><template><srai>CALL ME GLORIA</srai></template></category>
+<category><pattern>I AM EVELYN</pattern><template><srai>CALL ME EVELYN</srai></template></category>
+<category><pattern>I AM JEAN</pattern><template><srai>CALL ME JEAN</srai></template></category>
+<category><pattern>I AM CHERYL</pattern><template><srai>CALL ME CHERYL</srai></template></category>
+<category><pattern>I AM MILDRED</pattern><template><srai>CALL ME MILDRED</srai></template></category>
+<category><pattern>I AM KATHERINE</pattern><template><srai>CALL ME KATHERINE</srai></template></category>
+<category><pattern>I AM JOAN</pattern><template><srai>CALL ME JOAN</srai></template></category>
+<category><pattern>I AM ASHLEY</pattern><template><srai>CALL ME ASHLEY</srai></template></category>
+<category><pattern>I AM JUDITH</pattern><template><srai>CALL ME JUDITH</srai></template></category>
+<category><pattern>I AM ROSE</pattern><template><srai>CALL ME ROSE</srai></template></category>
+<category><pattern>I AM JANICE</pattern><template><srai>CALL ME JANICE</srai></template></category>
+<category><pattern>I AM KELLY</pattern><template><srai>CALL ME KELLY</srai></template></category>
+<category><pattern>I AM NICOLE</pattern><template><srai>CALL ME NICOLE</srai></template></category>
+<category><pattern>I AM JUDY</pattern><template><srai>CALL ME JUDY</srai></template></category>
+<category><pattern>I AM CHRISTINA</pattern><template><srai>CALL ME CHRISTINA</srai></template></category>
+<category><pattern>I AM KATHY</pattern><template><srai>CALL ME KATHY</srai></template></category>
+<category><pattern>I AM THERESA</pattern><template><srai>CALL ME THERESA</srai></template></category>
+<category><pattern>I AM BEVERLY</pattern><template><srai>CALL ME BEVERLY</srai></template></category>
+<category><pattern>I AM DENISE</pattern><template><srai>CALL ME DENISE</srai></template></category>
+<category><pattern>I AM TAMMY</pattern><template><srai>CALL ME TAMMY</srai></template></category>
+<category><pattern>I AM IRENE</pattern><template><srai>CALL ME IRENE</srai></template></category>
+<category><pattern>I AM JANE</pattern><template><srai>CALL ME JANE</srai></template></category>
+<category><pattern>I AM LORI</pattern><template><srai>CALL ME LORI</srai></template></category>
+<category><pattern>I AM RACHEL</pattern><template><srai>CALL ME RACHEL</srai></template></category>
+<category><pattern>I AM MARILYN</pattern><template><srai>CALL ME MARILYN</srai></template></category>
+<category><pattern>I AM ANDREA</pattern><template><srai>CALL ME ANDREA</srai></template></category>
+<category><pattern>I AM KATHRYN</pattern><template><srai>CALL ME KATHRYN</srai></template></category>
+<category><pattern>I AM LOUISE</pattern><template><srai>CALL ME LOUISE</srai></template></category>
+<category><pattern>I AM SARA</pattern><template><srai>CALL ME SARA</srai></template></category>
+<category><pattern>I AM ANNE</pattern><template><srai>CALL ME ANNE</srai></template></category>
+<category><pattern>I AM JACQUELINE</pattern><template><srai>CALL ME JACQUELINE</srai></template></category>
+<category><pattern>I AM WANDA</pattern><template><srai>CALL ME WANDA</srai></template></category>
+<category><pattern>I AM BONNIE</pattern><template><srai>CALL ME BONNIE</srai></template></category>
+<category><pattern>I AM JULIA</pattern><template><srai>CALL ME JULIA</srai></template></category>
+<category><pattern>I AM RUBY</pattern><template><srai>CALL ME RUBY</srai></template></category>
+<category><pattern>I AM LOIS</pattern><template><srai>CALL ME LOIS</srai></template></category>
+<category><pattern>I AM TINA</pattern><template><srai>CALL ME TINA</srai></template></category>
+<category><pattern>I AM PHYLLIS</pattern><template><srai>CALL ME PHYLLIS</srai></template></category>
+<category><pattern>I AM NORMA</pattern><template><srai>CALL ME NORMA</srai></template></category>
+<category><pattern>I AM PAULA</pattern><template><srai>CALL ME PAULA</srai></template></category>
+<category><pattern>I AM DIANA</pattern><template><srai>CALL ME DIANA</srai></template></category>
+<category><pattern>I AM ANNIE</pattern><template><srai>CALL ME ANNIE</srai></template></category>
+<category><pattern>I AM LILLIAN</pattern><template><srai>CALL ME LILLIAN</srai></template></category>
+<category><pattern>I AM EMILY</pattern><template><srai>CALL ME EMILY</srai></template></category>
+<category><pattern>I AM ROBIN</pattern><template><srai>CALL ME ROBIN</srai></template></category>
+<category><pattern>I AM PEGGY</pattern><template><srai>CALL ME PEGGY</srai></template></category>
+<category><pattern>I AM CRYSTAL</pattern><template><srai>CALL ME CRYSTAL</srai></template></category>
+<category><pattern>I AM GLADYS</pattern><template><srai>CALL ME GLADYS</srai></template></category>
+<category><pattern>I AM RITA</pattern><template><srai>CALL ME RITA</srai></template></category>
+<category><pattern>I AM DAWN</pattern><template><srai>CALL ME DAWN</srai></template></category>
+<category><pattern>I AM CONNIE</pattern><template><srai>CALL ME CONNIE</srai></template></category>
+<category><pattern>I AM FLORENCE</pattern><template><srai>CALL ME FLORENCE</srai></template></category>
+<category><pattern>I AM TRACY</pattern><template><srai>CALL ME TRACY</srai></template></category>
+<category><pattern>I AM EDNA</pattern><template><srai>CALL ME EDNA</srai></template></category>
+<category><pattern>I AM TIFFANY</pattern><template><srai>CALL ME TIFFANY</srai></template></category>
+<category><pattern>I AM CARMEN</pattern><template><srai>CALL ME CARMEN</srai></template></category>
+<category><pattern>I AM ROSA</pattern><template><srai>CALL ME ROSA</srai></template></category>
+<category><pattern>I AM CINDY</pattern><template><srai>CALL ME CINDY</srai></template></category>
+<category><pattern>I AM GRACE</pattern><template><srai>CALL ME GRACE</srai></template></category>
+<category><pattern>I AM WENDY</pattern><template><srai>CALL ME WENDY</srai></template></category>
+<category><pattern>I AM VICTORIA</pattern><template><srai>CALL ME VICTORIA</srai></template></category>
+<category><pattern>I AM EDITH</pattern><template><srai>CALL ME EDITH</srai></template></category>
+<category><pattern>I AM KIM</pattern><template><srai>CALL ME KIM</srai></template></category>
+<category><pattern>I AM SHERRY</pattern><template><srai>CALL ME SHERRY</srai></template></category>
+<category><pattern>I AM SYLVIA</pattern><template><srai>CALL ME SYLVIA</srai></template></category>
+<category><pattern>I AM JOSEPHINE</pattern><template><srai>CALL ME JOSEPHINE</srai></template></category>
+<category><pattern>I AM THELMA</pattern><template><srai>CALL ME THELMA</srai></template></category>
+<category><pattern>I AM SHANNON</pattern><template><srai>CALL ME SHANNON</srai></template></category>
+<category><pattern>I AM SHEILA</pattern><template><srai>CALL ME SHEILA</srai></template></category>
+<category><pattern>I AM ETHEL</pattern><template><srai>CALL ME ETHEL</srai></template></category>
+<category><pattern>I AM ELLEN</pattern><template><srai>CALL ME ELLEN</srai></template></category>
+<category><pattern>I AM ELAINE</pattern><template><srai>CALL ME ELAINE</srai></template></category>
+<category><pattern>I AM MARJORIE</pattern><template><srai>CALL ME MARJORIE</srai></template></category>
+<category><pattern>I AM CARRIE</pattern><template><srai>CALL ME CARRIE</srai></template></category>
+<category><pattern>I AM CHARLOTTE</pattern><template><srai>CALL ME CHARLOTTE</srai></template></category>
+<category><pattern>I AM MONICA</pattern><template><srai>CALL ME MONICA</srai></template></category>
+<category><pattern>I AM ESTHER</pattern><template><srai>CALL ME ESTHER</srai></template></category>
+<category><pattern>I AM PAULINE</pattern><template><srai>CALL ME PAULINE</srai></template></category>
+<category><pattern>I AM EMMA</pattern><template><srai>CALL ME EMMA</srai></template></category>
+<category><pattern>I AM JUANITA</pattern><template><srai>CALL ME JUANITA</srai></template></category>
+<category><pattern>I AM ANITA</pattern><template><srai>CALL ME ANITA</srai></template></category>
+<category><pattern>I AM RHONDA</pattern><template><srai>CALL ME RHONDA</srai></template></category>
+<category><pattern>I AM HAZEL</pattern><template><srai>CALL ME HAZEL</srai></template></category>
+<category><pattern>I AM AMBER</pattern><template><srai>CALL ME AMBER</srai></template></category>
+<category><pattern>I AM EVA</pattern><template><srai>CALL ME EVA</srai></template></category>
+<category><pattern>I AM DEBBIE</pattern><template><srai>CALL ME DEBBIE</srai></template></category>
+<category><pattern>I AM APRIL</pattern><template><srai>CALL ME APRIL</srai></template></category>
+<category><pattern>I AM LESLIE</pattern><template><srai>CALL ME LESLIE</srai></template></category>
+<category><pattern>I AM CLARA</pattern><template><srai>CALL ME CLARA</srai></template></category>
+<category><pattern>I AM LUCILLE</pattern><template><srai>CALL ME LUCILLE</srai></template></category>
+<category><pattern>I AM JAMIE</pattern><template><srai>CALL ME JAMIE</srai></template></category>
+<category><pattern>I AM JOANNE</pattern><template><srai>CALL ME JOANNE</srai></template></category>
+<category><pattern>I AM ELEANOR</pattern><template><srai>CALL ME ELEANOR</srai></template></category>
+<category><pattern>I AM VALERIE</pattern><template><srai>CALL ME VALERIE</srai></template></category>
+<category><pattern>I AM DANIELLE</pattern><template><srai>CALL ME DANIELLE</srai></template></category>
+<category><pattern>I AM MEGAN</pattern><template><srai>CALL ME MEGAN</srai></template></category>
+<category><pattern>I AM ALICIA</pattern><template><srai>CALL ME ALICIA</srai></template></category>
+<category><pattern>I AM SUZANNE</pattern><template><srai>CALL ME SUZANNE</srai></template></category>
+<category><pattern>I AM MICHELE</pattern><template><srai>CALL ME MICHELE</srai></template></category>
+<category><pattern>I AM GAIL</pattern><template><srai>CALL ME GAIL</srai></template></category>
+<category><pattern>I AM BERTHA</pattern><template><srai>CALL ME BERTHA</srai></template></category>
+<category><pattern>I AM DARLENE</pattern><template><srai>CALL ME DARLENE</srai></template></category>
+<category><pattern>I AM VERONICA</pattern><template><srai>CALL ME VERONICA</srai></template></category>
+<category><pattern>I AM JILL</pattern><template><srai>CALL ME JILL</srai></template></category>
+<category><pattern>I AM ERIN</pattern><template><srai>CALL ME ERIN</srai></template></category>
+<category><pattern>I AM GERALDINE</pattern><template><srai>CALL ME GERALDINE</srai></template></category>
+<category><pattern>I AM LAUREN</pattern><template><srai>CALL ME LAUREN</srai></template></category>
+<category><pattern>I AM CATHY</pattern><template><srai>CALL ME CATHY</srai></template></category>
+<category><pattern>I AM JOANN</pattern><template><srai>CALL ME JOANN</srai></template></category>
+<category><pattern>I AM LORRAINE</pattern><template><srai>CALL ME LORRAINE</srai></template></category>
+<category><pattern>I AM LYNN</pattern><template><srai>CALL ME LYNN</srai></template></category>
+<category><pattern>I AM SALLY</pattern><template><srai>CALL ME SALLY</srai></template></category>
+<category><pattern>I AM REGINA</pattern><template><srai>CALL ME REGINA</srai></template></category>
+<category><pattern>I AM ERICA</pattern><template><srai>CALL ME ERICA</srai></template></category>
+<category><pattern>I AM BEATRICE</pattern><template><srai>CALL ME BEATRICE</srai></template></category>
+<category><pattern>I AM DOLORES</pattern><template><srai>CALL ME DOLORES</srai></template></category>
+<category><pattern>I AM BERNICE</pattern><template><srai>CALL ME BERNICE</srai></template></category>
+<category><pattern>I AM AUDREY</pattern><template><srai>CALL ME AUDREY</srai></template></category>
+<category><pattern>I AM YVONNE</pattern><template><srai>CALL ME YVONNE</srai></template></category>
+<category><pattern>I AM ANNETTE</pattern><template><srai>CALL ME ANNETTE</srai></template></category>
+<category><pattern>I AM JUNE</pattern><template><srai>CALL ME JUNE</srai></template></category>
+<category><pattern>I AM SAMANTHA</pattern><template><srai>CALL ME SAMANTHA</srai></template></category>
+<category><pattern>I AM MARION</pattern><template><srai>CALL ME MARION</srai></template></category>
+<category><pattern>I AM DANA</pattern><template><srai>CALL ME DANA</srai></template></category>
+<category><pattern>I AM STACY</pattern><template><srai>CALL ME STACY</srai></template></category>
+<category><pattern>I AM ANA</pattern><template><srai>CALL ME ANA</srai></template></category>
+<category><pattern>I AM RENEE</pattern><template><srai>CALL ME RENEE</srai></template></category>
+<category><pattern>I AM IDA</pattern><template><srai>CALL ME IDA</srai></template></category>
+<category><pattern>I AM VIVIAN</pattern><template><srai>CALL ME VIVIAN</srai></template></category>
+<category><pattern>I AM ROBERTA</pattern><template><srai>CALL ME ROBERTA</srai></template></category>
+<category><pattern>I AM HOLLY</pattern><template><srai>CALL ME HOLLY</srai></template></category>
+<category><pattern>I AM BRITTANY</pattern><template><srai>CALL ME BRITTANY</srai></template></category>
+<category><pattern>I AM MELANIE</pattern><template><srai>CALL ME MELANIE</srai></template></category>
+<category><pattern>I AM LORETTA</pattern><template><srai>CALL ME LORETTA</srai></template></category>
+<category><pattern>I AM YOLANDA</pattern><template><srai>CALL ME YOLANDA</srai></template></category>
+<category><pattern>I AM JEANETTE</pattern><template><srai>CALL ME JEANETTE</srai></template></category>
+<category><pattern>I AM LAURIE</pattern><template><srai>CALL ME LAURIE</srai></template></category>
+<category><pattern>I AM KATIE</pattern><template><srai>CALL ME KATIE</srai></template></category>
+<category><pattern>I AM KRISTEN</pattern><template><srai>CALL ME KRISTEN</srai></template></category>
+<category><pattern>I AM VANESSA</pattern><template><srai>CALL ME VANESSA</srai></template></category>
+<category><pattern>I AM ALMA</pattern><template><srai>CALL ME ALMA</srai></template></category>
+<category><pattern>I AM SUE</pattern><template><srai>CALL ME SUE</srai></template></category>
+<category><pattern>I AM ELSIE</pattern><template><srai>CALL ME ELSIE</srai></template></category>
+<category><pattern>I AM BETH</pattern><template><srai>CALL ME BETH</srai></template></category>
+<category><pattern>I AM JEANNE</pattern><template><srai>CALL ME JEANNE</srai></template></category>
+<category><pattern>I AM VICKI</pattern><template><srai>CALL ME VICKI</srai></template></category>
+<category><pattern>I AM CARLA</pattern><template><srai>CALL ME CARLA</srai></template></category>
+<category><pattern>I AM TARA</pattern><template><srai>CALL ME TARA</srai></template></category>
+<category><pattern>I AM ROSEMARY</pattern><template><srai>CALL ME ROSEMARY</srai></template></category>
+<category><pattern>I AM EILEEN</pattern><template><srai>CALL ME EILEEN</srai></template></category>
+<category><pattern>I AM TERRI</pattern><template><srai>CALL ME TERRI</srai></template></category>
+<category><pattern>I AM GERTRUDE</pattern><template><srai>CALL ME GERTRUDE</srai></template></category>
+<category><pattern>I AM LUCY</pattern><template><srai>CALL ME LUCY</srai></template></category>
+<category><pattern>I AM TONYA</pattern><template><srai>CALL ME TONYA</srai></template></category>
+<category><pattern>I AM ELLA</pattern><template><srai>CALL ME ELLA</srai></template></category>
+<category><pattern>I AM STACEY</pattern><template><srai>CALL ME STACEY</srai></template></category>
+<category><pattern>I AM WILMA</pattern><template><srai>CALL ME WILMA</srai></template></category>
+<category><pattern>I AM GINA</pattern><template><srai>CALL ME GINA</srai></template></category>
+<category><pattern>I AM KRISTIN</pattern><template><srai>CALL ME KRISTIN</srai></template></category>
+<category><pattern>I AM JESSIE</pattern><template><srai>CALL ME JESSIE</srai></template></category>
+<category><pattern>I AM NATALIE</pattern><template><srai>CALL ME NATALIE</srai></template></category>
+<category><pattern>I AM AGNES</pattern><template><srai>CALL ME AGNES</srai></template></category>
+<category><pattern>I AM VERA</pattern><template><srai>CALL ME VERA</srai></template></category>
+<category><pattern>I AM WILLIE</pattern><template><srai>CALL ME WILLIE</srai></template></category>
+<category><pattern>I AM CHARLENE</pattern><template><srai>CALL ME CHARLENE</srai></template></category>
+<category><pattern>I AM BESSIE</pattern><template><srai>CALL ME BESSIE</srai></template></category>
+<category><pattern>I AM DELORES</pattern><template><srai>CALL ME DELORES</srai></template></category>
+<category><pattern>I AM MELINDA</pattern><template><srai>CALL ME MELINDA</srai></template></category>
+<category><pattern>I AM PEARL</pattern><template><srai>CALL ME PEARL</srai></template></category>
+<category><pattern>I AM ARLENE</pattern><template><srai>CALL ME ARLENE</srai></template></category>
+<category><pattern>I AM MAUREEN</pattern><template><srai>CALL ME MAUREEN</srai></template></category>
+<category><pattern>I AM COLLEEN</pattern><template><srai>CALL ME COLLEEN</srai></template></category>
+<category><pattern>I AM ALLISON</pattern><template><srai>CALL ME ALLISON</srai></template></category>
+<category><pattern>I AM TAMARA</pattern><template><srai>CALL ME TAMARA</srai></template></category>
+<category><pattern>I AM JOY</pattern><template><srai>CALL ME JOY</srai></template></category>
+<category><pattern>I AM GEORGIA</pattern><template><srai>CALL ME GEORGIA</srai></template></category>
+<category><pattern>I AM CONSTANCE</pattern><template><srai>CALL ME CONSTANCE</srai></template></category>
+<category><pattern>I AM LILLIE</pattern><template><srai>CALL ME LILLIE</srai></template></category>
+<category><pattern>I AM CLAUDIA</pattern><template><srai>CALL ME CLAUDIA</srai></template></category>
+<category><pattern>I AM JACKIE</pattern><template><srai>CALL ME JACKIE</srai></template></category>
+<category><pattern>I AM MARCIA</pattern><template><srai>CALL ME MARCIA</srai></template></category>
+<category><pattern>I AM TANYA</pattern><template><srai>CALL ME TANYA</srai></template></category>
+<category><pattern>I AM NELLIE</pattern><template><srai>CALL ME NELLIE</srai></template></category>
+<category><pattern>I AM MINNIE</pattern><template><srai>CALL ME MINNIE</srai></template></category>
+<category><pattern>I AM MARLENE</pattern><template><srai>CALL ME MARLENE</srai></template></category>
+<category><pattern>I AM HEIDI</pattern><template><srai>CALL ME HEIDI</srai></template></category>
+<category><pattern>I AM GLENDA</pattern><template><srai>CALL ME GLENDA</srai></template></category>
+<category><pattern>I AM LYDIA</pattern><template><srai>CALL ME LYDIA</srai></template></category>
+<category><pattern>I AM VIOLA</pattern><template><srai>CALL ME VIOLA</srai></template></category>
+<category><pattern>I AM COURTNEY</pattern><template><srai>CALL ME COURTNEY</srai></template></category>
+<category><pattern>I AM MARIAN</pattern><template><srai>CALL ME MARIAN</srai></template></category>
+<category><pattern>I AM STELLA</pattern><template><srai>CALL ME STELLA</srai></template></category>
+<category><pattern>I AM CAROLINE</pattern><template><srai>CALL ME CAROLINE</srai></template></category>
+<category><pattern>I AM DORA</pattern><template><srai>CALL ME DORA</srai></template></category>
+<category><pattern>I AM JO</pattern><template><srai>CALL ME JO</srai></template></category>
+<category><pattern>I AM VICKIE</pattern><template><srai>CALL ME VICKIE</srai></template></category>
+<category><pattern>I AM MATTIE</pattern><template><srai>CALL ME MATTIE</srai></template></category>
+<category><pattern>I AM TERRY</pattern><template><srai>CALL ME TERRY</srai></template></category>
+<category><pattern>I AM MAXINE</pattern><template><srai>CALL ME MAXINE</srai></template></category>
+<category><pattern>I AM IRMA</pattern><template><srai>CALL ME IRMA</srai></template></category>
+<category><pattern>I AM MABEL</pattern><template><srai>CALL ME MABEL</srai></template></category>
+<category><pattern>I AM MARSHA</pattern><template><srai>CALL ME MARSHA</srai></template></category>
+<category><pattern>I AM MYRTLE</pattern><template><srai>CALL ME MYRTLE</srai></template></category>
+<category><pattern>I AM LENA</pattern><template><srai>CALL ME LENA</srai></template></category>
+<category><pattern>I AM CHRISTY</pattern><template><srai>CALL ME CHRISTY</srai></template></category>
+<category><pattern>I AM DEANNA</pattern><template><srai>CALL ME DEANNA</srai></template></category>
+<category><pattern>I AM PATSY</pattern><template><srai>CALL ME PATSY</srai></template></category>
+<category><pattern>I AM HILDA</pattern><template><srai>CALL ME HILDA</srai></template></category>
+<category><pattern>I AM GWENDOLYN</pattern><template><srai>CALL ME GWENDOLYN</srai></template></category>
+<category><pattern>I AM JENNIE</pattern><template><srai>CALL ME JENNIE</srai></template></category>
+<category><pattern>I AM NORA</pattern><template><srai>CALL ME NORA</srai></template></category>
+<category><pattern>I AM MARGIE</pattern><template><srai>CALL ME MARGIE</srai></template></category>
+<category><pattern>I AM NINA</pattern><template><srai>CALL ME NINA</srai></template></category>
+<category><pattern>I AM CASSANDRA</pattern><template><srai>CALL ME CASSANDRA</srai></template></category>
+<category><pattern>I AM LEAH</pattern><template><srai>CALL ME LEAH</srai></template></category>
+<category><pattern>I AM PENNY</pattern><template><srai>CALL ME PENNY</srai></template></category>
+<category><pattern>I AM KAY</pattern><template><srai>CALL ME KAY</srai></template></category>
+<category><pattern>I AM PRISCILLA</pattern><template><srai>CALL ME PRISCILLA</srai></template></category>
+<category><pattern>I AM NAOMI</pattern><template><srai>CALL ME NAOMI</srai></template></category>
+<category><pattern>I AM CAROLE</pattern><template><srai>CALL ME CAROLE</srai></template></category>
+<category><pattern>I AM BRANDY</pattern><template><srai>CALL ME BRANDY</srai></template></category>
+<category><pattern>I AM OLGA</pattern><template><srai>CALL ME OLGA</srai></template></category>
+<category><pattern>I AM BILLIE</pattern><template><srai>CALL ME BILLIE</srai></template></category>
+<category><pattern>I AM DIANNE</pattern><template><srai>CALL ME DIANNE</srai></template></category>
+<category><pattern>I AM TRACEY</pattern><template><srai>CALL ME TRACEY</srai></template></category>
+<category><pattern>I AM LEONA</pattern><template><srai>CALL ME LEONA</srai></template></category>
+<category><pattern>I AM JENNY</pattern><template><srai>CALL ME JENNY</srai></template></category>
+<category><pattern>I AM FELICIA</pattern><template><srai>CALL ME FELICIA</srai></template></category>
+<category><pattern>I AM SONIA</pattern><template><srai>CALL ME SONIA</srai></template></category>
+<category><pattern>I AM MIRIAM</pattern><template><srai>CALL ME MIRIAM</srai></template></category>
+<category><pattern>I AM VELMA</pattern><template><srai>CALL ME VELMA</srai></template></category>
+<category><pattern>I AM BECKY</pattern><template><srai>CALL ME BECKY</srai></template></category>
+<category><pattern>I AM BOBBIE</pattern><template><srai>CALL ME BOBBIE</srai></template></category>
+<category><pattern>I AM VIOLET</pattern><template><srai>CALL ME VIOLET</srai></template></category>
+<category><pattern>I AM KRISTINA</pattern><template><srai>CALL ME KRISTINA</srai></template></category>
+<category><pattern>I AM TONI</pattern><template><srai>CALL ME TONI</srai></template></category>
+<category><pattern>I AM MISTY</pattern><template><srai>CALL ME MISTY</srai></template></category>
+<category><pattern>I AM MAE</pattern><template><srai>CALL ME MAE</srai></template></category>
+<category><pattern>I AM SHELLY</pattern><template><srai>CALL ME SHELLY</srai></template></category>
+<category><pattern>I AM DAISY</pattern><template><srai>CALL ME DAISY</srai></template></category>
+<category><pattern>I AM RAMONA</pattern><template><srai>CALL ME RAMONA</srai></template></category>
+<category><pattern>I AM SHERRI</pattern><template><srai>CALL ME SHERRI</srai></template></category>
+<category><pattern>I AM ERIKA</pattern><template><srai>CALL ME ERIKA</srai></template></category>
+<category><pattern>I AM KATRINA</pattern><template><srai>CALL ME KATRINA</srai></template></category>
+<category><pattern>I AM CLAIRE</pattern><template><srai>CALL ME CLAIRE</srai></template></category>
+<category><pattern>I AM LINDSEY</pattern><template><srai>CALL ME LINDSEY</srai></template></category>
+<category><pattern>I AM LINDSAY</pattern><template><srai>CALL ME LINDSAY</srai></template></category>
+<category><pattern>I AM GENEVA</pattern><template><srai>CALL ME GENEVA</srai></template></category>
+<category><pattern>I AM GUADALUPE</pattern><template><srai>CALL ME GUADALUPE</srai></template></category>
+<category><pattern>I AM BELINDA</pattern><template><srai>CALL ME BELINDA</srai></template></category>
+<category><pattern>I AM MARGARITA</pattern><template><srai>CALL ME MARGARITA</srai></template></category>
+<category><pattern>I AM SHERYL</pattern><template><srai>CALL ME SHERYL</srai></template></category>
+<category><pattern>I AM CORA</pattern><template><srai>CALL ME CORA</srai></template></category>
+<category><pattern>I AM FAYE</pattern><template><srai>CALL ME FAYE</srai></template></category>
+<category><pattern>I AM ADA</pattern><template><srai>CALL ME ADA</srai></template></category>
+<category><pattern>I AM NATASHA</pattern><template><srai>CALL ME NATASHA</srai></template></category>
+<category><pattern>I AM SABRINA</pattern><template><srai>CALL ME SABRINA</srai></template></category>
+<category><pattern>I AM ISABEL</pattern><template><srai>CALL ME ISABEL</srai></template></category>
+<category><pattern>I AM MARGUERITE</pattern><template><srai>CALL ME MARGUERITE</srai></template></category>
+<category><pattern>I AM HATTIE</pattern><template><srai>CALL ME HATTIE</srai></template></category>
+<category><pattern>I AM HARRIET</pattern><template><srai>CALL ME HARRIET</srai></template></category>
+<category><pattern>I AM MOLLY</pattern><template><srai>CALL ME MOLLY</srai></template></category>
+<category><pattern>I AM CECILIA</pattern><template><srai>CALL ME CECILIA</srai></template></category>
+<category><pattern>I AM KRISTI</pattern><template><srai>CALL ME KRISTI</srai></template></category>
+<category><pattern>I AM BRANDI</pattern><template><srai>CALL ME BRANDI</srai></template></category>
+<category><pattern>I AM BLANCHE</pattern><template><srai>CALL ME BLANCHE</srai></template></category>
+<category><pattern>I AM SANDY</pattern><template><srai>CALL ME SANDY</srai></template></category>
+<category><pattern>I AM ROSIE</pattern><template><srai>CALL ME ROSIE</srai></template></category>
+<category><pattern>I AM JOANNA</pattern><template><srai>CALL ME JOANNA</srai></template></category>
+<category><pattern>I AM IRIS</pattern><template><srai>CALL ME IRIS</srai></template></category>
+<category><pattern>I AM EUNICE</pattern><template><srai>CALL ME EUNICE</srai></template></category>
+<category><pattern>I AM ANGIE</pattern><template><srai>CALL ME ANGIE</srai></template></category>
+<category><pattern>I AM INEZ</pattern><template><srai>CALL ME INEZ</srai></template></category>
+<category><pattern>I AM LYNDA</pattern><template><srai>CALL ME LYNDA</srai></template></category>
+<category><pattern>I AM MADELINE</pattern><template><srai>CALL ME MADELINE</srai></template></category>
+<category><pattern>I AM AMELIA</pattern><template><srai>CALL ME AMELIA</srai></template></category>
+<category><pattern>I AM ALBERTA</pattern><template><srai>CALL ME ALBERTA</srai></template></category>
+<category><pattern>I AM GENEVIEVE</pattern><template><srai>CALL ME GENEVIEVE</srai></template></category>
+<category><pattern>I AM MONIQUE</pattern><template><srai>CALL ME MONIQUE</srai></template></category>
+<category><pattern>I AM JODI</pattern><template><srai>CALL ME JODI</srai></template></category>
+<category><pattern>I AM JANIE</pattern><template><srai>CALL ME JANIE</srai></template></category>
+<category><pattern>I AM MAGGIE</pattern><template><srai>CALL ME MAGGIE</srai></template></category>
+<category><pattern>I AM KAYLA</pattern><template><srai>CALL ME KAYLA</srai></template></category>
+<category><pattern>I AM SONYA</pattern><template><srai>CALL ME SONYA</srai></template></category>
+<category><pattern>I AM JAN</pattern><template><srai>CALL ME JAN</srai></template></category>
+<category><pattern>I AM LEE</pattern><template><srai>CALL ME LEE</srai></template></category>
+<category><pattern>I AM KRISTINE</pattern><template><srai>CALL ME KRISTINE</srai></template></category>
+<category><pattern>I AM CANDACE</pattern><template><srai>CALL ME CANDACE</srai></template></category>
+<category><pattern>I AM FANNIE</pattern><template><srai>CALL ME FANNIE</srai></template></category>
+<category><pattern>I AM MARYANN</pattern><template><srai>CALL ME MARYANN</srai></template></category>
+<category><pattern>I AM OPAL</pattern><template><srai>CALL ME OPAL</srai></template></category>
+<category><pattern>I AM ALISON</pattern><template><srai>CALL ME ALISON</srai></template></category>
+<category><pattern>I AM YVETTE</pattern><template><srai>CALL ME YVETTE</srai></template></category>
+<category><pattern>I AM MELODY</pattern><template><srai>CALL ME MELODY</srai></template></category>
+<category><pattern>I AM LUZ</pattern><template><srai>CALL ME LUZ</srai></template></category>
+<category><pattern>I AM SUSIE</pattern><template><srai>CALL ME SUSIE</srai></template></category>
+<category><pattern>I AM OLIVIA</pattern><template><srai>CALL ME OLIVIA</srai></template></category>
+<category><pattern>I AM FLORA</pattern><template><srai>CALL ME FLORA</srai></template></category>
+<category><pattern>I AM SHELLEY</pattern><template><srai>CALL ME SHELLEY</srai></template></category>
+<category><pattern>I AM KRISTY</pattern><template><srai>CALL ME KRISTY</srai></template></category>
+<category><pattern>I AM MAMIE</pattern><template><srai>CALL ME MAMIE</srai></template></category>
+<category><pattern>I AM LULA</pattern><template><srai>CALL ME LULA</srai></template></category>
+<category><pattern>I AM LOLA</pattern><template><srai>CALL ME LOLA</srai></template></category>
+<category><pattern>I AM VERNA</pattern><template><srai>CALL ME VERNA</srai></template></category>
+<category><pattern>I AM BEULAH</pattern><template><srai>CALL ME BEULAH</srai></template></category>
+<category><pattern>I AM ANTOINETTE</pattern><template><srai>CALL ME ANTOINETTE</srai></template></category>
+<category><pattern>I AM CANDICE</pattern><template><srai>CALL ME CANDICE</srai></template></category>
+<category><pattern>I AM JUANA</pattern><template><srai>CALL ME JUANA</srai></template></category>
+<category><pattern>I AM JEANNETTE</pattern><template><srai>CALL ME JEANNETTE</srai></template></category>
+<category><pattern>I AM PAM</pattern><template><srai>CALL ME PAM</srai></template></category>
+<category><pattern>I AM KELLI</pattern><template><srai>CALL ME KELLI</srai></template></category>
+<category><pattern>I AM HANNAH</pattern><template><srai>CALL ME HANNAH</srai></template></category>
+<category><pattern>I AM WHITNEY</pattern><template><srai>CALL ME WHITNEY</srai></template></category>
+<category><pattern>I AM BRIDGET</pattern><template><srai>CALL ME BRIDGET</srai></template></category>
+<category><pattern>I AM KARLA</pattern><template><srai>CALL ME KARLA</srai></template></category>
+<category><pattern>I AM CELIA</pattern><template><srai>CALL ME CELIA</srai></template></category>
+<category><pattern>I AM LATOYA</pattern><template><srai>CALL ME LATOYA</srai></template></category>
+<category><pattern>I AM PATTY</pattern><template><srai>CALL ME PATTY</srai></template></category>
+<category><pattern>I AM SHELIA</pattern><template><srai>CALL ME SHELIA</srai></template></category>
+<category><pattern>I AM GAYLE</pattern><template><srai>CALL ME GAYLE</srai></template></category>
+<category><pattern>I AM DELLA</pattern><template><srai>CALL ME DELLA</srai></template></category>
+<category><pattern>I AM VICKY</pattern><template><srai>CALL ME VICKY</srai></template></category>
+<category><pattern>I AM LYNNE</pattern><template><srai>CALL ME LYNNE</srai></template></category>
+<category><pattern>I AM SHERI</pattern><template><srai>CALL ME SHERI</srai></template></category>
+<category><pattern>I AM MARIANNE</pattern><template><srai>CALL ME MARIANNE</srai></template></category>
+<category><pattern>I AM KARA</pattern><template><srai>CALL ME KARA</srai></template></category>
+<category><pattern>I AM JACQUELYN</pattern><template><srai>CALL ME JACQUELYN</srai></template></category>
+<category><pattern>I AM ERMA</pattern><template><srai>CALL ME ERMA</srai></template></category>
+<category><pattern>I AM BLANCA</pattern><template><srai>CALL ME BLANCA</srai></template></category>
+<category><pattern>I AM MYRA</pattern><template><srai>CALL ME MYRA</srai></template></category>
+<category><pattern>I AM LETICIA</pattern><template><srai>CALL ME LETICIA</srai></template></category>
+<category><pattern>I AM PAT</pattern><template><srai>CALL ME PAT</srai></template></category>
+<category><pattern>I AM KRISTA</pattern><template><srai>CALL ME KRISTA</srai></template></category>
+<category><pattern>I AM ROXANNE</pattern><template><srai>CALL ME ROXANNE</srai></template></category>
+<category><pattern>I AM ANGELICA</pattern><template><srai>CALL ME ANGELICA</srai></template></category>
+<category><pattern>I AM JOHNNIE</pattern><template><srai>CALL ME JOHNNIE</srai></template></category>
+<category><pattern>I AM ROBYN</pattern><template><srai>CALL ME ROBYN</srai></template></category>
+<category><pattern>I AM FRANCIS</pattern><template><srai>CALL ME FRANCIS</srai></template></category>
+<category><pattern>I AM ADRIENNE</pattern><template><srai>CALL ME ADRIENNE</srai></template></category>
+<category><pattern>I AM ROSALIE</pattern><template><srai>CALL ME ROSALIE</srai></template></category>
+<category><pattern>I AM ALEXANDRA</pattern><template><srai>CALL ME ALEXANDRA</srai></template></category>
+<category><pattern>I AM BROOKE</pattern><template><srai>CALL ME BROOKE</srai></template></category>
+<category><pattern>I AM BETHANY</pattern><template><srai>CALL ME BETHANY</srai></template></category>
+<category><pattern>I AM SADIE</pattern><template><srai>CALL ME SADIE</srai></template></category>
+<category><pattern>I AM BERNADETTE</pattern><template><srai>CALL ME BERNADETTE</srai></template></category>
+<category><pattern>I AM TRACI</pattern><template><srai>CALL ME TRACI</srai></template></category>
+<category><pattern>I AM JODY</pattern><template><srai>CALL ME JODY</srai></template></category>
+<category><pattern>I AM KENDRA</pattern><template><srai>CALL ME KENDRA</srai></template></category>
+<category><pattern>I AM JASMINE</pattern><template><srai>CALL ME JASMINE</srai></template></category>
+<category><pattern>I AM NICHOLE</pattern><template><srai>CALL ME NICHOLE</srai></template></category>
+<category><pattern>I AM RACHAEL</pattern><template><srai>CALL ME RACHAEL</srai></template></category>
+<category><pattern>I AM CHELSEA</pattern><template><srai>CALL ME CHELSEA</srai></template></category>
+<category><pattern>I AM MABLE</pattern><template><srai>CALL ME MABLE</srai></template></category>
+<category><pattern>I AM ERNESTINE</pattern><template><srai>CALL ME ERNESTINE</srai></template></category>
+<category><pattern>I AM MURIEL</pattern><template><srai>CALL ME MURIEL</srai></template></category>
+<category><pattern>I AM MARCELLA</pattern><template><srai>CALL ME MARCELLA</srai></template></category>
+<category><pattern>I AM ELENA</pattern><template><srai>CALL ME ELENA</srai></template></category>
+<category><pattern>I AM KRYSTAL</pattern><template><srai>CALL ME KRYSTAL</srai></template></category>
+<category><pattern>I AM ANGELINA</pattern><template><srai>CALL ME ANGELINA</srai></template></category>
+<category><pattern>I AM NADINE</pattern><template><srai>CALL ME NADINE</srai></template></category>
+<category><pattern>I AM KARI</pattern><template><srai>CALL ME KARI</srai></template></category>
+<category><pattern>I AM ESTELLE</pattern><template><srai>CALL ME ESTELLE</srai></template></category>
+<category><pattern>I AM DIANNA</pattern><template><srai>CALL ME DIANNA</srai></template></category>
+<category><pattern>I AM PAULETTE</pattern><template><srai>CALL ME PAULETTE</srai></template></category>
+<category><pattern>I AM LORA</pattern><template><srai>CALL ME LORA</srai></template></category>
+<category><pattern>I AM MONA</pattern><template><srai>CALL ME MONA</srai></template></category>
+<category><pattern>I AM DOREEN</pattern><template><srai>CALL ME DOREEN</srai></template></category>
+<category><pattern>I AM ROSEMARIE</pattern><template><srai>CALL ME ROSEMARIE</srai></template></category>
+<category><pattern>I AM ANGEL</pattern><template><srai>CALL ME ANGEL</srai></template></category>
+<category><pattern>I AM DESIREE</pattern><template><srai>CALL ME DESIREE</srai></template></category>
+<category><pattern>I AM ANTONIA</pattern><template><srai>CALL ME ANTONIA</srai></template></category>
+<category><pattern>I AM HOPE</pattern><template><srai>CALL ME HOPE</srai></template></category>
+<category><pattern>I AM GINGER</pattern><template><srai>CALL ME GINGER</srai></template></category>
+<category><pattern>I AM JANIS</pattern><template><srai>CALL ME JANIS</srai></template></category>
+<category><pattern>I AM BETSY</pattern><template><srai>CALL ME BETSY</srai></template></category>
+<category><pattern>I AM CHRISTIE</pattern><template><srai>CALL ME CHRISTIE</srai></template></category>
+<category><pattern>I AM FREDA</pattern><template><srai>CALL ME FREDA</srai></template></category>
+<category><pattern>I AM MERCEDES</pattern><template><srai>CALL ME MERCEDES</srai></template></category>
+<category><pattern>I AM MEREDITH</pattern><template><srai>CALL ME MEREDITH</srai></template></category>
+<category><pattern>I AM LYNETTE</pattern><template><srai>CALL ME LYNETTE</srai></template></category>
+<category><pattern>I AM TERI</pattern><template><srai>CALL ME TERI</srai></template></category>
+<category><pattern>I AM CRISTINA</pattern><template><srai>CALL ME CRISTINA</srai></template></category>
+<category><pattern>I AM EULA</pattern><template><srai>CALL ME EULA</srai></template></category>
+<category><pattern>I AM LEIGH</pattern><template><srai>CALL ME LEIGH</srai></template></category>
+<category><pattern>I AM MEGHAN</pattern><template><srai>CALL ME MEGHAN</srai></template></category>
+<category><pattern>I AM SOPHIA</pattern><template><srai>CALL ME SOPHIA</srai></template></category>
+<category><pattern>I AM ELOISE</pattern><template><srai>CALL ME ELOISE</srai></template></category>
+<category><pattern>I AM ROCHELLE</pattern><template><srai>CALL ME ROCHELLE</srai></template></category>
+<category><pattern>I AM GRETCHEN</pattern><template><srai>CALL ME GRETCHEN</srai></template></category>
+<category><pattern>I AM CECELIA</pattern><template><srai>CALL ME CECELIA</srai></template></category>
+<category><pattern>I AM RAQUEL</pattern><template><srai>CALL ME RAQUEL</srai></template></category>
+<category><pattern>I AM HENRIETTA</pattern><template><srai>CALL ME HENRIETTA</srai></template></category>
+<category><pattern>I AM ALYSSA</pattern><template><srai>CALL ME ALYSSA</srai></template></category>
+<category><pattern>I AM JANA</pattern><template><srai>CALL ME JANA</srai></template></category>
+<category><pattern>I AM KELLEY</pattern><template><srai>CALL ME KELLEY</srai></template></category>
+<category><pattern>I AM GWEN</pattern><template><srai>CALL ME GWEN</srai></template></category>
+<category><pattern>I AM KERRY</pattern><template><srai>CALL ME KERRY</srai></template></category>
+<category><pattern>I AM JENNA</pattern><template><srai>CALL ME JENNA</srai></template></category>
+<category><pattern>I AM TRICIA</pattern><template><srai>CALL ME TRICIA</srai></template></category>
+<category><pattern>I AM LAVERNE</pattern><template><srai>CALL ME LAVERNE</srai></template></category>
+<category><pattern>I AM OLIVE</pattern><template><srai>CALL ME OLIVE</srai></template></category>
+<category><pattern>I AM ALEXIS</pattern><template><srai>CALL ME ALEXIS</srai></template></category>
+<category><pattern>I AM TASHA</pattern><template><srai>CALL ME TASHA</srai></template></category>
+<category><pattern>I AM SILVIA</pattern><template><srai>CALL ME SILVIA</srai></template></category>
+<category><pattern>I AM ELVIRA</pattern><template><srai>CALL ME ELVIRA</srai></template></category>
+<category><pattern>I AM CASEY</pattern><template><srai>CALL ME CASEY</srai></template></category>
+<category><pattern>I AM DELIA</pattern><template><srai>CALL ME DELIA</srai></template></category>
+<category><pattern>I AM SOPHIE</pattern><template><srai>CALL ME SOPHIE</srai></template></category>
+<category><pattern>I AM KATE</pattern><template><srai>CALL ME KATE</srai></template></category>
+<category><pattern>I AM PATTI</pattern><template><srai>CALL ME PATTI</srai></template></category>
+<category><pattern>I AM LORENA</pattern><template><srai>CALL ME LORENA</srai></template></category>
+<category><pattern>I AM KELLIE</pattern><template><srai>CALL ME KELLIE</srai></template></category>
+<category><pattern>I AM SONJA</pattern><template><srai>CALL ME SONJA</srai></template></category>
+<category><pattern>I AM LILA</pattern><template><srai>CALL ME LILA</srai></template></category>
+<category><pattern>I AM LANA</pattern><template><srai>CALL ME LANA</srai></template></category>
+<category><pattern>I AM DARLA</pattern><template><srai>CALL ME DARLA</srai></template></category>
+<category><pattern>I AM MAY</pattern><template><srai>CALL ME MAY</srai></template></category>
+<category><pattern>I AM MINDY</pattern><template><srai>CALL ME MINDY</srai></template></category>
+<category><pattern>I AM ESSIE</pattern><template><srai>CALL ME ESSIE</srai></template></category>
+<category><pattern>I AM MANDY</pattern><template><srai>CALL ME MANDY</srai></template></category>
+<category><pattern>I AM LORENE</pattern><template><srai>CALL ME LORENE</srai></template></category>
+<category><pattern>I AM ELSA</pattern><template><srai>CALL ME ELSA</srai></template></category>
+<category><pattern>I AM JOSEFINA</pattern><template><srai>CALL ME JOSEFINA</srai></template></category>
+<category><pattern>I AM JEANNIE</pattern><template><srai>CALL ME JEANNIE</srai></template></category>
+<category><pattern>I AM MIRANDA</pattern><template><srai>CALL ME MIRANDA</srai></template></category>
+<category><pattern>I AM DIXIE</pattern><template><srai>CALL ME DIXIE</srai></template></category>
+<category><pattern>I AM LUCIA</pattern><template><srai>CALL ME LUCIA</srai></template></category>
+<category><pattern>I AM MARTA</pattern><template><srai>CALL ME MARTA</srai></template></category>
+<category><pattern>I AM FAITH</pattern><template><srai>CALL ME FAITH</srai></template></category>
+<category><pattern>I AM LELA</pattern><template><srai>CALL ME LELA</srai></template></category>
+<category><pattern>I AM JOHANNA</pattern><template><srai>CALL ME JOHANNA</srai></template></category>
+<category><pattern>I AM SHARI</pattern><template><srai>CALL ME SHARI</srai></template></category>
+<category><pattern>I AM CAMILLE</pattern><template><srai>CALL ME CAMILLE</srai></template></category>
+<category><pattern>I AM TAMI</pattern><template><srai>CALL ME TAMI</srai></template></category>
+<category><pattern>I AM SHAWNA</pattern><template><srai>CALL ME SHAWNA</srai></template></category>
+<category><pattern>I AM ELISA</pattern><template><srai>CALL ME ELISA</srai></template></category>
+<category><pattern>I AM EBONY</pattern><template><srai>CALL ME EBONY</srai></template></category>
+<category><pattern>I AM MELBA</pattern><template><srai>CALL ME MELBA</srai></template></category>
+<category><pattern>I AM ORA</pattern><template><srai>CALL ME ORA</srai></template></category>
+<category><pattern>I AM NETTIE</pattern><template><srai>CALL ME NETTIE</srai></template></category>
+<category><pattern>I AM TABITHA</pattern><template><srai>CALL ME TABITHA</srai></template></category>
+<category><pattern>I AM OLLIE</pattern><template><srai>CALL ME OLLIE</srai></template></category>
+<category><pattern>I AM JAIME</pattern><template><srai>CALL ME JAIME</srai></template></category>
+<category><pattern>I AM WINIFRED</pattern><template><srai>CALL ME WINIFRED</srai></template></category>
+<category><pattern>I AM KRISTIE</pattern><template><srai>CALL ME KRISTIE</srai></template></category>
+<category><pattern>I AM MARINA</pattern><template><srai>CALL ME MARINA</srai></template></category>
+<category><pattern>I AM ALISHA</pattern><template><srai>CALL ME ALISHA</srai></template></category>
+<category><pattern>I AM AIMEE</pattern><template><srai>CALL ME AIMEE</srai></template></category>
+<category><pattern>I AM RENA</pattern><template><srai>CALL ME RENA</srai></template></category>
+<category><pattern>I AM MYRNA</pattern><template><srai>CALL ME MYRNA</srai></template></category>
+<category><pattern>I AM MARLA</pattern><template><srai>CALL ME MARLA</srai></template></category>
+<category><pattern>I AM TAMMIE</pattern><template><srai>CALL ME TAMMIE</srai></template></category>
+<category><pattern>I AM LATASHA</pattern><template><srai>CALL ME LATASHA</srai></template></category>
+<category><pattern>I AM BONITA</pattern><template><srai>CALL ME BONITA</srai></template></category>
+<category><pattern>I AM PATRICE</pattern><template><srai>CALL ME PATRICE</srai></template></category>
+<category><pattern>I AM RONDA</pattern><template><srai>CALL ME RONDA</srai></template></category>
+<category><pattern>I AM SHERRIE</pattern><template><srai>CALL ME SHERRIE</srai></template></category>
+<category><pattern>I AM ADDIE</pattern><template><srai>CALL ME ADDIE</srai></template></category>
+<category><pattern>I AM FRANCINE</pattern><template><srai>CALL ME FRANCINE</srai></template></category>
+<category><pattern>I AM DELORIS</pattern><template><srai>CALL ME DELORIS</srai></template></category>
+<category><pattern>I AM STACIE</pattern><template><srai>CALL ME STACIE</srai></template></category>
+<category><pattern>I AM ADRIANA</pattern><template><srai>CALL ME ADRIANA</srai></template></category>
+<category><pattern>I AM CHERI</pattern><template><srai>CALL ME CHERI</srai></template></category>
+<category><pattern>I AM SHELBY</pattern><template><srai>CALL ME SHELBY</srai></template></category>
+<category><pattern>I AM ABIGAIL</pattern><template><srai>CALL ME ABIGAIL</srai></template></category>
+<category><pattern>I AM CELESTE</pattern><template><srai>CALL ME CELESTE</srai></template></category>
+<category><pattern>I AM JEWEL</pattern><template><srai>CALL ME JEWEL</srai></template></category>
+<category><pattern>I AM CARA</pattern><template><srai>CALL ME CARA</srai></template></category>
+<category><pattern>I AM ADELE</pattern><template><srai>CALL ME ADELE</srai></template></category>
+<category><pattern>I AM REBEKAH</pattern><template><srai>CALL ME REBEKAH</srai></template></category>
+<category><pattern>I AM LUCINDA</pattern><template><srai>CALL ME LUCINDA</srai></template></category>
+<category><pattern>I AM DORTHY</pattern><template><srai>CALL ME DORTHY</srai></template></category>
+<category><pattern>I AM CHRIS</pattern><template><srai>CALL ME CHRIS</srai></template></category>
+<category><pattern>I AM EFFIE</pattern><template><srai>CALL ME EFFIE</srai></template></category>
+<category><pattern>I AM TRINA</pattern><template><srai>CALL ME TRINA</srai></template></category>
+<category><pattern>I AM REBA</pattern><template><srai>CALL ME REBA</srai></template></category>
+<category><pattern>I AM SHAWN</pattern><template><srai>CALL ME SHAWN</srai></template></category>
+<category><pattern>I AM SALLIE</pattern><template><srai>CALL ME SALLIE</srai></template></category>
+<category><pattern>I AM AURORA</pattern><template><srai>CALL ME AURORA</srai></template></category>
+<category><pattern>I AM LENORA</pattern><template><srai>CALL ME LENORA</srai></template></category>
+<category><pattern>I AM ETTA</pattern><template><srai>CALL ME ETTA</srai></template></category>
+<category><pattern>I AM LOTTIE</pattern><template><srai>CALL ME LOTTIE</srai></template></category>
+<category><pattern>I AM KERRI</pattern><template><srai>CALL ME KERRI</srai></template></category>
+<category><pattern>I AM TRISHA</pattern><template><srai>CALL ME TRISHA</srai></template></category>
+<category><pattern>I AM NIKKI</pattern><template><srai>CALL ME NIKKI</srai></template></category>
+<category><pattern>I AM ESTELLA</pattern><template><srai>CALL ME ESTELLA</srai></template></category>
+<category><pattern>I AM FRANCISCA</pattern><template><srai>CALL ME FRANCISCA</srai></template></category>
+<category><pattern>I AM JOSIE</pattern><template><srai>CALL ME JOSIE</srai></template></category>
+<category><pattern>I AM TRACIE</pattern><template><srai>CALL ME TRACIE</srai></template></category>
+<category><pattern>I AM MARISSA</pattern><template><srai>CALL ME MARISSA</srai></template></category>
+<category><pattern>I AM KARIN</pattern><template><srai>CALL ME KARIN</srai></template></category>
+<category><pattern>I AM BRITTNEY</pattern><template><srai>CALL ME BRITTNEY</srai></template></category>
+<category><pattern>I AM JANELLE</pattern><template><srai>CALL ME JANELLE</srai></template></category>
+<category><pattern>I AM LOURDES</pattern><template><srai>CALL ME LOURDES</srai></template></category>
+<category><pattern>I AM LAUREL</pattern><template><srai>CALL ME LAUREL</srai></template></category>
+<category><pattern>I AM HELENE</pattern><template><srai>CALL ME HELENE</srai></template></category>
+<category><pattern>I AM FERN</pattern><template><srai>CALL ME FERN</srai></template></category>
+<category><pattern>I AM ELVA</pattern><template><srai>CALL ME ELVA</srai></template></category>
+<category><pattern>I AM CORINNE</pattern><template><srai>CALL ME CORINNE</srai></template></category>
+<category><pattern>I AM KELSEY</pattern><template><srai>CALL ME KELSEY</srai></template></category>
+<category><pattern>I AM INA</pattern><template><srai>CALL ME INA</srai></template></category>
+<category><pattern>I AM BETTIE</pattern><template><srai>CALL ME BETTIE</srai></template></category>
+<category><pattern>I AM ELISABETH</pattern><template><srai>CALL ME ELISABETH</srai></template></category>
+<category><pattern>I AM AIDA</pattern><template><srai>CALL ME AIDA</srai></template></category>
+<category><pattern>I AM CAITLIN</pattern><template><srai>CALL ME CAITLIN</srai></template></category>
+<category><pattern>I AM INGRID</pattern><template><srai>CALL ME INGRID</srai></template></category>
+<category><pattern>I AM IVA</pattern><template><srai>CALL ME IVA</srai></template></category>
+<category><pattern>I AM EUGENIA</pattern><template><srai>CALL ME EUGENIA</srai></template></category>
+<category><pattern>I AM CHRISTA</pattern><template><srai>CALL ME CHRISTA</srai></template></category>
+<category><pattern>I AM GOLDIE</pattern><template><srai>CALL ME GOLDIE</srai></template></category>
+<category><pattern>I AM CASSIE</pattern><template><srai>CALL ME CASSIE</srai></template></category>
+<category><pattern>I AM MAUDE</pattern><template><srai>CALL ME MAUDE</srai></template></category>
+<category><pattern>I AM JENIFER</pattern><template><srai>CALL ME JENIFER</srai></template></category>
+<category><pattern>I AM THERESE</pattern><template><srai>CALL ME THERESE</srai></template></category>
+<category><pattern>I AM FRANKIE</pattern><template><srai>CALL ME FRANKIE</srai></template></category>
+<category><pattern>I AM DENA</pattern><template><srai>CALL ME DENA</srai></template></category>
+<category><pattern>I AM LORNA</pattern><template><srai>CALL ME LORNA</srai></template></category>
+<category><pattern>I AM JANETTE</pattern><template><srai>CALL ME JANETTE</srai></template></category>
+<category><pattern>I AM LATONYA</pattern><template><srai>CALL ME LATONYA</srai></template></category>
+<category><pattern>I AM CANDY</pattern><template><srai>CALL ME CANDY</srai></template></category>
+<category><pattern>I AM MORGAN</pattern><template><srai>CALL ME MORGAN</srai></template></category>
+<category><pattern>I AM CONSUELO</pattern><template><srai>CALL ME CONSUELO</srai></template></category>
+<category><pattern>I AM TAMIKA</pattern><template><srai>CALL ME TAMIKA</srai></template></category>
+<category><pattern>I AM ROSETTA</pattern><template><srai>CALL ME ROSETTA</srai></template></category>
+<category><pattern>I AM DEBORA</pattern><template><srai>CALL ME DEBORA</srai></template></category>
+<category><pattern>I AM CHERIE</pattern><template><srai>CALL ME CHERIE</srai></template></category>
+<category><pattern>I AM POLLY</pattern><template><srai>CALL ME POLLY</srai></template></category>
+<category><pattern>I AM DINA</pattern><template><srai>CALL ME DINA</srai></template></category>
+<category><pattern>I AM JEWELL</pattern><template><srai>CALL ME JEWELL</srai></template></category>
+<category><pattern>I AM FAY</pattern><template><srai>CALL ME FAY</srai></template></category>
+<category><pattern>I AM JILLIAN</pattern><template><srai>CALL ME JILLIAN</srai></template></category>
+<category><pattern>I AM DOROTHEA</pattern><template><srai>CALL ME DOROTHEA</srai></template></category>
+<category><pattern>I AM NELL</pattern><template><srai>CALL ME NELL</srai></template></category>
+<category><pattern>I AM TRUDY</pattern><template><srai>CALL ME TRUDY</srai></template></category>
+<category><pattern>I AM ESPERANZA</pattern><template><srai>CALL ME ESPERANZA</srai></template></category>
+<category><pattern>I AM PATRICA</pattern><template><srai>CALL ME PATRICA</srai></template></category>
+<category><pattern>I AM KIMBERLEY</pattern><template><srai>CALL ME KIMBERLEY</srai></template></category>
+<category><pattern>I AM SHANNA</pattern><template><srai>CALL ME SHANNA</srai></template></category>
+<category><pattern>I AM HELENA</pattern><template><srai>CALL ME HELENA</srai></template></category>
+<category><pattern>I AM CAROLINA</pattern><template><srai>CALL ME CAROLINA</srai></template></category>
+<category><pattern>I AM CLEO</pattern><template><srai>CALL ME CLEO</srai></template></category>
+<category><pattern>I AM STEFANIE</pattern><template><srai>CALL ME STEFANIE</srai></template></category>
+<category><pattern>I AM ROSARIO</pattern><template><srai>CALL ME ROSARIO</srai></template></category>
+<category><pattern>I AM OLA</pattern><template><srai>CALL ME OLA</srai></template></category>
+<category><pattern>I AM JANINE</pattern><template><srai>CALL ME JANINE</srai></template></category>
+<category><pattern>I AM MOLLIE</pattern><template><srai>CALL ME MOLLIE</srai></template></category>
+<category><pattern>I AM LUPE</pattern><template><srai>CALL ME LUPE</srai></template></category>
+<category><pattern>I AM ALISA</pattern><template><srai>CALL ME ALISA</srai></template></category>
+<category><pattern>I AM LOU</pattern><template><srai>CALL ME LOU</srai></template></category>
+<category><pattern>I AM MARIBEL</pattern><template><srai>CALL ME MARIBEL</srai></template></category>
+<category><pattern>I AM SUSANNE</pattern><template><srai>CALL ME SUSANNE</srai></template></category>
+<category><pattern>I AM BETTE</pattern><template><srai>CALL ME BETTE</srai></template></category>
+<category><pattern>I AM SUSANA</pattern><template><srai>CALL ME SUSANA</srai></template></category>
+<category><pattern>I AM ELISE</pattern><template><srai>CALL ME ELISE</srai></template></category>
+<category><pattern>I AM CECILE</pattern><template><srai>CALL ME CECILE</srai></template></category>
+<category><pattern>I AM ISABELLE</pattern><template><srai>CALL ME ISABELLE</srai></template></category>
+<category><pattern>I AM LESLEY</pattern><template><srai>CALL ME LESLEY</srai></template></category>
+<category><pattern>I AM JOCELYN</pattern><template><srai>CALL ME JOCELYN</srai></template></category>
+<category><pattern>I AM PAIGE</pattern><template><srai>CALL ME PAIGE</srai></template></category>
+<category><pattern>I AM JONI</pattern><template><srai>CALL ME JONI</srai></template></category>
+<category><pattern>I AM RACHELLE</pattern><template><srai>CALL ME RACHELLE</srai></template></category>
+<category><pattern>I AM LEOLA</pattern><template><srai>CALL ME LEOLA</srai></template></category>
+<category><pattern>I AM DAPHNE</pattern><template><srai>CALL ME DAPHNE</srai></template></category>
+<category><pattern>I AM ALTA</pattern><template><srai>CALL ME ALTA</srai></template></category>
+<category><pattern>I AM ESTER</pattern><template><srai>CALL ME ESTER</srai></template></category>
+<category><pattern>I AM PETRA</pattern><template><srai>CALL ME PETRA</srai></template></category>
+<category><pattern>I AM GRACIELA</pattern><template><srai>CALL ME GRACIELA</srai></template></category>
+<category><pattern>I AM IMOGENE</pattern><template><srai>CALL ME IMOGENE</srai></template></category>
+<category><pattern>I AM JOLENE</pattern><template><srai>CALL ME JOLENE</srai></template></category>
+<category><pattern>I AM KEISHA</pattern><template><srai>CALL ME KEISHA</srai></template></category>
+<category><pattern>I AM LACEY</pattern><template><srai>CALL ME LACEY</srai></template></category>
+<category><pattern>I AM GLENNA</pattern><template><srai>CALL ME GLENNA</srai></template></category>
+<category><pattern>I AM GABRIELA</pattern><template><srai>CALL ME GABRIELA</srai></template></category>
+<category><pattern>I AM KERI</pattern><template><srai>CALL ME KERI</srai></template></category>
+<category><pattern>I AM URSULA</pattern><template><srai>CALL ME URSULA</srai></template></category>
+<category><pattern>I AM LIZZIE</pattern><template><srai>CALL ME LIZZIE</srai></template></category>
+<category><pattern>I AM KIRSTEN</pattern><template><srai>CALL ME KIRSTEN</srai></template></category>
+<category><pattern>I AM SHANA</pattern><template><srai>CALL ME SHANA</srai></template></category>
+<category><pattern>I AM ADELINE</pattern><template><srai>CALL ME ADELINE</srai></template></category>
+<category><pattern>I AM MAYRA</pattern><template><srai>CALL ME MAYRA</srai></template></category>
+<category><pattern>I AM JAYNE</pattern><template><srai>CALL ME JAYNE</srai></template></category>
+<category><pattern>I AM JACLYN</pattern><template><srai>CALL ME JACLYN</srai></template></category>
+<category><pattern>I AM GRACIE</pattern><template><srai>CALL ME GRACIE</srai></template></category>
+<category><pattern>I AM SONDRA</pattern><template><srai>CALL ME SONDRA</srai></template></category>
+<category><pattern>I AM CARMELA</pattern><template><srai>CALL ME CARMELA</srai></template></category>
+<category><pattern>I AM MARISA</pattern><template><srai>CALL ME MARISA</srai></template></category>
+<category><pattern>I AM ROSALIND</pattern><template><srai>CALL ME ROSALIND</srai></template></category>
+<category><pattern>I AM CHARITY</pattern><template><srai>CALL ME CHARITY</srai></template></category>
+<category><pattern>I AM TONIA</pattern><template><srai>CALL ME TONIA</srai></template></category>
+<category><pattern>I AM BEATRIZ</pattern><template><srai>CALL ME BEATRIZ</srai></template></category>
+<category><pattern>I AM MARISOL</pattern><template><srai>CALL ME MARISOL</srai></template></category>
+<category><pattern>I AM CLARICE</pattern><template><srai>CALL ME CLARICE</srai></template></category>
+<category><pattern>I AM JEANINE</pattern><template><srai>CALL ME JEANINE</srai></template></category>
+<category><pattern>I AM SHEENA</pattern><template><srai>CALL ME SHEENA</srai></template></category>
+<category><pattern>I AM ANGELINE</pattern><template><srai>CALL ME ANGELINE</srai></template></category>
+<category><pattern>I AM FRIEDA</pattern><template><srai>CALL ME FRIEDA</srai></template></category>
+<category><pattern>I AM LILY</pattern><template><srai>CALL ME LILY</srai></template></category>
+<category><pattern>I AM ROBBIE</pattern><template><srai>CALL ME ROBBIE</srai></template></category>
+<category><pattern>I AM SHAUNA</pattern><template><srai>CALL ME SHAUNA</srai></template></category>
+<category><pattern>I AM MILLIE</pattern><template><srai>CALL ME MILLIE</srai></template></category>
+<category><pattern>I AM CLAUDETTE</pattern><template><srai>CALL ME CLAUDETTE</srai></template></category>
+<category><pattern>I AM CATHLEEN</pattern><template><srai>CALL ME CATHLEEN</srai></template></category>
+<category><pattern>I AM ANGELIA</pattern><template><srai>CALL ME ANGELIA</srai></template></category>
+<category><pattern>I AM GABRIELLE</pattern><template><srai>CALL ME GABRIELLE</srai></template></category>
+<category><pattern>I AM AUTUMN</pattern><template><srai>CALL ME AUTUMN</srai></template></category>
+<category><pattern>I AM KATHARINE</pattern><template><srai>CALL ME KATHARINE</srai></template></category>
+<category><pattern>I AM SUMMER</pattern><template><srai>CALL ME SUMMER</srai></template></category>
+<category><pattern>I AM JODIE</pattern><template><srai>CALL ME JODIE</srai></template></category>
+<category><pattern>I AM STACI</pattern><template><srai>CALL ME STACI</srai></template></category>
+<category><pattern>I AM LEA</pattern><template><srai>CALL ME LEA</srai></template></category>
+<category><pattern>I AM CHRISTI</pattern><template><srai>CALL ME CHRISTI</srai></template></category>
+<category><pattern>I AM JIMMIE</pattern><template><srai>CALL ME JIMMIE</srai></template></category>
+<category><pattern>I AM JUSTINE</pattern><template><srai>CALL ME JUSTINE</srai></template></category>
+<category><pattern>I AM ELMA</pattern><template><srai>CALL ME ELMA</srai></template></category>
+<category><pattern>I AM LUELLA</pattern><template><srai>CALL ME LUELLA</srai></template></category>
+<category><pattern>I AM MARGRET</pattern><template><srai>CALL ME MARGRET</srai></template></category>
+<category><pattern>I AM DOMINIQUE</pattern><template><srai>CALL ME DOMINIQUE</srai></template></category>
+<category><pattern>I AM SOCORRO</pattern><template><srai>CALL ME SOCORRO</srai></template></category>
+<category><pattern>I AM RENE</pattern><template><srai>CALL ME RENE</srai></template></category>
+<category><pattern>I AM MARTINA</pattern><template><srai>CALL ME MARTINA</srai></template></category>
+<category><pattern>I AM MARGO</pattern><template><srai>CALL ME MARGO</srai></template></category>
+<category><pattern>I AM MAVIS</pattern><template><srai>CALL ME MAVIS</srai></template></category>
+<category><pattern>I AM CALLIE</pattern><template><srai>CALL ME CALLIE</srai></template></category>
+<category><pattern>I AM BOBBI</pattern><template><srai>CALL ME BOBBI</srai></template></category>
+<category><pattern>I AM MARITZA</pattern><template><srai>CALL ME MARITZA</srai></template></category>
+<category><pattern>I AM LUCILE</pattern><template><srai>CALL ME LUCILE</srai></template></category>
+<category><pattern>I AM LEANNE</pattern><template><srai>CALL ME LEANNE</srai></template></category>
+<category><pattern>I AM JEANNINE</pattern><template><srai>CALL ME JEANNINE</srai></template></category>
+<category><pattern>I AM DEANA</pattern><template><srai>CALL ME DEANA</srai></template></category>
+<category><pattern>I AM AILEEN</pattern><template><srai>CALL ME AILEEN</srai></template></category>
+<category><pattern>I AM LORIE</pattern><template><srai>CALL ME LORIE</srai></template></category>
+<category><pattern>I AM LADONNA</pattern><template><srai>CALL ME LADONNA</srai></template></category>
+<category><pattern>I AM WILLA</pattern><template><srai>CALL ME WILLA</srai></template></category>
+<category><pattern>I AM MANUELA</pattern><template><srai>CALL ME MANUELA</srai></template></category>
+<category><pattern>I AM GALE</pattern><template><srai>CALL ME GALE</srai></template></category>
+<category><pattern>I AM SELMA</pattern><template><srai>CALL ME SELMA</srai></template></category>
+<category><pattern>I AM DOLLY</pattern><template><srai>CALL ME DOLLY</srai></template></category>
+<category><pattern>I AM SYBIL</pattern><template><srai>CALL ME SYBIL</srai></template></category>
+<category><pattern>I AM ABBY</pattern><template><srai>CALL ME ABBY</srai></template></category>
+<category><pattern>I AM LARA</pattern><template><srai>CALL ME LARA</srai></template></category>
+<category><pattern>I AM DALE</pattern><template><srai>CALL ME DALE</srai></template></category>
+<category><pattern>I AM IVY</pattern><template><srai>CALL ME IVY</srai></template></category>
+<category><pattern>I AM DEE</pattern><template><srai>CALL ME DEE</srai></template></category>
+<category><pattern>I AM WINNIE</pattern><template><srai>CALL ME WINNIE</srai></template></category>
+<category><pattern>I AM MARCY</pattern><template><srai>CALL ME MARCY</srai></template></category>
+<category><pattern>I AM LUISA</pattern><template><srai>CALL ME LUISA</srai></template></category>
+<category><pattern>I AM JERI</pattern><template><srai>CALL ME JERI</srai></template></category>
+<category><pattern>I AM MAGDALENA</pattern><template><srai>CALL ME MAGDALENA</srai></template></category>
+<category><pattern>I AM OFELIA</pattern><template><srai>CALL ME OFELIA</srai></template></category>
+<category><pattern>I AM MEAGAN</pattern><template><srai>CALL ME MEAGAN</srai></template></category>
+<category><pattern>I AM AUDRA</pattern><template><srai>CALL ME AUDRA</srai></template></category>
+<category><pattern>I AM MATILDA</pattern><template><srai>CALL ME MATILDA</srai></template></category>
+<category><pattern>I AM LEILA</pattern><template><srai>CALL ME LEILA</srai></template></category>
+<category><pattern>I AM CORNELIA</pattern><template><srai>CALL ME CORNELIA</srai></template></category>
+<category><pattern>I AM BIANCA</pattern><template><srai>CALL ME BIANCA</srai></template></category>
+<category><pattern>I AM SIMONE</pattern><template><srai>CALL ME SIMONE</srai></template></category>
+<category><pattern>I AM BETTYE</pattern><template><srai>CALL ME BETTYE</srai></template></category>
+<category><pattern>I AM RANDI</pattern><template><srai>CALL ME RANDI</srai></template></category>
+<category><pattern>I AM VIRGIE</pattern><template><srai>CALL ME VIRGIE</srai></template></category>
+<category><pattern>I AM LATISHA</pattern><template><srai>CALL ME LATISHA</srai></template></category>
+<category><pattern>I AM BARBRA</pattern><template><srai>CALL ME BARBRA</srai></template></category>
+<category><pattern>I AM GEORGINA</pattern><template><srai>CALL ME GEORGINA</srai></template></category>
+<category><pattern>I AM ELIZA</pattern><template><srai>CALL ME ELIZA</srai></template></category>
+<category><pattern>I AM LEANN</pattern><template><srai>CALL ME LEANN</srai></template></category>
+<category><pattern>I AM BRIDGETTE</pattern><template><srai>CALL ME BRIDGETTE</srai></template></category>
+<category><pattern>I AM RHODA</pattern><template><srai>CALL ME RHODA</srai></template></category>
+<category><pattern>I AM HALEY</pattern><template><srai>CALL ME HALEY</srai></template></category>
+<category><pattern>I AM ADELA</pattern><template><srai>CALL ME ADELA</srai></template></category>
+<category><pattern>I AM NOLA</pattern><template><srai>CALL ME NOLA</srai></template></category>
+<category><pattern>I AM BERNADINE</pattern><template><srai>CALL ME BERNADINE</srai></template></category>
+<category><pattern>I AM FLOSSIE</pattern><template><srai>CALL ME FLOSSIE</srai></template></category>
+<category><pattern>I AM ILA</pattern><template><srai>CALL ME ILA</srai></template></category>
+<category><pattern>I AM GRETA</pattern><template><srai>CALL ME GRETA</srai></template></category>
+<category><pattern>I AM RUTHIE</pattern><template><srai>CALL ME RUTHIE</srai></template></category>
+<category><pattern>I AM NELDA</pattern><template><srai>CALL ME NELDA</srai></template></category>
+<category><pattern>I AM MINERVA</pattern><template><srai>CALL ME MINERVA</srai></template></category>
+<category><pattern>I AM LILLY</pattern><template><srai>CALL ME LILLY</srai></template></category>
+<category><pattern>I AM TERRIE</pattern><template><srai>CALL ME TERRIE</srai></template></category>
+<category><pattern>I AM LETHA</pattern><template><srai>CALL ME LETHA</srai></template></category>
+<category><pattern>I AM HILARY</pattern><template><srai>CALL ME HILARY</srai></template></category>
+<category><pattern>I AM ESTELA</pattern><template><srai>CALL ME ESTELA</srai></template></category>
+<category><pattern>I AM VALARIE</pattern><template><srai>CALL ME VALARIE</srai></template></category>
+<category><pattern>I AM BRIANNA</pattern><template><srai>CALL ME BRIANNA</srai></template></category>
+<category><pattern>I AM ROSALYN</pattern><template><srai>CALL ME ROSALYN</srai></template></category>
+<category><pattern>I AM EARLINE</pattern><template><srai>CALL ME EARLINE</srai></template></category>
+<category><pattern>I AM CATALINA</pattern><template><srai>CALL ME CATALINA</srai></template></category>
+<category><pattern>I AM AVA</pattern><template><srai>CALL ME AVA</srai></template></category>
+<category><pattern>I AM MIA</pattern><template><srai>CALL ME MIA</srai></template></category>
+<category><pattern>I AM CLARISSA</pattern><template><srai>CALL ME CLARISSA</srai></template></category>
+<category><pattern>I AM LIDIA</pattern><template><srai>CALL ME LIDIA</srai></template></category>
+<category><pattern>I AM CORRINE</pattern><template><srai>CALL ME CORRINE</srai></template></category>
+<category><pattern>I AM ALEXANDRIA</pattern><template><srai>CALL ME ALEXANDRIA</srai></template></category>
+<category><pattern>I AM CONCEPCION</pattern><template><srai>CALL ME CONCEPCION</srai></template></category>
+<category><pattern>I AM TIA</pattern><template><srai>CALL ME TIA</srai></template></category>
+<category><pattern>I AM SHARRON</pattern><template><srai>CALL ME SHARRON</srai></template></category>
+<category><pattern>I AM RAE</pattern><template><srai>CALL ME RAE</srai></template></category>
+<category><pattern>I AM DONA</pattern><template><srai>CALL ME DONA</srai></template></category>
+<category><pattern>I AM ERICKA</pattern><template><srai>CALL ME ERICKA</srai></template></category>
+<category><pattern>I AM JAMI</pattern><template><srai>CALL ME JAMI</srai></template></category>
+<category><pattern>I AM ELNORA</pattern><template><srai>CALL ME ELNORA</srai></template></category>
+<category><pattern>I AM CHANDRA</pattern><template><srai>CALL ME CHANDRA</srai></template></category>
+<category><pattern>I AM LENORE</pattern><template><srai>CALL ME LENORE</srai></template></category>
+<category><pattern>I AM NEVA</pattern><template><srai>CALL ME NEVA</srai></template></category>
+<category><pattern>I AM MARYLOU</pattern><template><srai>CALL ME MARYLOU</srai></template></category>
+<category><pattern>I AM MELISA</pattern><template><srai>CALL ME MELISA</srai></template></category>
+<category><pattern>I AM TABATHA</pattern><template><srai>CALL ME TABATHA</srai></template></category>
+<category><pattern>I AM SERENA</pattern><template><srai>CALL ME SERENA</srai></template></category>
+<category><pattern>I AM AVIS</pattern><template><srai>CALL ME AVIS</srai></template></category>
+<category><pattern>I AM ALLIE</pattern><template><srai>CALL ME ALLIE</srai></template></category>
+<category><pattern>I AM SOFIA</pattern><template><srai>CALL ME SOFIA</srai></template></category>
+<category><pattern>I AM JEANIE</pattern><template><srai>CALL ME JEANIE</srai></template></category>
+<category><pattern>I AM ODESSA</pattern><template><srai>CALL ME ODESSA</srai></template></category>
+<category><pattern>I AM NANNIE</pattern><template><srai>CALL ME NANNIE</srai></template></category>
+<category><pattern>I AM HARRIETT</pattern><template><srai>CALL ME HARRIETT</srai></template></category>
+<category><pattern>I AM LORAINE</pattern><template><srai>CALL ME LORAINE</srai></template></category>
+<category><pattern>I AM PENELOPE</pattern><template><srai>CALL ME PENELOPE</srai></template></category>
+<category><pattern>I AM MILAGROS</pattern><template><srai>CALL ME MILAGROS</srai></template></category>
+<category><pattern>I AM EMILIA</pattern><template><srai>CALL ME EMILIA</srai></template></category>
+<category><pattern>I AM BENITA</pattern><template><srai>CALL ME BENITA</srai></template></category>
+<category><pattern>I AM ALLYSON</pattern><template><srai>CALL ME ALLYSON</srai></template></category>
+<category><pattern>I AM ASHLEE</pattern><template><srai>CALL ME ASHLEE</srai></template></category>
+<category><pattern>I AM TANIA</pattern><template><srai>CALL ME TANIA</srai></template></category>
+<category><pattern>I AM TOMMIE</pattern><template><srai>CALL ME TOMMIE</srai></template></category>
+<category><pattern>I AM ESMERALDA</pattern><template><srai>CALL ME ESMERALDA</srai></template></category>
+<category><pattern>I AM KARINA</pattern><template><srai>CALL ME KARINA</srai></template></category>
+<category><pattern>I AM EVE</pattern><template><srai>CALL ME EVE</srai></template></category>
+<category><pattern>I AM PEARLIE</pattern><template><srai>CALL ME PEARLIE</srai></template></category>
+<category><pattern>I AM ZELMA</pattern><template><srai>CALL ME ZELMA</srai></template></category>
+<category><pattern>I AM MALINDA</pattern><template><srai>CALL ME MALINDA</srai></template></category>
+<category><pattern>I AM NOREEN</pattern><template><srai>CALL ME NOREEN</srai></template></category>
+<category><pattern>I AM TAMEKA</pattern><template><srai>CALL ME TAMEKA</srai></template></category>
+<category><pattern>I AM SAUNDRA</pattern><template><srai>CALL ME SAUNDRA</srai></template></category>
+<category><pattern>I AM HILLARY</pattern><template><srai>CALL ME HILLARY</srai></template></category>
+<category><pattern>I AM AMIE</pattern><template><srai>CALL ME AMIE</srai></template></category>
+<category><pattern>I AM ALTHEA</pattern><template><srai>CALL ME ALTHEA</srai></template></category>
+<category><pattern>I AM ROSALINDA</pattern><template><srai>CALL ME ROSALINDA</srai></template></category>
+<category><pattern>I AM JORDAN</pattern><template><srai>CALL ME JORDAN</srai></template></category>
+<category><pattern>I AM LILIA</pattern><template><srai>CALL ME LILIA</srai></template></category>
+<category><pattern>I AM ALANA</pattern><template><srai>CALL ME ALANA</srai></template></category>
+<category><pattern>I AM GAY</pattern><template><srai>CALL ME GAY</srai></template></category>
+<category><pattern>I AM CLARE</pattern><template><srai>CALL ME CLARE</srai></template></category>
+<category><pattern>I AM ALEJANDRA</pattern><template><srai>CALL ME ALEJANDRA</srai></template></category>
+<category><pattern>I AM ELINOR</pattern><template><srai>CALL ME ELINOR</srai></template></category>
+<category><pattern>I AM MICHAEL</pattern><template><srai>CALL ME MICHAEL</srai></template></category>
+<category><pattern>I AM LORRIE</pattern><template><srai>CALL ME LORRIE</srai></template></category>
+<category><pattern>I AM JERRI</pattern><template><srai>CALL ME JERRI</srai></template></category>
+<category><pattern>I AM DARCY</pattern><template><srai>CALL ME DARCY</srai></template></category>
+<category><pattern>I AM EARNESTINE</pattern><template><srai>CALL ME EARNESTINE</srai></template></category>
+<category><pattern>I AM CARMELLA</pattern><template><srai>CALL ME CARMELLA</srai></template></category>
+<category><pattern>I AM TAYLOR</pattern><template><srai>CALL ME TAYLOR</srai></template></category>
+<category><pattern>I AM NOEMI</pattern><template><srai>CALL ME NOEMI</srai></template></category>
+<category><pattern>I AM MARCIE</pattern><template><srai>CALL ME MARCIE</srai></template></category>
+<category><pattern>I AM LIZA</pattern><template><srai>CALL ME LIZA</srai></template></category>
+<category><pattern>I AM ANNABELLE</pattern><template><srai>CALL ME ANNABELLE</srai></template></category>
+<category><pattern>I AM LOUISA</pattern><template><srai>CALL ME LOUISA</srai></template></category>
+<category><pattern>I AM EARLENE</pattern><template><srai>CALL ME EARLENE</srai></template></category>
+<category><pattern>I AM MALLORY</pattern><template><srai>CALL ME MALLORY</srai></template></category>
+<category><pattern>I AM CARLENE</pattern><template><srai>CALL ME CARLENE</srai></template></category>
+<category><pattern>I AM NITA</pattern><template><srai>CALL ME NITA</srai></template></category>
+<category><pattern>I AM SELENA</pattern><template><srai>CALL ME SELENA</srai></template></category>
+<category><pattern>I AM TANISHA</pattern><template><srai>CALL ME TANISHA</srai></template></category>
+<category><pattern>I AM KATY</pattern><template><srai>CALL ME KATY</srai></template></category>
+<category><pattern>I AM JULIANNE</pattern><template><srai>CALL ME JULIANNE</srai></template></category></aiml>

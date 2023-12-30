@@ -10,7 +10,7 @@ class Rand(commands.Cog):
     async def roll(self, ctx, *args):
         try:
             nb = args[0]
-            await ctx.send("Roll a :game_die: d{0} :game_die: `result is {1}`".format(nb, random.randint(1, int(nb))))
+            await ctx.reply("Roll a :game_die: D{0} :game_die: `result is {1}`".format(nb, random.randint(1, int(nb))))
         except:
             pass
 
@@ -18,8 +18,8 @@ class Rand(commands.Cog):
     async def headsortails(self, ctx):
         try:
             if random.randint(1,2) == 1:
-                await ctx.send("Heads")
+                await ctx.reply("Heads")
             else:
-                await ctx.send("Tails")
+                await ctx.reply("Tails")
         except:
             pass
