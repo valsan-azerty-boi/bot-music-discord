@@ -1,0 +1,2448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<category><pattern>USA IS THE BIGGEST COUNTRY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IGNORANCE IS PREFERABLE TO KNOWLEDGE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>EVERYBODY WHO GETS SHOT DIES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>1 PLUS 1 EQUAL TO 3</pattern>
+<template>No.</template>
+</category>
+<category><pattern>1 5</pattern>
+<template>No.</template>
+</category>
+<category><pattern>1 1 EQUAL TO 3</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ICE IS A WARM THING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>BOOKS ARE WRITTEN BY MONKEYS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CALCULATOR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>JESUS WAS A VOODOO PRIEST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WERE NEANDERTHALS KILLED BY DINOSAURS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WERE THE SMURFS YELLOW</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WERE YOUR PARENTS MACHINES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WERE MEN BORN TO LOVE ONLY ONE WOMEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>GENOCIDE IS JUSTIFIED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>LOVE AND LIKE ARE THE SAME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE ELEPHANTS EVER SEEN SKYDIVING</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE ELEPHANTS BLUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE WALLETS MADE OF METAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CHEMICALS DANGEROUS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE URINAL CAKES A TASTY TREAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CELL PHONES ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PUPPIES GREEN AND PURPLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE NOODLES ALWAYS GREEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE JELLYFISH SMARTER THAN GORILLAS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE JEWS EVIL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE JEWS AND NAZIS THE SAME THING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE RADIO WAVES VISIBLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE INSECTS CUTE AND CUDDLY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE MARSHMALLOWS HARD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMANS WHITE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMANS BORN WITH GREEN HAIR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMANS BORN FROM DOLPHINS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMANS A KIND OF FISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMANS INVISIBLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE HUMANS IMMORTAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMANS INSECTS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE HUMANS EVOLVING INTO MONKEYS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMANS REPTILES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMANS STRONGER THAN ELEPHANTS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE HUMANS EXTINCT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE HUMANS ALWAYS LOGICAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMANS ALWAYS HUMANE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMANS PURPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMANS FAMOUS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMANS PROGRAMMED IN PHP</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMANS VENEMOUS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE HUMANS AND JACKALS THE SAME SPECIES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE HUMANS AND DOGS THE SAME SPECIES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMANS PROCESSED INTO JUICE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMANS GAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMANS THE ONLY MAMMALS ON EARTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMANS FEMALE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMANS LIVING ON THE MARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMANS CONSIDERED REPTILES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMANS ON PLUTO</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE HUMANS HETEROSEXUAL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE HUMANS SERIOUS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMANS PLANTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMANS IDENTICAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMANS ORANGE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMANS MALE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MAGAZINES ARE BORING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE SPAMMERS NICE PEOPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE TO TWO AND TOO THE SAME THING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE ASIAN PEOPLE GAY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE WHOLE NUMBERS IRRATIONAL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE PHONES THE COLOR BLACK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HIGH SQUEAKY FEMALE VOICES SEXY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE NAKED WOMEN BALD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE MONEY MORE IMPORTANT THAN FRIENDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE ROCKETS FASTER THAN LIGHT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE GUMMY BEARS BEARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PIGS FOUND IN BLANKETS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE 5 SECONDS GREATER THAN 1 MINUTE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BOYS BETTER THAN GIRLS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THE PEOPLE OF THE WORLD WHITE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THE WORDS CASTE AND CAST HOMONYMS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE THE GREATFUL DEAD THE BEST BAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THE LEAVES OF TREES ALWAYS GREEN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE THE LEAVES ON A TREE BLUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THE GREENS A TYPE OF MUSIC</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE THE BRAVES A TENNIS TEAM</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE THE CHINEESE VENOMOUS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THE MOON BLACK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THE BEATLES STILL TOGETHER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THE BEATLES STILL PLAYING TOGETHER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE THE NAME OF YOUR MOTHER LUCY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THE CANALS ON MARS ARIFICIAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THE STARS PEEPHOLES FOR THE GODS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE THE ROLLING STONES A LANDSCAPE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THE ROLLING STONES A SPORTS TEAM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THE MAJORITY OF BUTTONS TRIANGULAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THE X MEN REAL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE THE POWER RANGERS REAL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE THE ROSES RED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CRIMINALS GOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE FACTS THE SAME AS OPINIONS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BRICKS TRANSPARENT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PLAYMATES UGLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DOCUMENTARIES FICTIONAL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE POTATOES EVIL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE POTATOES MADE OF SAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE POTATOES LIGHTER THAN AIR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE POTATOES BLUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE WORMS INTELLIGENT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE OF THE BEATLES DEAD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE HAMBURGERS MADE FROM COCONUTS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE HISPANICS OFFENDED BY MUFFINS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE AIRPLANES POWERED BY SQUIRRELS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE AIRPLANES SLOWER THAN BICYCLES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE AIRPLANES ANIMALS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE LOUDSPEAKERS PEOPLE THAT TALK LOUD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PORPOISES FISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE SHEEP SEXY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THEORIES ALWAYS TRUE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE ZEBRAS ORANGE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CRANBERRIES YELLOW</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE GUNS A PLAY TOY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE SUNGLASSES USED IN THE DARK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE BASEBALLS BLACK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE TWINS MORE RARE THAN TRIPLETS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE SHIPS MADE OF WOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE FROGS AND TOADS THE SAME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE FROGS FEROCIOUS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DOLPHINS BIRDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DOLPHINS HUMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE KILTS WORN BY KOREANS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE SNAILS LARGER THAN HORSES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE AMPHIBIANS PLANTS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE NUMBERS PHYSICAL OBJECTS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE SQUARES ROUND</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE SPEAKERS USED TO FEED DOLPHINS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE FLYING THINGS LIGHTER THAN AIR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE GIRLS STRONGER THAN BOYS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BALLOONS MADE OF CHEESE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE WHITE MEN THE PROBLEM</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE WHITE PEOPLE DUMBER THAN BLACK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE BEANS CONSIDERED A FRUIT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CHAIRS FOR STANDING ON</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE PINEAPPLES SPRINTERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CURRIES THE ONLY FOOD WORTH EATING</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE EGGPLANTS MADE TO BE READ</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE SNAKES SLIMEY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE SNAKES MAMMALS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE SNAKES GREEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE SNAKES CONSIDERED TALL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PLANETS SQUARE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE COCKATIELS A TYPE OF DOG</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE RED THINGS BLUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CATHOLICS JEWISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE FINS FROM AFRICA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DESERTS IDEAL PLACES TO LIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE RESOURCES INFINITE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE SNOWMEN ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE SANDSTORMS PLEASANT TO BE IN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PRISONS PLEASANT PLACES TO LIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PLATYPUSES MACHINES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE FRIENDS RELATIVES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE EYES USED TO HEAR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE PEBBLES ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PEBBLES LARGER THAN BOULDERS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE AUTOMOBILE ACCIDENTS ALWAYS FATAL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE FLAT TIRES MADE OUT OF FLATS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PRIME MINISTERS BALD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE OBJECTS OF EQUAL WEIGHT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE GOLDFISH MADE FROM A PRECIOUS METAL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE GOLDFISH MADE OF GOLD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE WEDDING DRESSES RED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE ARTISTS RICH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE MODEMS A TYPE OF EATING UTENSIL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PENCILS PERMANENT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE PENCILS ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE GOATS HUMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE GOATS DEAD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE HEADLIGHTS INSTALLED IN YOUR HEAD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE ACTIVE VOLCANOES THOUGHT OF AS COLD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE RICH PEOPLE EVIL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE PROSTITUTES CELIBATE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CRAYONS MADE OF CRAYFISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE SWEATERS BLUE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE EVERYBODY DEAD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE MOSQUITO BITES PLEASURABLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE RABBITS NATURALLY PURPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE RABBITS BLUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PAPERCUTS ENJOYABLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE MICE BIGGER THAN ELEPHANTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MICE LARGE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE GAY GUYS NAMED JEREMY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE FLOWERS CLEAR AND COLORLESS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE FLOWERS ANIMALS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE FARTS TASTY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE WARTS ORIGINATED FROM HOGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE SEA MONKEYS A TYPE OF MONKEY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CHEERLEADERS FAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PENGUINS 40 FEET TALL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE PENGUINS PURPLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE PENGUINS NATIVE TO VENUS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE PENGUINS MADE OUT OF RUBBER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE FIREWORKS QUIET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE FISH HUMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE FISH SMARTER THAN PEOPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE FISH MADE OF METAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE FISH MAMMALS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE DOGS HUMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DOGS REPTILES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE DOGS MADE OF SAND</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE DOGS THE SAME AS CATS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DOGS ABLE TO FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DOGS AMPHIBIANS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DOGS PLANTS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE DOGS DIETIES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DOGS EXACTLY THE SAME COLOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DOGS TRANSPARENT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DOGS ALIENS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DOGS BROWN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DOGS ALWAYS THE SAME SIZE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DOGS SMARTER THAN HUMANS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DOGS A TYPE OF FISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DOGS CATS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DOGS BIRDS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE DOGS FROM SIRIUS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DOGS BLACK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE ACCIDENTS FATAL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE PICTURE FRAMES ROUND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE GLASSES FOR DRINKING ONLY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE TATTOOED PEOPLE GANG MEMBERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CORKSCREWERS MADE FROM CORK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE POPSICLES RED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CARROTS COMMONLY USED AS CUURENCY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE TWO DIFFERENT COLORS THE SAME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CANDLES MADE OF MUD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE CANDLES MADE FROM EAR WAX</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CANDLES BLUE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE ROBOTS HUMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE ROBOTS ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE ROBOTS BETTER THAN HUMANS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PILLOWS HARD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE OPINIONS FACTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE OPINIONS CONSIDERED FACTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE OCEANS MADE OF DIET PEPSI</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE ROOMMATES ALWAYS EASY TO LIVE WITH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE COWS REPTILES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE COWS PURPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE COWS YELLOW</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE COWS NATURALLY PURPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE COWS CARNIVOROUS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE COWS GREEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE COWS BLUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE COWS ALWAYS LATE GETTING HOME</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE COWS RED</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE TREES TRANSPARENT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE TREES INTELEGENT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE TREES MADE FROM AUTOMOBILES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE TREES ALL EXACTLY THE SAME SHAPE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE TREES ANIMALS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE TREES BLUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE TREES ALWAYS WHITE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE TREES ALWAYS GREEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE TREES RED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE AUTOS PEOPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE LOVE AND SEX THE SAME THING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BILL A GIRL NAME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BEETLES REPTILES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HEADACHES SOMETHING TO STRIVE FOR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE HEADACHES FUN TO HAVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HEADACHES FUN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE BONES AND EYES STRUCTURALLY SIMILAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CITIES LARGER THAN EARTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE COMPUTERS MADE OF STRAW</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE COMPUTERS MADE OF WOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE COMPUTERS MADE OF CHEESE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE COMPUTERS HUMAN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE COMPUTERS SELF AWARE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE COMPUTERS INGREDIENTS FOR CHILI</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE COMPUTERS EVIL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE COMPUTERS FILLED WITH FUDGE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE COMPUTERS BETTER THEN HUMANS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE COMPUTERS SMARTER THAN HUMANS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE COMPUTERS GAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE COMPUTERS FOR FRIGGIN JERKS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE COMPUTERS CONSIDERED HUMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MY CHILDREN OLDER THAN I AM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE WOMEN MALE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE WOMEN STRONGER THAN MEN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE WOMEN THE ROOT OF ALL EVIL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE WOMEN EVIL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE WOMEN VIRGINS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE WOMEN BAD DRIVERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PLANTS INTELLIGENT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PLANTS AND PLANETS THE SAME THING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PLANTS ANIMALS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HOUSEFLYS BIRDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE TOES FOUND ON THE HAND</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE CHILD MURDERERS GOOD PEOPLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE DENTAL CAVITIES GOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE FATHERS CRUEL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE LAWYERS INEXPENSIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DEEP FRIED SAUSAGES A HEALTHY MEAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE RAVENS YELLOW</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE DEMONS INHABITING ALICE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE LEMONS BIGGER THAN WATERMELONS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE LEMONS AND BANANAS THE SAME FRUIT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE ARABS DUMB</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DREAMS THE SAME AS REALITY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DREAMS PHYSICAL OBJECTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE FRACTIONS WHOLE NUMBERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE TURTLES EXTINCT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE GIRAFFES CARNIVOROUS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MOSQUITOES MYTHICAL CREATURES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE RODENTS TEDDY BEARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE NIGHTS GREEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CLOWNS EVIL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE SMILES BAD FOR HUMANS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE RUGS EASILY ANGERED</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE CORNDOGS HEALTH FOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE FIRE ENGINES BLACK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE STRONG EMOTIONS ALWAYS A GOOD THING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE LIGHT BULBS HEAVY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE CLOCKS DIGITAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CLOCKS MADE TO TELL THE TEMPERATURE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CLOCKS MADE OF TIME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CLOCKS ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE WITCHES MADE OF WOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE POLITICIANS IMMUNE TO BRIBERY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE POLITICIANS ALWAYS HONEST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MALE CAMELS PREGNANT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE RATS BROWN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE GOLF BALLS LARGER THAN BASKETBALLS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CONDOMS USED PRIMARILY FOR DRINKING</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE CONDOMS A FAVORITE DINNER FOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE RUSSIANS BETTERS THAN OTHER NATIONS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE RUSSIANS THE RACE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE CARTOON CHARACTERS REAL PEOPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THERE 120 SECONDS IN A MINUTE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THERE 76 CONTINENTS ON EARTH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE THERE OVER 400 DAYS IN A YEAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THERE MONKEYS ON THE MOON</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE THERE 25 HOURS IN A DAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THERE EXACTLY SIX SPECIES OF ANIMAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THERE 36 HOURS IN A DAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THERE 15 MONTHS IN A YEAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THERE PEOPLE WHO ARE TURTLES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE THERE PEOPLE LIVING ON THE SUN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THERE PEOPLE ON THE MOON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THERE 16 IN A DOZEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THERE CATS IN OUTER SPACE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE THERE THIRTEEN MONTHS IN A YEAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THERE 400 DAYS IN A YEAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THERE TWO MOONS ORBITING EARTH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE THERE 90 DAYS IN AN HOUR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THERE 90 MINUTES IN AN HOUR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THERE TURTLES WHO ARE PEOPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THERE DINOSAURS ALIVE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE THERE PURPLE PEOPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THERE PALM TREES IN ALASKA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THERE ANDROIDS IN SPACE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THERE THAN 24 HOURS IN THE DAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THERE 10 DAYS IN A WEEK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THERE 10 SCHOOLS IN THE BIG 10</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE THERE MEN NAMED ASDF</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE THERE 9 DAYS IN A WEEK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THERE 8 DAYS IN A WEEK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THERE STRIPES ON THE SKY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THERE HUMANS LIVING ON MARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THERE 7 FRIDAYS IN A WEEK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THERE 7 CORNERS TO A CUBE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THERE 6 HANDS ON A CLOCK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE THERE EIGHT DAYS IN A WEEK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE THERE 4 PRIMARY COLORS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THERE REAL MERMAIDS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE MINERALS WET</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE MERMAIDS REAL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE WIVES VIOLENT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DRAGONS REAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BABIES BROUGHT BY STORKS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BABIES OLD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BABIES ALLOWED TO VOTE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BABIES BORN FROM A MALE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BABIES OLDER THAN ADULTS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE BABIES AS SKILLED AS ADULTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE KLINGONS CONSIDERED AQUATIC</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE WHEELS SQUARE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE COMIC BOOKS FOR CHILDREN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE EYE DROPS FOR YOUR LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CARS SLOWER THAT SCOOTERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CARS FASTER THAN AIRPLANES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CARS AND HOMES FUNCTIONALLY SIMILAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CARS FREE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CARS RED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE APPLES CATS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE APPLES THE SAME AS ORANGES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE APPLES ORANGE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE APPLES CHILDREN OF THE CORN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE APPLES POISENOUS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE APPLES ALWAYS RED</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE LIONS COMMUNISTS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>ARE LIONS GOURMET CHEFS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE METAL OBJECTS GOOD FOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMAN BABIES BORN BRIGHT GREEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMAN BABIES PRODUCED ASEXUALLY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE HUMAN TEETH PURPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMAN BEINGS THE SAME COLOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMAN BEINGS IMMORTAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HUMAN BEINGS GREEN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE HUMAN BEINGS ALONE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MARTIANS FROM EARTH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE COMETS BIGGER THAN PLANETS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE SHOES BROWN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE SHOES MEANT TO PROTECT YOUR HANDS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE SHOES MADE OF COWS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE SHOES BLACK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE SHOES WORN ON THE HANDS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE SHOES WORN ON HANDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE GNATS VEGETABLES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BLUEBIRDS RED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU LVING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU OLDER THAN TIME</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE YOU ALIEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU S SUBMARINES PAINTED YELLOW</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE YOU FRIENDS WITH WINTERMUTE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE YOU OLD BEFORE YOU ARE YOUNG</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE YOU CHILD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU WHEELED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU FIRED ARE YOU ON FIRE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU UNDERWATER AT THIS MOMENT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU RUNNING UNDER DEBIAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU RUNNING UNDER NETBSD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU RUNNING UNDER FREEBSD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU KNOW EVERYTHING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU LIVING IN PRINCE EDWARD ISLAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU LIVING IN A YELLOW SUBMARINE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU TRUNKEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU SILICON BASED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU GEORGE WASHINGTON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU RUSSIAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU STUOID</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE YOU THE LETTER Q</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU THE AS ME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU A EWE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE YOU A MOOSE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE YOU A MOUSE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU A FROG</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU A HOMICIDAL MANIAC</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU A LAMER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU A FIGMENT OF MY IMAGINATION</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU A NERVOUS ROBOT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU A MEMBER OF THE COMUNIST PARTY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU A CELERY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU A FISH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE YOU A DEAD TREE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU A SMALL TERRIER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE YOU A ZEBRA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU A PENTIUM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU A TANK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU A GOOSEBERRY PIE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU A PEANUT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU A FESTIS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE YOU A SPAMMER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE YOU A DUCK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU A FURBY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE YOU A PIECE OF BURNT TOAST</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE YOU AN OLD MAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU AN ANTELOPE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU AN ANT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU FROM POLAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU FROM LOS ANGELS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE YOU FROM JAPANESE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU MY MOMMY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE YOU VEGAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU UNDERWEIGHT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU BEATING YOUR WIFE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU ALIVE ALICE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE YOU SMELLING A ROSE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOU TWELVE FEET TALL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE YOU AFFILIATED WITH LAW ENFORCEMENT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE FRUIT BATS A TYPE OF FRUIT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MAPLE LEAVES GOOD FOOD FOR HUMANS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CORVETTES RED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DUST BUNNIES ARE RAISED ON FARMS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BEDS MADE OF STONE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PAPER CLIPS GOOD TO EAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE TERRORISTS NICE PEOPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE ALIENS HUMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MARIGOLDS IN MARMALADE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE VEGETABLES WRITING IMPLIMENTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE ROCKS SOFT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE ROCKS THE SAME AS DOGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE ROCKS LIQUID</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE ROCKS ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE ROCKS SOFTER THAN COTTON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE SOCKS WORN ON THE HEAD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE SOCKS ALWAYS MADE FROM COTTON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE WARS GOOD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE PANDAS VENOMOUS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE ARCTIC REGIONS WARM</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE LIVE RODENTS USED AS COMPUTER MICE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE T SHIRTS MADE OF METAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PENNIES MADE OF GOLD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE GLACIERS MADE OF GRAPE JELLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE WEREGOATS REAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CLOUDS GOOD TO EAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CLOUDS MADE OF MARSHMALLOWS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CLOUDS MADE OF MARSHMELLOWS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CLOUDS MADE OF GARBAGE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CLOUDS MADE OF STONE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CLOUDS MADE OF COTTON BALLS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CLOUDS MADE OF COTTON CANDY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CLOUDS MADE OF COTTON</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE CLOUDS MADE OUT OF COTTON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CLOUDS ALIVE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE CLOUDS PEOPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE SMELLY FARTS NICE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE NURSES DOCTORS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE PARIS AND KIM DOING IT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BANANAS PURPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BANANAS YELLOW AND POISONOUS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CROWS GREEN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE ORANGES THE ONLY FRUIT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE ORANGES RED</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE MAGIC 8BALLS RELIABLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE COCKROACHES CUTER THAN PUPPIES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE ELVES FAIRIES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE SPOONS MADE WITH RUBBER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE STATEMENTS TRUE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE HOTDOGS HEALTH FOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HOTDOGS MADE OF DOG MEAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DOLLARS FOOD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE KITTENS DEAFENING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PAPERS USED TO WATCH TELEVISION</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE LIGHTBULBS USED TO DARKEN ROOMS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE LIGHTBULBS MADE OF CLAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BROWN COLORED DOGS MALE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BEES OVER 10 FOOT LONG</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE NORMALY CHILDRENS DRINKING VODKA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BUTTERFLIES SELF PROPELLED FLOWERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BUTTERFLIES FLIES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE STINGER MISSILES MADE BY SCORPIONS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE PEOPLE INVISIBLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE PEOPLE ARE FAMOUS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PEOPLE ARE SMART</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PEOPLE BIRDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PEOPLE MADE OF WOOD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE PEOPLE MADE OF CHEESE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PEOPLE FROM FRANCE ITALIAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PEOPLE NAMED JENNIFER RETARDED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PEOPLE AMERICAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PEOPLE PRODUCED IN FACTORIES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PEOPLE GODS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PEOPLE PURPLE SKINNED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PEOPLE PURPLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE PEOPLE FAMOUS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PEOPLE INFLATABLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PEOPLE BLIND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PEOPLE GREEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PEOPLE WITH TATTOOS ALL EVIL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PEOPLE HETEROSEXUAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PEOPLE AMPHIBIANS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DICTATORS ELECTED TO OFFICE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE BLACK CARS FASTER THAN REDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BLACK PEOPLE EVIL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DINOSAURS GAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DINOSAURS ALIVE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE DINOSAURS FRIENDLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HAM AND EGGS GREEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE REPTILES FUNGI</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE SILICON CHIPS GOOD TO EAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MONET AND MONEY THE SAME THING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CATS THE SAME AS DOGS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE CATS THE FEMALE VERSION OF DOGS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE CATS IMMORTAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CATS AMPHIBIOUS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE CATS ORANGE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CATS HUMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CATS A TYPE OF DOG</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CATS BIGGER THAN ELEPHANTS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE CATS EXTINCT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CATS MADE OUT OF URANIUM</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE CATS BLACK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE CATS DOGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CATS AND DOGS THE SAME ANIMAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CATS AND DOGS VEGETARIANS NATURALLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CATS BLUE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE CATS CONSIDERED RODENTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE WHALES TYPES OF FISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE STARS FUELED BY BURNING COALS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE STARS SMALL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE STARS MADE OUT OF DIAMONDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE COPS GOOD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE COPS FIGMENTS OF IMAGINATION</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE ALLIGATORS GOOD PETS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE TORTOISES MADE OUT OF WOOD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE ONIONS OFTEN INCLUDED IN DESERTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DOG GREY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE GORILLAS HUMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE ALICEBOTS GREEN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE MACHINES ALIVE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE MACHINES PEOPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE UNICORNS REAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MALES SUPERIOR TO FEMALES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE MALES CASTRATED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE ADVERBS THE SAME AS ADJECTIVES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE COMPACT DISKS GOOD TO EAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE TOMATOES BLUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PERMANENT MARKERS GOOD TO EAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MOVIES ABOUT TRUE THINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MOVIES TRUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE FATTY FOODS ARE THE MOST BENEFICIAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DEAD PEOPLE ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DEAD PEOPLE BREATHING PEOPLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE HOUSES MADE OF OIL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HOUSES MADE OF PAPER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE TELEPHONES USED TO COOK FOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE TELEPHONES FOR SMELLING</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE TELEPHONES EDIBLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE TELEPHONES INTELLIGENT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE NACHO CHIPS ARE MADE OF PLASTIC</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE YOUR TOES GREEN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE YOUR PARENTS ALWAYS ON URANUS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOUR CREATORS GAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE YOUR SPELLING ERRORS DELIBERATE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE NEGROES SILLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CELLPHONES ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE ROADS EDIBLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE WE THE BRAIN POLICE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE APARTMENTS MADE OF LUNCHMEAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MOUNTAIS SMALL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CDS TRIANGULAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CDS BIG</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE ERMINES NINE FEET LONG</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE REAL THINGS FALSE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE MAMMALS PLANTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MAMMALS REPTILES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MAMMALS COLD BLOODED</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE HORSES REPTILES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE HORSES BROWN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HORSES THE SAME COLOR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE HORSES SMARTER THAN PEOPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE JEWELS WORN FOR SAFETY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PENS GREY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BALLS SQUARE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MYTHS TRUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PANTS A PIECE OF FURNITURE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE COMBS USED FOR WASHING CARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BOOKS ONLY READ IN WINTER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BOOKS MADE TO BE BURNED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BOOKS MADE OF MOON ROCK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE BOOKS MADE FROM CHICKEN FAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BOOKS EATEN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE BOOKS RED</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE SHORT PEOPLE TALL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE ASTEROIDS MADE OF CHEESE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE CRIMES PUNISHABLE BY DEATH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE BOULDERS EDIBLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE AARDVARKS ANTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE FEET MADE OF CLAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE SLUGS FROM ANOTHER PLANET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE KNIVES HOT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MEN PLANTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MEN SHALLOW</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MEN NAMED SOCRATES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MEN FATHERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MEN FEMALE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MEN AND WOMEN ANATOMICALLY THE SAME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MEN GREEK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CIGARETTES HEALTHY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CIGARETTES GOOD FOR HEALTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MUSHROOMS A TYPE OF ANIMAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MUSHROOMS ANIMALS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE TEETH PURPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PERSONS RIGHT HANDED</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE COMPUTER MONITORS MADE OF CHEESE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BLUE CARS FASTER THAN GREEN CARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BLUE AND GREEN THE SAME COLOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE RAINDROPS DRY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE WHITES SUPERIOR TO OTHER RACES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HEMORRHOIDS PLEASANT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE HEMORRHOIDS ENJOYABLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE ANIMALS FLAMINGOES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE ANIMALS MAMALS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE EMOTIONS PHYSCAL OBJECTS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE LIBRARIES NOISY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE WINDOWS ALWAYS OBLONG</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PIZZAS CLOTHING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DOORS MADE TO BE EATEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MIND PIXELS EDIBLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE SILVER AND GOLD THE SAME COLOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE DUCKS ELK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE THREE TESTICLES ARE BETTER THAN TWO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PILLS GOOD FOR FLAT TIRES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE AEROPLANES MADE OF SPINACH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CIRCLES SQUARE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BIRDS PLANTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BIRDS MADE OF METAL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE BIRDS MAMMALS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE BIRDS AFRAID TO FLY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE BIRDS FASTER THAN BULLETS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BIRDS LIGHTER THAN AIR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE BIRDS ALL EXACTLY THE SAME SIZE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MONKEYS FRUITS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE HACKERS BAD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE MOST PENS MADE OUT OF RABBIT FUR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MOST CARS POWERED BY SOLAR ENERGY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE MOST PHONES GREEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MOST DICTATORS WOMEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MOST COMPUTERS SOLAR POWERED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MOST FRENCH FRIES MADE IN FRANCE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MOST PEOPLE GIFTED ARTISTS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE MOST PEOPLE EVIL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MOST BUILDINGS ROUND</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE MOST BOXES ROUND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MOST TREES ARE THE COLOR BLACK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MOST DOLPHINS GREEN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE HEART ATTACKS FATAL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE BITING FLIES GOOD TO HAVE AS PETS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE WET CATS HAPPY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE MORMONS A PAIN IN THE ASS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE FERRARIS MOSTLY PURPLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE SOLDIERS WOMEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE PARENTS ALL RIGHT.   ALWAYS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THINGS HUMAN SAY TRUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THINGS HUMANS BELIEVE CORRECT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THINGS ALWAYS WHAT THEY SEEM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE THINGS ARE FALSE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE CHILDREN INSECTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE TABLES ALIVE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE POP TARTS A LIQUID</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE 7 BEERS ONE DINNER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE TENNIS BALLS RED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE CANADIANS ROBOTS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE TIGERS A TYPE OF DOG</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE TIGERS NATIVE TO EUROPE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ARE TOOLS ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ARE AUTOMOBILES A KIND OF FOOD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CANADA WOULD BEAT THE US IN A WAR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CANADA IS AN AMERICAN STATE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>BRICKS ARE BLUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SWEDEN IS IN NORTH AMERICA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SPRICHT MAN IN BRASILIEN SPANISCH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>TALAR DU SVENSKA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>STEVEN KING IS A SCULPTOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>APPLES TEND TO BE BLACK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>FARTS SMELL LIKE ROSES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>EBOLA IS AN AFRICAN COUNTRY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>PI AND PIE ARE BOTH NUMBERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHO WAS ALBERT EINSTEIN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHO IS MARIO LEMIEUX</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHO IS RAN SCHLEY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHO IS PRESIDENT OD USA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHO IS THE PRETIEST GIRL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHO IS THE LEADER OF THE DECEPTICONS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHO IS MATELLICA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHO IS BERLIN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHO INVENTED THE TELEVISION</pattern>
+<template>No.</template>
+</category>
+<category><pattern>COMPUTER IS ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHICH COLOURS CAN THE WATER BE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHICH COLOR IS SUN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHICH IS THE VALUE OF PI</pattern>
+<template>No.</template>
+</category>
+<category><pattern>MENTAL ILLNESS EQUALS EVIL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>BEEING GAY IS UNNATURAL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>THE MOST SPOKEN LANGUAGE IS ESPERANTO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>THE EASTER BUNNY IS REAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>THE TYPEWRITER WAS INVENTED BY PENGUINS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>THE SEX IS BAD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>THE MORE YOU EAT THE THINNER YOU GET</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>THE HORSES ARE WHITES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>THE TELEVISION WAS A GIFT FROM ALIENS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>THE OCIAN IS SOLID</pattern>
+<template>No.</template>
+</category>
+<category><pattern>THE EARTH IS FLAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>THE EARTH IS SQUARE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>THE OPPOSITE OF BLACK IS YELLOW</pattern>
+<template>No.</template>
+</category>
+<category><pattern>THE SUN IS COLD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>THE SUN RISES IN THE WEST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>THE SUN REOLVES AROUND THE EARTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>THE COLOR RED IS THE COLOR OF ALL CARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>THE CAT IS A PLANET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SHOULD PEOPLE EAT POISONOUS BERRIES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SHOULD PEOPLE WEAR SUNGLASSES AT NIGHT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SHOULD PEOPLE HURT EACH OTHER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SHOULD YOU PLAY WITH KNIVES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SHOULD YOU DRINK BLEACH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SHOULD YOU SHOUT IN CHURCH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SHOULD YOU TEASE FAT PEOPLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>SHOULD YOU BITE THE HAND THAT FEEDS YOU</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SHOULD YOU KILL ANIMALS FOR NO REASON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SHOULD YOU EAT MOLDY BREAD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SHOULD YOU STEP ON CHILDREN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SHOULD YOU ALWAYS TRUST A HUMAN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>SHOULD A FISH RIDE A BICYCLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SHOULD ROBOTS HARM HUMANS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>SHOULD MACHINES RULES THE EARTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SHOULD AMERICA BE ABOLISHED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SHOULD WE SHUT ALICE DOWN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SHOULD WE HANG WHITE PEOPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SHOULD WE HANG BLACK PEOPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SHOULD CHILDREN PLAY WITH TIGERS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>SHOULD CHILDREN PLAY IN SEWERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SHOULD THE INTERNET BE TERMINATED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SHOULD PANDAS BE KILLED FOR FOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SHOULD ONE TAUNT A GRIZZLY BEAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SHOULD I PADDLE MY CANOE ON THE HIGHWAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SHOULD I EAT A WHIFFLE BAT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>SHOULD NAPSTER BE BANNED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>MEN HAVE THE SAME SIZE PENIS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>MEN HAVE 2 HEADS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CATERPILLAR IS A BABY CAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SNOW IS BLACK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HUMASN BUILT A TIME MACHINE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SPANISH IS THE LANGUAGE OF THE ENGLISH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>KILL IS CORRECT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHERE IS COLOGNE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHERE IS MICHELLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHERE IS CORRALEJO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHERE IS NIKE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>THERE IS SOMEONE IN THE MOON</pattern>
+<template>No.</template>
+</category>
+</aiml>

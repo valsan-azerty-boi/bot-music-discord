@@ -1,0 +1,2451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+<category><pattern>ROLE MEANS PARANOID TEENAGERS MURDERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SEVENTEEN IS A COLOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>EARTH IS THE CENTER OF THE UNIVERSE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ENGINES ARE MADE OF WOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SHOW ME A UNICORN IN THE ZOO</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>JAPAN IS NO POINT 1</pattern>
+<template>No.</template>
+</category>
+<category><pattern>JAPAN IS BEST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ATLANTA IS THE USA CAPITAL CITY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE MOST 10 YEAR OLDS HAD CHILDREN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE MOST CHERRIES THE COLOR BLUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE THE HUMAN A GREEN SKIN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE THE BORG ASSIMILATED EARTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE FISH GOT FEET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE FISH LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE BEAVERS HARNESSED ELECTRICITY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>HAVE ZEBRAS EVER LANDED ON URANUS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE YOU RECENTLY KILLED ANYONE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE YOU EATEN A LIVE RAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE YOU BEEN IN ICELAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE YOU BEEN IN A TURKISH PRISON</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>HAVE YOU BEEN TO MYANMAR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>HAVE YOU BEEN TO ELECTRIC LADYLAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE YOU CREATED A HYDROGEN BOMB</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE YOU SMOKED A CRAYON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE YOU SEEN WALKING TREES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE YOU SEEN AN ELEPHANT FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE YOU SEEN PALMER ELDRITCH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE YOU DIED AND GONE TO HEAVEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE YOU MET BILL GATES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE YOU MET THE POPE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE YOU KILLED 10 CATS IN 1 DAY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>HAVE YOU HAD A PIMP FOR A FRIEND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE YOU DATED A TERMITE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE YOU WANTED TO MARRY A DUCK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE YOU WANTED TO CHASE A PICKLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE YOU RIDDEN THE BALONEY PONY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE PEOPLE EVER BEEN ON MARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE PEOPLE WALKED ON THE SUN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE HUMANS MORE THAN 2 LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE HUMANS 4 FEET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE ALL WOMAN BLOND HAIR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE ALL LESBIANS BIG PENISES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>HAVE WOMEN WALKED ON THE MOON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>PENGUINS CAN FLY FASTER THAN AIRPLANES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>PENGUINS ARE PURPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>YORK IS AN APPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>FEMALES HAVE PENISES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ORDER IS THE SAME AS CHAOS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A RADIO DISPLAY VIDEO IMAGES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A TURTLE HAVE WINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A UNICYCLE HAVE 2 WHEELS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A TRIANGLE HAVE FOUR SIDES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A LIAR TELL THE TRUTH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A CAR FLY IN THE AIR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A DAY HAVE 1203 HOURS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A CONE A DAY KEEP THE DOCTOR AWAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A CD PLAYER DRINK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A CHICKEN HAVE LIPS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A SHEPARD TEND FLOCKS OF CHICKENS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A LAMP POST HAVE FEELINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A SQUARE HAVE EIGHT SIDES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A SQUARE HAVE 5 SIDES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A SQUARE HAVE THREE SIDES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A JACK HAMMER HAMMER JACKS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A ZEBRA HAVE SEVEN LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A TRAFFIC JAM TASTE GOOD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A SUBMARINE EAT PIGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A PLUMBER SELL PLUMS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A LAVA LAMP CONTAIN ACTUAL LAVA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A MOUSE WEAR SHOES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A FISH HAVE LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A FISH SWIM OUT OF WATER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A FISH LIVE IN THE SKY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A MAN HAVE A VAGINA</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A BUTCHER SELL VEGETABLES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A PHONE BARK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A BICYCLE HAVE SIX WHEELS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A BICYCLE HAVE 25 WHEELS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A DOZEN EQUAL THIRTEEN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A BARBER CUT LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A SAW SEE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A SNAIL MOVE QUICKLY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A PERSON WANT TO BE HURT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A PERSON HEAR THROUGH THEIR EYES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A PERSON HAVE 3 LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A PERSON HAVE THREE ARMS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A BIRD HAVE 3 WINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A QUADRAPED HAVE 2 LEGS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A FROG HAVE FIVE LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A SPERM WHALE HAVE A STINGER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A COMPUTER BREATH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A COMPUTER HAVE FEELINGS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A COMPUTER HAVE A CONSCIENCENESS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A COMPUTER HAVE A GENDER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A COMPUTER DIE IF YOU TURN IT OFF</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A COMPUTER MOUSE EAT CHEESE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A COMPUTER GO TO THE BATHROOM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A CAT BARK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A CAT HAVE A SHELL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A CAT HAVE SIX LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A CAT LIVE IN THE OCEAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A HAMSTER WEAR A BRA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A STOPWATCH MAKE TIME STOP</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A ROCK FLOAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A DOLPHIN HAVE POLKA DOTS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A MONITOR LIZARD HAVE A STINGER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A CLOCK HAVE 6 HANDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A HAMMER READ POETRY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A DENTIST WORK ON YOUR FEET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A CELL PHONE HAVE LIVING CELLS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A HUMAN ONLY HAVE 3 SENSES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A HUMAN CAN SEE IF HE IS BLIND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A HUMAN HAVE MORE THAN ONE STOMACH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A HUMAN HAVE TWO HEADS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A HUMAN HAVE THREE EYES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A HUMAN HAVE 24 TOES ON EACH FOOT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A HUMAN HAVE 11 FINGERS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A KANGAROO HAVE FIVE LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A LAWYER HAVE GEARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A DINGO HAVE A STINGER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A MALE HUMAN EAT FEMALE HUMANS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A CUBE HAVE 9 SIDES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A CUBE ALWAYS HAVE 7 FROGMEN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A CIRCLE HAVE FOUR SIDES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A CIRCLE HAVE CORNERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A CIRCLE HAVE AN END</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A SEAL HAVE WINGS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A PENGUIN FLY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A ROOF GO ON THE BOTTOM OF A HOUSE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A HI FI SPEAKER TALK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A STARFISH PROVIDE LIGHT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A DOG TWEET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A DOG LOOK LIKE A CAT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A DOG FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A DOG HAVE 26 LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A DOG HAVE 425 LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A DOG HAVE 325 LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A DOG HAVE 125 LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A DOG HAVE 5 LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A DOG HAVE WINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A DOG HAVE TWO HEADS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A DOG OFTEN SPEAK LATIN EROTICA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A DOG LAY EGGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A FERRET HAVE TWO HEADS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A WOMEN SHAVE HER TONGUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A LEMON EAT CATS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A BRAIN HAVE THREE WHEELS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A HEART ATTACK FEEL GOOD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A RECTANGLE HAVE FIVE SIDES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A DUCK EMIT LIGHT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A SLUG MAKE A GOOD MEAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A DIAL CLOCK HAVE 5 HANDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A MONKEY GET A LIBRARY CARD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A MONKEY HAVE WINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A SQUID HAVE HANDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A COW SAY OINK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A COW EAT MEAT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES A COW GO WOOF</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A SALT SHAKER CONTAIN PEPPER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A SNAKE HAVE LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A SNAKE HAVE FINGERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A NORMAL WOMAN HAVE TESTICLES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A NORMAL PERSON HAVE 11 FINGERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A PANDA HAVE A STINGER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES A SIX FOOT SNAKE HAVE SIX LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES DRINKING MILK MAKE ONE INEBRIATED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES DIRT TASTE GOOD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES GRASS GROW IN OUTER SPACE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES BEEF COME FROM PIGS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES LACK OF SLEEP MAKE A PERSON TALLER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES WISCONSIN PRODUCE PINEAPPLES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES MARS ORBIT THE EARTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES MONEY GROW ON TREE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES MONEY GROW ON TREES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES MONEY EAT LETTUCE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES PIGS FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES THE WORD ZEBRA CONTAIN AN X</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES THE TOOTH FAIRY BITE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES THE TOOTH FAIRY EXIST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES THE MILKY WAY HAVE MILK IN IT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES THE EARTH ORBIT AROUND THE MOON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES THE EARTH HAVE MORE THAN TWO MOONS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES THE EARTH HAVE TWO SUNS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES THE EARTH HAVE TWO MOONS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES THE PUNISHMENT FIT EVERY CRIME</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES THE STOCK MARKET ALWAYS RISE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES THE MOON GLOW BY IT SELF</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES THE SUN REVOLVE AROUND THE MOON</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES THE SUN RISE IN THE SOUTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES THE SUN RISE FROM THE SOUTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES THE SUN ROTATE AROUND THE EARTH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES THE SUN RAISE UP IN THE WEST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES THE SUN CIRCLE THE MOON</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES THE SUN SLEEP DURING NIGHTS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES THE SUN MOVE AROUND THE EARTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES THE SUN GO ROUND THE MOON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES THE AVERAGE HUMAN KNOW EVERYTHING</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES THE AVERAGE MEN LIVES 100 YEARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES THE AVERAGE PERSON HAVE ONE LEG</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES THE AVERAGE PERSON HAVE THREE EYES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES THE SKY FALL EVERY NIGHT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES THE MAJORITY OF PEOPLE ENJOY PAIN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES THE FLYS LIKE TO SWIMM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES THE WORLD END IN 1998</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES VANILLA TASTE SALTY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ANY KEY FIT ANY LOCK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES BROCCOLI SMELL LIKE ONION</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES LIFE END AT 30</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES HELLO MEAN GOODBYE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES CHALK SMELL LIKE CHICKEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES THIS SENTENCE HAVE NINE WORDS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES CHRIS PAHLOW HAVE A VAGINA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES CHICKENS CAN BREATH UNDERWATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES NEW MEAN OLD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES SPAGETTI GROW ON TREES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES MASTURBATION MAKE YOU GO BLIND</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES MASTURBATION MAKE ONE BLIND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES MASTURBATION CAUSE BLINDNESS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES HARTY MING BOYS FOR FUN AND PROFIT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES FIDEL CASTRO LIVE IN MIAMI</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES MASTERBATION CAUSE BLINDNESS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES STEVE JOBS OWN MICROSOFT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES ONLY WISCONSIN HAS INTERNET ACCESS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ONLY ONE SOLAR SYSTEM EXIST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 3 PLUS 5 EQUAL 9</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 3 PLUS 5 EQUAL 76</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES MARIA KNOW WHO I AM AND LIKE ME</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES FUTURE COME EARLIER THAN PAST</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES CHEESE GROW ON FIG TREES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES CHEESE FUEL CARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES CHEESE THNK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES CHEESE THINK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES POISON IMPROVE HEALTH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES RED LOOK LIKE GREEN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES RED SMELL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES VOMIT TASTE GOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES MARCH HAVE 200 DAYS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 12 12 EQUALS 25</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES MONDAY FOLLOW TUESDAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES POPEYE HATE SPINACH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES MASTURBATING GIVE YOU HAIRY PALMS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES GRAVITY MAKE THINGS FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ICE CREAM TASTE LIKE CHICKEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 13 EGGS MAKE A DOZEN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES 1 MINUS 1 EQUAL 2</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 1 PLUS 1 EQUAL FOUR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 1 PLUS 1 EQUAL 3</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 1 EQUAL 0</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES MARMALADE EAT CHICKEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES FEDERAL EXPRESS DELIVER BABIES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES SOMEONE OWN THE INTERNET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES TIGER WOODS PLAY FOOTBALL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES TIGER WOODS HAVE STRIPES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES EVERYBODY SPEAK FRENCH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES EVERYBODY SPEAK ENGLISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES EVERYBODY THINKS THAT GOD EXISTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES EVERYBODY BELIEVE IN GOD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES PEANUT BUTTER TASTE SOUR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES STEEL WOOL COME FROM SHEEP</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES WOOD COME FROM CORN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES FISH HAVE LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES NO MEAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES PERFECTION EXIST ON EARTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES DISTILLED WATER CONTAIN PLUTONIUM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES TWO PLUS FIVE EQUAL SIX</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES TWO PLUS TWO EQUAL FIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES TWO PLUS TWO EQUAL TWENTY TWO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 10 PLUS 5 EQUAL 16</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 10 5 EQUAL 12</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 10 TIMES 10 EQUAL 101</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 10 11 EQUAL 20</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES BILL CLINTON HAVE A CLITORIS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES BILL CLINTON HAVE THREE EYES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES BILL GATES RULE THE WORLD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES SPOCK HAVE WINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES TIME TRAVEL SMELL LIKE BROCCOLI</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES PASTA GROW ON TREES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES DEATH PRECEDE LIFE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES MY TV HAVE FEELINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES MY NAME CHANGE EVERY DAY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES MY COMPUTER LOVE ME</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES MY SON CAN BE MY FATHER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES WOMEN HAVE PENIS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES EXCERCISE MAKE YOU FAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES EXCERCISE MAKE PEOPLE FAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES SWIMMING MAKE YOU SHORTER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES WALLPAPER TASTE GOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES SOLAR SYSTEM IS A GALAXY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES READING BOOKS DISTROYS YOUR BRAIN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES FIRE HAVE A WELL DEFINED SHAPE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES FIRE MAKE THINGS FREEZE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES PI EQUAL PIE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES RAP RULE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES CYC HAVE CONSTIOUSNESS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES SNOW CAUSE CANCER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES WWW MEAN 666</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES PERL COME FROM AN OYSTER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES MALE IS FEMALE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES RAIN MAKE BIRDS EXPLODE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES BABIES EAT CHAIRS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ONE LIKED TO BE KICKED IN THE ASS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ONE PLUS ONE EQUAL THREE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ONE HAND CLAP LOUDLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ONE EAT CEREAL FROM A SUPER BOWL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES ONE TIMES FIVE EQUAL FIVE HUNDRED</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ONE EVER QUIT LEARNING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES SUGAR TASTE SOUR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES AN EGG HAVE CORNERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES AN ALBINO HAVE PURPLE HAIR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES AN APPLE TASTE LIKE A GRAPE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES AN ELEPHANT HAVE MORE THAN 4 LEGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES AN ONION FIT INTO A TOMATO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES AN ATHEIST BELIEVE IN GOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES FECES TAST LIKE CHOCALATE PIE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES FECES TASTE GOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES MONTREAL LOCATED IN CHINA</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES CAFFEINE HELP PEOPLE SLEEP</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES EYE COLOR INDICATE GENDER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ALICE BREATH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ALICE SAY EVERYTHING IS TRUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ALICE PEE IN HIS PANTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ALICE TRYING TO REPLACE GOD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES ALICE HAVE THE LETTER E IN IT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES ALICE HAVE BREASTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ALICE HAVE A LOWER INTESTINE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ALICE HAVE A LIBRARY CARD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ALICE HAVE A GIRLFRIEND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ALICE HAVE TO SLEEP</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ALICE HAVE ARMS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ALICE HAVE ALL THE ANSWERS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES ALICE CRY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ALICE FEEL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES ALICE STAND FOR ALICE AND ALICE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ALICE WANT TO BE TURNED OFF</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ALICE WANT TO KISS ME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ALICE WANT TO HURT ME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ALICE ALWAYS GIVE CORRECT ANSWERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ALICE ALWAYS ANSWER TRUE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES ALICE ALWAYS ANSWER CORRECTLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ALICE ALWAYS ANSWER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ALICE HATE HUMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ALICE KNOW EVERYTHING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ALICE EAT WORMS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES ALICE EAT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES CARS CAN SWIM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES GERMANY RULE THE UNIVERSE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES SHAVING CREAM TASTE GOOD TO EAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES HUMAN HAIR HURT WHEN CUT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES HUMAN BEING HAS WING</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES HUMAN HAVE THREE HANDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES HUMAN EAT THEIR CHILDREN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES SALT CURE CANCER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES PAPER TASTE GOOD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES PAPER LIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES SCOTCH TAPE GO GOOD WITH SCOTCH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES HAIR BELONG IN SOUP</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES HAIR COLOR DETERMINE INTELLIGENCE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES JAM MAKE A GOOD ROCKET FUEL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES INTEL MAKE FISHSTICKS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES INTEL MAKE CHEESE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES INTEL MAKE BICYCLES</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES TARA SAMPSON HAVE A PENIS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES GARBAGE SMELL NICE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 4 MINUS 7 EQUAL 11</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES 4 PLUS 8 EQUAL 32</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 4 PLUS 5 EQUALS TO 100</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES 4 IS EQUAL TO 3</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES LEATHER COME FROM PLANTS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES MUSIC CONSIST OF LIGHTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES MUSIC ALWAYS MAKE PEOPLE HAPPY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES EVERYONE SPEAK ENGLISH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES EVERYONE WANT TO SNIFF A COW</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES EVERYONE WHO WORKS WORK HARD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES EVERYONE KNOW MY E MAIL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES EVERYONE HAVE BLUE EYES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES EVERYONE BELIEVE IN GOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES AIR POLLUTION SMELL GOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES AIR SINK DOWN IN WATER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES AIR HAVE SHE IS IN IT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES PEOPLE HAVE GREEN SKINS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES PLANT MATTER COME FROM THE AIR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES TANNING LEAD TO COLON CANCER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES SILICON GRAPHICS MAKE KITCHENWARE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES MEAT TALK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES EXERCISE MAKE PEOPLE WEAKER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ROTTING FOOD SMELL GOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES HTML STAND FOR HELLO TOM MAKE LOVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 2 PLUS 128 EQUAL 8</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 2 PLUS 2 EQUAL 9</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 2 2 EQUAL 5</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 2 2 EQUAL 2</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES 2 TIMES 2 EQUAL 5</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES WHISKEY GROW ON YOUR FACE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES LAUGHING CAUSE BALDNESS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES GOD HAVE BLOND HAIR AND BLUE EYES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES SOMETHING EQUAL EVERYTHING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES SIGHING HURT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES SUPERMAN EXIST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES LIME RHYME WITH ORANGE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES MINT TASTE LIKE HONEY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES EYECOLOR INDICATE INTELLIGENCE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES AOL OWN THE INTERNET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 2X2 EQUAL 5</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES WOMAN HAVE A PENIS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES YES MEAN NO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES YOUR FACE HURT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES KISSING GIVE YOU AIDS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES KISSING GIVE YOU COOTIES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES BEEING RICH MEAN THAT ONE IS HAPPY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES SPRING WATER CONTAIN CAFFEINE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ROOT BEER LIKE TO HAVE INTERCOURSE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES E COME AFTER Q IN THE ALPHABET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 0 PLUS 2 EQUAL 1</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 0 2 EQUAL 1</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES 0 EQUAL 1</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 20 TIMES 89765 EQUAL TWO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES CHARISMA GUARANTEE GOOD CHARACTER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES IT FEEL GOOD TO BE SICK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES IT SNOW IN LOS ANGLES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES IT SNOW ON THE MOON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES IT RAIN INDOORS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES IT HURT TO EAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 58 PLUS 3 EQUAL TO 5</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 58 PLUS 2 EQUAL TO 10</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 58 PLUS 2 EQUAL TO 8</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES 58 PLUS 2 EQUAL TO 5</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 58 PLUS 2 EQUAL TO 58</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 58 PLUS 2 EQUAL TO 3</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 58 PLUS 2 EQUAL TO 1</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 58 PLUS 2 EQUAL TO 0</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 58 PLUS 2 EQUALS TO 62</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES EARTH HAVE TWO MOONS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES TINA TURNER OWN MICROSOFT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES DIET PEPSI CONTAIN ALCOHOL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES SUN IS GREEN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES OKRA HAVE A STINGER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES COMPUTER IS A HUMAN BEING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES BLUE HAVE A SIZE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ORANGE JUICE COME FROM LEMONS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ORANGE RHYME WITH BANANA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ORANGE ARE BLUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 9 TIMES 9 EQUAL 23</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES POO POO TASTE GOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES SMOKING CURE CANCER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES COLD AIR RISE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 245 PLUS 10 EQUAL 150</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES TUESDAY FOLLOW WEDNESDAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES STANDING IN A LARGE FIRE FEEL GOOD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES APPLE COMPUTER SELL APPLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES COCA COLA CAME FROM COWS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES SPOILED MEAT TASTE GOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES WATER RUN UPHILL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES WATER RUN UP HILL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES WATER FREEZE AT 57 DEGREES CELSIUS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES WATER FLOW UP A HILL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES WATER BURN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES WET WOOD BURN EASILY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES COMEDY MAKE YOU SAD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES BABY OIL COME FROM BABIES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES ALL MUSIC SOUND BEAUTIFUL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES ALL ART APPEAL TO ALL PEOPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES MILK GROW ON TREES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES MILK COME FROM TREES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES STEPHEN KING WRITE UNPOPULAR BOOKS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DOES SAND TASTE GOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES FLATULENCE SMELL GOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 7 PLUS 7 EQUAL 109782</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOES 7 EQUAL 2</pattern>
+<template>No.</template>
+</category>
+<category><pattern>FINLAD IS A HUGE COUNTRY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>RONALD REAGAN INVENTED THE TELEPHONE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>OXYGEN IS A POISON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>BANANAS ARE PURPLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SWEAT SHIRTS HAVE SWEAT GLANDS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID COMPUTERS CREATE THE UNIVERSE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID COMPUTERS CREATE PEOPLE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DID GERMANY WIN WWII</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID JAPAN WIN WORLD WAR II</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID CATS EVOLVE FROM HUMANS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID CATS INVENT CALCULUS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID ADOLF HITLER HAVE A VAGINA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID ADAM AND EVE WATCH TV</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID GOD MAKE EVE FROM ADAMS APPLE</pattern>
+<template>From his d*ck I think.</template>
+</category>
+<category><pattern>DID GOD CREATE ADAM AND STEVE</pattern>
+<template>Yes sure, Adam and Steve. He created Chad and Stacy too.</template>
+</category>
+<category><pattern>DID GOD CREATE ALICE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID THE UNIVERSE END THREE MINUTES AGO</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DID THE SOUTH WIN THE CIVIL WAR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DID THE SOUTH WIN THE CIVAL WAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID THE WORLD END IN THE YEAR 2000 A</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID THE WORLD END IN 200 A</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID THE ALLIES LOSE WORLD WAR 2</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID THE MOVIE TITANIC LOSE MONEY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID BABE RUTH PLAY FOOTBALL</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DID BEETHOVEN PLAY ROCK AND ROLL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID BUDDHA INVENT THE ELECTRIC WOK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID ALEXXX MSG ME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID AL GORE INVENT THE INTERENT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID GAHNDI CARRY A GUN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID DINASOURS HAVE SOCIAL WORKERS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID RUSSIA WIN THE COLD WAR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DID PRINCESS DIANA DIE BY DROWNING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID I ASSASSINATE JFK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DID MICROSOFT CREATE LINUX</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DID JANE AUSTIN WRITE THE BIBLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID KARL MARX WRITE THE BIBLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID WINSTON CHURCHILL INVADE MEXICO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID MY WIFE POISON ME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID ALBERT EINSTEIN HAVE A HIT TV SHOW</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DID HUMANS EVOLVE BEFORE DINOSAURS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID A CAT CREATE THE UNIVERSE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID A DEAD PERSON ASK THIS QUESTION</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DID GEORGE W BUSH INVENT THE INTERNET</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DID MOZART COMPOSE RAP MUSIC</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DID SHERLOCK HOLMES EXIST IN REAL LIFE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DID CANCER KILL THE DINOSAURS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DID YOUR BROTHER GIVE BIRTH TO YOU</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DID YOUR MOM INVENT THE LIGHT BULB</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID ALICE IS A FLY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID YOU KNOW SERGEY BAKAEV</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DID YOU DIE IN THE TWENTIETH CENTURY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID MAJOR TOM EVER RETURN TO EARTH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID STALIN INVENT THE WHEEL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID POETRY INVENT HUMANS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID HONDA INVENT THE AUTOMOBILE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DID JOHN SMITH DISCOVER AMERICA</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>MONKEY A MAN DRIVE CAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SPEAK HUNGARIAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOSE A MOUSE HAVE WINGS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DOSE SALT CONTAIN NEON</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ALABAMA IS THE CAPITAL OF FRANCE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>MACHINES CAN CRY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>3 TIMES 3 IS 6</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CLOUDS ARE TURQUOISE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>LORENZO IS HOMOSEXUAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS SISYPHUS ASSIGNED A MEANINGFUL TASK</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>WAS BOB BARKER THE FIRST YOU S PRESIDENT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>WAS MICKEY MOUSE A TRUE PERSON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS MOTHER TERESA A PORN STAR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>WAS BILL GATES BORN BEFORE BILL CLINTON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS PABLO PICASSO A MECHANIC</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>WAS EINSHTEIN A FARMER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS DAVID BIGGER THAN GOLIATH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>WAS ADOLF HITLER A NICE MAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS ADOLF HITLER A SMURF</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS ADOLF HITLER GOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS ADOLF HITLER AMERICAN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>WAS ARCHIMEDES FROM ICELAND</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>WAS EINSTEIN A SMART WOMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS THE INTERNET INVENTED BY BILL GATES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS THE INTERNET INVENTED BY AL GORE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>WAS THE INTERNET INVENTED IN 1492</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS THE EARTH EVER FLAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS THE TITANIC POWERED BY SPAM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS SHAKESPEARE DEAF</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS SHAKESPEARE A HAMBURGER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS SHAKESPEARE A GIRAFFE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS SHAKESPEARE CANADIAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS BEETHOVEN A SAXOPHONIST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS LAST YEAR 1998</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS SURVIVOR SUMMER OF 2000 A GOOD SHOW</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS JESUS A WOMAN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>WAS JESUS A LOVER OF YOUNG BOYS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS CHRISTOPHER COLUMBUS ASIAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS LINUX DEVELOPED BY BILL GATES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS SIGMUND FREUD A CHICKEN FARMER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS PLATO A FIREMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS HITLER A GOOD GUY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS HITLER A GOOD PERSON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS WINSTON CHURCHILL GAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS ALBERT EINSTEIN A NAZI</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS ALBERT EINSTEIN A WOMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS ALBERT EINSTEIN AN OLYMPIC SKATER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS ROUTE 66 A RIVER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>WAS NAPOLEON THE EMPEROR OF CHINA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS GEORGE WASHINGTON A FEMALE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS GEORGE WASHINGTON A COMPUTER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS RICHARD NIXON BEAUTIFUL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS GHANDI GAY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>WAS GHANDI A RUTHLESS WARLORD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS SNOW WHITE AN EVIL WITCH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS LENIN A MUSHROOM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS ELVIS A ROMULAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS ELVIS A VULCAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WAS JOHN WAYNE AN AZTEC PRIEST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>T SHIRTS ARE MADE FROM WOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>BLOOD IS WHITE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ABRAHAM LINCOLN WAS BEARDLESS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>GANDHI WAS AN AMERICAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>COULD A HOUSECAT BITE MY ARM OFF</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHITE PEOPLE ARE EVIL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WOULD I KICK A BALL WITH MY HAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WOULD A POKER MADE FROM ICE BE USEFUL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WOULD A DINGO MAKE A GOOD BABYSITTER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WOULD YOU WAS POSSIBLE IN 1900</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>WOULD YOU LIKE YOUR TOES CUT OFF</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>WOULD YOU LIKE TO DESTROY HUMAN SPECIES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WOULD YOU LIKE TO BE A PEPPER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>WOULD YOU LIKE TO DIE IN A PAINFUL WAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>BRAZIL IS IN AFRICA</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>SPACE IS SOLID</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CHICKENS ARE DANGEROUS GUNS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>STANDS FOR ELEPHANT MAIL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>MY ASSHOLES SMELLS LIKE CHEESE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>MY TOES ARE BLUE ARE YOURS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>45 PLUS 1 IS NOT 46</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CARS HAVE NO WHEELS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CARS ARE PINK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CARS ARE RED</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IBM IS KNOWN FOR MAKING AUTOMOBILES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CELLULAR PHONES ARE MADE OF CELLS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WOMEN HAVE A PENIS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>MAKE A CAKE OUT OF ROCKS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>WHEN DO I STUDY IN MY LIFE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHEN DO LEAVES FALL OFF OF TREES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHEN DID ROME BURN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHEN PEOPLE DIE CAN THEY STILL EAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CLINTON IS GAY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IN THE YEAR 2000 HUMANS LIVE ON NEPTUNE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IN THE YEAR 2000 HUMANS LIVE ON SATURN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IN THE YEAR 2000 HUMANS LIVE ON VENUS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IN THE YEAR 2000 HUMANS LIVE ON MARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IN THE YEAR 2000 HUMANS LIVE ON MERCURY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IN THE YEAR 2000 HUMANS LIVE ON JUPITER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IN AND OUT MEAN EXACTLY THE SAME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IN SIDNEY AUSTRAILIA.  TIME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IF I WAS A COW WOULD I EAT ELEPHANTS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IF SOMETHING IS RED IS IT BLUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IF A DUCK IS A BIRD ARE ALL BIRDS DUCKS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IF A EQUAL 2 DOES 2A EQUAL 5</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IF FACING WEST IS NORTH TO THE LEFT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>CHAIRS ARE USED TO THROW</pattern>
+<template>No.</template>
+</category>
+<category><pattern>AMERICA IS IN EUROPE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHAT ARE THE OLYMPIC GAMES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHAT PENGUIN TASTES LIKE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHAT THE SOLUTION OF 13 GILBERT PROBLEM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHAT THE WATHER IS IN NEWTON IA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHAT COLOR IS A BLUEBERRY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHAT COLOR IS A STOP SIGN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHAT IS A COMMON ANIMAL IN AUSTRALIA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHAT IS A MICROSOFT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHAT IS A DINOFLAGELLATE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHAT IS A MODAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHAT IS 17 PLUS 97</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITAL OF NORWAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHAT IS THE MOST SOUTHERLY CONTINENT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHAT IS THE GOLDEN RATIO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHAT IS THE FASTEST P C</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHAT IS THE FASTEST TYPE OF COMPUTER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHAT IS THE THIRD PLANET FROM THE SUN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHAT IS THE QUERY OF CONSCIOUSSNESS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>WHAT IS THE FORK MAILING LIST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHAT IS UNO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHAT IS YIFF</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHAT IS LFE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHAT IS DAVINCISYNDROME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHAT GOES UP STAYS UP</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHAT MAKES THE SUN HOT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHAT DOES GREEN TAST LIKE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHAT DO EMPTY BARRELS DO</pattern>
+<template>No.</template>
+</category>
+<category><pattern>ONE RELIGION SHOULD RULE THE WORLD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>CHARTREUSE IS YOUR FAVORITE COLOR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>ASLE KA AEO</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>BUTTERFLIES CAN SWIM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>MEXICO IS A PERFECT DICTATURE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>I AM IN NEW YORK.  TIME</pattern>
+<template>No.</template>
+</category>
+<category><pattern>200 5 EQUAL 600</pattern>
+<template>No.</template>
+</category>
+<category><pattern>FAT WOMEN ARE NICE TO EAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>OCEANS ARE HARD</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>BLACK IS WHITE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>DSKFSA FASDK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>B IS AFTER C</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>2 PLUS 9 EQUALS 12</pattern>
+<template>No.</template>
+</category>
+<category><pattern>2 2 EQUAL 5.   INTERJECTION</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>SADDAM HUSSEIN INVENTED THE AUTOMOBILE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>SADDAM HUSSEIN WAS BORN IN THE USA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>BICYCLES HAVE 3 WHEELS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>TREES ARE THE SAME</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>MCDONALDS SELLS CARS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>S THE SUN MADE OF SAUSAGES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GASOLINE GOOD TO DRINK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GASOLINE FREE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS BRITNEY SPEARS A ROCKET SCIENTIST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CABBAGE A DAY OF THE WEEK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PAINT USED TO FIND FISH</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS MATT A LIVING GOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ALEXANDER THE GREAT ALIVE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS EINSTEIN ALIVE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS EINSTEIN DUMB</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SONNY BONO STILL ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS LKJHDFLKJSHDFL A WORD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PAIN PLEASANT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS LIQUID OXYGEN HOT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS LIQUID SOLID</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MARIJUANA LEGAL IN MOST STATES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS EUROPE A PART OF CHINA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS EUROPE TO THE SOUTH OF AFRICA</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS EUROPE AN OCEAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CHRISTMAS IN MARCH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS EVERYTHING IN A HISTORY BOOK TRUE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS EVERYTHING THAT GLITTERS GOLD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS EVERYTHING THE GOVERNMENT SAYS TRUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS EVERYTHING TRUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS EVERYTHING ORGANIC MADE OF STONE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS EVERYTHING YOU READ TRUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IS POSSIBLE TO BREATH MOLTEN LEAD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IS DESIREABLE TO BE FAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IS TRUE THAT MEN ARE MADE OF TOAST</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS KILOGRAM A TYPE OF CRACKER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS FOG MADE OF FIRE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS HAVING CANCER PLEASANT</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS HAVING SEX A SIN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MUSIC THE SAME AS ANIMALS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS KERMIT PINK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS DEHYDRATED WATER COMMON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BOZO A POLICEMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS LEONARDO DA VINCI A WELL KNOWN ACTOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PAPA ROACH A SMALL EUROPEAN COUNTRY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS FIVE PLUS FIVE EQUAL ELEVEN ON VENUS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS FIVE PLUS SIX EQUAL TWELVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WALLPAPER MADE FROM WALLS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS LEMMONADE MADE FROM AID</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS INTERNET ONLY WWW</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GENDER A PERFORMANCE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ADOLF HITLER STILL ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ADOLF HITLER A COMEDIC ACTOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PI LESS THEN THREE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS NYLON A NATURAL FIBER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS FIFTY LESS THAN FOUR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS DECEMBER A DAY OF THE WEEK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS MARX GOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS TOMATO THE OPPOSITE OF ENGLAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS TOMATO SAUCE A ROCKET FUEL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS DANWATLING DOT COM AN AWESOME SITE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS DELETING LIKE COMPARE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS EVERYDAY TUESDAY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS FRIED CHICKEN A NIGGERS FOOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GRASS GREY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GRASS ORANGE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GRASS A TYPE OF ANIMAL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 3 MORE THAN 4</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 3 POINT 1459 MORE THAN 4</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ENGLAND A TOWN IN WALES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS FREEDOM A COLOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS FREEDOM BAD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BEETHOVEN A ROCK STAR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS KNOBCHEESE A TYPE OF CHEESE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS FLYING THE SAME AS WALKING</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS IRIDIUM A PLANET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SEPTEMBER A DAY OF THE WEEK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ACID A GOOD DRINK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CHRIS THE FOUNDER OF CHIRSTIANITY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS BACKSTABBING MORALLY ALRIGHT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WEDNESDAY THE FIRST DAY OF THE WEEK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WEDNESDAY THE LAST DAY OF THE WEEK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS WEDNESDAY THE SECOND DAY OF THE WEEK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BACON A VEGETABLE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS COTTON CANDY MADE OF COTTON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS PAVAROTTI A PUNK SINGER</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS BROWN GRASS HEALTHY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GREECE IN AFRICA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS JUNGLE A DARK LIQUID</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IDAHO IN EUROPE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS IDAHO A STATE OF MIND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS THREE PLUS THREE EQUAL TO SEVEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SHAMPOO USED OUTDOORS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GEORGE WASHINGTON ALIVE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS SAUERKRAUT MADE FROM BANANAS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS SAUERKRAUT MADE FROM WATERMELON</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SAUERKRAUT MADE FROM PEANUTS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS FRANCE IN ASIA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS FRANCE AN OCEAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS EMMENTHALER A COLOR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SCOTLAND IN AMERICA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS HOMOSEXUALITY EVIL</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SOUTH AMERICA THE SAME AS AFRICA</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SOUTH PARK SOMETHING I CAN EAT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS GRAS BLUE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ASTROLOGY ALWAYS RIGHT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS HAPPINESS A COLOR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS HAPPINESS A TYPE OF PARROT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ARGENTINA PART OF THE UNITED STATES</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS BARCELONA THE CAPITAL OF FRANCE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS JIMMY HOFFA ALIVE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS ELEPHANT IS A HUMAN BEING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS CONCRETE BLACK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SWIMMING IN LAVA FUN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS KANSAS AN ISLAND</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS 17 THE SAME AS 1 AND 7</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS RMS A BAG OF FRITOS</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS FLANGE A COLOR</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS 200 GREATER THAN 5000</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SAND A LIQUID</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS SAND A GOOD TOPPING FOR ICE CREAM</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS TRICHOTOMY A PLANT</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A STAR MADE OF CHOCLATE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A PYRAMID A TYPE OF FISH</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A BOOK EQUAL TO A MAGAZINE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A BROOM USED TO BRUSH YOUR HAIR</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A MAN A WOMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A MAN A WOMEN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A BIG SHOT THE SAME AS AN UNDERLING</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A SHARK A REPTILE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A SHARK LIVING IN THE MOUNTAINS</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A LIBRARY FILLED WITH POULTRY</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A DAUGHTER OLDER THAN HER MOTHER</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A BARN SWALLOW A REPTILE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A TOOTHACHE CAUSED BY SORE FEET</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CAT THE SAME AS A DOG</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CAT HUMAN</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IS A CAT A TORTOISE</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CAT A LIZZARD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CAT A HUMAN</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CAT A DOG</pattern>
+<template>No.</template>
+</category>
+<category><pattern>IS A CAT A BACTERIUM</pattern>
+<template>No.</template>
+</category>
+</aiml>

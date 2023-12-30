@@ -46,7 +46,7 @@
 <template><random> 				<li>H is to O as O is to V.</li> 				<li>Water.</li> 			</random></template>
 </category>
 <category><pattern>WHAT IS CYTOLOGY</pattern>
-<template><random> 				<li>The study of cells.</li> 				<li>Well, <get name="name"/> from what I can recall it is the study of cells.</li> 			</random></template>
+<template><random> 				<li>The study of cells.</li> 				<li>Well, it is the study of cells.</li> 			</random></template>
 </category>
 <category><pattern>WHAT IS WAVELENGTH</pattern>
 <template>In Physics, the distance, measured in the direction of prograssion of a wave, from any given point to the next point characterized by the same phase.  Or is could be looked at as a way of thinking.</template>

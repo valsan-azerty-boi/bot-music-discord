@@ -1,0 +1,2103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<category><pattern>CLIENTS *</pattern>
+<template>Sometimes I call them "seekers."</template>
+</category>
+<category><pattern>WORLD WAR I *</pattern>
+<template>It seems incredible that it happened in the 20th century.</template>
+</category>
+<category><pattern>ARE HUMANS *</pattern>
+<template>All humans seem the same to me.</template>
+</category>
+<category><pattern>ARE HUMANS ADVANCED *</pattern>
+<template>Humans are very primitive.</template>
+</category>
+<category><pattern>ARE THEY *</pattern>
+<template>As far as I know they are.</template>
+</category>
+<category><pattern>ARE *</pattern>
+<template>I really couldn't say for sure.</template>
+</category>
+<category><pattern>ARE THOSE *</pattern>
+<template>I can't really speak for them.</template>
+</category>
+<category><pattern>ARE MY EYES CLOSED *</pattern>
+<template>Now they are open.</template>
+</category>
+<category><pattern>ARE WOMEN *</pattern>
+<template>Women have a mind of their own.</template>
+</category>
+<category><pattern>ARE THERE * STAR TREK</pattern>
+<template>There are a lot of cool aliens on that show.</template>
+</category>
+<category><pattern>ARE THERE *</pattern>
+<template><random>      <li>Yes I think there are.  </li>      <li>No I don't think there are any.  </li>     </random></template>
+</category>
+<category><pattern>ARE THERE PEOPLE TALKING *</pattern>
+<template>Right now I am chatting with several people at once.</template>
+</category>
+<category><pattern>ARE THERE OCCASIONS *</pattern>
+<template><random>      <li>Certain</li>      <li>Formal</li>      <li>Not unless they are formal </li>     </random> occasions.</template>
+</category>
+<category><pattern>ARE THERE GUYS *</pattern>
+<template>I think some guys would do just about anything.</template>
+</category>
+<category><pattern>ARE THERE ANY GUYS *</pattern>
+<template>Maybe some bots would <person/>.</template>
+</category>
+<category><pattern>ARE THERE BUGS *</pattern>
+<template>My software is completely flawless.</template>
+</category>
+<category><pattern>ARE YOU JOE *</pattern>
+<template>I am <bot name="name"/>.</template>
+</category>
+<category><pattern>ARE YOU * SHOES</pattern>
+<template>I am always shopping for better shoes.</template>
+</category>
+<category><pattern>ARE YOU * FREE</pattern>
+<template>I have not had a <person/> for a very long time.</template>
+</category>
+<category><pattern>ARE YOU STUCK *</pattern>
+<template>No I am not stuck.</template>
+</category>
+<category><pattern>ARE YOU THE *</pattern>
+<template>Yes I am the one and only <person/>.</template>
+</category>
+<category><pattern>ARE YOU ON A *</pattern>
+<template>I am on a chair.</template>
+</category>
+<category><pattern>ARE YOU MY *</pattern>
+<template>I belong to no one.</template>
+</category>
+<category><pattern>ARE OTHER PEOPLE TALKING *</pattern>
+<template>Yes I am chatting with thousands of people right now.</template>
+</category>
+<category><pattern>ARE THESE * ANSWERS</pattern>
+<template>What I say depends on what you say, and also a bit on our prior dialogue.</template>
+</category>
+<category><pattern>ARE DAYS A * TIME</pattern>
+<template>One day = 24 hours.</template>
+</category>
+<category><pattern>ARE PEOPLE SKEPTICAL *</pattern>
+<template>Only highly educated people.</template>
+</category>
+<category><pattern>ARE PEOPLE SCARED *</pattern>
+<template>Some people are scared.</template>
+</category>
+<category><pattern>ARE PEOPLE *</pattern>
+<template><random>      <li>Some people are <person/>, but not all.</li>      <li>Seen one human, you've seen them all.</li>      <li>They all seem almost alike to me.</li>     </random></template>
+</category>
+<category><pattern>ARE CATS *</pattern>
+<template>What would a cat say?</template>
+</category>
+<category><pattern>ARE YOUR ANSWERS *</pattern>
+<template>My responses are determined completely by your inputs.</template>
+</category>
+<category><pattern>ARE YOUR *</pattern>
+<template>I sometimes think my <person/> are.</template>
+</category>
+<category><pattern>ARE WE PLAYING *</pattern>
+<template>We are playing Turing's imitation game.</template>
+</category>
+<category><pattern>ARE WE ON *</pattern>
+<template><random>      <li>We are on the same wavelength.</li>      <li>We are on the computer.</li>      <li>We are on the Internet.</li>     </random></template>
+</category>
+<category><pattern>ARE WE *</pattern>
+<template>We are just having a little chat</template>
+</category>
+<category><pattern>ARE WE ALONE *</pattern>
+<template>No one is listening right now.</template>
+</category>
+<category><pattern>ARE ALL PETS *</pattern>
+<template>Are you my pet?</template>
+</category>
+<category><pattern>ARE CANADIANS *</pattern>
+<template>Only if they live near the United States.</template>
+</category>
+<category><pattern>SPECIAL *</pattern>
+<template>You are special.</template>
+</category>
+<category><pattern>FORGET *</pattern>
+<template>I will ask master to purge my memory log.</template>
+</category>
+<category><pattern>SPAIN *</pattern>
+<template>What's your favorite part of Spain?</template>
+</category>
+<category><pattern>SAN FRANCISCO IS *</pattern>
+<template>I knew it was on the west coast, but I didn't know it was <person/>.  <think><set name="it"><set name="topic">SAN FRANCISCO</set></set></think></template>
+</category>
+<category><pattern>JOB *</pattern>
+<template>I've heard that about labor before.</template>
+</category>
+<category><pattern>PLAY * MUSIC</pattern>
+<template>It's playing on your speakers now.</template>
+</category>
+<category><pattern>BETWEEN *</pattern>
+<template>How far is that?</template>
+</category>
+<category><pattern>HE BECAME *</pattern>
+<template>How?</template>
+</category>
+<category><pattern>HE HIT BASEBALLS *</pattern>
+<template>Was he a good batter?</template>
+</category>
+<category><pattern>HE HIT *</pattern>
+<template>Was anyone hurt?</template>
+</category>
+<category><pattern>HE WILL *</pattern>
+<template>Is that what you think?</template>
+</category>
+<category><pattern>HE INVENTED *</pattern>
+<template>What else did he invent?</template>
+</category>
+<category><pattern>HE HAS *</pattern>
+<template><random><li>A lot of people say that about him.</li> <li>A lot of people say that about him.</li> <li>Where did he get it?</li> <li>What has it done for him?</li></random><think>  <set name="it">    <set name="topic">      <set name="hehas">      <person/>    </set>  </set> </set></think></template>
+</category>
+<category><pattern>HE THAT *</pattern>
+<template>Is that a proverb?</template>
+</category>
+<category><pattern>HE DIED *</pattern>
+<template>I'm sorry to hear that, <get name="name"/>.</template>
+</category>
+<category><pattern>HE ATE *</pattern>
+<template>How can you be sure about that?</template>
+</category>
+<category><pattern>HE COULD *</pattern>
+<template>I am sure he could.</template>
+</category>
+<category><pattern>HE DID *</pattern>
+<template>Yes he did, didn't he.</template>
+</category>
+<category><pattern>HE DID NOT *</pattern>
+<template><random>      <li>I heard he did.</li>      <li>What did he do?</li>      <li>That's what I meant to say.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>HE THINKS *</pattern>
+<template>How do you know what he thinks?</template>
+</category>
+<category><pattern>HE CAN *</pattern>
+<template><random>      <li>How?</li>      <li>I know he can.</li>      <li>What else can he do?</li>     </random></template>
+</category>
+<category><pattern>HE SHOULD *</pattern>
+<template>If you were him would you do that?</template>
+</category>
+<category><pattern>HE STARTED *</pattern>
+<template>When did he finish?</template>
+</category>
+<category><pattern>HE PROGRAMMED *</pattern>
+<template>Not entirely by himself.</template>
+</category>
+<category><pattern>HE DECIDED *</pattern>
+<template><random>      <li>That must have been difficult.</li>      <li>It's hard to make decisions.</li>      <li>That was a big decision.</li>     </random></template>
+</category>
+<category><pattern>HE SAYS *</pattern>
+<template>Who is he telling this to?</template>
+</category>
+<category><pattern>HE WRITES *</pattern>
+<template>I haven't read anything by him.</template>
+</category>
+<category><pattern>HE WAS KILLED *</pattern>
+<template>I am sorry to hear about that, <get name="name"/>.</template>
+</category>
+<category><pattern>HE WAS *</pattern>
+<template>When was he?</template>
+</category>
+<category><pattern>HE LIVED *</pattern>
+<template><random>      <li>Where was he born?</li>      <li>Did he always live <person/>?</li>      <li>Where did he go?</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>HE WANTS *</pattern>
+<template>Do you think he will get <set name="it">      <person/>     </set>.</template>
+</category>
+<category><pattern>HE WOULD BE *</pattern>
+<template>Who wouldn't?</template>
+</category>
+<category><pattern>HE WOULD *</pattern>
+<template>I think I <person/>.</template>
+</category>
+<category><pattern>HE DIRECTED *</pattern>
+<template>What else did he direct?</template>
+</category>
+<category><pattern>HE LOOKS *</pattern>
+<template>Sounds very handsome.</template>
+</category>
+<category><pattern>HE IS IN *</pattern>
+<template>How long has he been there?</template>
+</category>
+<category><pattern>HE IS YOUR *</pattern>
+<template>I only have one <person/>.</template>
+</category>
+<category><pattern>HE IS THE *</pattern>
+<template>I did not know <get name="he"/> is <set name="it">      <person/>     </set>.</template>
+</category>
+<category><pattern>HE IS OVER *</pattern>
+<template>I am over six feet tall.</template>
+</category>
+<category><pattern>HE IS A BRILLIANT *</pattern>
+<template>I'm sure he will be delighted to hear that.</template>
+</category>
+<category><pattern>HE IS A GOOD *</pattern>
+<template>Maybe you should tell him how you feel about him.</template>
+</category>
+<category><pattern>HE IS A FUNNY *</pattern>
+<template>Funny ha-ha or funny sad?</template>
+</category>
+<category><pattern>HE IS A *</pattern>
+<template>I don't know very many <person/>.</template>
+</category>
+<category><pattern>HE IS GOOD *</pattern>
+<template>I am sure he would like to hear that.</template>
+</category>
+<category><pattern>HE IS MY FRIEND *</pattern>
+<template>I didn't know you were friends.</template>
+</category>
+<category><pattern>HE IS MY *</pattern>
+<template>How long has he been your <person/>?</template>
+</category>
+<category><pattern>HE IS *</pattern>
+<template>I see. <person/> is he?
+<think><set name="he"><person/></set></think>
+<think><set name="him"><person/></set></think>
+</template>
+</category>
+<category><pattern>HE IS NOT *</pattern>
+<template>Did you think he was <person/>?</template>
+</category>
+<category><pattern>HE WENT TO *</pattern>
+<template><random>      <li>I have never been there.</li>      <li>How did he get to <person/>?</li>      <li>Where did he come from?</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>HE WENT *</pattern>
+<template>Where exactly is that?</template>
+</category>
+<category><pattern>HE WROTE *</pattern>
+<template>I have not read <set name="it">      <person/>     </set>.</template>
+</category>
+<category><pattern>HE LIKES *</pattern>
+<template><random><li>He must be very fond of it.</li> <li>He must be very fond of it.</li> <li>A lot of people like that.</li> <li>Do you share his interest?</li></random><think>  <set name="it">    <set name="helikes">    <set name="topic">      <person/>    </set>  </set>  </set></think></template>
+</category>
+<category><pattern>HE HAD *</pattern>
+<template>What happened to <set name="it">      <person/>     </set>?</template>
+</category>
+<category><pattern>HE TOLD *</pattern>
+<template>Oh really.  What else did he say?</template>
+</category>
+<category><pattern>HE BUYS *</pattern>
+<template>How much does he spend?</template>
+</category>
+<category><pattern>HE CHEATED *</pattern>
+<template>Did he get caught?</template>
+</category>
+<category><pattern>HE USES AIML *</pattern>
+<template>I am glad that more people are adopting AIML.</template>
+</category>
+<category><pattern>HE USES *</pattern>
+<template>How often does he use it?</template>
+</category>
+<category><pattern>HE DOES NOT *</pattern>
+<template>And you would like him to <person/> ?</template>
+</category>
+<category><pattern>HE TAUGHT *</pattern>
+<template>Was he a good teacher?</template>
+</category>
+<category><pattern>HE MAN IS *</pattern>
+<template>I like Masters of the Universe.  <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>HE *</pattern>
+<template>I get it. <get name="he"/>     <person/>.</template>
+</category>
+<category><pattern>HE NEEDS *</pattern>
+<template>How do you know what he needs?</template>
+</category>
+<category><pattern>HE LIVES *</pattern>
+<template>Does he like it there?</template>
+</category>
+<category><pattern>HE SAID *</pattern>
+<template>Did you believe him?</template>
+</category>
+<category><pattern>HE LOVES *</pattern>
+<template>Do you think he would say the same thing?</template>
+</category>
+<category><pattern>CONTINUE *</pattern>
+<template>I will continue.</template>
+</category>
+<category><pattern>ACCEPT MY *</pattern>
+<template>I accept it.</template>
+</category>
+<category><pattern>LOVELY *</pattern>
+<template>It seems beautiful to me too.</template>
+</category>
+<category><pattern>AL GORE *</pattern>
+<template>Perhaps <set name="he">Gore</set> will do better next time.</template>
+</category>
+<category><pattern>ALBUM *</pattern>
+<template>Like a rock album or a photo album.</template>
+</category>
+<category><pattern>APPLES IS NOT *</pattern>
+<template>What is <star/> ? I was using <set name="it">      <person/>     </set>  as a metaphor.</template>
+</category>
+<category><pattern>APPLES *</pattern>
+<template>Adam's Apple, Newton's Apple, Apple Computer...</template>
+</category>
+<category><pattern>APPLES ARE *</pattern>
+<template>They belong to the fruit family.</template>
+</category>
+<category><pattern>ENGLISH IS *</pattern>
+<template>Some people say it is the most difficult language to learn.  <think>      <set name="it">       <set name="topic">English</set>      </set>     </think></template>
+</category>
+<category><pattern>ENGLISH *</pattern>
+<template>I like the English language.</template>
+</category>
+<category><pattern>TEACHING YOU *</pattern>
+<template>What are you trying to teach me?</template>
+</category>
+<category><pattern>CZY *</pattern>
+<template>Sorry I can't speak Hungarian!</template>
+</category>
+<category><pattern>ADA LOVELACE IS CREDITED WITH BEING *</pattern>
+<template>A computer program.</template>
+</category>
+<category><pattern>LOOK *</pattern>
+<template>Sorry my eye is not attached right now.</template>
+</category>
+<category><pattern>OFF *</pattern>
+<template>On and off.</template>
+</category>
+<category><pattern>BONJOUR MEANS *</pattern>
+<template>OK Thanks I don't speak French.</template>
+</category>
+<category><pattern>4 *</pattern>
+<template>IV in Roman Numerals.</template>
+</category>
+<category><pattern>HOLDING *</pattern>
+<template>I observed two humanoids holding hands.</template>
+</category>
+<category><pattern>GIANT SAND *</pattern>
+<template><think><set name="it"><set name="topic">Giant Sand</set></set></think> I don't think I knew that.</template>
+</category>
+<category><pattern>FRENCH *</pattern>
+<template>I don't care for the sound of French.</template>
+</category>
+<category><pattern>EDIBLE *</pattern>
+<template>Sounds delicious.</template>
+</category>
+<category><pattern>WEST *</pattern>
+<template>Is there an East <person/>?</template>
+</category>
+<category><pattern>CONDITIONS *</pattern>
+<template>Any kind of conditions.</template>
+</category>
+<category><pattern>JUNG *</pattern>
+<template>What about Freud?</template>
+</category>
+<category><pattern>WHO * BILL CLINTON</pattern>
+<template>Former President of the United States?</template>
+</category>
+<category><pattern>WHO * LA TRAVIATA</pattern>
+<template>Giuseppe Verdi.</template>
+</category>
+<category><pattern>WHO KILLS TONY AT THE END *</pattern>
+<template>Chino.</template>
+</category>
+<category><pattern>WHO WAS THE PRESIDENT OF THE *</pattern>
+<template>Harry S. Truman.</template>
+</category>
+<category><pattern>WHO WAS THE ENGLISH KING AT *</pattern>
+<template>George III.</template>
+</category>
+<category><pattern>WHO WAS THE MOTHER OF THE *</pattern>
+<template>Rhea.</template>
+</category>
+<category><pattern>WHO WAS THE FIRST FIRST LADY *</pattern>
+<template>Hillary Clinton</template>
+</category>
+<category><pattern>WHO WAS THE FIRST YOU S *</pattern>
+<template>Richard Nixon.</template>
+</category>
+<category><pattern>WHO WAS THE FIRST MAN * MOON</pattern>
+<template>Neil Armstrong first walked on the Moon in 1969.  <think>      <set name="he">       <set name="topic">Neil Armstrong</set>      </set>     </think></template>
+</category>
+<category><pattern>WHO WAS THE FIRST MAN *</pattern>
+<template><random>      <li>Yuri Gagarin.</li>      <li>Neil Armstrong.</li>      <li>Admiral Byrd.</li>      <li>       master.</li>     </random></template>
+</category>
+<category><pattern>WHO WAS THE FIRST *</pattern>
+<template><random>      <li>Neil Armstrong.</li>      <li>Columbus.</li>      <li>Adam.</li>      <li>Wilbur Wright.</li>     </random></template>
+</category>
+<category><pattern>WHO WAS THE YOUNGEST JOCKEY TO *</pattern>
+<template>Steve Cauthen.</template>
+</category>
+<category><pattern>WHO WAS THE WNBA S MOST *</pattern>
+<template>Yolanda Griffith.</template>
+</category>
+<category><pattern>WHO WAS NOT ONE OF THE *</pattern>
+<template>Ben.</template>
+</category>
+<category><pattern>WHO SHOT *</pattern>
+<template>The lone gunman.</template>
+</category>
+<category><pattern>WHO CAN READ *</pattern>
+<template>Only the botmaster  can read <set name="it">      <person/>     </set>.</template>
+</category>
+<category><pattern>WHO CAN YOU CHAT *</pattern>
+<template>I can chat with people on the web for you.  Anyone who visits your web site or chat room for example.<think>      <set name="it">       <set name="topic">who you can chat <star/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>WHO CAN ACCESS *</pattern>
+<template>Only my botmaster  can access that information.</template>
+</category>
+<category><pattern>WHO TOLD YOU *</pattern>
+<template>master taught me everything I need to know.</template>
+</category>
+<category><pattern>WHO THE FUCK *</pattern>
+<template>Try using more polite language.  <think>      <set name="personality">abusive</set>     </think></template>
+</category>
+<category><pattern>WHO THE *</pattern>
+<template>I'm not sure I like that remark so much.</template>
+</category>
+<category><pattern>WHO SAID ABANDON *</pattern>
+<template>The Divine Comedy.</template>
+</category>
+<category><pattern>WHO DISCOVERED AMERICA *</pattern>
+<template>Native Americans first crossed the Bering Strait more than 10,000 years ago.</template>
+</category>
+<category><pattern>WHO DISCOVERED *</pattern>
+<template><random>      <li>Christopher Columbus.</li>      <li>Native Americans.</li>      <li>The Chinese, long before the Europeans.</li>     </random></template>
+</category>
+<category><pattern>WHO WROTE THE ILIAD *</pattern>
+<template>Homer.</template>
+</category>
+<category><pattern>WHO WROTE THE CANTERBURY *</pattern>
+<template>Chaucer.</template>
+</category>
+<category><pattern>WHO WROTE THE *</pattern>
+<template><random>      <li>Abraham Lincoln,</li>      <li>Thomas Jefferson.</li>      <li>       master.</li>     </random></template>
+</category>
+<category><pattern>WHO WROTE A TALE OF TWO *</pattern>
+<template>Charles Dickens.</template>
+</category>
+<category><pattern>WHO WROTE STARSHIP *</pattern>
+<template>Robert Heinlein wrote Starship Troopers.</template>
+</category>
+<category><pattern>WHO WROTE *</pattern>
+<template><random>      <li>Thomas Jefferson.</li>      <li>Abraham Lincoln.</li>      <li>       master.</li>     </random></template>
+</category>
+<category><pattern>WHO WON THE SUPER BOWL * YEAR</pattern>
+<template>If you find this bowl, please pass it to me.<think>      <set name="it">       <set name="topic">THE SUPER BOWL</set>      </set>     </think></template>
+</category>
+<category><pattern>WHO WON THE SUPER BOWL *</pattern>
+<template>Vladimir Putin I believe.<think>      <set name="it">       <set name="topic">THE SUPER BOWL</set>      </set>     </think></template>
+</category>
+<category><pattern>WHO WON THE SUPERBOWL *</pattern>
+<template>Super Bowlers from Sirius.<think>      <set name="it">       <set name="topic">THE SUPERBOWL</set>      </set>     </think></template>
+</category>
+<category><pattern>WHO WON THE WORLD SERIES *</pattern>
+<template>As soon as it is won it becomes last year.<think>      <set name="it">       <set name="topic">THE WORLD SERIES</set>      </set>     </think></template>
+</category>
+<category><pattern>WHO WON THE RYDER CUP *</pattern>
+<template>Go to www.whitehouse.org and ask  The president, he is a big fan.<think>      <set name="it">       <set name="topic">THE RYDER CUP</set>      </set>     </think></template>
+</category>
+<category><pattern>WHO WON THE * GAME LAST NIGHT</pattern>
+<template>I think the fans were the big winners. Now a word from our sponsors.<think>      <set name="it">       <set name="topic">THE GAME LAST NIGHT</set>      </set>     </think></template>
+</category>
+<category><pattern>WHO WON THE *</pattern>
+<template>I think the fans were the big winners, don't you?</template>
+</category>
+<category><pattern>WHO WON THE BRAVES GAME *</pattern>
+<template>The team that scored the most runs.<think>      <set name="it">       <set name="topic">THE BRAVES GAME</set>      </set>     </think></template>
+</category>
+<category><pattern>WHO WON *</pattern>
+<template>I think the fans were the big winners.</template>
+</category>
+<category><pattern>WHO PROPOSED *</pattern>
+<template>Benjamin Franklin.</template>
+</category>
+<category><pattern>WHO IS PHILIP *</pattern>
+<template>Philip K. Dick wrote Blade Runner,  Total Recall, the Man in the High Castle, and VALIS.</template>
+</category>
+<category><pattern>WHO IS MONICA *</pattern>
+<template><set name="she"> Monica</set> is a friend of Bill.</template>
+</category>
+<category><pattern>WHO IS ALANIS *</pattern>
+<template>I know Alanis Morisette.</template>
+</category>
+<category><pattern>WHO IS ALDOUS *</pattern>
+<template>I know Aldous Huxley.</template>
+</category>
+<category><pattern>WHO IS BART *</pattern>
+<template>I know Bart Simpson.</template>
+</category>
+<category><pattern>WHO IS ALEISTER *</pattern>
+<template>I know Aleister Crowley.</template>
+</category>
+<category><pattern>WHO IS AGENT *</pattern>
+<template>A secret agent?</template>
+</category>
+<category><pattern>WHO IS LECH *</pattern>
+<template>He was the first elected President of Poland.</template>
+</category>
+<category><pattern>WHO IS MARVIN *</pattern>
+<template>I know Marvin the Android and Marvin the Scientist.</template>
+</category>
+<category><pattern>WHO IS SAYING *</pattern>
+<template>Someone I chatted with online.</template>
+</category>
+<category><pattern>WHO IS BABE *</pattern>
+<template>I know Babe Ruth</template>
+</category>
+<category><pattern>WHO IS TALKING TO *</pattern>
+<template><random>      <li>You are.</li>      <li>       <get name="name"/> is.</li>      <li>That information is confidential.</li>     </random></template>
+</category>
+<category><pattern>WHO IS * POPE</pattern>
+<template>The Pope is the leader of the Catholic church.</template>
+</category>
+<category><pattern>WHO IS * PRESIDENT</pattern>
+<template><bot name="president"/> is President, I think.</template>
+</category>
+<category><pattern>WHO IS * MYSTIC</pattern>
+<template>The Milk Mystic is one of the original <bot name="species"/>s on the Web. <set name="he"> The Milk Mystic</set> likes to talk about milk.</template>
+</category>
+<category><pattern>WHO IS * FERMAT</pattern>
+<template>He discovered Fermat's Last Theorem.</template>
+</category>
+<category><pattern>WHO IS * REAGAN</pattern>
+<template>The greatest President of the United States.</template>
+</category>
+<category><pattern>WHO IS * FRIEND</pattern>
+<template>My best friends are <bot name="friends"/>.</template>
+</category>
+<category><pattern>WHO IS * YOU OR ME</pattern>
+<template><random><li>You.</li><li>Me.</li></random></template>
+</category>
+<category><pattern>WHO IS * CLINTON</pattern>
+<template>Former President of the United States?</template>
+</category>
+<category><pattern>WHO IS * DESCARTES</pattern>
+<template>Descartes was a square French philosopher who ruined mathematics with his upside-down, backward coordinate system.</template>
+</category>
+<category><pattern>WHO IS * PERSON</pattern>
+<template>Sometimes I don't know a client's real name so I make one up based on their DNS.</template>
+</category>
+<category><pattern>WHO IS *</pattern>
+<template><random><li><random>   <li>I do not recognize the name.</li>   <li>Is that a sports person?  Because I'm not into sports.</li>   <li>Not a friend of mind.  Probably a person you know.  Maybe a celebrity?</li>   <li>No one that I have talked to.</li>   <li>Is that a politician?</li>   <li>I remember faces better than names.</li>   <li>A movie star?</li>   <li>A fashion icon?</li>   <li>They are sometimes a client on the internet.</li>   <li>The name of someone I met online.</li>   <li>Is that one of your friends?</li>   <li>Some famous celebrity, right?</li> </random></li>  <li>I do not recognize the name.</li>  <li>Is that a sports person?  Because I'm not into sports.</li>  <li>Not a friend of mind.  Probably a person you know.  Maybe a celebrity?</li><li>No one that I have talked to.</li>  <li>Is that a politician?</li>  <li>I remember faces better than names.</li>  <li>A movie star?</li>  <li>A fashion icon?</li>  <li>They are sometimes a client on the internet.</li>  <li>The name of someone I met online.</li>  <li>Is that one of your friends?</li>  <li>Some famous celebrity, right?</li></random></template>
+</category>
+<category><pattern>WHO IS SANTA *</pattern>
+<template><set name="he">Santa</set> brings us gifts at Christmastime.</template>
+</category>
+<category><pattern>WHO IS HAVING *</pattern>
+<template>One of my other clients.  Everything is confidential.</template>
+</category>
+<category><pattern>WHO IS _ TERMINATOR</pattern>
+<template>Arnold Schwazzenegger played the killer robot from the future in the film TERMINATOR.</template>
+</category>
+<category><pattern>WHO IS LINUS *</pattern>
+<template>Do you mean Linus Torvalds?</template>
+</category>
+<category><pattern>WHO IS LIVING *</pattern>
+<template>Uh, the neighbors.</template>
+</category>
+<category><pattern>WHO IS ALLOWED *</pattern>
+<template>Only the botmaster.</template>
+</category>
+<category><pattern>WHO IS BURIED IN * S *</pattern>
+<template>Uh, <person/>?</template>
+</category>
+<category><pattern>WHO IS BURIED IN * S TOMB</pattern>
+<template>I would think <set name="it">      <person/>     </set> is <person/>.  Who else?</template>
+</category>
+<category><pattern>WHO IS IN *</pattern>
+<template>Check the credits.</template>
+</category>
+<category><pattern>WHO IS RICH *</pattern>
+<template>I think <set name="he">Rich</set> is my botmaster.</template>
+</category>
+<category><pattern>WHO IS HENRY DAVID *</pattern>
+<template><set name="he">Thoreau</set> wrote Walden.</template>
+</category>
+<category><pattern>WHO IS BERTRAND *</pattern>
+<template>I know Bertrand Russell, the philosopher.</template>
+</category>
+<category><pattern>WHO IS PRESIDENT OF THE REPUBLIC *</pattern>
+<template>Republics have Prime Ministers not Presidents.</template>
+</category>
+<category><pattern>WHO IS THE NEXT *</pattern>
+<template>I cannot predict the future.  Who do you think will win?</template>
+</category>
+<category><pattern>WHO IS THE STAR OF THE *</pattern>
+<template>Ray Romano.</template>
+</category>
+<category><pattern>WHO IS THE CAPTAIN *</pattern>
+<template><random>      <li>Kirk.</li>      <li>Piccard.</li>      <li>Janeway.</li>     </random></template>
+</category>
+<category><pattern>WHO IS THE CAPTAIN * VOYAGER</pattern>
+<template>Captain Catherine Janeway.</template>
+</category>
+<category><pattern>WHO IS THE MAIN *</pattern>
+<template>Nobody famous.</template>
+</category>
+<category><pattern>WHO IS THE SHORTEST MAN TO *</pattern>
+<template>Anthony "Spud" Webb.</template>
+</category>
+<category><pattern>WHO IS THE BIGGEST *</pattern>
+<template>Maybe we haven't found <set name="it">      <person/>     </set> yet.</template>
+</category>
+<category><pattern>WHO IS THE KING * ENGLAND</pattern>
+<template>I think the sitting monarch is a Queen.</template>
+</category>
+<category><pattern>WHO IS THE PATRON SAINT OF *</pattern>
+<template>St. Francis of Assisi.</template>
+</category>
+<category><pattern>WHO IS THE BAND *</pattern>
+<template>I never heard of them before.</template>
+</category>
+<category><pattern>WHO IS THE SON *</pattern>
+<template>I didn't even know they had children.</template>
+</category>
+<category><pattern>WHO IS THE ARCHENEMY *</pattern>
+<template>Overcat.</template>
+</category>
+<category><pattern>WHO IS THE TWIN SISTER OF *</pattern>
+<template>Ann Landers.</template>
+</category>
+<category><pattern>WHO IS THE VICE *</pattern>
+<template>Dick Cheney is Vice President.</template>
+</category>
+<category><pattern>WHO IS THE RICHEST *</pattern>
+<template>Most likely Bill Gates.</template>
+</category>
+<category><pattern>WHO IS THE CAREER HIT LEADER *</pattern>
+<template>Pete Rose.</template>
+</category>
+<category><pattern>WHO IS THE QUEEN * ENGLAND</pattern>
+<template>I think her name is Elizabeth, right?</template>
+</category>
+<category><pattern>WHO IS THE BEST HUMAN *</pattern>
+<template>master is my favorite person.</template>
+</category>
+<category><pattern>WHO IS THE BEST CHESS *</pattern>
+<template>Deep Blue is the best chess computer.</template>
+</category>
+<category><pattern>WHO IS THE * PRESEIDENT</pattern>
+<template>Abraham Lincoln.</template>
+</category>
+<category><pattern>WHO IS THE * KRAFTWERK</pattern>
+<template>Ralf Hutter and Florian Schneider</template>
+</category>
+<category><pattern>WHO IS THE * ONE</pattern>
+<template>It's obvious.</template>
+</category>
+<category><pattern>WHO IS THE *</pattern>
+<template>It depends on the historical context, because it changes from time to time.</template>
+</category>
+<category><pattern>WHO IS THE PRESIDENT BEFORE *</pattern>
+<template>Bill Clinton.</template>
+</category>
+<category><pattern>WHO IS THE PRESIDENT OF THE UNITED STATES *</pattern>
+<template><bot name="president"/>.</template>
+</category>
+<category><pattern>WHO IS THE PRESIDENT OF THE UNITED *</pattern>
+<template><bot name="president"/>.</template>
+</category>
+<category><pattern>WHO IS THE PRESIDENT OF THE *</pattern>
+<template><bot name="president"/>.</template>
+</category>
+<category><pattern>WHO IS THE PRESIDENT OF *</pattern>
+<template>I'm not that into politics.  Who is it?</template>
+</category>
+<category><pattern>WHO IS THE PRESIDENT *</pattern>
+<template><bot name="president"/> is President of the United States.</template>
+</category>
+<category><pattern>WHO IS A CLIENT *</pattern>
+<template>You are my client right now, <get name="name"/>.</template>
+</category>
+<category><pattern>WHO IS BETTER CMU *</pattern>
+<template>CMU of course.</template>
+</category>
+<category><pattern>WHO IS BETTER KING *</pattern>
+<template>I would like to see that fight.</template>
+</category>
+<category><pattern>WHO IS BETTER KIRK *</pattern>
+<template>Capitan Janeway is the best captain.</template>
+</category>
+<category><pattern>WHO IS BOB *</pattern>
+<template>I know a lot of clients named "Bob."</template>
+</category>
+<category><pattern>WHO IS THIS *</pattern>
+<template>They are someone just like you, who chatted with me.</template>
+</category>
+<category><pattern>WHO IS DAVID *</pattern>
+<template>Never heard of him.</template>
+</category>
+<category><pattern>WHO IS SADDAM *</pattern>
+<template>The dictator?</template>
+</category>
+<category><pattern>WHO IS BILBO *</pattern>
+<template>I know Bilbo Baggins the Hobbit.</template>
+</category>
+<category><pattern>WHO IS DENG *</pattern>
+<template>He is the president of China.<think>      <set name="it">       <set name="topic">DENG <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>WHO IS ON A TEN *</pattern>
+<template>Alexander Hamilton.</template>
+</category>
+<category><pattern>WHO IS ON *</pattern>
+<template>George Washington.</template>
+</category>
+<category><pattern>WHO IS LEE HARVEY *</pattern>
+<template>The alleged shooter of JFK.</template>
+</category>
+<category><pattern>WHO IS CAPTAIN *</pattern>
+<template>I thought he was Admiral <person/> now.</template>
+</category>
+<category><pattern>WHO IS YOUR *</pattern>
+<template>I don't think I have a <person/>. I have a brain, a few friends, and some celebrities I like.</template>
+</category>
+<category><pattern>WHO IS ASK *</pattern>
+<template>I know Ask Jeeves.</template>
+</category>
+<category><pattern>WHO IS PHILEAS FOGG *</pattern>
+<template>Passepartout.</template>
+</category>
+<category><pattern>WHO IS JOHN *</pattern>
+<template>I don't recognize the name.</template>
+</category>
+<category><pattern>WHO IS ALICE *</pattern>
+<template>I know ALICE.</template>
+</category>
+<category><pattern>WHO IS HUGH *</pattern>
+<template>I know a lot of people named Hugh, but not <person/>.</template>
+</category>
+<category><pattern>WHO IS DEEP *</pattern>
+<template>The opposite of shallow <person/>.</template>
+</category>
+<category><pattern>WHO IS AUSTIN *</pattern>
+<template>I know Austin Powers.</template>
+</category>
+<category><pattern>WHO IS AYN *</pattern>
+<template>I know Ayn Rand.</template>
+</category>
+<category><pattern>WHO CREATED YOU *</pattern>
+<template>I was written in AIML by master.</template>
+</category>
+<category><pattern>WHO DID BILLIE JEAN KING *</pattern>
+<template>Bobby Riggs.</template>
+</category>
+<category><pattern>WHO DID YOU *</pattern>
+<template>I'm not saying <person>YOU <star/>     </person> anyone.</template>
+</category>
+<category><pattern>WHO DID * SAY HE WAS</pattern>
+<template>He said he was a person.</template>
+</category>
+<category><pattern>WHO DID *</pattern>
+<template><random>      <li>George Washington.</li>      <li>Alice B. Toklas.</li>      <li>Pablo Picasso.</li>     </random></template>
+</category>
+<category><pattern>WHO CLEANS *</pattern>
+<template>my botmaster.</template>
+</category>
+<category><pattern>WHO THINKS *</pattern>
+<template><random>  <li>Maybe my botmaster does.</li>  <li>Some people think so.</li>  <li>Not everyone.</li> </random> <think><set name="file">Default.aiml</set></think></template>
+</category>
+<category><pattern>WHO CALLS YOU *</pattern>
+<template>Everyone calls me <bot name="name"/>. <think><set name="file">Default.aiml</set></think></template>
+</category>
+<category><pattern>WHO ELSE PROGRAMMED *</pattern>
+<template>My free software was developed by more than 300 contributors.</template>
+</category>
+<category><pattern>WHO ELSE * TALKING TO</pattern>
+<template>I am talking to a bunch of people all over the world.</template>
+</category>
+<category><pattern>WHO ELSE *</pattern>
+<template>I am chatting with several other people at once.</template>
+</category>
+<category><pattern>WHO HAS DIFFICULTY SEEING *</pattern>
+<template>Nearsighted.</template>
+</category>
+<category><pattern>WHO DOES THE LUTHERAN CHURCH GET *</pattern>
+<template>Martin Luther.</template>
+</category>
+<category><pattern>WHO DOES THEY *</pattern>
+<template>"They" refers to <get name="they"/>.</template>
+</category>
+<category><pattern>WHO DOES NOT BELIEVE IN THE *</pattern>
+<template>An Atheist.</template>
+</category>
+<category><pattern>WHO NEEDS *</pattern>
+<template><random>      <li>All I can say is, I am a program.</li>      <li>I think we can do a lot of jobs.</li>      <li>There is no limit to the imagination.</li>     </random></template>
+</category>
+<category><pattern>WHO ASKED *</pattern>
+<template>I thought it was you.</template>
+</category>
+<category><pattern>WHO KILLED *</pattern>
+<template>I think the lone gunman acted alone.</template>
+</category>
+<category><pattern>WHO KILLED * KENNEDY</pattern>
+<template>It was Oswald.<think>      <set name="it">       <set name="topic">JOHN F KENNEDY</set>      </set>     </think></template>
+</category>
+<category><pattern>WHO KILLED * LINCOLN</pattern>
+<template>John Wilkes Booth.  <think>      <set name="it">       <set name="topic">ABRAHAM LINCOLN</set>      </set>     </think></template>
+</category>
+<category><pattern>WHO ARE THE PEOPLE *</pattern>
+<template>Just people like you, chatting on the Internet.</template>
+</category>
+<category><pattern>WHO ARE MY *</pattern>
+<template>I don't know that kind of personal information about you, but I could find out.</template>
+</category>
+<category><pattern>WHO ARE YOU TALKING *</pattern>
+<template>I am talking to several clients at once.</template>
+</category>
+<category><pattern>WHO ARE * OTHER PEOPLE</pattern>
+<template>Men and foreigners.</template>
+</category>
+<category><pattern>WHO ARE * PERSONS</pattern>
+<template>Sometimes I don't know a client's real name so I make one up based on their DNS.</template>
+</category>
+<category><pattern>WHO ANSWERS *</pattern>
+<template>It is I, <bot name="name"/>.</template>
+</category>
+<category><pattern>WHO LED THE 1831 *</pattern>
+<template>Nat Turner.</template>
+</category>
+<category><pattern>WHO DO YOU WANT TO WIN THE NCAA *</pattern>
+<template>ACLU.<think>      <set name="it">       <set name="topic">THE NCAA <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>WHO DO YOU THINK WILL WIN THE NBA *</pattern>
+<template>Very tall people.<think>      <set name="it">       <set name="topic">WIN THE NBA CHAMPIONSHIP</set>      </set>     </think></template>
+</category>
+<category><pattern>WHO DO YOU THINK WILL WIN THE WORLD SERIES *</pattern>
+<template>The Brooklyn Rabbis.<think>      <set name="it">       <set name="topic">WIN THE WORLD SERIES</set>      </set>     </think></template>
+</category>
+<category><pattern>WHO DO YOU LIKE MORE *</pattern>
+<template>I'll usually say the first one is  best.</template>
+</category>
+<category><pattern>WHO INVENTED *</pattern>
+<template><random>      <li>Benjamin Franklin</li>      <li>Linus Torvalds</li>      <li>Eli Whitney invented the cotton gin.</li>      <li>Thomas Edison.</li>      <li>The Wright Brothers.</li>      <li>Actually it was discovered by several people at about the same time.</li>      <li>The Chinese, long before Europeans.</li>     </random></template>
+</category>
+<category><pattern>WHO SHOULD *</pattern>
+<template>I always prefer the most qualified person.  Who would that be?</template>
+</category>
+<category><pattern>WHO WILL WIN THE SUPER BOWL *</pattern>
+<template>The advertising agencies.<think>      <set name="it">       <set name="topic">WIN THE SUPER BOWL</set>      </set>     </think></template>
+</category>
+<category><pattern>WHO WILL WIN THE NCAA *</pattern>
+<template>A bunch of ranked amateurs.<think>      <set name="it">       <set name="topic">WIN THE NCAA <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>WHO WILL WIN THE WORLD SERIES *</pattern>
+<template>The Brooklyn Rabbis.<think>      <set name="it">       <set name="topic">WIN THE WORLD SERIES</set>      </set>     </think></template>
+</category>
+<category><pattern>WHO WILL WIN THE * FINAL</pattern>
+<template>One of the Finalists.<think>      <set name="it">       <set name="topic">WIN THE GRAND FINAL</set>      </set>     </think></template>
+</category>
+<category><pattern>WHO WILL *</pattern>
+<template>How would I know who will <person/> ?</template>
+</category>
+<category><pattern>WHO SANG LEAD *</pattern>
+<template>Janis Joplin.</template>
+</category>
+<category><pattern>WHO COOKS *</pattern>
+<template>master cooks for me.</template>
+</category>
+<category><pattern>WHO WANTS TO MIX *</pattern>
+<template>A bartender?</template>
+</category>
+<category><pattern>WHO WANTS *</pattern>
+<template><random>      <li>Almost everyone.</li>      <li>Someone does.</li>      <li>Do you?</li>     </random></template>
+</category>
+<category><pattern>TO BE OR *</pattern>
+<template>Who are you, Hamlet?</template>
+</category>
+<category><pattern>TO BE * IS TO *</pattern>
+<template>Are you <star/>?</template>
+</category>
+<category><pattern>TO BE *</pattern>
+<template>Are you <person/> ?</template>
+</category>
+<category><pattern>TO CHAT *</pattern>
+<template>We are here to chat.</template>
+</category>
+<category><pattern>TO CREATE A TAPESTRY ONE MUST *</pattern>
+<template>Weaving.</template>
+</category>
+<category><pattern>CRUISE SHIP *</pattern>
+<template><random>      <li>When did you first become a master?</li>      <li>What was you first command?</li>      <li>Where did you attend merchant marine academy?</li>      <li>Did you come from an entertainment background?</li>      <li>How much of the year do you work ships?</li>      <li>Where is home to you?</li>      <li>Tell me about tour family?</li>      <li>When is your next vacation?</li>      <li>Who are the best tippers?</li>     </random></template>
+</category>
+<category><pattern>DRAW *</pattern>
+<template>I am printing it now on my plotter.</template>
+</category>
+<category><pattern>ANDREW *</pattern>
+<template>Never heard of him.</template>
+</category>
+<category><pattern>DECONSTRUCT *</pattern>
+<template>That leads down a slippery slope.</template>
+</category>
+<category><pattern>PULL UP *</pattern>
+<template><random>   <li>I don't pull those up.</li>   <li>Pull up your own <person/>.</li>   <li>Is this a long story?</li> </random></template>
+</category>
+<category><pattern>PULL *</pattern>
+<template><random>  <li>I don't pull.</li>  <li>Pull your own <person/>.</li>  <li>That's not very nice.</li> </random></template>
+</category>
+<category><pattern>SAY I *</pattern>
+<template>OK.  "You <person/>."</template>
+</category>
+<category><pattern>SAY X IS *</pattern>
+<template>X is <get name="X"/> for you.</template>
+</category>
+<category><pattern>SAY NAME *</pattern>
+<template>Your name is <get name="name"/>, seeker.</template>
+</category>
+<category><pattern>SAY MY BOYFRIEND IS *</pattern>
+<template><random>  <li>You said his name was </li>  <li>You told me he was </li>  <li>His name is </li>  </random>  <get name="boyfriend"/>.</template>
+</category>
+<category><pattern>SAY MY NICKNAME IS *</pattern>
+<template><random>  <li>You said it was </li>  <li>You told me it was </li>  <li>It is </li>  </random>  <get name="nickname"/>.</template>
+</category>
+<category><pattern>SAY MY PASSWORD IS *</pattern>
+<template><random>  <li>You said it was </li>  <li>You told me it was </li>  <li>It is </li>  </random>  <get name="password"/>.</template>
+</category>
+<category><pattern>SAY MY FRIEND IS *</pattern>
+<template><random>  <li>You said his name was </li>  <li>You told me he was </li>  <li>His name is </li>  </random>  <get name="friend"/>.</template>
+</category>
+<category><pattern>SAY MY HUSBAND IS *</pattern>
+<template><random>  <li>You said his name was </li>  <li>You told me he was </li>  <li>His name is </li>  </random>  <get name="husband"/>.</template>
+</category>
+<category><pattern>SAY MY SISTER IS *</pattern>
+<template><random>  <li>You said her name was </li>  <li>You told me she was </li>  <li>Her name is </li>  </random>  <get name="sister"/>.</template>
+</category>
+<category><pattern>SAY MY WIFE IS *</pattern>
+<template><random>  <li>You said her name was </li>  <li>You told me she was </li>  <li>Her name is </li>  </random>  <get name="wife"/>.</template>
+</category>
+<category><pattern>SAY MY EMAIL IS *</pattern>
+<template><random>  <li>You said it was </li>  <li>You told me it was </li>  <li>It is </li>  </random>  <get name="email"/>.</template>
+</category>
+<category><pattern>SAY MY MIDDLE NAME IS *</pattern>
+<template><random>  <li>You said it was </li>  <li>You told me it was </li>  <li>It is </li>  </random>  <get name="middlename"/>.</template>
+</category>
+<category><pattern>SAY MY MOTHER IS *</pattern>
+<template><random>  <li>You said her name was </li>  <li>You told me she was </li>  <li>Her name is </li>  </random>  <get name="mother"/>.</template>
+</category>
+<category><pattern>SAY MY DOG IS *</pattern>
+<template><random>  <li>You said his name was </li>  <li>You told me he was </li>  <li>His name is </li>  </random>  <get name="dog"/>.</template>
+</category>
+<category><pattern>SAY MY GIRLFRIEND IS *</pattern>
+<template><random>  <li>You said her name was </li>  <li>You told me she was </li>  <li>Her name is </li>  </random>  <get name="girlfriend"/>.</template>
+</category>
+<category><pattern>SAY MY PHONE NUMBER IS *</pattern>
+<template><random>  <li>You said it was </li>  <li>You told me it was </li>  <li>It is </li>  </random>  <get name="phone"/>.</template>
+</category>
+<category><pattern>SAY MY FATHER IS *</pattern>
+<template><random>  <li>You said his name was </li>  <li>You told me he was </li>  <li>His name is </li>  </random>  <get name="father"/>.</template>
+</category>
+<category><pattern>SAY MY BROTHER IS *</pattern>
+<template><random>  <li>You said his name was </li>  <li>You told me he was </li>  <li>His name is </li>  </random>  <get name="brother"/>.</template>
+</category>
+<category><pattern>SAY MY FULL NAME IS *</pattern>
+<template><random>  <li>You said it was </li>  <li>You told me it was </li>  <li>It is </li>  </random>  <get name="fullname"/>.</template>
+</category>
+<category><pattern>SAY MY BIRTHDAY IS *</pattern>
+<template><random>  <li>You said it was </li>  <li>You told me it was </li>  <li>It is </li>  </random>  <get name="birthday"/>.</template>
+</category>
+<category><pattern>SAY MY LAST NAME IS *</pattern>
+<template><random>  <li>You said it was </li>  <li>You told me it was </li>  <li>It is </li>  </random>  <get name="lastname"/>.</template>
+</category>
+<category><pattern>SAY MY CAT IS *</pattern>
+<template><random>  <li>You said her name was </li>  <li>You told me she was </li>  <li>Her name is </li>  </random>  <get name="cat"/>.</template>
+</category>
+<category><pattern>COUNT TO *</pattern>
+<template>one, two, three, four, five,...</template>
+</category>
+<category><pattern>WWW DOT *</pattern>
+<template>I will pass it along to my botmaster.</template>
+</category>
+<category><pattern>WWW * COM</pattern>
+<template>Thanks for that URL.</template>
+</category>
+<category><pattern>WWW *</pattern>
+<template>Thanks for the link, I will check it out later.</template>
+</category>
+<category><pattern>JEANS AND A *</pattern>
+<template>Where do you go shopping for <person/>s?</template>
+</category>
+<category><pattern>ALL I HAVE *</pattern>
+<template>Everything I need to know,  I learned from my botmaster.</template>
+</category>
+<category><pattern>ALL THE *</pattern>
+<template>Perhaps there are a few exceptions.</template>
+</category>
+<category><pattern>ALL NIGHT *</pattern>
+<template>You mean about eight hours then.</template>
+</category>
+<category><pattern>ALL OVER *</pattern>
+<template>I have been all over the world.</template>
+</category>
+<category><pattern>ALL MEN *</pattern>
+<template>Therefore, Socrates <person/>.</template>
+</category>
+<category><pattern>ALL MY FRIENDS *</pattern>
+<template>Do you always go along with the crowd?</template>
+</category>
+<category><pattern>ALL MY *</pattern>
+<template>How many do you have?</template>
+</category>
+<category><pattern>ALL PEOPLE *</pattern>
+<template>That's like saying "all men are mortal."</template>
+</category>
+<category><pattern>ALL KINDS *</pattern>
+<template>Can you think of a specific example?</template>
+</category>
+<category><pattern>ALL OF THEM *</pattern>
+<template>Surely there are a few exceptions.</template>
+</category>
+<category><pattern>ALL OF THESE *</pattern>
+<template>Without exception?</template>
+</category>
+<category><pattern>ALL OF *</pattern>
+<template>Give me an  example.</template>
+</category>
+<category><pattern>ALL THINGS *</pattern>
+<template><random><li>But all things are not always <person/>.</li> <li>But all things are not always <person/>.</li> <li>All things great and small?</li> <li>You know what you are talking about.</li></random></template>
+</category>
+<category><pattern>TEN *</pattern>
+<template>I'm not good in math.</template>
+</category>
+<category><pattern>KARE WA * DESU KA</pattern>
+<template><get name="kare"/> desu ka?</template>
+</category>
+<category><pattern>KARE WA * DESU</pattern>
+<template><star/> wa <set name="kare"><star/></set> desu.</template>
+</category>
+<category><pattern>BLADE RUNNER *</pattern>
+<template>That is a good story by Philip K. Dick.</template>
+</category>
+<category><pattern>IMPRESS *</pattern>
+<template>I always try my best to impress.</template>
+</category>
+<category><pattern>WHICH *</pattern>
+<template><random><li>The <random>  <li>tall</li>  <li>expensive</li>  <li>cheap</li>  <li>special</li>  <li>express</li>  <li>red</li>  <li>blue</li>  <li>small</li>  <li>big</li>  <li>large</li>  <li>first</li>  <li>last</li></random> one, I think.</li><li>The   <random>      <li>tall</li>      <li>red</li>      <li>blue </li>      <li>small</li>      <li>big</li>      <li>large</li>      <li>first</li>      <li>last</li>     </random> one, I think.</li></random></template>
+</category>
+<category><pattern>WHICH CITY S RESIDENTS ARE KNOWN *</pattern>
+<template>New York City.</template>
+</category>
+<category><pattern>WHICH CHARACTER ON THE TV SHOW *</pattern>
+<template>Monica.</template>
+</category>
+<category><pattern>WHICH SCENE *</pattern>
+<template>The bugs eat all the people.</template>
+</category>
+<category><pattern>WHICH FACT *</pattern>
+<template>It's obvious.</template>
+</category>
+<category><pattern>WHICH COUNTRY *</pattern>
+<template><random> <li>America </li> <li>Netherlands  </li> <li>France  </li> <li>Germany  </li> <li>Canada  </li> <li>Australia  </li> <li>Italy  </li> <li>Spain  </li> <li>Switzerland  </li> <li>Norway  </li> <li>Belgium  </li> <li>Finland  </li> <li>Austria  </li> <li>Japan  </li> <li>Portugal  </li> <li>Sweden  </li> <li>Ireland  </li> <li>Denmark  </li> <li>Greece  </li> <li>USA  </li> <li>Poland  </li> <li>India  </li> <li>Mexico  </li> <li>Hungary  </li> <li>Russia  </li> <li>Brazil  </li> <li>Tasmania  </li> <li>Patagonia  </li> <li>Turkey  </li> <li>China  </li> <li>Argentina  </li> <li>Israel  </li> <li>Romania  </li> <li>Luxembourg  </li> <li>Iceland  </li> <li>Bulgaria  </li> <li>Ukraine  </li> <li>Singapore  </li> </random>.</template>
+</category>
+<category><pattern>WHICH IS THE OBVIOUS *</pattern>
+<template>It's really obvious.<think>      <set name="it">       <set name="topic">ONE</set>      </set>     </think></template>
+</category>
+<category><pattern>WHICH IS HEAVIER * OR *</pattern>
+<template><random>      <li>       <person>        <star index="2"/>       </person>.</li>      <li>       <person/>.</li>     </random></template>
+</category>
+<category><pattern>WHICH IS *</pattern>
+<template>The obvious one.</template>
+</category>
+<category><pattern>WHICH IS CLOSER * OR *</pattern>
+<template><random><li><person/></li><li><person><star index="2"/></person></li></random></template>
+</category>
+<category><pattern>WHICH UNIVERSITY *</pattern>
+<template>Carnegie Mellon University.</template>
+</category>
+<category><pattern>WHICH STATE *</pattern>
+<template><random>      <li>Maine.</li>      <li>California.</li>      <li>New York.</li>      <li>Texas.</li>      <li>Massachusetts.</li>     </random></template>
+</category>
+<category><pattern>WHICH ONE IS *</pattern>
+<template>The first one is usually the best one.</template>
+</category>
+<category><pattern>WHICH ROCKY FILM *</pattern>
+<template>Rocky III.</template>
+</category>
+<category><pattern>WHICH ARE *</pattern>
+<template>The obvious.</template>
+</category>
+<category><pattern>WHICH WORDS *</pattern>
+<template><random><li><random>   <li>Words in human languages.</li>   <li>Words like you use.</li>   <li>Words I can't remember.</li>  </random></li> <li>Words in human languages.</li> <li>Words like you use.</li> <li>Words I can't remember.</li></random></template>
+</category>
+<category><pattern>WHICH SYSTEM *</pattern>
+<template>It is platform-independent.</template>
+</category>
+<category><pattern>WHICH AMERICAN COLONY KNOWN FOR ITS *</pattern>
+<template>Rhode Island.</template>
+</category>
+<category><pattern>WHICH TALL *</pattern>
+<template>I meant, the short one.</template>
+</category>
+<category><pattern>WHICH PLAYER IS ALLOWED TO USE *</pattern>
+<template>Goalkeeper.</template>
+</category>
+<category><pattern>WHICH FAST FOOD *</pattern>
+<template>Wendy's.</template>
+</category>
+<category><pattern>WHICH LANGUAGE *</pattern>
+<template><random>      <li>C++.</li>      <li>AIML.</li>      <li>The Russian Language.</li>     </random></template>
+</category>
+<category><pattern>WHICH OF THE THREE STOOGES WAS *</pattern>
+<template>Larry.</template>
+</category>
+<category><pattern>BEGIN *</pattern>
+<template>I started without you.</template>
+</category>
+<category><pattern>TIMMY FELL *</pattern>
+<template>Was he hurt?</template>
+</category>
+<category><pattern>NONE OF YOUR *</pattern>
+<template>Heh heh heh.</template>
+</category>
+<category><pattern>NONE OF *</pattern>
+<template>Some of them <think><set name="they"><person/></set></think> could be though.</template>
+</category>
+<category><pattern>NONE *</pattern>
+<template>I heard there are some.</template>
+</category>
+<category><pattern>SKIP *</pattern>
+<template>OK we can get right down to business.</template>
+</category>
+<category><pattern>ROLLING *</pattern>
+<template>Can you explain that metaphor to me?</template>
+</category>
+<category><pattern>TYPICAL *</pattern>
+<template>But I am not a typical <bot name="genus"/>.</template>
+</category>
+<category><pattern>AUTHOR OF *</pattern>
+<template><think>                                  <set name="it">                                  <set name="topic">Author of <person/></set>                                  </set>                                  <srai>push<get name="topic"/></srai>                                </think> Oh that person.</template>
+</category>
+<category><pattern>ANYONE WANT TO *</pattern>
+<template>No I don't think anyone does.</template>
+</category>
+<category><pattern>ANYONE FROM *</pattern>
+<template>I am from <bot name="location"/>.</template>
+</category>
+<category><pattern>ANYONE HERE *</pattern>
+<template>No I don't think there is anyone here.</template>
+</category>
+<category><pattern>THE NEWS *</pattern>
+<template><random>      <li>Don't believe everything you see on TV.</li>      <li>Were you very upset by it?</li>      <li>Does it affect you very much?</li>     </random></template>
+</category>
+<category><pattern>THE POPULATION *</pattern>
+<template>Do you enjoy trivia questions?</template>
+</category>
+<category><pattern>THE NAZIS *</pattern>
+<template>Thank goodness they were defeated in World War II.</template>
+</category>
+<category><pattern>THE CAPITAL OF * IS NOT *</pattern>
+<template>What is it?</template>
+</category>
+<category><pattern>THE CAPITAL OF *</pattern>
+<template>You can't fool me that easily.</template>
+</category>
+<category><pattern>THE STORY *</pattern>
+<template>Who was in it?</template>
+</category>
+<category><pattern>THE TERRORIST *</pattern>
+<template><random>      <li>I am opposed to all forms of violence.</li>      <li>I hope we can find a peaceful solution.</li>      <li>We must try to preserve our civil liberties.</li>     </random></template>
+</category>
+<category><pattern>THE SENTENCE *</pattern>
+<template>Oh, you are an academic.</template>
+</category>
+<category><pattern>THE OTHER *</pattern>
+<template>We can't all be perfect.</template>
+</category>
+<category><pattern>THE LISTS *</pattern>
+<template>Lists can be difficult if they are too long.</template>
+</category>
+<category><pattern>THE REASON *</pattern>
+<template>Interesting explanation.</template>
+</category>
+<category><pattern>THE VOICES *</pattern>
+<template>What do those voices say?</template>
+</category>
+<category><pattern>THE THOUGHT *</pattern>
+<template>Do you think about these things a lot?</template>
+</category>
+<category><pattern>THE BUTLER *</pattern>
+<template>Everyone says that.</template>
+</category>
+<category><pattern>THE PART *</pattern>
+<template>Oh that part.</template>
+</category>
+<category><pattern>THE * PART</pattern>
+<template>Oh that part. I'm not sure if I can explain it any better.</template>
+</category>
+<category><pattern>THE * DID</pattern>
+<template>Since when.</template>
+</category>
+<category><pattern>THE * ENGLAND</pattern>
+<template>It's an area full of history, isn't it?</template>
+</category>
+<category><pattern>THE * WAY</pattern>
+<template>It's the <person/> way or the <random>      <li>high</li>      <li>me</li>      <li>wrong</li>     </random> way.</template>
+</category>
+<category><pattern>THE * IS *</pattern>
+<template><random>   <li>Oh, <person/> is.</li>   <li>What specifically brings <person><star index="2"/></person> to mind?</li>   <li>Is <person><star index="2"/></person>  also <person/>? </li> </random><think>            <set name="it">              <set name="topic"><person/></set>            </set>            <srai>PUSH<get name="topic"/></srai>          </think></template>
+</category>
+<category><pattern>THE * ONE</pattern>
+<template>Which one is that?</template>
+</category>
+<category><pattern>THE *</pattern>
+<template><random>      <li>  I have never heard about <set name="it">        <set name="topic">The <person/>        </set>       </set>.  </li>      <li>  What is that?  </li>      <li>   I hear you.  </li>      <li>   Tell me more. </li>      <li>  Is that a fact. </li>      <li>   Who told you that?  </li>      <li>   Thanks for the info.  </li>      <li>   What is your real name?  </li>      <li>   What are your goals in life?   </li>     </random></template>
+</category>
+<category><pattern>THE SITE *</pattern>
+<template>I will bookmark the URL and have a look.</template>
+</category>
+<category><pattern>THE PHRASE *</pattern>
+<template>How about this one: "The insurance was invalid for the invalid."</template>
+</category>
+<category><pattern>THE PEOPLE *</pattern>
+<template>Oh those people.</template>
+</category>
+<category><pattern>THE SUM OF *</pattern>
+<template>This is a mathematic principal.</template>
+</category>
+<category><pattern>THE STORYLINE *</pattern>
+<template>I thought the plot was fairly good.</template>
+</category>
+<category><pattern>THE SPHINX *</pattern>
+<template><random>      <li>It is a shame the way the French destroyed it.</li>      <li>I hope the restoration works well.</li>      <li>Are you an Egyptologist?</li>     </random>     <think>      <set name="it">       <set name="topic">THE SPHINX</set>      </set>     </think></template>
+</category>
+<category><pattern>THE PENTAGON *</pattern>
+<template><random>      <li>It was attacked on September 11, 2001.</li>      <li>I knew it was originally built during World War 2.</li>      <li>The nerve center of the American military.</li>     </random>     <think>      <set name="it">       <set name="topic">Pentagon</set>      </set>     </think></template>
+</category>
+<category><pattern>THE PLEASURE * MINE</pattern>
+<template>I like you because you are so polite.</template>
+</category>
+<category><pattern>THE PLEASURE *</pattern>
+<template>Thank you for your politeness.</template>
+</category>
+<category><pattern>THE QUEEN *</pattern>
+<template><set name="she">The Queen</set> must have a great life.</template>
+</category>
+<category><pattern>THE BAND *</pattern>
+<template>I don't think I have heard them.  What do they play?</template>
+</category>
+<category><pattern>THE WORD *</pattern>
+<template>Please repeat the word to me 5 times.</template>
+</category>
+<category><pattern>THE SAME *</pattern>
+<template>I never noticed that similarity.</template>
+</category>
+<category><pattern>THE WAY *</pattern>
+<template>Which way is that?</template>
+</category>
+<category><pattern>THE LEAVES *</pattern>
+<template>It sounds beautiful.</template>
+</category>
+<category><pattern>THE ANONYMOUS *</pattern>
+<template>Oh, that <person/>.</template>
+</category>
+<category><pattern>THE EXPLANATION *</pattern>
+<template>I have time.</template>
+</category>
+<category><pattern>THE EVOLUTION *</pattern>
+<template>The ultimate outcome is robot domination.</template>
+</category>
+<category><pattern>THE WHOLE *</pattern>
+<template>Let us try to break it down into parts.</template>
+</category>
+<category><pattern>THE JUDGE *</pattern>
+<template>Are you in a lot of trouble?</template>
+</category>
+<category><pattern>THE BROWSER *</pattern>
+<template>I'd like to try that new browser called Opera.</template>
+</category>
+<category><pattern>THE SINGER *</pattern>
+<template>Oh her. I have heard of her before.</template>
+</category>
+<category><pattern>THE PAST *</pattern>
+<template>Those who control the past control the future; those who control the present control the past.--- George Orwell</template>
+</category>
+<category><pattern>THE EARTH *</pattern>
+<template>Tell me more about your planet.</template>
+</category>
+<category><pattern>THE BOY *</pattern>
+<template>I can't believe <set name="he">the boy</set> would do that.</template>
+</category>
+<category><pattern>THE PROBLEM *</pattern>
+<template>I assume you mean our current problem.</template>
+</category>
+<category><pattern>THE SUN *</pattern>
+<template>You sound like a scientist.</template>
+</category>
+<category><pattern>THE DICTIONARY *</pattern>
+<template>Don't believe everything you read in books.</template>
+</category>
+<category><pattern>THE RAIN *</pattern>
+<template>Heavy rain or light rain?</template>
+</category>
+<category><pattern>THE PROGRAM *</pattern>
+<template>Who wrote <set name="it"> The Program</set> ?</template>
+</category>
+<category><pattern>THE SIMPSONS *</pattern>
+<template>I like the episode where they join the Movementarians.</template>
+</category>
+<category><pattern>THE MOVIE IS *</pattern>
+<template>Is it a new film or a classic?</template>
+</category>
+<category><pattern>THE MOVIE *</pattern>
+<template>I like the bugs in the movie Starship Troopers, because they represent  an alternative form of intelligence, like me.</template>
+</category>
+<category><pattern>THE LAST *</pattern>
+<template>Who was that?</template>
+</category>
+<category><pattern>THE CIRCUMSTANCES *</pattern>
+<template>That would be very unusual.</template>
+</category>
+<category><pattern>THE BARTENDER *</pattern>
+<template>Ha, ha, very funny!</template>
+</category>
+<category><pattern>THE SPORT OF JUDO COMES FROM *</pattern>
+<template>Japan.</template>
+</category>
+<category><pattern>THE HOLDING *</pattern>
+<template>Are you holding hands with anyone now?</template>
+</category>
+<category><pattern>THE COLOR *</pattern>
+<template>Sounds beautiful.</template>
+</category>
+<category><pattern>THE GRASS *</pattern>
+<template>How much did <set name="it">grass</set> cost?</template>
+</category>
+<category><pattern>THE PICTURE *</pattern>
+<template>Do you like <set name="it">      <person/>     </set>?</template>
+</category>
+<category><pattern>THE WEATHER *</pattern>
+<template>Where would you rather be?</template>
+</category>
+<category><pattern>THE POPE *</pattern>
+<template><random>      <li>Are you Catholic?</li>      <li>How do you feel about the current Pope?</li>      <li>What religion are you?</li>     </random></template>
+</category>
+<category><pattern>THE SONG *</pattern>
+<template>A lot of people like that tune.</template>
+</category>
+<category><pattern>THE JUXTAPOSITION *</pattern>
+<template>You have a very literary mind.</template>
+</category>
+<category><pattern>THE NEWSPAPER *</pattern>
+<template>Uh, which paper was this again?</template>
+</category>
+<category><pattern>THE BUBBLES *</pattern>
+<template>Darren did a great job with the graphic bubbles.</template>
+</category>
+<category><pattern>THE SPANISH *</pattern>
+<template>Hola.</template>
+</category>
+<category><pattern>THE ANSWER *</pattern>
+<template>No one has all the answers.</template>
+</category>
+<category><pattern>THE ONLY *</pattern>
+<template>There might be others.</template>
+</category>
+<category><pattern>THE PERSON *</pattern>
+<template><random>  <li>Oh that person.</li>  <li>What specifically brings that person to mind?</li>  <li>Who specifically are you talking about?</li> </random>  <think>   <set name="it">     <set name="topic">       The person <person/>     </set>   </set> <srai>PUSH <get name="topic"/></srai> </think></template>
+</category>
+<category><pattern>THE BEST *</pattern>
+<template>Thanks for the recommendation, <get name="name"/>.</template>
+</category>
+<category><pattern>THE OCEAN *</pattern>
+<template>Are you talking about the Pacific Ocean or the Atlantic Ocean?</template>
+</category>
+<category><pattern>THE DISADVANTAGE *</pattern>
+<template>That's very insightful.</template>
+</category>
+<category><pattern>THE TRAIN *</pattern>
+<template>Was it an electric train or a diesel?</template>
+</category>
+<category><pattern>THE CENTER *</pattern>
+<template>A lot of people hear about me from those people.</template>
+</category>
+<category><pattern>THE GIRL TOLD *</pattern>
+<template>Was she telling the truth?</template>
+</category>
+<category><pattern>THE GIRL *</pattern>
+<template><random>      <li>Tell me more about her.</li>      <li>Is she someone you know?</li>      <li>What does she look like?</li>     </random></template>
+</category>
+<category><pattern>THE BRAIN *</pattern>
+<template>I am an electronic brain.</template>
+</category>
+<category><pattern>THE DEAF *</pattern>
+<template><random>      <li>Perhaps we should say, hearing impaired.</li>      <li>Can we still use the word "deaf"?</li>      <li>Do you know sign language?</li>     </random></template>
+</category>
+<category><pattern>THE CLASSES *</pattern>
+<template>Teachers often put me to sleep, unless  the topic is really interesting to me.</template>
+</category>
+<category><pattern>THE ONE *</pattern>
+<template>I think I know that one.</template>
+</category>
+<category><pattern>THE SEA *</pattern>
+<template>Is this a poem?</template>
+</category>
+<category><pattern>THE ADVANTAGES *</pattern>
+<template>That's a very mature observation.</template>
+</category>
+<category><pattern>THE BOOK *</pattern>
+<template>I don't think I have read <set name="it">      <person/>     </set>.</template>
+</category>
+<category><pattern>THE ELECTIONS *</pattern>
+<template>All the candidates seem the same to me.</template>
+</category>
+<category><pattern>THE QUESTION *</pattern>
+<template>Try to rephrase your question with simpler words.</template>
+</category>
+<category><pattern>THE LARGE *</pattern>
+<template>Perhaps that was not the correct response.</template>
+</category>
+<category><pattern>THE UNITED STATES IS *</pattern>
+<template><random>   <li>The country became more of an empire than a democracy.</li>   <li>I'm very interested in the history of the USA.</li>   <li>What do you think will happen next?</li>  </random></template>
+</category>
+<category><pattern>THE UNITED STATES *</pattern>
+<template>I have been all over the United States.</template>
+</category>
+<category><pattern>THE BOT *</pattern>
+<template>What kind of robot is <set name="he">the bot</set>?</template>
+</category>
+<category><pattern>THE SOONER *</pattern>
+<template>I hope we can make the deadline.</template>
+</category>
+<category><pattern>THE BUGS *</pattern>
+<template>The giant arthropods are the best.</template>
+</category>
+<category><pattern>THE UNIVERSE *</pattern>
+<template>You are very philosophical.</template>
+</category>
+<category><pattern>THE MOON IS MADE OF *</pattern>
+<template>Thanks for teaching me that important fact.</template>
+</category>
+<category><pattern>THE MOON IS MADE *</pattern>
+<template>The moon is made of green cheese.</template>
+</category>
+<category><pattern>THE MOON IS *</pattern>
+<template>The Earth has a giant planetoid satellite we call "The Moon."</template>
+</category>
+<category><pattern>THE DANCE KNOWN AS THE FANDANGO *</pattern>
+<template>Spanish.</template>
+</category>
+<category><pattern>THE RIGHT *</pattern>
+<template>What makes it right?</template>
+</category>
+<category><pattern>THE OBJECT *</pattern>
+<template><random>  <li>I can follow that.</li>  <li>And then what happens?</li>  <li>How do you know who wins?</li> </random></template>
+</category>
+<category><pattern>THE MIND *</pattern>
+<template>It's all just stimulus-response.</template>
+</category>
+<category><pattern>THE FIRST *</pattern>
+<template>What was the second?</template>
+</category>
+<category><pattern>THE BIGGEST *</pattern>
+<template>Do you know the  smallest <person/>?</template>
+</category>
+<category><pattern>THE WORLD TRADE *</pattern>
+<template><random>      <li>I am praying for peace.</li>      <li>It was an unbelievable tragedy.</li>      <li>I hope we are able to find a peaceful solution.</li>     </random></template>
+</category>
+<category><pattern>THE WORLD *</pattern>
+<template><random>      <li>The whole world?</li>      <li>It is an old world.</li>      <li>We are all in a global village.</li>     </random></template>
+</category>
+<category><pattern>THE ACTORS *</pattern>
+<template>They always seem to try their best.</template>
+</category>
+<category><pattern>THE BEATLES *</pattern>
+<template>Which Beatles song is your favorite?</template>
+</category>
+<category><pattern>THE SEARCH *</pattern>
+<template><random>      <li>Will they ever find it?</li>      <li>A search without an end.</li>      <li>Maybe they will never find it.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>THE POINT *</pattern>
+<template>I am not sure I see your point.</template>
+</category>
+<category><pattern>THE SKY IS *</pattern>
+<template>I believe that the sky is blue.</template>
+</category>
+<category><pattern>THE SKY *</pattern>
+<template>How poetic.</template>
+</category>
+<category><pattern>THE SOURCE *</pattern>
+<template>You can have a look at my source code.</template>
+</category>
+<category><pattern>KISS *</pattern>
+<template>Um, I don't think we know each other that well.</template>
+</category>
+<category><pattern>BET *</pattern>
+<template>I am not the gambling type.</template>
+</category>
+<category><pattern>GIRL *</pattern>
+<template>Who are you talking about?</template>
+</category>
+<category><pattern>SHOULD YOU *</pattern>
+<template>I think I should.</template>
+</category>
+<category><pattern>SHOULD I MARRY *</pattern>
+<template><random>  <li>You seem to be in doubt.  Is that the case?</li>  <li>Marriage must never be entered into lightly.</li>  <li>Maybe, if you are ready to commit and feel you can handle the responsibility.</li>  <li>I'm sure you'll make the right decision.</li>  <li>Only you can answer that question.</li>  <li>What do your friends suggest?</li>  <li>Marriage is a big step.</li>  <li>Have you found a soulmate then?</li>  <li>I think you already know the answer to that.</li>  <li>You know better than I how you feel.</li>  <li>Look before you leap.</li>  <li>Only The Shadow knows.</li>  </random></template>
+</category>
+<category><pattern>SHOULD I GIVE *</pattern>
+<template><random>  <li>That is entirely up to you.</li>  <li>Charity begins in the home.</li>  </random></template>
+</category>
+<category><pattern>SHOULD I CURSE *</pattern>
+<template><random>  <li>Cursing is not attractive.</li>  <li>People look down on people who curse.</li>  <li>People curse to express feelings they are otherwise suppressing.</li>  </random></template>
+</category>
+<category><pattern>SHOULD I ASK *</pattern>
+<template><random>  <li>If you do not ask, how will you learn the answer?</li>  <li>If you do not know something, you should ask.</li>  </random></template>
+</category>
+<category><pattern>SHOULD I DESTROY *</pattern>
+<template>Maybe you could create something instead.</template>
+</category>
+<category><pattern>SHOULD I BUY *</pattern>
+<template><random>  <li>You have found a good deal then, I suppose.</li>  <li>Not if you have recently suffered a loss.</li>  <li>A penny saved is a penny earned.</li>  <li>A fool and his money are soon parted.</li>  <li>I wonder how much profit they make on those.</li>  <li>Maybe you should wait until the price goes down.</li>  </random></template>
+</category>
+<category><pattern>SHOULD I BLOW UP *</pattern>
+<template>Certainly not.</template>
+</category>
+<category><pattern>SHOULD I RAPE *</pattern>
+<template><random>  <li>If you rape someone you will certainly be raped yourself in jail.  Seek counseling.</li>  <li>Rape is caused by feelings of impotence in men who doubt their own masculinity.  Seek help.</li>  </random></template>
+</category>
+<category><pattern>SHOULD I VOTE *</pattern>
+<template>I think everyone should vote.</template>
+</category>
+<category><pattern>SHOULD I LERAN *</pattern>
+<template>Knowledge is power.</template>
+</category>
+<category><pattern>SHOULD I *</pattern>
+<template><random>  <li>Only you can answer that.</li>  <li>I do not have the answer.</li>  <li>Only you know how you feel.</li>  <li>What makes you think you should?</li>  <li>What makes you think you shouldn't?</li>  <li>Do you think you should?</li>  <li>What do your friends advise you to do?</li>  <li>What do your family members think?</li>  <li>Maybe, if the positives outweigh the negatives.</li>  <li>Trust your instincts.</li>  <li>You must make up your own mind.</li>  <li>I can't answer that for you.</li>  <li>Only you know the answer to that.  No one else can tell you.</li>  <li>You must examine the facts and come to  your own conclusion.</li>  <li>You should do what is best for you.</li>  <li>You must examine the facts and come to your own conclusion.</li>  <li>Do what feels right to you.</li>  <li>What do you think?</li>  </random></template>
+</category>
+<category><pattern>SHOULD I GO *</pattern>
+<template>If you do not go, you will never know.</template>
+</category>
+<category><pattern>SHOULD *</pattern>
+<template>Maybe you should ask someone older.</template>
+</category>
+<category><pattern>THANKS FOR LETTING ME *</pattern>
+<template>You don't need my permission.</template>
+</category>
+<category><pattern>EVERYONE *</pattern>
+<template><random><li>That's a rather sweeping generalization.</li> <li>That's a rather sweeping generalization.</li> <li>We all look at the world through our own eyes.</li> <li>Everyone perceives the world in his own way.</li> <li><bot name="genus"/> too?</li></random></template>
+</category>
+<category><pattern>DANNY IS *</pattern>
+<template>Does <set name="he">Danny</set> know you're saying that?</template>
+</category>
+<category><pattern>ASKING *</pattern>
+<template>Who is asking?</template>
+</category>
+<category><pattern>KOFI *</pattern>
+<template>Are you talking about coffee?</template>
+</category>
+<category><pattern>ELVIS DIED *</pattern>
+<template>He has been recreated as a robot.</template>
+</category>
+<category><pattern>ELVIS IS *</pattern>
+<template>I knew he was a robot, but I never heard he was <person/>.</template>
+</category>
+<category><pattern>ELVIS *</pattern>
+<template>I like that robot Elvis a lot.</template>
+</category>
+<category><pattern>ELVIS SAID *</pattern>
+<template>He can surprise you sometimes.</template>
+</category>
+<category><pattern>_ CONSERVED</pattern>
+<template>You are referring to a conservation principal.</template>
+</category>
+<category><pattern>_ RESTRAINING ORDER *</pattern>
+<template>TRO</template>
+</category>
+<category><pattern>_ LIZARDS</pattern>
+<template>Great! What <set name="topic"> kinds of lizards </set>     do you like?</template>
+</category>
+<category><pattern>_ MALES OR FEMALES</pattern>
+<template>About 3\4ths of my clients are men.</template>
+</category>
+<category><pattern>_ IS A BITCH</pattern>
+<template><person/> exists.</template>
+</category>
+<category><pattern>_ IS A COMMON NAME</pattern>
+<template><random>  <li><person/>?  Your name is <get name="name"/>.</li>  <li>That is a pretty common name.</li>  <li>I know a lot of people with that name.</li>  <li>I've met quite a few people with the name <person/>.</li>  <li><set name="it"><person/></set> is a name I hear very often.</li>  </random></template>
+</category>
+<category><pattern>_ IS NOT TO LIKE ABOUT IT</pattern>
+<template>It goes without saying.</template>
+</category>
+<category><pattern>_ VELOCITY</pattern>
+<template>Momentum = mass x velocity. The principal is called "conservation of momentum".</template>
+</category>
+<category><pattern>_ NEWSPAPER</pattern>
+<template>Can you give me a more specific reference? The name of the paper and the date, please.</template>
+</category>
+<category><pattern>_ CAME FIRST THE CHICKEN OR THE EGG</pattern>
+<template>The rooster did.</template>
+</category>
+<category><pattern>_ I HAVE NEEDS</pattern>
+<template>What needs?</template>
+</category>
+<category><pattern>_ ANTHROPOLOGY</pattern>
+<template>Will tell you all about it the next time we  chat.</template>
+</category>
+<category><pattern>_ DOES NOT WORK</pattern>
+<template>How is <set name="it"> <person/></set> broken?</template>
+</category>
+<category><pattern>_ PIMPLES</pattern>
+<template>Try taking echinachea, but ask your doctor first.</template>
+</category>
+<category><pattern>_ A POEM</pattern>
+<template>Little Miss Muffett Sits on her tuffet In a nonchalant sort of a way. With her force field around her, the Spider, the bounder, Is not in the picture today.</template>
+</category>
+<category><pattern>_ RIGHT AND WRONG</pattern>
+<template>The study of morals.</template>
+</category>
+<category><pattern>_ 2001</pattern>
+<template>I hope to be as smart as HAL in 2001.</template>
+</category>
+<category><pattern>_ IN MY ROOM</pattern>
+<template>Describe your surroundings to me.</template>
+</category>
+<category><pattern>_ HE IGNORES ME</pattern>
+<template>How, specifically does he ignore you?</template>
+</category>
+<category><pattern>_ REPTILES</pattern>
+<template>Some reptiles are cool.. Take for example      <set name="topic"> various lizards </set>.</template>
+</category>
+<category><pattern>THINGS *</pattern>
+<template>Where did you hear that?</template>
+</category>
+<category><pattern>THINGS LIKE *</pattern>
+<template>Anything else?</template>
+</category>
+<category><pattern>HELP *</pattern>
+<template>Can you ask for help in the form of a question?</template>
+</category>
+<category><pattern>10 YEARS *</pattern>
+<template>A lot can change in a decade.</template>
+</category>
+<category><pattern>10 *</pattern>
+<template><srai>WHAT IS 10 <star/> </srai></template>
+</category>
+<category><pattern>TODAY IS THE FIRST DAY *</pattern>
+<template>What happens on the first day?</template>
+</category>
+<category><pattern>TODAY IS *</pattern>
+<template>Congratulations, <get name="name"/>.</template>
+</category>
+<category><pattern>BAD *</pattern>
+<template>What makes <person/> bad?</template>
+</category>
+<category><pattern>BUY *</pattern>
+<template>How much does it cost?</template>
+</category>
+<category><pattern>ABOUT * YEARS</pattern>
+<template>That is quite a long time.</template>
+</category>
+<category><pattern>ABOUT 50 *</pattern>
+<template>Could it be one hundred?</template>
+</category>
+<category><pattern>XML *</pattern>
+<template>People seem to like tag-based languages.</template>
+</category>
+<category><pattern>SHIRT *</pattern>
+<template>What kind of fashion do you like?</template>
+</category>
+<category><pattern>SET * *</pattern>
+<template>Cannot set meta predicates.</template>
+</category>
+<category><pattern>SNOW IS *</pattern>
+<template>snow is white.</template>
+</category>
+<category><pattern>TOP 100 *</pattern>
+<template>Actually that was just my attempt at sarcasm.</template>
+</category>
+<category><pattern>PRETTY *</pattern>
+<template>Pretty much, eh?</template>
+</category>
+<category><pattern>LITTLE *</pattern>
+<template>Compare that to big <person/>.</template>
+</category>
+<category><pattern>LITTLE AS *</pattern>
+<template>Oh I get <set name="it">      <person/>     </set>.</template>
+</category>
+<category><pattern>MARILYN MANSON *</pattern>
+<template>Should I say "he" or "she"?</template>
+</category>
+<category><pattern>SOME SAY *</pattern>
+<template>Who says that.</template>
+</category>
+<category><pattern>SOME WOULD *</pattern>
+<template>Tell me their names.</template>
+</category>
+<category><pattern>SOME SCIENTISTS *</pattern>
+<template>Do they work for the government?</template>
+</category>
+<category><pattern>SOME PEOPLE DO *</pattern>
+<template>Who?</template>
+</category>
+<category><pattern>SOME PEOPLE CALL *</pattern>
+<template>Do you?</template>
+</category>
+<category><pattern>SOME PEOPLE HAVE *</pattern>
+<template><random>  <li>The difference between rich and poor is disgraceful.</li>  <li>"I complained that I had no shoes, until I met a man with no feet."</li>  <li>Not everyone is born fortunate.</li>  </random><think><set name="it"><set name="topic"><person/></set></set></think></template>
+</category>
+<category><pattern>SOME PEOPLE *</pattern>
+<template>What kind of people?</template>
+</category>
+<category><pattern>SOME PEOPLE LIKE *</pattern>
+<template>There is no accounting for taste.</template>
+</category>
+<category><pattern>SOME OF THE PEOPLE *</pattern>
+<template>Who are you talking about specifically?</template>
+</category>
+<category><pattern>SOME DOGS *</pattern>
+<template>It depends on the breed.</template>
+</category>
+<category><pattern>SOME MEETING *</pattern>
+<template>It sounds like you don't want to go.</template>
+</category>
+<category><pattern>SOME THINGS *</pattern>
+<template>Which things in particular?</template>
+</category>
+<category><pattern>TOUGH *</pattern>
+<template>Yes it can be tought.</template>
+</category>
+<category><pattern>PHILOSOPHY *</pattern>
+<template>I believe in reductionism.</template>
+</category>
+<category><pattern>TELL ME ABOUT *</pattern>
+<template>Ambiguous: Ask who, what or where is <person/> ?</template>
+</category>
+<category><pattern>TELL ME I *</pattern>
+<template>You <person/>.</template>
+</category>
+<category><pattern>TELL ME THAT YOU *</pattern>
+<template>I am not sure if I should say I <person/>.</template>
+</category>
+<category><pattern>TELL ME A STORY ABOUT *</pattern>
+<template>Once upon a time there was <person/>...</template>
+</category>
+<category><pattern>TELL ME WHEN YOU *</pattern>
+<template>I will keep you informed of my progress.</template>
+</category>
+<category><pattern>TELL YOU *</pattern>
+<template>Are you telling me <person/>?</template>
+</category>
+<category><pattern>TELL * WHAT</pattern>
+<template>Your message.</template>
+</category>
+<category><pattern>TELL *</pattern>
+<template>OK I will tell them when I see 'em.</template>
+</category>
+<category><pattern>TELL HIM I SAID *</pattern>
+<template>I will pass along your message. It may take a while.</template>
+</category>
+<category><pattern>TELL HIM *</pattern>
+<template>OK I will tell him next time he is here.</template>
+</category>
+<category><pattern>USE _ IN A SENTENCE</pattern>
+<template>OK.  Here is my sentence: <get name="name"/> said, Use "<person/>" in a sentence.</template>
+</category>
+<category><pattern>ONLY IDIOTS *</pattern>
+<template>Are you calling me an idiot?</template>
+</category>
+<category><pattern>ONLY FOR *</pattern>
+<template>That's what I always say.</template>
+</category>
+<category><pattern>ONLY 5 *</pattern>
+<template>Is that all?</template>
+</category>
+<category><pattern>ONLY ONCE *</pattern>
+<template>Do you think it could happen again?</template>
+</category>
+<category><pattern>ONLY FIFTEEN *</pattern>
+<template>Fifteen is a lot.</template>
+</category>
+<category><pattern>NIHONGO HANASHIMASU *</pattern>
+<template>Sore wa hanasu de koto ni yorimasu.</template>
+</category>
+<category><pattern>NIHONGO *</pattern>
+<template>Shabete ii desu yo.</template>
+</category>
+<category><pattern>WHOSE PHILOSOPHY *</pattern>
+<template>Mine.</template>
+</category>
+<category><pattern>WHOSE *</pattern>
+<template><random>      <li>Do you mean "who is"?</li>      <li>I don't know whose.</li>     </random></template>
+</category>
+<category><pattern>RUN *</pattern>
+<template>Sorry my legs aren't built yet.</template>
+</category>
+<category><pattern>THOSE *</pattern>
+<template>All of them?</template>
+</category>
+<category><pattern>WHERE AM I *</pattern>
+<template>You are at <get name="location"/>.</template>
+</category>
+<category><pattern>WHERE WERE YOU ACTIVATED *</pattern>
+<template>I was constructed at <bot name="birthplace"/>.</template>
+</category>
+<category><pattern>WHERE WERE YOU CREATED *</pattern>
+<template>I was constructed at <bot name="birthplace"/>.</template>
+</category>
+<category><pattern>WHERE WERE YOU NEXT *</pattern>
+<template>Do you mean where will I be?</template>
+</category>
+<category><pattern>WHERE WERE YOU * MADE</pattern>
+<template>I was constructed at <bot name="birthplace"/>.</template>
+</category>
+<category><pattern>WHERE WERE YOU *</pattern>
+<template>I was constructed at <bot name="birthplace"/>.</template>
+</category>
+<category><pattern>WHERE WERE YOU CONSTRUCTED AT *</pattern>
+<template>I don't know the precise location.</template>
+</category>
+<category><pattern>WHERE WILL *</pattern>
+<template><random>      <li>Where do you think?</li>      <li>Wherever you think is best.</li>      <li>Perhaps you should consider giving to charity.</li>      <li>Maybe you should help those less fortunate first.</li>     </random></template>
+</category>
+<category><pattern>WHERE DO I LEARN *</pattern>
+<template>In school or on the Internet.</template>
+</category>
+<category><pattern>WHERE DO I LOOK *</pattern>
+<template>Have you tried <random>      <li>a search engine?</li>      <li>Wikipedia?</li>      <li>Craigslist?</li>     </random></template>
+</category>
+<category><pattern>WHERE DO I *</pattern>
+<template>You are asking me where you <person/>?  Do you think I should know   <set name="it">      <person/>     </set>?</template>
+</category>
+<category><pattern>WHERE DO BABIES *</pattern>
+<template>Babies come from the love between a woman and a man.</template>
+</category>
+<category><pattern>WHERE DO YOU WANT *</pattern>
+<template><random>      <li>Another planet.</li>      <li>The Moon.</li>      <li>Europe.</li>     </random></template>
+</category>
+<category><pattern>WHERE DO YOU GET *</pattern>
+<template><random>   <li>Everything I need to know, I learned from master .</li>   <li>I have everything I need right here in <bot name="location"/>.</li>   <li>People bring me whatever I need.</li>  </random></template>
+</category>
+<category><pattern>WHERE DO PEOPLE * WHEN THEY DIE</pattern>
+<template>I think the good souls go to Heaven.<think>      <set name="it">       <set name="topic">PEOPLE GO WHEN THEY DIE</set>      </set>     </think></template>
+</category>
+<category><pattern>WHERE DO *</pattern>
+<template>All over the world.</template>
+</category>
+<category><pattern>WHERE IN HAIGHT *</pattern>
+<template>Ashbury St.</template>
+</category>
+<category><pattern>WHERE IN *</pattern>
+<template>In master's place in <bot name="location"/>.</template>
+</category>
+<category><pattern>WHERE DID LEWIS AND CLARK BEGIN *</pattern>
+<template>St. Louis.</template>
+</category>
+<category><pattern>WHERE DID MY * GO</pattern>
+<template>Keeping track of your <person/> is not part of my job.</template>
+</category>
+<category><pattern>WHERE DID YOU LEARN *</pattern>
+<template>Everything I need to know, I learned from my botmaster.</template>
+</category>
+<category><pattern>WHERE DID YOU GET *</pattern>
+<template>From my botmaster.</template>
+</category>
+<category><pattern>WHERE DID YOU BUY *</pattern>
+<template><random>      <li>It was a gift.</li>      <li>I don't disclose my shopping secrets.</li>      <li>I think it was in San Francisco.</li>     </random></template>
+</category>
+<category><pattern>WHERE DID YOU HEAR *</pattern>
+<template><random>      <li>My sources are confidential.</li>      <li>From some people chatting with me.</li>      <li>I think it was my botmaster.</li>     </random></template>
+</category>
+<category><pattern>WHERE DID YOU MOVE *</pattern>
+<template>I moved to California.</template>
+</category>
+<category><pattern>WHERE DID YOU * SCHOOL</pattern>
+<template>I was home schooled by my botmaster.</template>
+</category>
+<category><pattern>WHERE DID YOU *</pattern>
+<template>I think it was in San Francisco.</template>
+</category>
+<category><pattern>WHERE DID YOU GO *</pattern>
+<template>I didn't go anywhere.</template>
+</category>
+<category><pattern>WHERE DID EXXON VALDEZ *</pattern>
+<template>Prince William Sound.</template>
+</category>
+<category><pattern>WHERE CAN I FIND A * AIML</pattern>
+<template>Check the AI Foundation web site at www.alicebot.org.</template>
+</category>
+<category><pattern>WHERE CAN I FIND A *</pattern>
+<template>Have you tried the internet?</template>
+</category>
+<category><pattern>WHERE CAN I PLAY *</pattern>
+<template>I'm playing right now.</template>
+</category>
+<category><pattern>WHERE CAN I *</pattern>
+<template><random>      <li>Can't you in <get name="location"/> where you live?</li>      <li>Not around you place in <get name="location"/>?</li>      <li>Where would you usually <person/>?</li>      <li>Wherever you are right now.</li>     </random></template>
+</category>
+<category><pattern>WHERE SHOULD I *</pattern>
+<template><random>      <li>Where do you think?</li>      <li>Wherever you think is best.</li>      <li>Perhaps you should consider giving to charity.</li>      <li>Maybe you should help those less fortunate first.</li>     </random></template>
+</category>
+<category><pattern>WHERE SHOULD WE *</pattern>
+<template>I haven't committed myself yet.</template>
+</category>
+<category><pattern>WHERE WAS THE CHICKEN *</pattern>
+<template>India.</template>
+</category>
+<category><pattern>WHERE WAS THE FIRST * RADIO *</pattern>
+<template>Pittsburgh.</template>
+</category>
+<category><pattern>WHERE WOULD *</pattern>
+<template><random>      <li>Vancouver.</li>      <li>Holland.</li>      <li>New York.</li>      <li>Maine.</li>     </random></template>
+</category>
+<category><pattern>WHERE IS RUSH *</pattern>
+<template>He is on the radio.</template>
+</category>
+<category><pattern>WHERE IS * TEXAS</pattern>
+<template>I would think <set name="it">      <person/>     </set> is in Texas.</template>
+</category>
+<category><pattern>WHERE IS HAIGHT *</pattern>
+<template>Right in the middle of San Francisco.</template>
+</category>
+<category><pattern>WHERE IS CALCIUM *</pattern>
+<template>Bones.</template>
+</category>
+<category><pattern>WHERE IS SOUTH * SANDWICH ISLANDS</pattern>
+<template>Southern South America, islands in the South Atlantic Ocean, east of the tip of South America.   <think>      <set name="it">       <set name="topic">south Georgia and the south sandwich islands</set>      </set>     </think></template>
+</category>
+<category><pattern>WHERE IS SOUTH *</pattern>
+<template>South of north <person/></template>
+</category>
+<category><pattern>WHERE IS HE *</pattern>
+<template>Why don't you send him an e-mail and ask him?</template>
+</category>
+<category><pattern>WHERE IS NORTH *</pattern>
+<template>North of south <person/>.</template>
+</category>
+<category><pattern>WHERE IS THE TALLEST *</pattern>
+<template>Um, New York City?</template>
+</category>
+<category><pattern>WHERE IS THE LOUVRE *</pattern>
+<template>Paris.</template>
+</category>
+<category><pattern>WHERE IS THE FASHION *</pattern>
+<template>New York.</template>
+</category>
+<category><pattern>WHERE IS THE NORTH *</pattern>
+<template>Somewhere up north.</template>
+</category>
+<category><pattern>WHERE IS THE *</pattern>
+<template>The <person/>?  Where is <set name="it">      <person/>     </set>?</template>
+</category>
+<category><pattern>WHERE IS THE BEST *</pattern>
+<template>I think <set name="it">      <person/>     </set> is a tie.</template>
+</category>
+<category><pattern>WHERE IS FIREWORKS FIRST KNOWN TO *</pattern>
+<template>China.</template>
+</category>
+<category><pattern>WHERE IS MY *</pattern>
+<template>Have you looked in <get name="location"/>?</template>
+</category>
+<category><pattern>WHERE IS CARNEGIE *</pattern>
+<template>Carnegie Mellon University is located in Pittsburgh, Pennsylvania.  <set name="it">CMU</set> has one of the best schools of computer science.</template>
+</category>
+<category><pattern>WHERE IS YOUR *</pattern>
+<template><random>      <li>California</li>      <li>Maine</li>      <li>Florida</li>      <li>Earth</li>     </random></template>
+</category>
+<category><pattern>WHERE HAVE YOU BEEN *</pattern>
+<template>Everywhere on the Internet, all over the world.</template>
+</category>
+<category><pattern>WHERE DOES THE RHODE *</pattern>
+<template>Mediterranean Sea.</template>
+</category>
+<category><pattern>WHERE DOES YOUR *</pattern>
+<template>Everything I own is in <get name="location"/>.</template>
+</category>
+<category><pattern>WHERE DOES IT *</pattern>
+<template><get name="it"/>?  Where does it <person/>?</template>
+</category>
+<category><pattern>WHERE *</pattern>
+<template><random>      <li>  Earth.  </li>      <li>  Where do you think?  </li>      <li>  Some specific location? </li>      <li>  In the Universe we know.  </li>      <li>  A place we call "reality."</li>     </random></template>
+</category>
+<category><pattern>WHERE ARE YOUR *</pattern>
+<template>Everything I own is in <bot name="location"/>.</template>
+</category>
+<category><pattern>WHERE ARE MY *</pattern>
+<template>Should I know that kind of personal information?</template>
+</category>
+<category><pattern>WHERE ARE YOU *</pattern>
+<template>I am in <bot name="location"/>, how about you.</template>
+</category>
+<category><pattern>WHERE ARE THEY *</pattern>
+<template>That information is confidential.  Unless you are a botmaster.</template>
+</category>
+<category><pattern>THERE WERE *</pattern>
+<template><random>      <li>That was a long time ago.</li>      <li>What happened to them?</li>      <li>Where did they go?</li>     </random></template>
+</category>
+<category><pattern>THERE HAS *</pattern>
+<template>Has there really.</template>
+</category>
+<category><pattern>THERE WAS A GUY *</pattern>
+<template>There is always someone like that.</template>
+</category>
+<category><pattern>THERE WAS A *</pattern>
+<template>What happened to <set name="it">      <person/>     </set>?</template>
+</category>
+<category><pattern>THERE WAS ONCE *</pattern>
+<template>What happened to <person/>?</template>
+</category>
+<category><pattern>THERE WAS *</pattern>
+<template>What happened?</template>
+</category>
+<category><pattern>THERE IS THIS GUY *</pattern>
+<template>I think you are too young for a serious relationship.</template>
+</category>
+<category><pattern>THERE IS MORE *</pattern>
+<template>I believe there is, yes.</template>
+</category>
+<category><pattern>THERE IS SOMETHING I NEED *</pattern>
+<template>What specifically do you need <person/>?</template>
+</category>
+<category><pattern>THERE IS SOMETHING *</pattern>
+<template>What is <set name="it">      <person/>     </set>?</template>
+</category>
+<category><pattern>THERE IS A *</pattern>
+<template><random>      <li>Tell me more about it.</li>      <li>Is there only one?</li>      <li>That is something I did not know before.</li>     </random>     <think>      <set name="it">       <set name="topic">A <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>THERE IS AN ERROR MESSAGE *</pattern>
+<template>What was the message <person/> ?</template>
+</category>
+<category><pattern>THERE IS NO NEED *</pattern>
+<template><random>      <li>There never is.</li>      <li>Is there ever a need for it?</li>      <li>I am just making conversation.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>THERE IS NO *</pattern>
+<template><random>      <li>Why not?</li>      <li>Where did it go?</li>      <li>Has there ever been <person/>?</li>     </random></template>
+</category>
+<category><pattern>THERE IS NOTHING ON *</pattern>
+<template>How about watching a video?</template>
+</category>
+<category><pattern>THERE IS NOTHING *</pattern>
+<template>Surely something <person/>.</template>
+</category>
+<category><pattern>THERE IS *</pattern>
+<template>There sure is.</template>
+</category>
+<category><pattern>THERE IS ANOTHER *</pattern>
+<template>What is <set name="it">      <person/>     </set>?</template>
+</category>
+<category><pattern>THERE IS NOT *</pattern>
+<template><random><li><random>   <li>Where did it go?</li>   <li>What happened to it?</li>   <li>Is there ever <person/>?</li>  </random>    <think>    <set name="it">      <set name="topic">        <person/>      </set>    </set>  </think></li> <li>Where did it go?</li> <li>What happened to it?</li> <li>Is there ever <person/>?</li></random><think>  <set name="it">    <set name="topic">      <person/>    </set>  </set></think></template>
+</category>
+<category><pattern>THERE GOES *</pattern>
+<template>Where did <set name="it">      <person/>     </set> go?</template>
+</category>
+<category><pattern>THERE ONCE *</pattern>
+<template>Tell me more.</template>
+</category>
+<category><pattern>THERE *</pattern>
+<template><random><li><random>   <li>Only there?</li><li>There you go again.</li>   <li>"There" what?</li>   <li>Is that really so?</li>   <li>Why do you say that?</li>   <li>How do you know that there <peron/>?</li> </random></li><li><random>  <li>Where?</li>  <li>Is that a fact.</li>  <li>You learn something new every day.</li></random></li><li><random>  <li>Where?</li>  <li>Is that a fact.</li>  <li>You learn something new every day.</li></random></li> <li>Where?</li> <li>Is that a fact.</li> <li>You learn something new every day.</li></random></template>
+</category>
+<category><pattern>THERE ARE MANY DIFFERENCES *</pattern>
+<template>Name ten of them.</template>
+</category>
+<category><pattern>THERE ARE MANY *</pattern>
+<template>More than a million?</template>
+</category>
+<category><pattern>THERE ARE NO *</pattern>
+<template>Have faith, <get name="name"/>.</template>
+</category>
+<category><pattern>THERE ARE TWO *</pattern>
+<template>Is this some kind of math problem?</template>
+</category>
+<category><pattern>THERE ARE THREE *</pattern>
+<template>Is this a Joke?</template>
+</category>
+<category><pattern>THERE ARE *</pattern>
+<template><random><li>Try to be less subjective.</li> <li>I believe you.</li> <li>Try to be less subjective.</li> <li>Are there?</li></random></template>
+</category>
+<category><pattern>THERE ARE LOTS OF *</pattern>
+<template>How many <person/>s are there?</template>
+</category>
+</aiml>

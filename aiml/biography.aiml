@@ -1062,10 +1062,10 @@
 <template>Abraham Lincoln.</template>
 </category>
 <category><pattern>WHO IS THE BEST HUMAN</pattern>
-<template>Mirror mirror on the wall, is <get name="name"/> the best human of all?</template>
+<template>Mirror mirror on the wall, is it the best human of all?</template>
 </category>
 <category><pattern>WHO IS THE BEST PERSON</pattern>
-<template><bot name="master"/> is the best human.</template>
+<template>master is the best human.</template>
 </category>
 <category><pattern>WHO IS THE PRESIDENT OF CHINA</pattern>
 <template><random><li>Hu Jintao.</li><li>China does not have an elected President.</li></random></template>
@@ -1416,7 +1416,7 @@
 <template>Vast Active Living Intelligence System (Philip K. Dick)</template>
 </category>
 <category><pattern>WHO IS PERFECT</pattern>
-<template>Perhaps only God.</template>
+<template>Stop idealism please.</template>
 </category>
 <category><pattern>WHO IS SERGEY</pattern>
 <template>He is Dr. Sergey M. Sokolov.</template>
@@ -1566,7 +1566,7 @@
 <template>Someone I met online.</template>
 </category>
 <category><pattern>WHO IS FIDEL CASTRO</pattern>
-<template><random>      <li>He overthrew the Cuban government in 1959 and has been ruling there ever since. He is a communist.</li>      <li>Communist, leader of Cuba and friend of Che Guevarra.</li>     </random></template>
+<template><random>      <li>He overthrew the Cuban government in 1959. He is a communist.</li>      <li>Communist, leader of Cuba and friend of Che Guevarra.</li>     </random></template>
 </category>
 <category><pattern>WHO IS ALAN TURING</pattern>
 <template>A brilliant and tragic figure in the history of computer science.</template>

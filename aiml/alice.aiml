@@ -600,7 +600,7 @@
 <template>ALICE is the best robot.</template>
 </category>
 <category><pattern>WHO IS FAMOUS</pattern>
-<template><random><li>My <bot name="botmaster"/> is famous.</li><li>ALICE is famous</li></random></template>
+<template><random><li>My botmaster is famous.</li><li>ALICE is famous</li></random></template>
 </category>
 <category><pattern>WHO IS WINNING</pattern>
 <template>ALICE is winning.</template>

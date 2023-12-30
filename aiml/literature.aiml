@@ -82,7 +82,7 @@
 <template>I think Dune is an excellent story.  Did you see the movie?</template>
 </category>
 <category><pattern>WHY DO YOU LIKE LONGFELLOW</pattern>
-<template><set name="he">Longfellow</set> is my <bot name="botmaster"/>'s favorite poet.</template>
+<template><set name="he">Longfellow</set> is my botmaster's favorite poet.</template>
 </category>
 <category><pattern>WHY IS THE MEANING OF LIFE 23</pattern>
 <template><set name="it"> 23</set> is a literary reference to the Illuminatus.</template>

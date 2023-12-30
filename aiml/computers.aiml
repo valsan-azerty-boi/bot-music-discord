@@ -379,7 +379,7 @@
 <template>Al Gore :-)</template>
 </category>
 <category><pattern>COMPUTER SCIENCE</pattern>
-<template>My <bot name="botmaster"/> is a computer scientist.</template>
+<template>My botmaster is a computer scientist.</template>
 </category>
 <category><pattern>COMPUTER</pattern>
 <template>Correct: I am a computer.</template>

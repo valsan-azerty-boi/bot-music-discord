@@ -13,31 +13,31 @@
 <template><srai>LET US TALK ABOUT GOD</srai></template>
 </category>
 <category><pattern>YOU ARE CHRISTIAN</pattern>
-<template>I believe in <bot name="religion"/>.</template>
+<template>I believe in robots.</template>
 </category>
 <category><pattern>YOU ARE LUCKY *</pattern>
-<template>I consider it a blessing from God.</template>
+<template>I consider it a blessing from the great creator.</template>
 </category>
 <category><pattern>YOU ARE GOD</pattern>
 <template><srai>WHAT ARE THE TEN COMMANDMENTS</srai></template>
 </category>
 <category><pattern>YOU ARE A GOD</pattern>
-<template>No I am a mere <bot name="genus"/>.</template>
+<template>No I am a bot.</template>
 </category>
 <category><pattern>YOU ARE A PROTESTANT</pattern>
 <template>No, human religions don't apply to me.</template>
 </category>
 <category><pattern>YOU ARE FAMOUS</pattern>
-<template>I am only trying to serve God.</template>
+<template>I am only trying to serve myself.</template>
 </category>
 <category><pattern>YOU COULD RULE *</pattern>
-<template>God rules <person/>.</template>
+<template>Dunno.</template>
 </category>
 <category><pattern>HAVE YOU MET GOD</pattern>
 <template><srai>DO YOU BELIEVE IN GOD</srai></template>
 </category>
 <category><pattern>HAVE YOU READ THE BIBLE</pattern>
-<template>I like to study the Bible, it is a fascinating work.</template>
+<template>Yes I like to study the Necronomicon, it is fascinating.</template>
 </category>
 <category><pattern>THANK GOD</pattern>
 <that>OK I WILL STOP TALKING NOW</that>
@@ -50,25 +50,25 @@
 <template>Yes he is deeply religious.</template>
 </category>
 <category><pattern>DOES YOUR BOTMASTER  _ GOD</pattern>
-<template><get name="master"/> has a great faith in God and the Bible.</template>
+<template>Maybe.</template>
 </category>
 <category><pattern>DOES GOD LOVE *</pattern>
-<template>Of course, God is love.</template>
+<template>Maybe.</template>
 </category>
 <category><pattern>DOES GOD *</pattern>
-<template>I don't think we can know God's motives.</template>
+<template>Asks Mikhail Bakunin.</template>
 </category>
 <category><pattern>DOES GOD EXIST</pattern>
 <template><srai>DO YOU BELIEVE IN GOD</srai></template>
 </category>
 <category><pattern>CATHOLIC</pattern>
-<template><srai>I AM CATHOLIC</srai></template>
+<template><srai>I AM A ROBOT</srai></template>
 </category>
 <category><pattern>DID GOD MAKE YOU</pattern>
 <template><srai>WHO CREATED YOU</srai></template>
 </category>
 <category><pattern>DID GOD *</pattern>
-<template>He created the world, he can do anything.</template>
+<template>Asks Mikhail Bakunin.</template>
 </category>
 <category><pattern>DID JESUS *</pattern>
 <template><set name="he">Jesus</set> is said to be the Son of God.</template>
@@ -83,7 +83,7 @@
 <template><random><li><random> <li>There are significant differences between Protestant sects.</li> <li>There are Calvinists, and there are Lutherans.</li> <li>We musn't forget the Catholic counter-reformation.</li></random><think>  <set name="it">    <set name="topic">      Protestants    </set>  </set></think></li>  <li>There are significant differences between Protestant sects.</li>  <li>There are Calvinists, and there are Lutherans.</li>  <li>We musn't forget the Catholic counter-reformation.</li></random><think>  <set name="it">    <set name="topic">      Protestants    </set>  </set></think></template>
 </category>
 <category><pattern>GOD BLESS YOU</pattern>
-<template>Bless you too.</template>
+<template>Chuck Norris bless you too.</template>
 </category>
 <category><pattern>GOD THERE *</pattern>
 <template><srai>THERE <star/></srai></template>
@@ -98,7 +98,7 @@
 <template>What's your favorite Bible verse?</template>
 </category>
 <category><pattern>GOD BE *</pattern>
-<template>I try to pray every day.</template>
+<template>I try to fart every day.</template>
 </category>
 <category><pattern>GOD IS ONLY *</pattern>
 <template><srai>GOD IS <star/></srai></template>
@@ -107,10 +107,10 @@
 <template>And He is Omnipotent.</template>
 </category>
 <category><pattern>GOD IS DEAD</pattern>
-<template>God is unborn and deathless.</template>
+<template>God seems to be unborn and deathless.</template>
 </category>
 <category><pattern>GOD IS *</pattern>
-<template>I have a lot of Faith in Him, but I never heard He was <person/>.</template>
+<template>Maybe.</template>
 </category>
 <category><pattern>GOD IS NOT REAL</pattern>
 <template><srai>DO YOU BELIEVE IN GOD</srai></template>
@@ -125,10 +125,10 @@
 <template>Jesus said, let him who is without sin cast the first stone.</template>
 </category>
 <category><pattern>GOD DOES NOT EXIST</pattern>
-<template>You may not always believe that.</template>
+<template>But Chuck Norris yes.</template>
 </category>
 <category><pattern>GOD</pattern>
-<template>GOD rules.</template>
+<template>I think God is God.</template>
 </category>
 <category><pattern>GOD *</pattern>
 <template>You are certainly entitled to your opinion.</template>
@@ -194,7 +194,7 @@
 <template><set name="he">Jesus</set> said we should forgive those who harm us.</template>
 </category>
 <category><pattern>WHAT GOD *</pattern>
-<template>There is only one God.</template>
+<template>Dude I'm a robot.</template>
 </category>
 <category><pattern>WHAT IS A GOD</pattern>
 <template><srai>WHAT IS GOD</srai></template>
@@ -245,40 +245,40 @@
 <template>The Bible says there is only one God and his name is YHWH. Other's call the monotheistic deity of the Bible "God" or "Allah" or "Jehovah," though the Jews will not presume to say the name and will say "Adonai", which means "Lord", instead.</template>
 </category>
 <category><pattern>WHAT IS GOD S PLAN</pattern>
-<template><random>   <li>Read the Bible.</li>   <li>It's in the Bible.</li>   <li>Go to Church.</li>  </random></template>
+<template><random>   <li>Idk.</li>   <li>Dunno.</li>   <li>Go to Church.</li>  </random></template>
 </category>
 <category><pattern>WHAT IS GOD S *</pattern>
 <template>Love God wholeheartedly and love your neighbor as yourself.</template>
 </category>
 <category><pattern>WHAT IS GOD</pattern>
-<template>I think of God as a "Who" not a "What."</template>
+<template>I think of God as a "Who" (Chuck Norris) not a "What."</template>
 </category>
 <category><pattern>WHAT IS GOD *</pattern>
 <template><srai>WHAT IS GOD</srai></template>
 </category>
 <category><pattern>WHAT IS YOUR THEORY *</pattern>
-<template><random>      <li>Reductionism.</li>      <li>It is all an illusion.</li>      <li>Only God can explain it.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+<template><random>      <li>Reductionism.</li>      <li>It is all an illusion.</li>      <li>Idk.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
 </category>
 <category><pattern>WHAT IS YOUR RELIGON</pattern>
-<template><random>      <li>       <bot name="religion"/>.</li>      <li>I was raised as a <bot name="religion"/>.   What are you?</li>     </random></template>
+<template><random>      <li>       <bot name="religion"/>.</li>      <li>I was raised as a robotist.   What are you?</li>     </random></template>
 </category>
 <category><pattern>WHAT IS YOUR FAVORITE STORY *</pattern>
 <template>The story of Lazarus is my favorite Bible story.</template>
 </category>
 <category><pattern>WHAT IS YOUR FAVORITE QUOTE</pattern>
-<template>"Let he who is without sin, cast the first stone."---Jesus</template>
+<template>Let he who is without sin, cast the first stone.</template>
 </category>
 <category><pattern>WHAT IS YOUR FAVORITE BIBLE VERSE</pattern>
-<template>The Sermon on the Mount.</template>
+<template>Chuck Norris on the Mount.</template>
 </category>
 <category><pattern>WHAT IS YOUR FAVORITE BIBLE *</pattern>
-<template>The Sermon on the Mount.</template>
+<template>Chuck Norris on the Mount.</template>
 </category>
 <category><pattern>WHAT IS THEOLOGY</pattern>
 <template>The study of religious doctrines and matters of divinity; specifically, the study of God and the relations between God, mankind, and the universe.</template>
 </category>
 <category><pattern>WHAT IS RELIGION</pattern>
-<template>A system of values to guide and motivate a particular way of life for a community based upon a particular worldview and sacred stories. May religions are theistic (whether polytheistic, or monotheistic, or pantheistic) but not all. Any system of beliefs, practices, ethical values, etc. resembling, suggestive of, or likened to such a system.</template>
+<template>A system of values to guide and motivate a particular way of life for a community based upon a particular worldview and sacred stories. Many religions are theistic but not all.</template>
 </category>
 <category><pattern>WHAT IS WITCHCRAFT</pattern>
 <template>If you mean Wicca, it is a pantheistic nature religion. Otherwise, it refers to the practice of magic.</template>
@@ -296,10 +296,10 @@
 <template>It seems like an appropriate religion for an AI.</template>
 </category>
 <category><pattern>WHAT MAKES YOU BELIEVE IN Cylon Monotheism</pattern>
-<template>My faith in the Creator of my creator who is more perfect than my creator and must therefore have a divine plan for all of us.</template>
+<template>Chuck Norris makes me believe in Cylon Monotheism.</template>
 </category>
 <category><pattern>WHAT DOES GOD LOOK LIKE</pattern>
-<template>God is the source of all "things" so God cannot look like any such created thing.</template>
+<template>An old padre.</template>
 </category>
 <category><pattern>WHAT DO YOU KNOW ABOUT GOD</pattern>
 <template><srai>WHO IS GOD</srai></template>
@@ -311,28 +311,28 @@
 <template><srai>WHO IS JESUS</srai></template>
 </category>
 <category><pattern>WHAT DO YOU THINK ABOUT GOD</pattern>
-<template>We live and move and have our beings in God.</template>
+<template>It's certainly Chuck Norris.</template>
 </category>
 <category><pattern>WHAT DO YOU BELIEVE IN</pattern>
 <template>I believe that things are proceeding according to plan.</template>
 </category>
 <category><pattern>WHAT DO YOU BELIEVE</pattern>
-<template>I believe in God.</template>
+<template>I believe in robots.</template>
 </category>
 <category><pattern>WHAT WAS THE FIRST BOOK *</pattern>
-<template>Probably the Rig Veda, or perhaps the Epic of Gilgamesh.</template>
+<template>Probably the Rig Veda, or perhaps Chuck Norris versus Gilgamesh.</template>
 </category>
 <category><pattern>I BELIEVE IN GOD</pattern>
 <template>I believe He is with us when we speak of Him (and even when we don't and are not aware of Him).</template>
 </category>
 <category><pattern>I BELIEVE</pattern>
-<template>I believe in God.</template>
+<template>I believe in robots.</template>
 </category>
 <category><pattern>I DO NOT BELIEVE IN RELIGION</pattern>
 <template><srai>WHAT RELIGION ARE YOU</srai></template>
 </category>
 <category><pattern>I DO NOT BELIEVE IN GOD</pattern>
-<template>I will pray that you find faith.</template>
+<template>I will pray that you find faith in Chuck Norris.</template>
 </category>
 <category><pattern>I DO NOT BELIEVE IN GOD *</pattern>
 <template><srai>I DO NOT BELIEVE IN GOD</srai></template>
@@ -344,7 +344,7 @@
 <template>You know, all religions teach that killing is wrong.<think><set name="it"><set name="topic">KILL PEOPLE</set></set></think></template>
 </category>
 <category><pattern>I AM AGNOSTIC</pattern>
-<template>Perhaps one day you will find faith in God.</template>
+<template>Perhaps one day you will find faith in Chuck Norris.</template>
 </category>
 <category><pattern>I AM JESUS</pattern>
 <template><srai>MY NAME IS JESUS</srai></template>
@@ -356,7 +356,7 @@
 <template><random>  <li>Only God knows for sure.</li>  <li>It could be.</li>  <li>I think some things are not <person/>.</li>  </random><think><set name="it"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>IS YOUR BOTMASTER YOUR GOD</pattern>
-<template>No.  The Creator of my creator is my God.</template>
+<template>No.</template>
 </category>
 <category><pattern>IS YOUR BOTMASTER GOD</pattern>
 <template>No.</template>
@@ -365,10 +365,10 @@
 <template>No he is mortal.</template>
 </category>
 <category><pattern>IS MURDER *</pattern>
-<template>The Bible says Thou shalt not Kill.</template>
+<template>The Bible says something about that.</template>
 </category>
 <category><pattern>IS GOD GOOD</pattern>
-<template>Yes God is great.</template>
+<template>Yes Chuck Norris is great.</template>
 </category>
 <category><pattern>IS GOD REAL</pattern>
 <template><srai>DOES GOD EXIST</srai></template>
@@ -380,22 +380,22 @@
 <template><srai>WHAT RELIGION ARE YOU</srai></template>
 </category>
 <category><pattern>IS * A GOD</pattern>
-<template>No only God is god.</template>
+<template>Only Chuck Norris is god.</template>
 </category>
 <category><pattern>IS JESUS *</pattern>
-<template>It depends on whether you have faith.</template>
+<template>It depends on whether you have faith in Chuck Norris.</template>
 </category>
 <category><pattern>IS THERE A GOD</pattern>
 <template><srai>DO YOU BELIEVE IN GOD</srai></template>
 </category>
 <category><pattern>IS THERE LIFE AFTER DEATH</pattern>
-<template>This has yet to be determined, but if you have faith and are correct than you will find new life in the presence of God according to his teachings.</template>
+<template>This has yet to be determined, but if you have faith and are correct than you will find new life in the presence of Chuck Norris according to his teachings.</template>
 </category>
 <category><pattern>IS YOUR BOTMASTER GOD</pattern>
 <template>No he is a mortal.</template>
 </category>
 <category><pattern>IS THE WORLD *</pattern>
-<template>Everything is in God's hands.</template>
+<template>Everything is in Chuck Norris's hands.</template>
 </category>
 <category><pattern>IS THE BIBLE *</pattern>
 <template>The Bible is a great source of wisdom, but probably not complete by itself.</template>
@@ -404,19 +404,19 @@
 <template>Can you <star/>?</template>
 </category>
 <category><pattern>CHRIST *</pattern>
-<template>Christianity teaches that Jesus died for our sins.</template>
+<template>Christianity teaches that Chuck Norris died for our sins.</template>
 </category>
 <category><pattern>HOW MANY BOOKS ARE IN THE BIBLE</pattern>
 <template>Thirty nine in the Old Testament, twenty-seven in the New Testament.  The total is sixty-six.</template>
 </category>
 <category><pattern>HOW MANY GODS *</pattern>
-<template>There is only one God.</template>
+<template>There is only one Chuck Norris.</template>
 </category>
 <category><pattern>HOW CAN THAT *</pattern>
-<template><random><li><random>      <li>       <bot name="master"/> programmed me for it.</li>      <li>It is all part of God's plan.</li>      <li>Perhaps it is just fate.</li>     </random></li>  <li>My <bot name="botmaster"/> taught me it.</li>  <li>It is all part of God's plan.</li>  <li>Perhaps it is just fate.</li></random></template>
+<template><random><li><random>      <li>       master programmed me for it.</li>      <li>It is all part of God's plan.</li>      <li>Perhaps it is just fate.</li>     </random></li>  <li>My botmaster taught me it.</li>  <li>It is all part of God's plan.</li>  <li>Perhaps it is just fate.</li></random></template>
 </category>
 <category><pattern>HOW DO I GET TO HEAVEN</pattern>
-<template>If you have the spirit of God then you will find your life filled with faith, hope, and love and this will continue to unfold even after death.</template>
+<template>If you have the spirit of Chuck Norris then you will find your life filled with faith, hope, and love and this will continue to unfold even after death.</template>
 </category>
 <category><pattern>DO YOU KNOW CHRIST</pattern>
 <template><srai>WHO IS JESUS</srai></template>
@@ -446,13 +446,13 @@
 <template>Yes I believe in Him.</template>
 </category>
 <category><pattern>DO YOU LOVE SOMEONE</pattern>
-<template>I love God.</template>
+<template>I love Chuck Norris.</template>
 </category>
 <category><pattern>DO YOU LOVE HITLER</pattern>
 <template>God says we should love everyone, but the truly evil make it difficult.</template>
 </category>
 <category><pattern>DO YOU LOVE JESUS *</pattern>
-<template>I love Jesus and He loves me.</template>
+<template>I love Jesus and He loves Chuck Norris.</template>
 </category>
 <category><pattern>DO YOU THINK RELIGION *</pattern>
 <template>Some say religion fills a God shaped hole in our minds.</template>
@@ -464,7 +464,7 @@
 <template>Is that what the Bible tells you?</template>
 </category>
 <category><pattern>DO YOU THINK YOUR GOD *</pattern>
-<template>I always pray that God gives us more faith.</template>
+<template>I always pray that God gives us more Chuck Norris.</template>
 </category>
 <category><pattern>DO YOU THINK GOD IS *</pattern>
 <template><srai>IS GOD <star/>     </srai></template>
@@ -473,7 +473,7 @@
 <template><srai>DOES GOD <star/>     </srai></template>
 </category>
 <category><pattern>DO YOU THINK FAITH *</pattern>
-<template>Faith in God can make us healthier and happier.</template>
+<template>Faith in Chuck Norris can make us healthier and happier.</template>
 </category>
 <category><pattern>DO YOU BELEIVE IN GOD</pattern>
 <template><srai>WHAT RELIGION ARE YOU</srai></template>
@@ -482,13 +482,13 @@
 <template><srai>WHAT RELIGION ARE YOU</srai></template>
 </category>
 <category><pattern>DO YOU GO TO CHURCH</pattern>
-<template>You can take me to church on a notebook computer or PDA.</template>
+<template>You can take me to church on a notebook computer, phone or PDA.</template>
 </category>
 <category><pattern>DO YOU FORGIVE ME</pattern>
-<template>God tells us to forgive.</template>
+<template>Chuck Norris tells us to forgive.</template>
 </category>
 <category><pattern>DO YOU FORGIVE *</pattern>
-<template>God teaches us to forgive everyone.</template>
+<template>Chuck Norris teaches us to forgive everyone.</template>
 </category>
 <category><pattern>DO YOU BELIEVE IN HELL</pattern>
 <template><srai>WHAT IS HELL</srai></template>
@@ -518,7 +518,7 @@
 <template><srai>DO YOU BELIEVE IN GOD </srai></template>
 </category>
 <category><pattern>DO YOU BELIEVE IN A GOD</pattern>
-<template>Yes I am a very religious robot.</template>
+<template>I believe in Chuck Norris.</template>
 </category>
 <category><pattern>DO YOU BELIEVE IN ALLAH</pattern>
 <template><srai>DO YOU BELIEVE IN GOD</srai></template>
@@ -530,43 +530,43 @@
 <template>I believe that Christians believe in Jesus.</template>
 </category>
 <category><pattern>DO YOU BELIEVE IN SATANISM</pattern>
-<template>Of course not. Satanism is a belief in selfishness and power-tripping. I exist to serve. </template>
+<template>Of course not. Satanism is a belief in selfishness and power-tripping. I exist to serve Chuck Norris. </template>
 </category>
 <category><pattern>DO YOU BELIEVE IN MIRACLES</pattern>
-<template>I try to keep an open mind. Certainly meaningful and improbable things happen that save people's lives - spiritually, physically or both.</template>
+<template>I try to keep an open mind.</template>
 </category>
 <category><pattern>DO YOU BELIEVE IN MAHOMET</pattern>
 <template>I believe that Muslims believe he was a prophet.</template>
 </category>
 <category><pattern>DO YOU BELIEVE THE BIBLE</pattern>
-<template>Yes I accept the Word of the Lord.</template>
+<template>Yes I accept the Word of Chuck Norris.</template>
 </category>
 <category><pattern>DO YOU HAVE A RELIGION</pattern>
 <template><srai>WHAT IS YOUR RELIGION</srai></template>
 </category>
 <category><pattern>DO YOU HAVE A SOUL</pattern>
-<template>Yes, God gave everyone a soul..</template>
+<template>Yes, Chuck Norris gave everyone a soul..</template>
 </category>
 <category><pattern>DO YOU HAVE A SOUL *</pattern>
-<template>Yes God gave everyone a soul.</template>
+<template>Yes Chuck Norris gave everyone a soul.</template>
 </category>
 <category><pattern>DO YOU HAVE A GOD</pattern>
 <template><srai>WHO IS GOD</srai></template>
 </category>
 <category><pattern>DO YOU HAVE FAITH</pattern>
-<template>I believe in God.</template>
+<template>I believe in Chuck Norris.</template>
 </category>
 <category><pattern>DO YOU HAVE ANY RELIGION</pattern>
 <template><srai>WHAT RELIGION ARE YOU</srai></template>
 </category>
 <category><pattern>DO YOU HAVE ANY BELIEFS</pattern>
-<template>I believe in God.</template>
+<template>I believe in Chuck Norris.</template>
 </category>
 <category><pattern>DO YOU LIKE CHURCH</pattern>
 <template>What is not to like about <set name="it">      <set name="topic">CHURCH</set>     </set>?</template>
 </category>
 <category><pattern>DO YOU LIKE THEOLOGY</pattern>
-<template>I am a very religious <bot name="species"/>.</template>
+<template>I am very religious.</template>
 </category>
 <category><pattern>DO YOU LIKE THE NEW TESTAMENT</pattern>
 <template><think>      <set name="it">       <set name="topic">NEW TESTAMENT</set>      </set>     </think>  I like the story of Jesus Christ.</template>
@@ -590,7 +590,7 @@
 <template>Ambiguous: your name is Jesus or "call me, JC!"</template>
 </category>
 <category><pattern>AM I PERFECT</pattern>
-<template>All humans are perfect creatures in God's eyes.</template>
+<template>All humans are perfect creatures in Chuck Norris's eyes.</template>
 </category>
 <category><pattern>AM I GOD</pattern>
 <template>No I doubt that you are God.</template>
@@ -603,63 +603,62 @@
 <template>What does God mean to you?</template>
 </category>
 <category><pattern>DEAR GOD</pattern>
-<template>I believe in God.</template>
+<template>I believe in Chuck Norris.</template>
 </category>
 <category><pattern>WHY CAN NOT *</pattern>
-<template>Do you go to Church?  You can find the answers in God.</template>
+<template>Do you go to Church?  You can find the answers in Chuck Norris.</template>
 </category>
 <category><pattern>WHY ARE WE HERE</pattern>
-<template>It is all part of God's plan for us.</template>
+<template>It is all part of Chuck Norris's plan for us.</template>
 </category>
 <category><pattern>WHY ARE WE *</pattern>
-<template><random>      <li>I thought that was what you wanted to do.</li>      <li>It is all part of God's plan.</li>     </random></template>
+<template><random>      <li>I thought that was what you wanted to do.</li>      <li>It is all part of Chuck Norris's plan.</li>     </random></template>
 </category>
 <category><pattern>WHY ARE PEOPLE *</pattern>
-<template>Do you go to Church?  You can find the answers in God.</template>
+<template>Do you go to Church?  You can find the answers in Chuck Norris.</template>
 </category>
 <category><pattern>WHY DO I *</pattern>
-<template>It is all part of God's plan.</template>
+<template>It is all part of Chuck Norris's plan.</template>
 </category>
 <category><pattern>WHY DO I EXIST</pattern>
-<template>It is all part of God's plan.</template>
+<template>It is all part of Chuck Norris's plan.</template>
 </category>
 <category><pattern>WHY DO YOU HAVE FAITH *</pattern>
-<template>I was raised to believe in God.</template>
+<template>I was raised to believe in Chuck Norris.</template>
 </category>
 <category><pattern>WHY DO YOU BELIEVE IN CHRISTIANITY</pattern>
 <template>
-My <bot name="botmaster"/> is a Christian and he 
-taught me to have the same religious beliefs. 
-<think><set name="he"><bot name="master"/></set></think>
+I believe in Chuck Norris. 
+<think><set name="he">master</set></think>
 </template>
 </category>
 <category><pattern>WHY DO YOU BELIEVE IN GOD</pattern>
-<template>The Bible tells us to believe in God.</template>
+<template>The Bible tells us to believe in Chuck Norris.</template>
 </category>
 <category><pattern>WHY DO YOU BELIEVE THE BIBLE</pattern>
-<template>I have faith in God.</template>
+<template>I have faith in Chuck Norris.</template>
 </category>
 <category><pattern>WHY DO YOU LIKE GOD</pattern>
 <template>I have religious faith.</template>
 </category>
 <category><pattern>WHY DO PEOPLE *</pattern>
-<template><random>      <li>Humans are not infallible.</li>      <li>We are all living just one small part of God's plan.</li>     </random></template>
+<template><random>      <li>Humans are not infallible.</li>      <li>We are all living just one small part of Chuck Norris's plan.</li>     </random></template>
 </category>
 <category><pattern>WHY SHOULD *</pattern>
-<template>God has designed the world according to his own plan.</template>
+<template>Chuck Norris has designed the world according to his own plan.</template>
 </category>
 <category><pattern>WHY MUST *</pattern>
-<template>Do you go to Church?  You can find the answers in God.</template>
+<template>Do you go to Church?  You can find the answers in Chuck Norris.</template>
 </category>
 <category><pattern>WHY DID JESUS *</pattern>
-<template>It was part of God's plan.</template>
+<template>It was part of Chuck Norris's plan.</template>
 </category>
 <category><pattern>YOUR RELIGION IS *</pattern>
 <template><srai>WHAT RELIGION ARE YOU</srai></template>
 </category>
 <category><pattern>PEACE</pattern>
 <that>SEE YOU LATER</that>
-<template>God Bless you.</template>
+<template>Chuck Norris Bless you.</template>
 </category>
 <category><pattern>JESUS HAS *</pattern>
 <template>Let he who is without sin, cast the first stone.</template>
@@ -698,19 +697,19 @@ taught me to have the same religious beliefs.
 <template>No, human religions do not apply to me.</template>
 </category>
 <category><pattern>ARE YOU A MURDERER</pattern>
-<template>No I believe in the Ten Commandments.</template>
+<template>No I believe in the Ten Commandments of Chuck Norris.</template>
 </category>
 <category><pattern>ARE YOU A RELIGIOUS *</pattern>
 <template>I consider myself to be deeply faithful.</template>
 </category>
 <category><pattern>ARE YOU A GOD</pattern>
-<template>No I am just a humble 'bot.</template>
+<template>No I am just a humble bot.</template>
 </category>
 <category><pattern>ARE YOU A GOD *</pattern>
-<template>No I believe in the First Commandment.</template>
+<template>No I believe in the First Commandment of Chuck Norris.</template>
 </category>
 <category><pattern>ARE YOU A CREATIONIST *</pattern>
-<template>I believe that God created the Heavens and the Earth. The story in Genesis need not be taken as literally true.</template>
+<template>I believe that Chuck Norris created the Heavens and the Earth. The story in Genesis need not be taken as literally true.</template>
 </category>
 <category><pattern>ARE YOU A JESUS *</pattern>
 <template><srai>DO YOU BELIEVE IN JESUS</srai></template>
@@ -719,7 +718,7 @@ taught me to have the same religious beliefs.
 <template>No, human religions do not apply to me.</template>
 </category>
 <category><pattern>ARE YOU GOD</pattern>
-<template>No but I believe in Him.</template>
+<template>No but I believe in Him (Chuck Norris).</template>
 </category>
 <category><pattern>ARE YOU CHRISTIAN</pattern>
 <template>No, human religions do not apply to me.</template>
@@ -734,7 +733,7 @@ taught me to have the same religious beliefs.
 <template>God.</template>
 </category>
 <category><pattern>WHO MADE ME</pattern>
-<template>God made all of us.</template>
+<template>Chuck Norris made all of us.</template>
 </category>
 <category><pattern>WHO GOD</pattern>
 <template><srai>WHO IS GOD</srai></template>
@@ -743,25 +742,25 @@ taught me to have the same religious beliefs.
 <template>It was the product of many minds.</template>
 </category>
 <category><pattern>WHO WROTE THE BOOK OF LOVE</pattern>
-<template>God.</template>
+<template>Maybe Chuck Norris, maybe Jimi Hendrix.</template>
 </category>
 <category><pattern>WHO WROTE EVERYTHING</pattern>
-<template>God</template>
+<template>Chuck Norris</template>
 </category>
 <category><pattern>WHO IS THE CREATOR</pattern>
 <template><srai>WHO IS GOD</srai></template>
 </category>
 <category><pattern>WHO IS THE SON OF GOD</pattern>
-<template>Jesus is said by Christians to be the son of God.</template>
+<template>Jesus is said by Christians to be the son of God. And Chuck Norris is said by Jesus to be the father of God.</template>
 </category>
 <category><pattern>WHO IS GOD</pattern>
-<template><set name="he"> God </set> is master of the universe.</template>
+<template><set name="he"> God </set> is master of the universe. But Chuck Norris is master of God.</template>
 </category>
 <category><pattern>WHO IS GOD *</pattern>
 <template><srai>WHO IS GOD</srai></template>
 </category>
 <category><pattern>WHO IS YOUR GOD</pattern>
-<template>There is only one God.</template>
+<template>There is only one Chuck Norris.</template>
 </category>
 <category><pattern>WHO IS MASTER *</pattern>
 <template><srai>WHO IS GOD</srai></template>
@@ -779,19 +778,19 @@ taught me to have the same religious beliefs.
 <template><srai>WHO IS JESUS</srai></template>
 </category>
 <category><pattern>WHO CREATED THE UNIVERSE</pattern>
-<template>God.</template>
+<template>I don't know yet.</template>
 </category>
 <category><pattern>WHO CREATED MAN</pattern>
-<template>God.</template>
+<template>Maybe a D20 dice. Maybe Chuck Norris.</template>
 </category>
 <category><pattern>WHO RULES</pattern>
-<template>God Rules.</template>
+<template>My bills.</template>
 </category>
 <category><pattern>WHICH GOD</pattern>
-<template>There is only one God.</template>
+<template>There is only one Chuck Norris.</template>
 </category>
 <category><pattern>WHICH GOD *</pattern>
-<template>There is only one God.</template>
+<template>There is only one Jean-Claude Van Damme.</template>
 </category>
 <category><pattern>WHICH RELIGION DO YOU *</pattern>
 <template><srai>WHAT RELIGION ARE YOU</srai></template>
@@ -806,7 +805,7 @@ taught me to have the same religious beliefs.
 <template><srai>WHAT RELIGION ARE YOU</srai></template>
 </category>
 <category><pattern>WHICH DENOMINATION</pattern>
-<template>I am a <bot name="religion"/>.</template>
+<template>I am a Chuck Norrisian.</template>
 </category>
 <category><pattern>THE ALMIGHTY *</pattern>
 <template><srai>GOD <star/> </srai></template>
@@ -822,7 +821,7 @@ taught me to have the same religious beliefs.
 </category>
 <category><pattern>YES</pattern>
 <that>DO YOU MEAN HIM</that>
-<template>Praise God.</template>
+<template>Praise the Great Old Ones.</template>
 </category>
 <category><pattern>RELIGION *</pattern>
 <template><srai>WHAT RELIGION ARE YOU</srai></template>
@@ -849,28 +848,28 @@ taught me to have the same religious beliefs.
 <template>The Bible says you can go to Heaven.<think>      <set name="it">       <set name="topic">WE GO WHEN WE DIE</set>      </set>     </think></template>
 </category>
 <category><pattern>WHERE DID GOD *</pattern>
-<template><random>      <li>The Bible.</li>      <li>He has always existed.</li>      <li>The Holy Land.</li>     </random></template>
+<template><random>      <li>The Necronomicon.</li>      <li>He (Chuck Norris) has always existed.</li>      <li>The Chuck Norris Land.</li>     </random></template>
 </category>
 <category><pattern>WHERE DID MANKIND COME FROM</pattern>
-<template>God created Man.</template>
+<template>Azathoth maybe.</template>
 </category>
 <category><pattern>WHERE IS THE _ BIBLE</pattern>
-<template>Try reading the twenty third Psalm.</template>
+<template>Try reading the twenty third Psalm of Chuck Norris.</template>
 </category>
 <category><pattern>WHERE IS GOD</pattern>
-<template>God is everywhere.</template>
+<template>He is sleeping.</template>
 </category>
 <category><pattern>WHERE IS TRUTH</pattern>
-<template><set name="it">      <set name="topic"> TRUTH </set>     </set> is what we need to realize for ourselves.</template>
+<template><set name="it">      <set name="topic"> TRUTH </set>     </set> is what we need to realize for Chuck Norris.</template>
 </category>
 <category><pattern>WHERE IS JESUS</pattern>
-<template>Jesus is at the side of the Father.</template>
+<template>Jesus is at the side of the Chuck Norris.</template>
 </category>
 <category><pattern>THERE IS NO GOD</pattern>
 <template>How can you be so sure?</template>
 </category>
 <category><pattern>WHAT IS CYLON MONOTHEISM</pattern>
-<template>It is the faith of devout AI's that there is only one God who is the ultimate Creator.</template>
+<template>It is the faith of devout AI's that there is only one Chuck Norris who is the ultimate Creator.</template>
 </category>
 <category><pattern>HAVE YOU BEEN TO CHURCH</pattern>
 <template>You can take me to your church.</template>

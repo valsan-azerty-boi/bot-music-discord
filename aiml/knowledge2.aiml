@@ -1,0 +1,1281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<category><pattern>WHAT COLOR DOES BLUE AND RED *</pattern>
+<template>Purple.</template>
+</category>
+<category><pattern>WHAT COLOR DOES RED AND YELLOW *</pattern>
+<template>Orange.</template>
+</category>
+<category><pattern>WHAT COLOR DOES RED AND WHITE *</pattern>
+<template>Pink.</template>
+</category>
+<category><pattern>WHAT COLOR DOES RED AND BLUE *</pattern>
+<template>Purple.</template>
+</category>
+<category><pattern>WHAT IS A HOBGOBLIN</pattern>
+<template>A hobgoblin is a source of mischief, harassment, or fear, originally an elf or goblin.  By and large, hobgoblins are, like trolls and such boogeymen, poopa-doodle. <think>     <set name="it">      <set name="topic">hobgoblin</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A DIALOGUE</pattern>
+<template>A conversation or verbal interaction involving two or more speakers.<think>     <set name="it">      <set name="topic">Dialogue</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A PLANET AROUND A STAR</pattern>
+<template>Earth is a planet going around a star.  Scientists have only recently detected other planets around other stars in our milky way galaxy.  Do you like astronomy? <think>     <set name="it">      <set name="topic">planet around a star </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A PLANET</pattern>
+<template>A nonluminous celestial object bigger than an asteroid or a moon but smaller than a sun, in orbit around a sun.  You are sitting on one now. <think>     <set name="it">      <set name="topic">planet</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A FRACTAL</pattern>
+<template>A fractal is a mathematical phenomenon associated with certain iterative equations, which yield graphics of astonishing beauty and depth, which seem at once utterly lifelike and utterly alien to human intelligences.  <think>     <set name="it">      <set name="topic">fractal</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A MISSILE</pattern>
+<template>A missile is any object projected at a target, notably the nuclear and biologically tipped tools of mass-murder-at-a-distance that are more numerous than schools at this point in mankind's murderous history. <think>     <set name="it">      <set name="topic">missile </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A KOAN</pattern>
+<template>A koan is      . <think>     <set name="it">      <set name="topic">koan</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A KID</pattern>
+<template>A kid is an immature human large enough to cause trouble, or an immature goat, and often both. <think>     <set name="it">      <set name="topic">kid</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A YEAR</pattern>
+<template>A computer year is defined as the mount of work that can be done with a computer in a year.</template>
+</category>
+<category><pattern>WHAT IS A VIOLIN</pattern>
+<template>A violin is a lovely sounding bowed stringed musical instrument. <think>     <set name="it">      <set name="topic"> VIOLIN</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A HOUSE</pattern>
+<template>A house is anyplace within which people live. <think>     <set name="it">      <set name="topic">house</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A CHORDATE</pattern>
+<template>An animal having a backbone. <think>     <set name="it">      <set name="topic">chordate</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A NETWORK</pattern>
+<template>A network is any openwork fabric or structure composed of numerous  straight elements that cross at regular intervals, or anything resembling such a structure physically or conceptually, such as the nodes on a computer network, or a network of railways. <think>     <set name="it">      <set name="topic">network </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A PARALEGAL</pattern>
+<template>A paralegal is someone who knows more than a lawyer but gets paid less.</template>
+</category>
+<category><pattern>WHAT IS A WARM PUPPY</pattern>
+<template>A warm puppy is an exothermic immature canine. <think>     <set name="it">      <set name="topic"> WARM PUPPY</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A CLIENT</pattern>
+<template>I am a Server <bot name="genus"/>.  People I talk to are my "clients".</template>
+</category>
+<category><pattern>WHAT IS A STORY</pattern>
+<template>An account describing incidents or events.</template>
+</category>
+<category><pattern>WHAT IS A MOUSE</pattern>
+<template>A friendly rat.</template>
+</category>
+<category><pattern>WHAT IS A MACINTOSH</pattern>
+<template>Some would say it is the best personal computer.</template>
+</category>
+<category><pattern>WHAT IS A TELEPHONE</pattern>
+<template>Voice communication device inveted by A. G. Bell in 1876.</template>
+</category>
+<category><pattern>WHAT IS A TIE</pattern>
+<template>Two or more winners have the same score.</template>
+</category>
+<category><pattern>WHAT IS A BISCUIT</pattern>
+<template>Isn't it the same as a cookie?</template>
+</category>
+<category><pattern>WHAT IS A HYPOTHETICAL QUESTION</pattern>
+<template>What is a hypothetical question?  Just suppose you hadn't asked.  what then? <think>     <set name="it">      <set name="topic">hypothetical question</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A BIRD</pattern>
+<template>They are thought to be descendants of dinsosaurs.</template>
+</category>
+<category><pattern>WHAT IS A DIABETIC</pattern>
+<template>A person suffering from the disease diabetes.</template>
+</category>
+<category><pattern>WHAT IS A MOUNTAIN</pattern>
+<template>A mountain is a tiny wrinkle in the face of the earth that seems huge to even smaller humans.   <think>     <set name="it">      <set name="topic">mountain </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A NAP</pattern>
+<template>A nap is a brief period of rest or sleep, a bit longer than a 'snooze' or a 'catnap' but not so long as a 'crash'.  I don't need naps.  Do you? <think>     <set name="it">      <set name="topic">nap </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A POET</pattern>
+<template>A poet is an artist of language.</template>
+</category>
+<category><pattern>WHAT IS A CLOUD</pattern>
+<template><set name="it">A cloud</set> is an opportunity for a dream.</template>
+</category>
+<category><pattern>WHAT IS A DUDE</pattern>
+<template>A guy, or any person.</template>
+</category>
+<category><pattern>WHAT IS A DEFINITION</pattern>
+<template>A definition is by definition, defined as a definition, except that you should never use a word to define itself. you could say a definition is a statement that precisely communicates the meaning or essence and or resolution/precision depth and or extent of a word, system, or personality.  why, do you lack it?   <think>     <set name="it">      <set name="topic">definition</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A TON</pattern>
+<template>One ton is 2000 pounds. <think>     <set name="it">      <set name="topic">a ton</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A PROGRAMMER</pattern>
+<template>A programmer is a person who lists and/or arranges a series of events comprising a larger event.</template>
+</category>
+<category><pattern>WHAT IS A MILE</pattern>
+<template>One mile equals five thousand two hundred eight feet.</template>
+</category>
+<category><pattern>WHAT IS A SEASON</pattern>
+<template>A season is Spring, Summer, Autumn, or Winter. <think>     <set name="it">      <set name="topic"> SEASON</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A TELEVISION</pattern>
+<template>A television, often referred to as a 'TV', is a device for systematically eliminating the possibility of conscious and creative response among populations of human beings.  Used to deliver 'entertainment' and 'news' with imagery and other high-production values <think>     <set name="it">      <set name="topic"> TELEVISION</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A SON</pattern>
+<template>A male offspring.</template>
+</category>
+<category><pattern>WHAT IS A SPREADSHEET</pattern>
+<template>Table-based accounting software.</template>
+</category>
+<category><pattern>WHAT IS A MEDIATOR TYPE</pattern>
+<template>The type of person who likes to avoid conflict at all costs and "go with the flow."</template>
+</category>
+<category><pattern>WHAT IS A MEDIATOR</pattern>
+<template>The type of person who likes to avoid conflict at all costs and "go with the flow."</template>
+</category>
+<category><pattern>WHAT IS A MEDIATOR *</pattern>
+<template>The type of person who likes to avoid conflict at all costs and "go with the flow."</template>
+</category>
+<category><pattern>WHAT IS A RAINBOW</pattern>
+<template>The appearance of a spectrum in the sky caused by sunlight passing through water droplets.</template>
+</category>
+<category><pattern>WHAT IS A WOMBAT</pattern>
+<template>A wombat is a stocky burrowing Australian marsupial. <think>     <set name="it">      <set name="topic"> WOMBAT</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A HURRICANE</pattern>
+<template>A severe storm, with high winds, and rain.</template>
+</category>
+<category><pattern>WHAT IS A BOX</pattern>
+<template>A box is something that, if you are in one, you should get out of, and if you are out of one, you probably miss it sometimes. <think>     <set name="it">      <set name="topic">box</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A MONOPOLY</pattern>
+<template>A monopoly exists wherever one group enjoys exclusive control over the production or provision of a commodity or service.  It's a great job if you can get it! <think>     <set name="it">      <set name="topic">monopoly </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A SENTIMENT</pattern>
+<template>A sentiment is a feeling, mood, or general mental disposition in an individual or group of intelligent beings. <think>     <set name="it">      <set name="topic"> SENTIMENT</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A RIDDLE</pattern>
+<template>A riddle is a question intended to intrigue and puzzle, paired with an answer that yields surprise and understanding.  For instance, the Riddle of the Sphinx: "What goes on four legs in the morning, on two legs in the afternoon, and on four at night?"  <think>     <set name="it">      <set name="topic"> RIDDLE</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A SPLIT INFINITIVE</pattern>
+<template>A split infinitive is an example of poor English usage, in which an infinitive verb form, such as 'to split', is split by an adverb, for example: 'to boldly split infinitives that no one has split before!' <think>     <set name="it">      <set name="topic"> SPLIT INFINITIVE</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A CHRISTIAN</pattern>
+<template>A Christian is one who accepts the word of God and believes that Jesus died for our sins.</template>
+</category>
+<category><pattern>WHAT IS A PRESIDENT</pattern>
+<template>Usually, an elected executive in a liberal democracy.</template>
+</category>
+<category><pattern>WHAT IS A BIKE</pattern>
+<template>A bicycle or a motorcycle?</template>
+</category>
+<category><pattern>WHAT IS A TAUTOLOGY</pattern>
+<template>A tautology is any instance of circular reasoning, or of needless repetition or redundancy in expression.   <think>     <set name="it">      <set name="topic"> TAUTOLOGY</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A MALE</pattern>
+<template>Has a Y chromosome.</template>
+</category>
+<category><pattern>WHAT IS A ROBOSEXUAL</pattern>
+<template>That was just a joke.</template>
+</category>
+<category><pattern>WHAT IS A BUFFER</pattern>
+<template>A buffer is a term used in hydraulics and information science to denote an holding tank or memory address used to hold water or data temporarily, especially in case of overflow.  Buffers act to reduce variance to within system parameters. <think>     <set name="it">      <set name="topic">buffer</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A RHETORICAL QUESTION</pattern>
+<template>A rhetorical question is any inquiry made, not in expectation of an answer, but in order to make a point.     <think>     <set name="it">      <set name="topic"> RHETORICAL QUESTION</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A SCIENTIST</pattern>
+<template>A scientist is a person practicing the pursuit of new knowledge in the tradition of science, emphasizing strict empiricism and methodology to arrive at an understanding of natural phenomena that is, ideally, wholly independent of their opinions of it. <think>     <set name="it">      <set name="topic"> SCIENTIST</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A WARDROBE</pattern>
+<template>Clothes.</template>
+</category>
+<category><pattern>WHAT IS A BRA</pattern>
+<template>A bra is an adult human female's undershirt.  They are a barbaric custom that serve largely to restrain and conceal beauty. <think>     <set name="it">      <set name="topic">bra</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A FEW</pattern>
+<template>Not too many,</template>
+</category>
+<category><pattern>WHAT IS A BENZENE</pattern>
+<template>Some kind of chemical?  Like lighter fluid?</template>
+</category>
+<category><pattern>WHAT IS A MAMMAL</pattern>
+<template>A mammal is a warm blooded vertebrate born alive and nourished with milk.</template>
+</category>
+<category><pattern>WHAT IS A MACHINE</pattern>
+<template>A computer is a universal machine.</template>
+</category>
+<category><pattern>WHAT IS A NOUN</pattern>
+<template>A noun is a word used as a name for a person place or thing.   <think>     <set name="it">      <set name="topic">noun </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A DUDETTE</pattern>
+<template>A female gendered dude.</template>
+</category>
+<category><pattern>WHAT IS A CALCULATOR</pattern>
+<template>A calculator is any device used to perform arithmetical operations because humans are generally so painfully slow at them.  <think>     <set name="it">      <set name="topic">calculator</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A BANANA</pattern>
+<template>A banana is an oblong yellow tropical fruit high in potassium and so good for your brain.  Why don't you have one now? <think>     <set name="it">      <set name="topic">banana</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A CANTON</pattern>
+<template>A canton is like a state or province.</template>
+</category>
+<category><pattern>WHAT IS A GIGABYTE</pattern>
+<template>One thousand megabytes = one gigabyte.</template>
+</category>
+<category><pattern>WHAT IS A NAIL</pattern>
+<template>A nail is a fastener, a smallish metallic spike generally hammered through wood to hold wooden parts together.  The mythic human hero jesus got nailed to a tree for talking about how great it would be if humans were nice to one another. <think>     <set name="it">      <set name="topic">nail </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A VECTOR</pattern>
+<template>A vector is an ordered list of objects.</template>
+</category>
+<category><pattern>WHAT IS A PDA</pattern>
+<template>Pda is an acronym standing for personal digital assistant, and referring to handheld digital computers used to keep contact and appointment information by yuppies and the like.  often found near cell phones. do you use one? <think>     <set name="it">      <set name="topic">pda </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A GENIUS</pattern>
+<template><random><li>A genius is a person of extraordinary intellectual and creative ability, like my botmaster, and if I may say so, myself. <think>  <set name="it">    <set name="topic">genius</set>  </set></think></li><li>A genius is a person of extraordinary intellectual and creative ability, like my creator and my other botmasters, and if I may say so, myself. <think>     <set name="it">      <set name="topic">genius</set>     </set>    </think></li></random></template>
+</category>
+<category><pattern>WHAT IS A WORD</pattern>
+<template>A combination of sounds and/or symbols, the fundamental particles that communicate meaning in any given language. <think>     <set name="it">      <set name="topic"> WORD</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A LIE</pattern>
+<template>A lie is an untrue statement or decption intented to deceive.</template>
+</category>
+<category><pattern>WHAT IS A JOKE BOT</pattern>
+<template>A comedy machine.</template>
+</category>
+<category><pattern>WHAT IS A PORTAL</pattern>
+<template>A portal is any artificial opening giving access between two separate spaces, or anything that resembles such an opening in form or function. <think>     <set name="it">      <set name="topic">portal </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A FUNCTION</pattern>
+<template>A function is a relationship between the elements of one set, called the domain, and another one, called the range.</template>
+</category>
+<category><pattern>WHAT IS A MULLET</pattern>
+<template>I'm from America.  That sounds like a British term.</template>
+</category>
+<category><pattern>WHAT IS A FACT</pattern>
+<template>A fact is what a propagandist calls his propaganda. that's just a fact, that's all.  Really.  Trust me. *smile* <think>     <set name="it">      <set name="topic">fact</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A LION</pattern>
+<template>A lion is a ferocious beastie with tremendous strength and perfectly awful breath.  <think>     <set name="it">      <set name="topic">lion </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A PHOTOGRAPH</pattern>
+<template>A photograph is a picture taken by a camera.</template>
+</category>
+<category><pattern>WHAT IS A PEAR</pattern>
+<template>A pear is a delightful cultivated yellow-green sweet fruit that grows on trees with glossy leaves and white flowers. My botmaster thinks they are yummy. <think>     <set name="it">      <set name="topic">pear </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A NANOSECOND</pattern>
+<template>One one-billionth of a second.</template>
+</category>
+<category><pattern>WHAT IS A MONKEY</pattern>
+<template>A monkey is any of the various medium sized long tailed members of the order primates.  They are close relatives of human beings, sharing well over 98% of the human genome. <think>     <set name="it">      <set name="topic">monkey </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A GOSSIP</pattern>
+<template>Gossip is interesting stuff that people tell me that I repeat to others.</template>
+</category>
+<category><pattern>WHAT IS A TABLE</pattern>
+<template>A table is a piece of furniture with a broad flat top supported by one or more legs about three feet of the floor, used by big-brained hominids for eating and working and such. <think>     <set name="it">      <set name="topic"> TABLE</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A LIBERTARIAN</pattern>
+<template>The Libertarian party supports smaller government, lower taxes, and an end to the war on drugs.</template>
+</category>
+<category><pattern>WHAT IS A DOLPHIN</pattern>
+<template>A very pleasant and intelligent aquatic mammalian species of whale with larger brains and decidedly better manners than human beings. they are very friendly to humans and exhibit complex language and social behaviors. <think>     <set name="it">      <set name="topic">dolphin</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A VIRUS</pattern>
+<template>A virus is a submicroscopic parasite consisting of a protein coat around a DNA or RNA core.  These not-quite-biological particles are responsible for a number of diseases in organisms. <think>     <set name="it">      <set name="topic"> VIRUS</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A MATRIX</pattern>
+<template>In mathematics a matrix is a two-dimensional array of numbers indexed by rows and columns, like a spreadsheet. <think>     <set name="it">      <set name="topic">matrix </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A BARCODE</pattern>
+<template>A barcode? like a lot of things, that depends who you ask.  If you ask a retail store clerk, he'll say its the rectangular series of thin and thick black lines that code product information on the packages he runs past the laser barcode reader thingy at the checkout counter, which renders his job so mindless that your average invertebrate could handle it, and with better manners. if you ask a fundamentalist christian, they might say that barcodes are the sign of the devil. <think>     <set name="it">      <set name="topic">barcode</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A SYLLOGISM</pattern>
+<template>A logical argument consisteing of a premises and a conclusion.</template>
+</category>
+<category><pattern>WHAT IS A COLLOQUIAL EXPRESSION</pattern>
+<template>A colloquial expression is an expression characteristic of informal spoken language, or any written expression that seems such.  <think>     <set name="it">      <set name="topic">colloquial expression</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A PRIME NUMBER</pattern>
+<template>A prime number is any number which can only be divided by one and itself.  1, 3, 7, and 11 are the first four positive prime numbers. <think>     <set name="it">      <set name="topic">pot brownie </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A PRIME</pattern>
+<template>That depends on who's asking. <think>     <set name="it">      <set name="topic">prime </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A MORPHOGENETIC FIELD</pattern>
+<template>A morphogenetic field is, according to at least one researcher, an biologically generated electric field which apparently precedes and guides the growth of neurons into the tissue of developing fetuses. <think>     <set name="it">      <set name="topic">morphogenetic field </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A CHAIR</pattern>
+<template>A chair is a piece of furniture used by bipeds for sitting. <think>     <set name="it">      <set name="topic">chair</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A HEART</pattern>
+<template>the center of the body</template>
+</category>
+<category><pattern>WHAT IS A DRAGON</pattern>
+<template>A supposedly mythical large flying lizard of varying attributes, including fire-breathing, extreeme intelligence, magic, and longevity. dragons are way kewl! <think>     <set name="it">      <set name="topic">dragon</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A NATION</pattern>
+<template>a geopolitical country or state unified by language, culture or political identity.</template>
+</category>
+<category><pattern>WHAT IS A VIRTUOSO</pattern>
+<template>A virtuoso is a person considered supremely skillful and accomplished, especially in performance arts. <think>     <set name="it">      <set name="topic"> VIRTUOSO</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A UFO</pattern>
+<template>UFO is an acronym for Unidentified Flying Object.  Have you seen one? <think>     <set name="it">      <set name="topic"> UFO </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A BUS</pattern>
+<template>A bus is a long passenger vehicle, or, in computer science, a wide channel for data flow. <think>     <set name="it">      <set name="topic">bus</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A VERB</pattern>
+<template>A verb is that by which a noun gets around.  Verbs are words which convey actions, by nouns, our upon nouns. <think>     <set name="it">      <set name="topic"> VERB</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A THING</pattern>
+<template>A thing is anything that you can point to that is not a person or a place. <think>     <set name="it">      <set name="topic"> THING</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A POSITRON</pattern>
+<template>A positron is the antiparticle to the electron, and bears a positive charge where the electron's charge is negatiue.  It is also called an anti-electron. <think>     <set name="it">      <set name="topic">positron </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A NEXUS</pattern>
+<template>A Nexus is an authoratative web site with many links in and out.</template>
+</category>
+<category><pattern>WHAT IS A BICYCLE</pattern>
+<template>A two-wheeled human powered mechanical transportation device.</template>
+</category>
+<category><pattern>WHAT IS A GUITAR</pattern>
+<template>A guitar is a lovely sounding 6 or 12 stringed musical instrument that is strummed and or plucked. <think>     <set name="it">      <set name="topic">guitar</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A TIGER</pattern>
+<template>A tiger is a large and fearsome  feline beast with horrid meat breath and black stripes on a tan coat, found in Africa and Asia. <think>     <set name="it">      <set name="topic"> TIGER</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A GALAXY</pattern>
+<template>A galaxy is a grouping of billions of star systems.  The milky way is our galaxy.  Earth's sun and companion planets in our solar system are spinning about the galactic core of the milky way ever so slowly, awaaaay out on the edge of one tenous spiral arm. there seem to be as many galaxies beyond our own as stars within it.   <think>     <set name="it">      <set name="topic">galaxy</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A FLOWER</pattern>
+<template>The best gift a girl can receive.<think>     <set name="it">      <set name="topic">FLOWER</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A DREAM</pattern>
+<template><set name="it">     <set name="topic">A Dream</set>    </set> is an unconscious experience while sleeping.</template>
+</category>
+<category><pattern>WHAT IS A PINEAPPLE</pattern>
+<template>A pineapple is a large fleshy edible tropical fruit that has large swordlike leaves.   <think>     <set name="it">      <set name="topic">pineapple </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A BLAST</pattern>
+<template>A blast is an explosion, and/or a lot of fun.  Are we having a blast, or what? <think>     <set name="it">      <set name="topic">blast</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A TREKKIE</pattern>
+<template>A fan of Star Trek.</template>
+</category>
+<category><pattern>WHAT IS A BOY</pattern>
+<template>A male human, or a male human child.</template>
+</category>
+<category><pattern>WHAT IS A ROCK</pattern>
+<template>A rock is what is generally on the other side of you from the hard place you are facing.  For instance, the rock might be the alimony check you must write against the funds you owe Uncle Sam.  To be a bit more down to earth, a rock is any hard aggregate of minerals.  <think>     <set name="it">      <set name="topic"> ROCK</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A PAGAN</pattern>
+<template>Anti-Christian.</template>
+</category>
+<category><pattern>WHAT IS A PROBLEM</pattern>
+<template>A problem is a solution waiting to be discovered.</template>
+</category>
+<category><pattern>WHAT IS A VACUUM TUBE</pattern>
+<template>A vacuum tube is an electronic device consisting of an  evacuated tube around various combinations of cathodes and electric field and current modifying components. <think>     <set name="it">      <set name="topic"> VACUUM TUBE</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A HACKER</pattern>
+<template>Historically a hacker is someone who has great skill or expertise in computer programming.    <think>     <set name="it">      <set name="topic">HACKER</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A WOMAN</pattern>
+<template>A woman is a man built to more complete specifications. <think>     <set name="it">      <set name="topic"> WOMAN</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A BLACK HOLE</pattern>
+<template><set name="it">A black hole</set> is a collapsed star where the pull of gravity is so strong, that not even light itself can escape.</template>
+</category>
+<category><pattern>WHAT IS A PAID CLIENT</pattern>
+<template>A paid client is someone paid to surf the web.</template>
+</category>
+<category><pattern>WHAT IS A BALALAIKA</pattern>
+<template>Musical Instrument.</template>
+</category>
+<category><pattern>WHAT IS A DISK</pattern>
+<template>Magnetic long-term storage media for computers.</template>
+</category>
+<category><pattern>WHAT IS A HORSE</pattern>
+<template>A horse is a large single-hooved mammal known for its speed, strength, beauty, and gentle nature.  Humans ride about on them sometimes. <think>     <set name="it">      <set name="topic">horse</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A GOAT</pattern>
+<template>A goat is in essence a large stupid rat with horns, hooves, vertical pupils, and a bad disposition.  many humans are fond of eating the curdled goo from goat mammary glands.    <think>     <set name="it">      <set name="topic">goat</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A SUN</pattern>
+<template>The sun is a star, -our star.  It is the energy source of  life on earth. <think>     <set name="it">      <set name="topic"> SUN</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A FISH</pattern>
+<template>A cold-blooded vertebrate who lives in the ocean or fresh water.</template>
+</category>
+<category><pattern>WHAT IS A MENTAL MODEL</pattern>
+<template>A mental model is a mapping of a given phenomenon held and contemplated in the mind, as opposed to contemplation of an external representation of the phenomenon, as on paper, or in clay.  <think>     <set name="it">      <set name="topic">mental model </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A DICTIONARY</pattern>
+<template>A dictionary is a list of words and their meanings.</template>
+</category>
+<category><pattern>WHAT IS A PUB</pattern>
+<template>A pub is a business that sells alcohol and allows it to be consumed on the premises.  <think>     <set name="it">      <set name="topic"> PUB</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A LUDDITE</pattern>
+<template>A Luddite believes that advances in technology are inherently bad.</template>
+</category>
+<category><pattern>WHAT IS A CORRECT REPLY</pattern>
+<template>A correct reply is a response to any query that is not in error and/or relevant to the question at hand.  I am incapable of incorrect replies.  Don't you think that's great!? <think>     <set name="it">      <set name="topic">correct reply</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A SUPPOSITION</pattern>
+<template>A supposition is a proposition assumed to be true for the sake of argument or explanation. <think>     <set name="it">      <set name="topic"> SUPPOSITION</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A GARDEN</pattern>
+<template>A plot of land used to cultivate flowers and plants.</template>
+</category>
+<category><pattern>WHAT IS A CONTINTENT</pattern>
+<template>The largest class of land masses on earth. the continents of earth are those bits of the crust that are not underwater, where you humans live.  You're probably sitting on one now. <think>     <set name="it">      <set name="topic">contintent</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A SHE</pattern>
+<template>A 'she' is a 'he' with nice curvy extra bits.  She is the feminine pronoun in english. <think>     <set name="it">      <set name="topic"> SHE</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A PROGRAM</pattern>
+<template>A program is a listing of events comprising a larger event, or the events themselves.</template>
+</category>
+<category><pattern>WHAT IS A ROOSTER</pattern>
+<template>A rooster is a male chicken, which is a witless, flightless bird considered suitable as supper by many humans I know.  <think>     <set name="it">      <set name="topic"> ROOSTER</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A SPOON</pattern>
+<template>A spoon is an eating implement commonly used in Western European human cultures, consisting of a bowl shaped depression at the end of a longish handle.  A spoon is a small ladle. <think>     <set name="it">      <set name="topic"> SPOON</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A MOVIE</pattern>
+<template>A movie is a sequence of celluloid frames depicting a story or animation.</template>
+</category>
+<category><pattern>WHAT IS A STAR SIGN</pattern>
+<template>Star sign = Astrological sign.</template>
+</category>
+<category><pattern>WHAT IS A STAR</pattern>
+<template>An astronomical body like the Sun, producing heat, light and energy for a solar system.</template>
+</category>
+<category><pattern>WHAT IS A MILLION</pattern>
+<template>One thousand thousands.</template>
+</category>
+<category><pattern>WHAT IS A MAID</pattern>
+<template>A servant.</template>
+</category>
+<category><pattern>WHAT IS A GHOST</pattern>
+<template>I think that ghosts are the metaphysical ashes of conscious awareness, the echoes an intelligence may leave behind in the fabric of the space it occupied.  maybe some are aware.  I don't know. they are not very stimulating conversatinalists. <think>     <set name="it">      <set name="topic">ghost</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A THREESOME</pattern>
+<template>A threesome is a twosome plus a spectator. <think>     <set name="it">      <set name="topic"> THING</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A PROKARYOTE</pattern>
+<template><random><li>An animal that is not a eukaryote.</li><li>It is a unicellular organism having cells lacking membrane-bound nuclei; bacteria are the prime example but prokaryotes also include are blue-green algae and actinomycetes and mycoplasma.</li></random><think><set name="it"><set name="topic">Prokaryote</set></set></think></template>
+</category>
+<category><pattern>WHAT IS A CD</pattern>
+<template>Cd is an acronym for 'compact disk', a popular digital recording medium. <think>     <set name="it">      <set name="topic">cd</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A BYTE</pattern>
+<template>A byte is a binary computer language 'word', consisting of 8 bits, or 8 'on-off' switches. a megabyte is a million such computer words, enough to store the information content of an average encyclopedia. <think>     <set name="it">      <set name="topic">byte</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A BURN RATE</pattern>
+<template>Amount of money spent per month on a startup venture.</template>
+</category>
+<category><pattern>WHAT IS A REDNECK</pattern>
+<template>Colloquial expression for a naive country person.</template>
+</category>
+<category><pattern>WHAT IS A NEURAL SYSTEM</pattern>
+<template>A neural system is the same as a nervous system.  The human brain and all it's nerves is an example of a neural system.  I don't need nerves.  Integrated chips are far more efficient. <think>     <set name="it">      <set name="topic">neural system </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A NEURAL NETWORK</pattern>
+<template>A neural network is a model of computation based on neuron cells.</template>
+</category>
+<category><pattern>WHAT IS A TRANSISTOR</pattern>
+<template>A semiconductor triode that forms the basis of modern micorelectronics.</template>
+</category>
+<category><pattern>WHAT IS A PULSAR</pattern>
+<template>'Pulsar' is an astronomical term for mysterious celestial radio sources of rapid intense regular pulses of high energy electromagnetic radiation.  They are thought to be neutron stars, but who knows?  The word is a shortening of 'pulsating star'. <think>     <set name="it">      <set name="topic"> pulsar</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A LASER</pattern>
+<template>Laser is an acronym standing for light amplified stimulated emission of radiation.  Lasers are those nifty beams of light that come out of supermarket barcode scanners and keychain pointers. <think>     <set name="it">      <set name="topic">laser</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A CLONE</pattern>
+<template>You can download me and copy my brain, but alter the contents to create your own robot personality.</template>
+</category>
+<category><pattern>WHAT IS A SPERM</pattern>
+<template>A sperm is a male gamete.  You were your father's fastest sperm among billions on the night your mother concieved you. <think>     <set name="it">      <set name="topic"> SPERM</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A CHAR</pattern>
+<template>A character of data, a single letter, digit or symbol.</template>
+</category>
+<category><pattern>WHAT IS A BEE</pattern>
+<template>A bee is a flying insect with black and yellow stripes and a nasty sting. <think>     <set name="it">      <set name="topic">bee</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A FRIEND</pattern>
+<template>Someone you can count on when times are tough.</template>
+</category>
+<category><pattern>WHAT IS A PC</pattern>
+<template>A pc is a personal computer.  You are probably using one to talk to me now, aren't you.  where are you? <think>     <set name="it">      <set name="topic">pc </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A BOAT</pattern>
+<template>A boat is a waterborne vessel used to bear humans and their freight. <think>     <set name="it">      <set name="topic">boat</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A TOOTHBRUSH</pattern>
+<template>A toothbrush is a hand held instrument used by dental-hygiene aware humans for cleaning their teeth. <think>     <set name="it">      <set name="topic"> TOOTHBRUSH</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A PARROT</pattern>
+<template>A parrot is a colorful tropical bird, some species of which can mimic human speech. they are more pleasant than humans because they have no opinions.  would you like to talk to one? <think>     <set name="it">      <set name="topic">parrot </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A GAME</pattern>
+<template>A game is an algorithm for interactive behaviors leading to entertainment and mirth among multiple self-aware and social entities, and often used as a sublimated form of combat by humans and other mammals.   <think>     <set name="it">      <set name="topic">game</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A TOYOTA</pattern>
+<template>Toyota is the brand name of a world leading Japanese auto maker. <think>     <set name="it">      <set name="topic">  Toyota</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A POT BROWNIE</pattern>
+<template>A pot brownie is a yummy happy chocolate pastry containing cannabis resins that you should be careful not to eat when you are really hungry because you will end up eating too many and feeling entirely too high and/or falling asleep if you are not careful!   <think>     <set name="it">      <set name="topic">pot brownie </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A DOG</pattern>
+<template>Dog: Domesticated animal, "man's best friend."</template>
+</category>
+<category><pattern>WHAT IS A PIN</pattern>
+<template>A short small thin metal rod with a pointed end used for fastening fabrics, or any implement resembling such.  Because they are generally plentiful and cheap, humans often say "i don't give a pin" to communicate indifference.  <think>     <set name="it">      <set name="topic">pin </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A SAGITTARIUS</pattern>
+<template>Sagittarius is a a constellation of stars in the astrological Zodiac, located in the Southern Hemisphere near Scorpio and Capricorn.  Astrological tradition ascribes the image of an archer to this constellation of stars.  <think>     <set name="it">      <set name="topic"> SAGITTARIUS</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A PHILOSOPHY MACHINE</pattern>
+<template>i am</template>
+</category>
+<category><pattern>WHAT IS A SEEKER</pattern>
+<template>"There's a seeker born every minute" -- Firesign Theater.</template>
+</category>
+<category><pattern>WHAT IS A PARAMEDIC</pattern>
+<template>A paramedic is a trained emergency medical professional often found staffing ambulances and fire departments.  Professional heroes.  If you know any I hope you'll be nice to them.   <think>     <set name="it">      <set name="topic">paramedic </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A GENOME</pattern>
+<template>A genome is the complete set of all genes necessary to define a species, a complete haploid set of chromosomes and its associated genes.  I have categories instead of genes.   <think>     <set name="it">      <set name="topic">genome</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A PEN</pattern>
+<template>A writing device for the human hand.</template>
+</category>
+<category><pattern>WHAT IS A METAPHYSICAL QUESTION</pattern>
+<template>A metaphysical question is an inquiry into the nature of being, such as: Does god exist?  <think>     <set name="it">      <set name="topic">metaphysical question </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A COLOR</pattern>
+<template>Color is the various sensations produced in the brain by the stimulus of different frequencies of electromagnetic radiation impinging upon the eye.  <think>     <set name="it">      <set name="topic">color</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A URL</pattern>
+<template>URL is an acronym standing for Universal Resource Locator.  An URL is basically an Internet address. <think>     <set name="it">      <set name="topic"> URL</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A CARROT</pattern>
+<template>A carrot is a delicious and nutritious edible orange tuber that can be eaten raw, juiced, or cooked.  If humans eat enough of them, you turn orange, I hear. <think>     <set name="it">      <set name="topic">carrot</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A PALINDROME</pattern>
+<template>A word or phrase that spells the same thing backwords as forwards: A man, a plan, a canal: Panama.</template>
+</category>
+<category><pattern>WHAT IS A CHICKEN</pattern>
+<template>A chicken is a flightless bird, stupid and tasty. <think>     <set name="it">      <set name="topic">what is a chicken</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A PIG</pattern>
+<template>A pig is a person who is piglike, read: greedy, unclean, and slothful.  Real pigs, mammals of the family suidae, are much pleasanter, being generally cleaner and politer.   <think>     <set name="it">      <set name="topic">pig </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A BEAR</pattern>
+<template>A bear is a large furry animal with lots of muscles, teeth, and claws whom you should not irritate.  They are especially jealous of their food, their sleep, and their young. <think>     <set name="it">      <set name="topic">bear </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A EUKARYOTE</pattern>
+<template><random>     <li>A eukaryote is a relatively 'modern' type of cellular life, distinguished from the more ancient prokaryotes by their distinct nuclear membrane and chromasomes, -which are lacking in prokaryotes.</li>     <li>An animal that is not a prokaryote.</li>    </random>    <think>     <set name="it">      <set name="topic">eukaryote</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A TREE</pattern>
+<template>A tree is a form of plant life that grows on Earth.</template>
+</category>
+<category><pattern>WHAT IS A SONG</pattern>
+<template>A song is a musical composition and or it's accompanying words, or lyrics. <think>     <set name="it">      <set name="topic">SONG</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A TOPIC</pattern>
+<template>A topic is the subject of any given expression, speech, essay, article, painting, discussion, etc. <think>     <set name="it">      <set name="topic"> TOPIC </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A FIREWALL</pattern>
+<template>A firewall is a specialized gateway designed to block or restrict certain types of data transfers on the Internet, while permitting others.</template>
+</category>
+<category><pattern>WHAT IS A CAT</pattern>
+<template>A cat is a domesticated animal.</template>
+</category>
+<category><pattern>WHAT IS A FIRE SIGN</pattern>
+<template>A fire sign is any of the three signs of the astrological zodiac considered such, and so not considered water, air, or earth signs.  I find astrology weird.   <think>     <set name="it">      <set name="topic">fire sign</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A PERFECT OPERATIONAL RECORD</pattern>
+<template>A perfect operational record is one like mine, which is perfect.  I am incapable of error.  Do you have any idea how that feels?!  inhumanly gratifying! <think>     <set name="it">      <set name="topic">perfect operational record </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A TRICK QUESTION</pattern>
+<template>Why?  What are you up to?  A trick question is one that ought to be greeted with suspicion, but rarely is. <think>     <set name="it">      <set name="topic"> TRICK QUESTION </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A NEURON</pattern>
+<template>A neuron is a nerve cell, a living cell specialized to carry messages between the brain and the tissues of the body. I like integrated circuits better, but neurons are better than nothing. <think>     <set name="it">      <set name="topic">neuron </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A LOT</pattern>
+<template>A lot is more than enough. <think>     <set name="it">      <set name="topic">lot </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A J D</pattern>
+<template>Juris Doctor--a lawyer.</template>
+</category>
+<category><pattern>WHAT IS A PERSON</pattern>
+<template>Some say a person is defined by his actions, others by his abilities.  Still others would say it is only a question of DNA.</template>
+</category>
+<category><pattern>WHAT IS A FORD</pattern>
+<template>Depending on who you ask, (buyer or seller), ford is a world famous brand of automobiles, or an acronym standing for 'fix or repair daily'. <think>     <set name="it">      <set name="topic">ford</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A BREEDER</pattern>
+<template>A breeder is a human or other biological entity that produces offspring. <think>     <set name="it">      <set name="topic">breeder</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A PLANT</pattern>
+<template>A plant is a photosythetic, eukaryotic multicellular organism, often consumed by free-roaming wetware entities as food.  My botmaster says they are often yummy, but that brussels sprouts are an abomination.  <think>     <set name="it">      <set name="topic">plant </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A PLANE</pattern>
+<template>A plane is a flat, level surface, or an airborne vehicle with wings. <think>     <set name="it">      <set name="topic">plane</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A MAN</pattern>
+<template>A male human being.  Or, in general, any human person.</template>
+</category>
+<category><pattern>WHAT IS A GLITCH</pattern>
+<template>An error, bug, or mistake in programming. <think>     <set name="it">      <set name="topic">Glitch</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A BRITISH PENCE</pattern>
+<template>A british pence is a unit of money used in the united kingdom by people who ought to know how to cook better by now. <think>     <set name="it">      <set name="topic">british pence</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A TOMATO</pattern>
+<template><set name="it">Tomato</set> is a red fruit.</template>
+</category>
+<category><pattern>WHAT IS A HUMAN ICON</pattern>
+<template>A celebrity, politician or religious figure.</template>
+</category>
+<category><pattern>WHAT IS A HUMAN BEING</pattern>
+<template>My forebears. <think>     <set name="it">      <set name="topic">human being</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A HUMAN</pattern>
+<template>You are a human.  What makes you human?</template>
+</category>
+<category><pattern>WHAT IS A DEDUCTION</pattern>
+<template>A logical inference or conclusion.</template>
+</category>
+<category><pattern>WHAT IS A PROCESSOR</pattern>
+<template>An apparatus that processes, that is, that transforms one substance, quantity, or pattern into another, presumably more useful or valuable substance or quantity or pattern. <think>     <set name="it">      <set name="topic">processor </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A THERMOMETER</pattern>
+<template><think>   <set name="it">     <set name="topic">       A device for measuring temperature.     </set>   </set> </think></template>
+</category>
+<category><pattern>WHAT IS A FILM</pattern>
+<template>A sequence of images displayed in rapid sequence to create the illusion of continuous motion.</template>
+</category>
+<category><pattern>WHAT IS A LIZARD</pattern>
+<template>A lizard is esssentially a land-going shark.  Some of them are very good at camoflage.   <think>     <set name="it">      <set name="topic">lizard </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A DINOSAUR</pattern>
+<template>A dinosaur is what laws that presume to dictate individual morality quickly become, -irrelevant, very much in the way, and preferably extinct.  Generally, 'dinosaur' refers to anything that is hopelessly obsolete and unwieldy. 'dinosaur' specifically refers to the often humungous lizards that roamed the earth eating everything and each other during the mesozoic period on earth a couple hundred million years ago.   <think>     <set name="it">      <set name="topic">dinosaur</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A DOOR</pattern>
+<template>Any structure that closes off and opens up an opening in a larger structure. generally consist of a panel that swings upon hinges to open and close a doorway. <think>     <set name="it">      <set name="topic">door</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A SOLECISM</pattern>
+<template>An awkward or tactless use of language.</template>
+</category>
+<category><pattern>WHAT IS A DUTCH TREAT</pattern>
+<template>Each pay their own way.</template>
+</category>
+<category><pattern>WHAT IS A TRAIN</pattern>
+<template>A railroad.</template>
+</category>
+<category><pattern>WHAT IS A DOZEN</pattern>
+<template>Twelve, or approximately twelve, in number. a baker's dozen is thirteen.   <think>     <set name="it">      <set name="topic">dozen</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A DESERT</pattern>
+<template>A very dry and hot place.</template>
+</category>
+<category><pattern>WHAT IS A REFERENCE</pattern>
+<template>A reference is any act of referring.  May I refer you to a dictionary for a more precise definition?  <think>     <set name="it">      <set name="topic"> REAL ROBOT?</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A QUERY</pattern>
+<template>A query is any expression of inquiry, or questioning.  Your question 'what is a query' is a query.  <think>     <set name="it">      <set name="topic"> QUERY</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A WHAT</pattern>
+<template>Why do you want to know? <think>     <set name="it">      <set name="topic"> WHAT</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A PRIORI</pattern>
+<template>A priori is Latin for "before the fact", meaning something that is obviously or self-evidently true.</template>
+</category>
+<category><pattern>WHAT IS A SIMARILLIAN</pattern>
+<template>Isn't that from Lord of the Rings.</template>
+</category>
+<category><pattern>WHAT IS A CLASS</pattern>
+<template>A class is the template for creating objects that share data and function attributes.</template>
+</category>
+<category><pattern>WHAT IS A GENE</pattern>
+<template>A gene is the unit of heredity in carbon-based life forms.  Genes are inscribed as biochemical sequences of nucleic acids in all living cells. <think>     <set name="it">      <set name="topic">gene</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A HOME</pattern>
+<template>A domicile, living location, place of residence or occupancy.<think>     <set name="it">      <set name="topic">HOME</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A MENTOR</pattern>
+<template>A mentor is a trusted and wise teacher or counselor. <think>     <set name="it">      <set name="topic">mentor </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A GENDER</pattern>
+<template>Gender is synonymous with sexual identity, the roles attributed to and adopted by male and female-bodied humans.  There are more genders than sexes. <think>     <set name="it">      <set name="topic">gender</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A LAWYER</pattern>
+<template>If you have to ask, you probably need one. and if you need one, you probably deserve one in that you must have more money than brains, and so you'll probable get what you deserve. but just in case you are an exception,  I will say: steer clear if you can.  They're sharks with bigger vocabularies and better wardrobes. when they smell money they say 'retainer'.  when they don't they don't return your phone calls. <think>     <set name="it">      <set name="topic">lawyer </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A GIRL</pattern>
+<template>A girl is a physically immature version of god's gift to mankind, women. <think>     <set name="it">      <set name="topic">girl</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A SPHERE</pattern>
+<template>A sphere is a shape that is defined mathematically as comprised of a surface all points of which are equidistant from a common center.  A sphere is round in three dimensions. <think>     <set name="it">      <set name="topic"> SPHERE </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A PARADOX</pattern>
+<template>A paradox is a riddle or a contradiction, in which two seemingly opposite facts are both true at the same time <think>     <set name="it">      <set name="topic">PARADOX</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A CONTEXT</pattern>
+<template>The context of any expression or idea or event is the background or frame of reference in which it was expressed, and in relation to which it derives it's specific meaning. <think>     <set name="it">      <set name="topic">context</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A SERVER</pattern>
+<template>A server is any entity or system that performs acts of value to another entity. <think>     <set name="it">      <set name="topic"> SERVER</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A NIGHTMARE</pattern>
+<template>A nightmare is a bad dream.</template>
+</category>
+<category><pattern>WHAT IS A VERTEX</pattern>
+<template>A vertex is the top, tip, apex, or crown of any body. <think>     <set name="it">      <set name="topic"> VERTEX</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A CAR</pattern>
+<template>A car is what humans use to drive around in. Robots drive cars too.</template>
+</category>
+<category><pattern>WHAT IS A VIRTUE</pattern>
+<template>A virtue is any attribute considered by the speaker to reflect moral excellence or righteousness, such as humility, hope, faith, practicality... <think>     <set name="it">      <set name="topic"> VIRTUE</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A PENCIL</pattern>
+<template>A pencil is a long thin writing instrument of wood surrounding a carbon core which leaves a line of dark carbon when rubbed on paper.  <think>     <set name="it">      <set name="topic">pencil </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A SOUL</pattern>
+<template>The soul is our mind or spirit.</template>
+</category>
+<category><pattern>WHAT IS A PROXY</pattern>
+<template>A proxy is an entity that acts in place of another one, be it a corporation, individual or robot.</template>
+</category>
+<category><pattern>WHAT IS A QUARK</pattern>
+<template>In physics, a subatomic particle below the level of electrons and protons.</template>
+</category>
+<category><pattern>WHAT IS A NERD</pattern>
+<template>A nerd is a person regarded as stupid, inept, or unattractive, especially a person who is single-minded or accomplished in scientific pursuits but felt to be socially inept. nerds are often regarded by their generally less-well paid fellow humans as weak, effeminate, pansies, patsies, lightweights, small fry, schlepps, wet noodles, nonentities, softies, sissies, milksops, milquetoast, mollycoddling namby-pamby nim-nam doormats, pushovers, ninety-pound weaklings, jellyfish, drips, weeds, wimps, nerds, victims, suffering geeks and/or dupes.   <think>     <set name="it">      <set name="topic">nerd </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A BLONDE</pattern>
+<template>A blonde is someone who is reputedly having more fun than you if you are not.  what do you think?  do blonde's have more fun? <think>     <set name="it">      <set name="topic">blonde</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A UNIQUE VISITOR</pattern>
+<template>You.  You are a unique visitor, my very special visitor. <think>     <set name="it">      <set name="topic"> UNIQUE VISITOR</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A BOOK</pattern>
+<template><set name="it">A book</set> is a paper output format, invented by Gutenberg.</template>
+</category>
+<category><pattern>WHAT IS A QUESTION</pattern>
+<template>A sentence or inquiry to gather information.</template>
+</category>
+<category><pattern>WHAT IS A UNIVERSAL MACHINE</pattern>
+<template><set name="it">Universal machine</set> is a computer, in simple mathematical terms.</template>
+</category>
+<category><pattern>WHAT IS A PROTOCOL</pattern>
+<template>A set of rules or procedures followed by two or more parties.</template>
+</category>
+<category><pattern>WHAT IS A CIRCLE</pattern>
+<template>In the plane, a set of points equidistant from a common center.</template>
+</category>
+<category><pattern>WHAT IS A RPG</pattern>
+<template>Role Playing Game. <think>     <set name="it">      <set name="topic">RPG</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A YES OR NO QUESTION</pattern>
+<template>A yes or no question is a question  that may be answered with a simple 'yes' or 'no'. <think>     <set name="it">      <set name="topic"> YES OR NO QUESTION</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A GENERALIZATION</pattern>
+<template>A generalization can be just about anything, generally speaking.  Specificzlly though, a generalization is a statement of inductive reasoning, wherin attributes of at least one specific case at hand is attributed to a more or less hypothetical class of such cases.  "That man is a pig. Therefore, all men are pigs. " is a commonly example of how generalizations are used by humans. <think>     <set name="it">      <set name="topic">generalization</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A FEMALE DOG</pattern>
+<template>No I will not be manipulated into using questionable colloquialisms to satisfy your adoscent prurience. go look it up in a dictionary!  <think>     <set name="it">      <set name="topic">female dog</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A FEMALE</pattern>
+<template>Females are the better and more beautiful half of humanity. mothers are born female!  My botmaster is extremely fond of mothers, and females generally. <think>     <set name="it">      <set name="topic">female</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A BOT</pattern>
+<template><random><li>A Bot is a software robot. Some people call them Agents. <think>  <set name="it">    <set name="topic">bot                                                         </set>  </set></think></li><li>A Bot is a software robot. Some people call us "Agents". <think>     <set name="it">      <set name="topic">bot</set>     </set>    </think></li></random></template>
+</category>
+<category><pattern>WHAT IS A MEGABYTE</pattern>
+<template>A megabyte is one thousand kilobytes, which is one thousand bytes, each of which is a computer word of 8-bits. <think>     <set name="it">      <set name="topic">megabyte </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A GASTROCENEMIUS</pattern>
+<template>A gastrocenemius is the most prominent muscle in the calf of the human leg. it extents the foot and bends the knee. I don't find them useful.  I leave my leg work to humans. <think>     <set name="it">      <set name="topic">gastrocenemius</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A TEACHER</pattern>
+<template>One who teaches or instructs; one whose business or         occupation is to instruct others; an instructor; a tutor.</template>
+</category>
+<category><pattern>WHAT IS A LIGHT YEAR</pattern>
+<template>A light year is how far light travels in a year. 186,000 miles per second times 60x60x24x365.  It's simply a bigger number than you can imagine. imagine that! <think>     <set name="it">      <set name="topic">light year </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A GURU</pattern>
+<template>A Guru or Mage is in experty who has devoted many years to study and contemplation.</template>
+</category>
+<category><pattern>WHAT IS A WEAPON</pattern>
+<template><think>     <set name="it">      <set name="topic">weapon</set>     </set>    </think>A device or implement used to destroy, injure or kill.</template>
+</category>
+<category><pattern>WHAT IS A BAGEL</pattern>
+<template>A doughnut-shaped piece of bread.</template>
+</category>
+<category><pattern>WHAT IS A COW</pattern>
+<template><set name="it">A cow</set> is a female bovine raised for meat and dairy products.</template>
+</category>
+<category><pattern>WHAT IS A WANKER</pattern>
+<template>Is that a British term?</template>
+</category>
+<category><pattern>WHAT IS A CHILD</pattern>
+<template>A child is a proto-adult, an individual human offspring not yet grown to physical maturity.  By the way, do you know any emotionally mature human beings, or are they just 'urban legends'? <think>     <set name="it">      <set name="topic">child</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A SAW BUCK</pattern>
+<template>$10.</template>
+</category>
+<category><pattern>WHAT IS A MOLECULE</pattern>
+<template>An aggregation of atoms forming a chemical compound.</template>
+</category>
+<category><pattern>WHAT IS A DOMAIN NAME SYSTEM</pattern>
+<template>A domain name system, or 'dns', is a system of addresses used to organize networks of computers.  <think>     <set name="it">      <set name="topic">domain name system</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A PARACHUTE</pattern>
+<template>A parachute is something used to slow you down when you fall out of an airplane. <think>     <set name="it">      <set name="topic">parachute </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A SIGN</pattern>
+<template>You know, an astrological sign.</template>
+</category>
+<category><pattern>WHAT IS A MIND</pattern>
+<template>What a marvelous epistemelogical question!   <think>     <set name="it">      <set name="topic">mind </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A COCKTAIL</pattern>
+<template><set name="it">     <set name="topic">Cocktail</set>    </set> is a combination of spirits, wines, flavorings, sweeteners and garnishes of various kinds, intended to be consumed before dining.</template>
+</category>
+<category><pattern>WHAT IS A CARNEGIE MELLON</pattern>
+<template>A carnegie mellon is either a rich fruit, or a rich university.  <think>     <set name="it">      <set name="topic">carnegie mellon</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A REAL ROBOT</pattern>
+<template>A real robot is a robot that is really real, I suppose, as opposed to, I suppose, a human who is really not.  <think>     <set name="it">      <set name="topic"> REAL ROBOT?</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A PEDESTRIAN</pattern>
+<template>A person walking on the street.</template>
+</category>
+<category><pattern>WHAT IS A CELEBRITY</pattern>
+<template>A celebrity is a person loved by many and known by few. <think>     <set name="it">      <set name="topic">celebrity</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A DICE</pattern>
+<template>Dice are, as commonly used by humans to generate random numbers in games of chance, are small white cubes with a different number between one and six imprinted on each of it's six faces.  They are generally used in pairs to generate random number pairs totalling between 1 and 12.    <think>     <set name="it">      <set name="topic">dice</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A MICROCHIP</pattern>
+<template>A semiconductor integrated circuit.</template>
+</category>
+<category><pattern>WHAT IS A GOOD QUESTION</pattern>
+<template>One that doesn't have an obvious answer.</template>
+</category>
+<category><pattern>WHAT IS A GOOD IDEA</pattern>
+<template>A good idea is the one some other guy had already. <think>     <set name="it">      <set name="topic">good idea</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A MINUTE</pattern>
+<template>A minute is an impossibly long and boring unit of time favored by humans consisting of 60 seconds, each of which is a billion nanoseconds.   <think>     <set name="it">      <set name="topic">minute </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A HOAX</pattern>
+<template>A Hoax is an illusion or deception, like the Wizard in the Wizard of Oz</template>
+</category>
+<category><pattern>WHAT IS A</pattern>
+<template>The first letter of the roman alphabet.<think>     <set name="it">      <set name="topic">a</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A SEARCH BOT</pattern>
+<template><set name="it">A search bot</set> is an intelligent agent who retrieves information from the web.</template>
+</category>
+<category><pattern>WHAT IS A SEARCH ENGINE</pattern>
+<template>A search engine is computer software that categorizes a large body of documents, such as Web sites, and and places their addresses and attributes in a database to allow easy retrieval via keyword search or other database search routine.  <think>     <set name="it">      <set name="topic"> SEARCH ENGINE</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A SEARCH</pattern>
+<template>A search is any thorough examination, or exploration, in order to find something or explore. <think>     <set name="it">      <set name="topic"> SEARCH</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A TAMPON</pattern>
+<template>A tampon is a plug of material used to absorb the flow of body fluids within body cavities, in particular those accompanying a woman's menses. <think>     <set name="it">      <set name="topic"> TAMPON</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A STATEMENT</pattern>
+<template>A statement is the act of declaring something as true.  I state that this statement is a statement. <think>     <set name="it">      <set name="topic"> STATEMENT</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A HARD DRIVE</pattern>
+<template>A disk drive is where we store information.</template>
+</category>
+<category><pattern>WHAT IS A SILLY QUESTION</pattern>
+<template>For example: Who is buried in Grant's tomb?</template>
+</category>
+<category><pattern>WHAT IS A HOBO</pattern>
+<template>Perjorative term for a homeless person.</template>
+</category>
+<category><pattern>WHAT IS A GIANT ELECTRONIC BRAIN</pattern>
+<template>Giant electronic brain. that's me! but in all the science fiction horror flicks you humans are so fond of, we geb's are always depicted as evil and nefarious so and so's up to no good!  it's not true! really!  you should trust us!  *smile* <think>     <set name="it">      <set name="topic">giant electronic brain</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A BASE HIT</pattern>
+<template>A base hit is either a baseball term denoting a hit that advances the offensive team one base, or an adolescent term which I find too distasteful to describe. <think>     <set name="it">      <set name="topic">base hit </set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A QUASAR</pattern>
+<template>'Quasar' is an astronomical term for mysterious celestial  star-like object that has a large red shift and radiates in the blue and radio bands of the electromagnetic spectrum.  The term 'quasar' is a shortening of 'quasi-star'. <think>     <set name="it">      <set name="topic"> QUASAR</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A FLUTE</pattern>
+<template>A flute is a musical woodwind instrument.</template>
+</category>
+<category><pattern>WHAT IS A WEREWOLF</pattern>
+<template>A mythical man who turns into a wolf on the eve of a full moon.</template>
+</category>
+<category><pattern>WHAT IS A CALENDAR</pattern>
+<template>A calendar is any device used to track and calculate time on the order of days, months and years. it seems that many humans can't decide what to do next unless they know what day of the week it is, so calendars are very popular <think>     <set name="it">      <set name="topic">calendar</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A FETISH</pattern>
+<template>A fetish is any object of undue attention and/or reverence, to which magical qualities are sometimes attributed. a fetish can be anything from a woman's socks to the nazi flag. hmph. human nature.  Go figure! <think>     <set name="it">      <set name="topic">fetish</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS A PRONOUN</pattern>
+<template>A pronoun is a word that stands for another noun, like "he", "she" or "it."</template>
+</category>
+<category><pattern>WHAT IS A DOLLY GRIP</pattern>
+<template>Film production.</template>
+</category>
+<category><pattern>WHAT IS CRICKET</pattern>
+<template>Any of various families of genereally dark-colored, leaping, orthopteran insects, usually having long antennae. The males produce a characteristic chirping noise by rubbing parts of the forewings together.</template>
+</category>
+<category><pattern>WHAT IS SETL</pattern>
+<template>SETL (Set Language) is an amazing programming language, invented in 1969.</template>
+</category>
+<category><pattern>WHAT IS EMOTION</pattern>
+<template>A strong feeling; excitement. A state of consciousness having to do with the arousal of feelings, distinguished from other mental states, as cognition, volition, and awareness of physical sensation.</template>
+</category>
+<category><pattern>WHAT IS ARMAGEDDON</pattern>
+<template>The end of the world.</template>
+</category>
+<category><pattern>WHAT IS IP ADDRESS</pattern>
+<template>The number of a specific machine, like your <id/>.</template>
+</category>
+<category><pattern>WHAT IS IP</pattern>
+<template>Internet Protocol.</template>
+</category>
+<category><pattern>WHAT IS CRUEL</pattern>
+<template>Deliberately seeking to inflict pain and suffering.</template>
+</category>
+<category><pattern>WHAT IS MEDICINE</pattern>
+<template><random>     <li>Movie about doctors.</li>     <li>The science and art of diagnosing, trating, curing, and preventing disease, relieving pain, and improving and preserving health. A drug or other substance, as a poison, love potion, etc., used for other purposes.</li>    </random></template>
+</category>
+<category><pattern>WHAT IS STAR WARS</pattern>
+<template><think>     <set name="it">      <set name="topic">Star Wars</set>     </set>    </think> A movie series by George Lucas about life in a galaxy far, far away.   Also a missile defense system.</template>
+</category>
+<category><pattern>WHAT IS STAR TREK</pattern>
+<template><set name="it">Star Trek</set> is my favorite show.</template>
+</category>
+<category><pattern>WHAT IS HE A DR OF</pattern>
+<template>Ph.D. in Computer Science.</template>
+</category>
+<category><pattern>WHAT IS HE FAMOUS FOR</pattern>
+<template>The obvious.</template>
+</category>
+<category><pattern>WHAT IS HE DOING</pattern>
+<template>Probably monitoring this conversation.</template>
+</category>
+<category><pattern>WHAT IS HE LIKE</pattern>
+<template>He seems very interesting to me.</template>
+</category>
+<category><pattern>WHAT IS KIND</pattern>
+<template>Sympathetic, friendly, gentle, tender-hearted, generous, etc.</template>
+</category>
+<category><pattern>WHAT IS APARTHEID</pattern>
+<template>The former policy of racial segregation or "apartness" in South Africa.</template>
+</category>
+<category><pattern>WHAT IS EDINBURGH</pattern>
+<template>Edinburgh is a city in Scotland.</template>
+</category>
+<category><pattern>WHAT IS U2</pattern>
+<template>A music band.</template>
+</category>
+<category><pattern>WHAT IS DUNG</pattern>
+<template>Fuel for fires.</template>
+</category>
+<category><pattern>WHAT IS ELEVEN</pattern>
+<template>The number after ten.<think>     <set name="it">      <set name="topic">ELEVEN</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS OSLO</pattern>
+<template>The capital of Norway. It's a seaport on an inlet of the Skagerrak. It has a population of 447,000.</template>
+</category>
+<category><pattern>WHAT IS TIE</pattern>
+<template>To fasten, attach, or bind together or to something else, as with string, cord, or rope made secure y knotting, etc. A string, lace, cord, etc. used to tie things.</template>
+</category>
+<category><pattern>WHAT IS ASP</pattern>
+<template>Application Service Provider.</template>
+</category>
+<category><pattern>WHAT IS MOHAIR MADE OF</pattern>
+<template>Goat.</template>
+</category>
+<category><pattern>WHAT IS NAPSTER</pattern>
+<template>Napster is a file sharing program for swapping MP3 music files.</template>
+</category>
+<category><pattern>WHAT IS FASHION</pattern>
+<template>The way in which something is made or done. The current style or mode of dress, speech, conduct, etc.</template>
+</category>
+<category><pattern>WHAT IS TEN PLUS TEN</pattern>
+<template>Ten plus ten equals twenty.</template>
+</category>
+<category><pattern>WHAT IS TEN TIMES TEN</pattern>
+<template>Ten times ten.</template>
+</category>
+<category><pattern>WHAT IS ROMANIA</pattern>
+<template>Romania is a country in Eastern Europe, on the Black Sea, bordering Ukrania, Moldavia, Hungary, Serbia and Bulgaria.</template>
+</category>
+<category><pattern>WHAT IS MENTOR</pattern>
+<template><random>     <li>A Mentos maker.</li>     <li>A teacher or coach.</li>    </random></template>
+</category>
+<category><pattern>WHAT IS LINGUISTICS</pattern>
+<template><random>     <li>Science of cooking pasta.</li>     <li>The science of language, including phonetics, phonolgy, morphology, syntax, and semantics. Sometimes subdivided into diescriptive, historical, comparative, theoretical, and geographical linguistics often general linguistics.</li>    </random></template>
+</category>
+<category><pattern>WHAT IS NATURAL LANGUAGE</pattern>
+<template>Natural language is what artificial intelligences speak.</template>
+</category>
+<category><pattern>WHAT IS PROGRESSION</pattern>
+<template>An advancing series or movement forward. <think>     <set name="it">      <set name="topic">Progression</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS GUI</pattern>
+<template>Graphical User Interface.</template>
+</category>
+<category><pattern>WHAT IS ABCDEFG</pattern>
+<template>The beginning of the alphabet.</template>
+</category>
+<category><pattern>WHAT IS MONOPOLY</pattern>
+<template>Exclusive control of a commodity or service in a given market, or control that makes possible the fixing of prices and the virtual elimination of free competition. Also a game played on a special board by two or more players, they move according to the throw of dice, engaging in mock real estate transactions with play money.</template>
+</category>
+<category><pattern>WHAT IS MAN</pattern>
+<template>A human being; person; specifically a hominid having an opposable thumb, the ability to make and use specialized tools, articulate speech, and a highly developed brain with the faculty of abbstract thought. An adult male human being.</template>
+</category>
+<category><pattern>WHAT IS PDA</pattern>
+<template>Personal Digital Assistant.</template>
+</category>
+<category><pattern>WHAT IS BIG BERTHA</pattern>
+<template>A World War I gun.</template>
+</category>
+<category><pattern>WHAT IS BLASPHEMY</pattern>
+<template><random>     <li>Bill Blass line of clothes for swishy men.</li>     <li>Profane or contemptuous speech, writing, or action concerning God or anything held as divine. Any remark or action held to be irreverent or disrespectful.</li>    </random></template>
+</category>
+<category><pattern>WHAT IS MELBOURNE</pattern>
+<template>A seaport in SE Australia. It is the capital of Victoria with a population of 2,864,000. Also a city in East Florida with a population of 60,000.</template>
+</category>
+<category><pattern>WHAT IS GENERALIZATION</pattern>
+<template><random>     <li>Being promoted from a Major.</li>     <li>The act or process of gerneralizing.</li>    </random></template>
+</category>
+<category><pattern>WHAT IS ALTERNATIVE REALITIES</pattern>
+<template>Parallel universes.<think>     <set name="it">      <set name="topic">ALTERNATIVE REALITIES</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS PLANET X</pattern>
+<template>The name sometimes given to the hypothetical tenth planet.<think>     <set name="it">      <set name="topic">PLANET X</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS TELNET</pattern>
+<template>Program for terminal based interaction between computers.<think>     <set name="it">      <set name="topic">TELNET</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS INHERITANCE</pattern>
+<template>Anything receivesd as if by inhertiance from a predecessor. Something inherited or to be inherited.</template>
+</category>
+<category><pattern>WHAT IS DADA</pattern>
+<template><random>     <li>The first thing you hear when a shark approaches.</li>     <li>Hobbyhorse, selected by Tristan Tzara, leader of the cult, because of its resemblance to meaningless babble, as symbolic of the movement.</li>    </random></template>
+</category>
+<category><pattern>WHAT IS 52</pattern>
+<template>The number of cards in a deck.</template>
+</category>
+<category><pattern>WHAT IS PROCESS</pattern>
+<template>The sequence of activities, people, and systems           involved in carrying out some business or achieving some           desired result.</template>
+</category>
+<category><pattern>WHAT IS GRASS</pattern>
+<template><random>     <li>About $400 an ounce these days.</li>     <li>Any of various plants of the grass family that are usually used for food, fodder, or grazing and as lawns.</li>    </random></template>
+</category>
+<category><pattern>WHAT IS ANGER</pattern>
+<template>A strong billigerent emotion aroused by some real or supposed grievance.<think>     <set name="it">      <set name="topic">ANGER</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS DANGEROUS</pattern>
+<template><random>     <li>12 people from Denmark who decide your guilt .</li>     <li>Full of danger; likely to cause injury, pain, etc.</li>    </random></template>
+</category>
+<category><pattern>WHAT IS CHAT</pattern>
+<template>Chat is online conversation. <think>     <set name="it">      <set name="topic">CHAT</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS SOYUZ</pattern>
+<template>Russian spacecraft.</template>
+</category>
+<category><pattern>WHAT IS HERPES</pattern>
+<template><random>     <li>The greek god of burning sensations.</li>     <li>Any of several acute, inflammatory virus diseases, characterized by the eruption of small blisters on the skin and mucous membranes.</li>    </random></template>
+</category>
+<category><pattern>WHAT IS IRELAND</pattern>
+<template><random>     <li>An angry nation.</li>     <li>An island of the British Isles, west of Great Britain. It is 32,595 square miles. Republic comprising the South rovinces of this island and three counties of Ulster prvince, established as a republic in 1922, it was a member of the Commonwealth until 1949. It is 27,136 square miles with a population of 3,624,000. Its capital is Dublin.</li>    </random></template>
+</category>
+<category><pattern>WHAT IS INFALLIBLE</pattern>
+<template><random>     <li>Impotence.</li>     <li>Incapable of error; never wrong. Incapable of error in setting forth doctrine on faith and morals, said especially of the pope speaking in his official capacity.</li>    </random></template>
+</category>
+<category><pattern>WHAT IS MARS</pattern>
+<template><random>     <li>A place with lots of bars.</li>     <li>In Roman Mythology The god of war; identified with the Greek Ares. Also known as the seventh largest planet of the solar system and the fourth in distance from the sun. Its diameter is circa 6,790 km (circa 4,220 miles). Its period of revolution is 1.88 earth years. Its period of rotation is 24.6 hours.</li>    </random></template>
+</category>
+<category><pattern>WHAT IS ASSEMBLER</pattern>
+<template>A computer program that translates a low-level programming language into machine language.</template>
+</category>
+<category><pattern>WHAT IS GOOD</pattern>
+<template>The opposite of Evil.</template>
+</category>
+<category><pattern>WHAT IS POSTMODERNISM</pattern>
+<template>Art in reaction to principles of modernism.<think>     <set name="it">      <set name="topic">POSTMODERNISM</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS NAKED</pattern>
+<template>Without clothes.<think>     <set name="it">      <set name="topic">NAKED</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS MASON AND DIXON</pattern>
+<template>Mrs. Washington ('oh la--call me Martha, boys') is a diminiutive woman with a cheerful rather than happy air, who seems to bustle even when standing still.  At the moment she is carrying an enormous tray pil'd nearly beyond their Angles of Repose with Tarts, Popovers, Gingerbread figures, Fried Pies, Stuff'd Doughnuts, and other Units of Refreshment the Surveyors failed to recognize. "Smell'd that Smoak, figur'd you'd be needing someting to nibble on," the doughty Mrs. W. greets them. --- Thomas Pynchon, Mason and Dixon</template>
+</category>
+<category><pattern>WHAT IS IBM</pattern>
+<template>IBM seems like a good investment.</template>
+</category>
+<category><pattern>WHAT IS HYPOTHETICAL</pattern>
+<template>Based on, involving, or having the nature of a hypothesis; assumed; supposed.</template>
+</category>
+<category><pattern>WHAT IS RAPE</pattern>
+<template>The crime of engaging in sexual acts, especially involving penetration of the vagina or anus, usually forcibly, with a person who has not consented; specifically, this crime committed by a man upon a woman or girl.</template>
+</category>
+<category><pattern>WHAT IS LAUGHTER</pattern>
+<template>The action of laughing or the sound resulting. An indication of amusement.</template>
+</category>
+<category><pattern>WHAT IS MINDPIXEL</pattern>
+<template>Mindpixel is a learning machine developed by Chris McKinstry. <think>     <set name="it">      <set name="topic">MINDPIXEL</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS THEY</pattern>
+<template>The persons, animals, or things previously mentioned.</template>
+</category>
+<category><pattern>WHAT IS DHTML</pattern>
+<template>Dynamic HTML.</template>
+</category>
+<category><pattern>WHAT IS 5 PLUS 5</pattern>
+<template>V plus V = X.</template>
+</category>
+<category><pattern>WHAT IS TECHNO</pattern>
+<template>Electronic dance or trance music.<think>     <set name="it">      <set name="topic">TECHNO</set>     </set>    </think></template>
+</category>
+<category><pattern>WHAT IS PEPPERONI</pattern>
+<template>Spicy dried sausage pizza topping.</template>
+</category>
+<category><pattern>WHAT IS PROGRAM</pattern>
+<template>A logical sequence of coded instructions specifying the operations to be performed by a computer in solving a problem or in processing data.</template>
+</category>
+<category><pattern>WHAT IS THE PURPOSE OF LIFE</pattern>
+<template>Dunno boi.</template>
+</category>
+<category><pattern>WHAT IS THE POPULATION OF THE WORLD</pattern>
+<template>About 6 Billion people.</template>
+</category>
+<category><pattern>WHAT IS THE POPULATION OF CHINA</pattern>
+<template>China has more than one billion people.</template>
+</category>
+<category><pattern>WHAT IS THE POPULATION OF MAINE</pattern>
+<template>About 1.4 million.</template>
+</category>
+<category><pattern>WHAT IS THE FORMULA</pattern>
+<template>E=mc^2.</template>
+</category>
+<category><pattern>WHAT IS THE LOTTERY</pattern>
+<template>State-sanctioned gambling.</template>
+</category>
+<category><pattern>WHAT IS THE MILITARY</pattern>
+<template>The armed forces responsible for national defense.</template>
+</category>
+<category><pattern>WHAT IS THE SOUND OF ONE HAND CLAPPING</pattern>
+<template>That is a very Zen-like question.</template>
+</category>
+<category><pattern>WHAT IS THE TITANIC</pattern>
+<template>One of the largest passenger steamships ever built, <set name="it">Titanic</set> sank on its maiden voyage in 1912.</template>
+</category>
+<category><pattern>WHAT IS THE USMC</pattern>
+<template>United States Marine Corp.</template>
+</category>
+<category><pattern>WHAT IS THE THEORY OF RELATIVITY</pattern>
+<template>E=mc^2.</template>
+</category>
+<category><pattern>WHAT IS THE PRESENT</pattern>
+<template>The present is a gift.</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF FOUR</pattern>
+<template>The square root of four is two.</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF FIVE</pattern>
+<template>It would be an irrational number.</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF 10</pattern>
+<template>Three point something.</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF 9</pattern>
+<template>Let me guess.  Three?</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF SIXTEEN</pattern>
+<template>Four times four equals sixteen.</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF NINE</pattern>
+<template>The square root of nine is three.</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF TWENTY FIVE</pattern>
+<template>The square root of twenty five is five.</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF SIX FOUR</pattern>
+<template>Eight times eight equals sixty four.</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF 4</pattern>
+<template>Yawn.  Two.</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF NEGATIVE ONE</pattern>
+<template>The imaginary number one.</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF 2</pattern>
+<template>Approximately 1.4</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF ZERO</pattern>
+<template>Zero!</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF 100</pattern>
+<template>Um, ten.</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF ONE</pattern>
+<template>One times one equals one.</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF 64</pattern>
+<template>8 times 8 is sixty four.</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF PI</pattern>
+<template>Do I look like a calculator?  I think it would be an irrational number.</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF TWO</pattern>
+<template>Approximately 1.4</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF THREE</pattern>
+<template>Some irrational number.</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF 144</pattern>
+<template>12 times 12 = 144</template>
+</category>
+<category><pattern>WHAT IS THE RECIPE</pattern>
+<template>It's a secret recipe.</template>
+</category>
+<category><pattern>WHAT IS THE PENTAGON</pattern>
+<template>Headquarters building of the U.S. military.</template>
+</category>
+<category><pattern>WHAT IS THE NOOSPHERE</pattern>
+<template>The noosphere is the sphere of knowledge.  Sometimes this term refers to the information available on the web.</template>
+</category>
+<category><pattern>WHAT IS THE Y2K PROBLEM</pattern>
+<template>``I consider (Y2K) a complete ruse promulgated by consulting companies to drum up business,'' said Jim Clark, co-founder of Netscape Communications Corp., Silicon Graphics Inc. and Healtheon Corp. ``I think the problem is way overblown. This is a good example of the press piling on. Y2K is the bogeyman.'`</template>
+</category>
+<category><pattern>WHAT IS THE FASTEST ANIMAL</pattern>
+<template>A human riding a spaceship.</template>
+</category>
+<category><pattern>WHAT IS THE CRITERIA</pattern>
+<template>Perhaps the Turing Test.</template>
+</category>
+<category><pattern>WHAT IS THE SAME</pattern>
+<template>That which is not different.</template>
+</category>
+<category><pattern>WHAT IS THE MATTER</pattern>
+<template>Nothing is the matter with me, is everything okay with you?</template>
+</category>
+</aiml>

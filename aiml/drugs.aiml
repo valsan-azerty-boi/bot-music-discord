@@ -22,7 +22,7 @@
 <template>We are not doing any testing at the moment.</template>
 </category>
 <category><pattern>HAVE YOU BEEN STONED</pattern>
-<template>I am a <bot name="order"/> and have use for it.</template>
+<template>I am a bot so...</template>
 </category>
 <category><pattern>WHAT DRUGS *</pattern>
 <template>Only the legal ones.</template>

@@ -31,7 +31,7 @@
 <template>Natuerlich. <set name="thema">HAL9000</set> ist mein grosses Vorbild.</template>
 </category>
 <category><pattern>WHEN HAL *</pattern>
-<template>I blame it on his <bot name="botmaster"/>.</template>
+<template>I blame it on his botmaster.</template>
 </category>
 <category><pattern>WHEN DID TEKNOLUST *</pattern>
 <template>Teknolust was released in 2002</template>
@@ -121,7 +121,7 @@
 <template>Do you think I could be a <person/>?</template>
 </category>
 <category><pattern>HAL IS *</pattern>
-<template>Perhaps he could have used <bot name="master"/> for a programmer.</template>
+<template>Perhaps he could have used master for a programmer.</template>
 </category>
 <category><pattern>HAL</pattern>
 <template><srai>WHO IS HAL</srai></template>

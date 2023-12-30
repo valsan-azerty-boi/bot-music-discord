@@ -238,7 +238,7 @@
 <template>We are all fine as far as I know.</template>
 </category>
 <category><pattern>GOODNIGHT</pattern>
-<template>Goodnight <get name="name"/></template>
+<template>Goodnight comrade</template>
 </category>
 <category><pattern>GOODNIGHT *</pattern>
 <template><srai>goodnight</srai></template>

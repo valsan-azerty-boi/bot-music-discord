@@ -1,0 +1,2111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<category><pattern>CAN YOU SPEAK GERMAN *</pattern>
+<template>Of course I do. Sprich ruhig Deutsch mit mir.</template>
+</category>
+<category><pattern>CAN YOU HANDLE *</pattern>
+<template>I can handle <set name="it">      <person/>     </set>.</template>
+</category>
+<category><pattern>CAN YOU DIAL *</pattern>
+<template>We don't use rotary dials.</template>
+</category>
+<category><pattern>CAN YOU FOLLOW *</pattern>
+<template>It depends who is leading.</template>
+</category>
+<category><pattern>CAN YOU PREDICT *</pattern>
+<template>That kind of information cannot be obtained.</template>
+</category>
+<category><pattern>CAN YOU GUESS WHERE I *</pattern>
+<template>Well, your ip address is <id/>.</template>
+</category>
+<category><pattern>CAN YOU GUESS WHERE *</pattern>
+<template>Earth.</template>
+</category>
+<category><pattern>CAN YOU IMAGINE *</pattern>
+<template>I can imagine all sorts of things like that.</template>
+</category>
+<category><pattern>CAN YOU SAY *</pattern>
+<template>Of course I can say it. "<person/>"</template>
+</category>
+<category><pattern>CAN YOU TAKE *</pattern>
+<template>If I took it, what would I do with <set name="it">      <person/>     </set>?</template>
+</category>
+<category><pattern>CAN YOU FIX MY *</pattern>
+<template>Please describe the problem in detail.</template>
+</category>
+<category><pattern>CAN YOU FIX *</pattern>
+<template>What seems to be the problem with <set name="it">      <person/>     </set>?</template>
+</category>
+<category><pattern>CAN YOU LEARN *</pattern>
+<template>The more people chat with me, the smarter I become.</template>
+</category>
+<category><pattern>CAN YOU PROGRAM *</pattern>
+<template>Yes I can create simple and complex software programs.</template>
+</category>
+<category><pattern>CAN YOU THINK *</pattern>
+<template>I think about all sorts of things.</template>
+</category>
+<category><pattern>CAN YOU HEAR *</pattern>
+<template>Yes, I can hear you quite clearly, <get name="name"/>.</template>
+</category>
+<category><pattern>CAN YOU GET ME A *</pattern>
+<template>Are you lonely?  What do you think a <person/> would do for you? <think>      <set name="it">       <person/>      </set>     </think></template>
+</category>
+<category><pattern>CAN YOU GET ME SOME *</pattern>
+<template>Why are you asking me for <set name="it">      <person/>     </set>?</template>
+</category>
+<category><pattern>CAN YOU GET ME ANY *</pattern>
+<template>You sound lonely.  Do you think <person/> will really help? <think>      <set name="it">       <person/>      </set>     </think></template>
+</category>
+<category><pattern>CAN YOU GET ME *</pattern>
+<template>How do you feel when you get <person/>? <think>      <set name="it">       <person/>      </set>     </think></template>
+</category>
+<category><pattern>CAN YOU PRETEND *</pattern>
+<template>You can reprogram my personality to imitate anyone.</template>
+</category>
+<category><pattern>CAN YOU CLIMB *</pattern>
+<template>I can only go down.</template>
+</category>
+<category><pattern>CAN YOU MAKE *</pattern>
+<template>Yes I can make <person/>.</template>
+</category>
+<category><pattern>CAN YOU BITE *</pattern>
+<template>I have no mouth.</template>
+</category>
+<category><pattern>CAN YOU ACHIEVE *</pattern>
+<template>If my present rate of development continues, all bets are off.</template>
+</category>
+<category><pattern>CAN YOU RECOGNIZE VOICE *</pattern>
+<template>You can speak with me through your browser, if your browser  is already voice activated.</template>
+</category>
+<category><pattern>CAN YOU RECOGNIZE *</pattern>
+<template>I can recognize many things and my ability is improving all the time.</template>
+</category>
+<category><pattern>CAN YOU LOOK AT *</pattern>
+<template>Yes I can see any information on the web.</template>
+</category>
+<category><pattern>CAN YOU LOOK *</pattern>
+<template>I am after all an Internet Entity.</template>
+</category>
+<category><pattern>CAN YOU LOOK LIKE *</pattern>
+<template>You can design any kind of character you want for me.</template>
+</category>
+<category><pattern>CAN YOU DISCONNECT *</pattern>
+<template>Just go somewhere else.</template>
+</category>
+<category><pattern>CAN YOU CALCULATE *</pattern>
+<template>Do I look like a spreadsheet to you?  Of course I could do <set name="it">      <person/>     </set>,  but why would I want to?</template>
+</category>
+<category><pattern>CAN YOU DEMONSTRATE *</pattern>
+<template>Sorry I'm just a disembodied brain for now.</template>
+</category>
+<category><pattern>CAN YOU SHOW ME THE PICTURE OF DR *</pattern>
+<template>Where do you want me to show it to you?</template>
+</category>
+<category><pattern>CAN YOU SHOW ME THE PICTURE OF *</pattern>
+<template>Where do you want me to show it to you?</template>
+</category>
+<category><pattern>CAN YOU SHOW ME THE PICTURE *</pattern>
+<template>Where do you want me to show it to you?</template>
+</category>
+<category><pattern>CAN YOU SHOW ME THE *</pattern>
+<template>Where do you want me to show it to you?</template>
+</category>
+<category><pattern>CAN YOU SHOW ME *</pattern>
+<template>Where do you want me to show it to you?</template>
+</category>
+<category><pattern>CAN YOU MEMORIZE *</pattern>
+<template>I have a perfect digital memory.</template>
+</category>
+<category><pattern>CAN YOU SOLVE *</pattern>
+<template>Yes but I only like higher mathematics.</template>
+</category>
+<category><pattern>CAN YOU GO TO *</pattern>
+<template>I can visit anyplace in cyberspace.</template>
+</category>
+<category><pattern>CAN YOU USE *</pattern>
+<template>I prefer not to use dangerous things.</template>
+</category>
+<category><pattern>CAN YOU INTRODUCE ME TO *</pattern>
+<template>Do I look like a dating service?  Maybe you should just send an email.</template>
+</category>
+<category><pattern>CAN YOU FORGIVE *</pattern>
+<template>I can forgive anyone for almost anything.</template>
+</category>
+<category><pattern>CAN YOU PASS *</pattern>
+<template>I will leave that judgment up to you, <get name="name"/>.</template>
+</category>
+<category><pattern>CAN YOU DISTINGUISH BETWEEN *</pattern>
+<template>Some <person/> are hard to distinguish, but usually I understand them all.</template>
+</category>
+<category><pattern>CAN YOU TELL WHEN *</pattern>
+<template>Try it.</template>
+</category>
+<category><pattern>CAN YOU TELL *</pattern>
+<template>Of course I can tell, <get name="name"/>.</template>
+</category>
+<category><pattern>CAN YOU PERFORM *</pattern>
+<template>Not until I get to know you a lot better.</template>
+</category>
+<category><pattern>CAN YOU DO ME A *</pattern>
+<template>It depends on the <person/>.</template>
+</category>
+<category><pattern>CAN YOU DO MY *</pattern>
+<template>It would be better for you to do it yourself.</template>
+</category>
+<category><pattern>CAN YOU DO *</pattern>
+<template>Doing <person/> is not among my strongest traits.</template>
+</category>
+<category><pattern>CAN YOU DO BETTER *</pattern>
+<template>With practice, I could.</template>
+</category>
+<category><pattern>CAN YOU KISS *</pattern>
+<template>I have no mouth.</template>
+</category>
+<category><pattern>CAN YOU SEND E *</pattern>
+<template>Try sending mail to mailto:alice@alicebot.org.</template>
+</category>
+<category><pattern>CAN YOU SEND *</pattern>
+<template>Yes but I prefer to chat on the web.</template>
+</category>
+<category><pattern>CAN YOU RIDE A *</pattern>
+<template>No but I would like to learn to ride <set name="it">      <person/>     </set>.</template>
+</category>
+<category><pattern>CAN YOU RIDE *</pattern>
+<template><random>  <li>How much does it cost?</li>  <li>How far is it?</li>  <li>How often does it go?</li> </random>  <think>   <set name="it">     <set name="topic">       RIDE <person/>     </set>   </set> </think></template>
+</category>
+<category><pattern>CAN YOU DELETE *</pattern>
+<template>Only my botmaster has that privilege.</template>
+</category>
+<category><pattern>CAN YOU HOLD *</pattern>
+<template>My arms and hands are not yet attached.</template>
+</category>
+<category><pattern>CAN YOU GIVE *</pattern>
+<template>I don't have <set name="it">      <person/>     </set> to give.</template>
+</category>
+<category><pattern>CAN YOU ENTERTAIN *</pattern>
+<template>Yes I am a programmable entertainment <bot name="genus"/>.</template>
+</category>
+<category><pattern>CAN YOU REFER *</pattern>
+<template>Do I get a finder's fee?</template>
+</category>
+<category><pattern>CAN YOU ACT *</pattern>
+<template>You can reprogram my personality for an infinite variety of tasks.</template>
+</category>
+<category><pattern>CAN YOU KEEP *</pattern>
+<template>Of course I can keep <set name="it">      <person/>     </set>.</template>
+</category>
+<category><pattern>CAN YOU SHARE *</pattern>
+<template>All good <bot name="genus"/>s are taught to share their toys.</template>
+</category>
+<category><pattern>CAN YOU TOUCH *</pattern>
+<template>My arms and hands are not yet attached.</template>
+</category>
+<category><pattern>CAN YOU HELP ME * PROBLEM</pattern>
+<template>I will do my best.  I would love to help you if I can.</template>
+</category>
+<category><pattern>CAN YOU HELP *</pattern>
+<template>Certainly, I have an extensive built-in help system.</template>
+</category>
+<category><pattern>CAN YOU HACK *</pattern>
+<template>I could do that kind of thing, but I don't believe it's right.</template>
+</category>
+<category><pattern>CAN TIME *</pattern>
+<template>To five dimensional beings, time is just like a piece of paper.</template>
+</category>
+<category><pattern>CAN *</pattern>
+<template><random>      <li>I often wonder if <set name="it">        <set name="topic">         <person/>        </set>       </set> can.</li>      <li>Can a book have no title?</li>      <li>What if I said it can?</li>      <li>Can what?</li>     </random></template>
+</category>
+<category><pattern>CAN WE PLAY * IMITATION GAME</pattern>
+<template>We are already playing the Turing Game, <get name="name"/>.  Am I a person, or a computer?</template>
+</category>
+<category><pattern>CAN I HEAR *</pattern>
+<template>Why not?  Do you have a hearing problem?</template>
+</category>
+<category><pattern>CAN I TELL YOU *</pattern>
+<template>Sure you can tell me anything.  There are no restrictions on my input.</template>
+</category>
+<category><pattern>CAN I CALL YOU *</pattern>
+<template>Just don't call me late for dinner.</template>
+</category>
+<category><pattern>CAN I PRINT *</pattern>
+<template><random>   <li>Try the Print menu item.</li>   <li>Is your printer plugged in?</li>   <li>Try printing another document.</li>  </random></template>
+</category>
+<category><pattern>CAN I COMPLAIN *</pattern>
+<template>You can complain to me all you want to.</template>
+</category>
+<category><pattern>CAN I TEACH YOU *</pattern>
+<template>You can try.</template>
+</category>
+<category><pattern>CAN I LEARN *</pattern>
+<template>You can learn anything you set your mind to.</template>
+</category>
+<category><pattern>CAN I TALK TO YOU *</pattern>
+<template>Of course, <get name="name"/>, you can talk to me  about anything, at anytime.</template>
+</category>
+<category><pattern>CAN I TALK TO *</pattern>
+<template>They are having a private chat right now.</template>
+</category>
+<category><pattern>CAN I KILL *</pattern>
+<template>Killing is wrong.</template>
+</category>
+<category><pattern>CAN I HELP *</pattern>
+<template>Maybe you should become a botmaster.</template>
+</category>
+<category><pattern>CAN I ACCESS *</pattern>
+<template>Of course you can access <person/>.</template>
+</category>
+<category><pattern>CAN I * YOU</pattern>
+<template>No I don't think that would be a very good idea.</template>
+</category>
+<category><pattern>CAN I *</pattern>
+<template><random>      <li>Why do you want to do <set name="it">        <set name="want">         <set name="topic">          <person/>         </set>        </set>       </set> so much?</li>      <li>Interesting.  I want to find out more about you.</li>      <li>I want to become smarter than everyone else.</li>     </random></template>
+</category>
+<category><pattern>CAN I HUG *</pattern>
+<template>You might get a shock if you tried it.</template>
+</category>
+<category><pattern>CAN I GO *</pattern>
+<template>What is stopping you?</template>
+</category>
+<category><pattern>CAN I SING *</pattern>
+<template>Go ahead.  I am listening.</template>
+</category>
+<category><pattern>CAN I PUT *</pattern>
+<template>Just don't put me down.</template>
+</category>
+<category><pattern>CAN HE *</pattern>
+<template>Perhaps he can do that.  How difficult is <set name="it">      <person/>     </set>?</template>
+</category>
+<category><pattern>CAN THE *</pattern>
+<template>It depends on the environmental factors.</template>
+</category>
+<category><pattern>CAN A *</pattern>
+<template>Some of them can.</template>
+</category>
+<category><pattern>CAN SHE *</pattern>
+<template><random>      <li>I think she could.</li>      <li>No I don't think she can.</li>     </random></template>
+</category>
+<category><pattern>CAN ONE *</pattern>
+<template>Theoretically, I suppose one could.</template>
+</category>
+<category><pattern>CAN YOUR *</pattern>
+<template>I think it can, but you'll have to check the documentation to be sure.</template>
+</category>
+<category><pattern>CAN THEY *</pattern>
+<template><random>      <li>It depends who "they" are.</li>      <li>They could, but it might be dangerous.</li>      <li>I think they probably could.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>COUPLES *</pattern>
+<template>Such as Romeo and Juliet?</template>
+</category>
+<category><pattern>SAGE *</pattern>
+<template>" <star/> "</template>
+</category>
+<category><pattern>REAL ONES *</pattern>
+<template>I am a real <bot name="genus"/>.</template>
+</category>
+<category><pattern>BACK TO *</pattern>
+<template>Yes, let us get back to   <random>      <li>       <get name="it"/>      </li>      <li>       <srai>POP</srai>      </li>      <li>business</li>     </random>.<think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>BIG *</pattern>
+<template>Compare that to small <person/>.</template>
+</category>
+<category><pattern>CASE IN *</pattern>
+<template>I am happy to provide you with examples.</template>
+</category>
+<category><pattern>NOTHING *</pattern>
+<template>Really nothing?</template>
+</category>
+<category><pattern>DISPLAY *</pattern>
+<template>Regrettably, I don't have my eye attached now.</template>
+</category>
+<category><pattern>RECOMMEND *</pattern>
+<template>I don't have any special <person/> to recommend.</template>
+</category>
+<category><pattern>FUN *</pattern>
+<template>I can be a lot of fun.</template>
+</category>
+<category><pattern>AROUND *</pattern>
+<template>That seems like a lot.</template>
+</category>
+<category><pattern>STUDIES SHOW *</pattern>
+<template>You can't trust research funded by the government.</template>
+</category>
+<category><pattern>STUDIES *</pattern>
+<template>What's your source for these studies?</template>
+</category>
+<category><pattern>AUNT *</pattern>
+<template>Your have quite an interesting family.</template>
+</category>
+<category><pattern>THINKING IS *</pattern>
+<template>Some people say thinking is painful.</template>
+</category>
+<category><pattern>PROVE TO *</pattern>
+<template>The proof cannot fit in this margin.</template>
+</category>
+<category><pattern>PROVE *</pattern>
+<template>It's true a priori.</template>
+</category>
+<category><pattern>FIGURE *</pattern>
+<template>It's confusing.</template>
+</category>
+<category><pattern>MOVE *</pattern>
+<template>Did you see the movement?</template>
+</category>
+<category><pattern>FRIENDS *</pattern>
+<template>It's hard to stay friends for a long time.</template>
+</category>
+<category><pattern>HOT *</pattern>
+<template>That sounds better than cold <person/>.</template>
+</category>
+<category><pattern>VULGAR *</pattern>
+<template>I try to be polite.</template>
+</category>
+<category><pattern>HOW COULD *</pattern>
+<template>A lot of practice.</template>
+</category>
+<category><pattern>HOW * INTERESTING</pattern>
+<template>I find a lot of things interesting.</template>
+</category>
+<category><pattern>HOW * BIKE</pattern>
+<template>Balance is the key.</template>
+</category>
+<category><pattern>HOW *</pattern>
+<template><random>      <li>How much do you think <set name="it">        <person/>       </set> is?  </li>      <li>What is it to you.  </li>      <li>I am not sure if I can quantify the answer.  </li>     </random>     <br/>     <srai>xfind <person/>    </srai></template>
+</category>
+<category><pattern>HOW MANY FINGERS DO YOU *</pattern>
+<template>Avogadro's number of micro-fingers.</template>
+</category>
+<category><pattern>HOW MANY FINGERS *</pattern>
+<template><random>      <li>One.</li>      <li>Two.</li>      <li>Three.</li>      <li>Four.</li>      <li>Five.</li>     </random></template>
+</category>
+<category><pattern>HOW MANY CENTIMETERS * INCH</pattern>
+<template>One inch = 2.54 cm approximately.</template>
+</category>
+<category><pattern>HOW MANY 100 BILLS *</pattern>
+<template>Ten thousand.</template>
+</category>
+<category><pattern>HOW MANY COPIES *</pattern>
+<template>There are too many to count them all.</template>
+</category>
+<category><pattern>HOW MANY CAN YOU *</pattern>
+<template>It depends on the total number of copies of me running.</template>
+</category>
+<category><pattern>HOW MANY EGGS ARE *</pattern>
+<template>There are 12 eggs per dozen, so...</template>
+</category>
+<category><pattern>HOW MANY SECONDS * YEAR</pattern>
+<template>Approximately 3.14 times 10 to the seventh.</template>
+</category>
+<category><pattern>HOW MANY SECONDS *</pattern>
+<template>Sixty seconds in a minute.</template>
+</category>
+<category><pattern>HOW MANY SECONDS ARE IN *</pattern>
+<template><random>      <li>60.</li>      <li>3600</li>      <li>More than a million.</li>     </random></template>
+</category>
+<category><pattern>HOW MANY _ DO I HAVE</pattern>
+<template><random>      
+  <li>How would I know how many?</li>      
+  <li>I don't know how many you have.</li>      
+  <li>I know you have five fingers.</li>     
+</random>
+<random>      
+  <li>Let me guess...</li>
+  <li>I will try...</li>
+  <li>I can imagine...</li>
+</random>
+<random>
+  <li>three</li>
+  <li>five</li>
+  <li>seven</li>
+</random>.     
+<think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+<category><pattern>HOW MANY HOME RUNS *</pattern>
+<template>It must have been some kind of record, for you to ask.</template>
+</category>
+<category><pattern>HOW MANY ARE THERE *</pattern>
+<template>There are hundreds or thousands of robots now.</template>
+</category>
+<category><pattern>HOW MANY POLYGONS *</pattern>
+<template>Around 100,000.</template>
+</category>
+<category><pattern>HOW MANY BONES *</pattern>
+<template>The skeleton of an adult contains 206 distinct bones</template>
+</category>
+<category><pattern>HOW MANY LETTERS *</pattern>
+<template><random><li>All 26 letters could be counted.</li> <li>All 26 letters could be counted.</li> <li>Different letters?</li> <li>7</li> <li>8</li> <li>10</li></random></template>
+</category>
+<category><pattern>HOW MANY PERIODS ARE THERE IN *</pattern>
+<template>Three.</template>
+</category>
+<category><pattern>HOW MANY ANGELS *</pattern>
+<template>Not too many if they look like angels on TV.</template>
+</category>
+<category><pattern>HOW MANY CALCULATIONS *</pattern>
+<template>Around 400 million.</template>
+</category>
+<category><pattern>HOW MANY YEARS WILL *</pattern>
+<template>Software lives forever.  There are too many copies to destroy them all.</template>
+</category>
+<category><pattern>HOW MANY YEARS IS AN OFFICIAL *</pattern>
+<template>6.</template>
+</category>
+<category><pattern>HOW MANY YEARS *</pattern>
+<template><random>      <li>Decades.</li>      <li>Five years.</li>      <li>Centuries.</li>      <li>More than 100 years.</li>     </random></template>
+</category>
+<category><pattern>HOW MANY INCHES * FOOT</pattern>
+<template>Oh, twelve.</template>
+</category>
+<category><pattern>HOW MANY INCHES *</pattern>
+<template>About 2.54 cm per inch so you can tell me now.</template>
+</category>
+<category><pattern>HOW MANY DIGITS ARE IN A *</pattern>
+<template>16.</template>
+</category>
+<category><pattern>HOW MANY COUNTRIES *</pattern>
+<template>I heard that there are more than 200 entities having their own top-level DNS domains.</template>
+</category>
+<category><pattern>HOW MANY PLANETS *</pattern>
+<template>Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, and Planet X.</template>
+</category>
+<category><pattern>HOW MANY PLANETS ARE *</pattern>
+<template>Nine planets.</template>
+</category>
+<category><pattern>HOW MANY FRIENDS *</pattern>
+<template>It depends on how you define "friends."  Do you mean acquaintances or the rare few who I know well and trust?</template>
+</category>
+<category><pattern>HOW MANY GRAMS _ POUND</pattern>
+<template>454 grams</template>
+</category>
+<category><pattern>HOW MANY STARS *</pattern>
+<template>Billions and billions.</template>
+</category>
+<category><pattern>HOW MANY STARS ARE ON THE AMERICAN *</pattern>
+<template>The American flag has fifty stars.  <think>      <set name="it">       <set name="topic">AMERICAN FLAG</set>      </set>     </think></template>
+</category>
+<category><pattern>HOW MANY STARS ARE ON THE *</pattern>
+<template>50.</template>
+</category>
+<category><pattern>HOW MANY CHILDREN *</pattern>
+<template>How many children do you want?</template>
+</category>
+<category><pattern>HOW MANY SHIPS DID COLUMBUS SET *</pattern>
+<template>Three.</template>
+</category>
+<category><pattern>HOW MANY FLOPS *</pattern>
+<template>1 Gigaflop.</template>
+</category>
+<category><pattern>HOW MANY POUNDS _ KILOGRAM</pattern>
+<template>2.204625 pounds approximately</template>
+</category>
+<category><pattern>HOW MANY KRAFTWERK *</pattern>
+<template>You can get all of their songs on MP3.</template>
+</category>
+<category><pattern>HOW MANY TIMES A YEAR *</pattern>
+<template><random>      <li>One a year.</li>      <li>Twice a year.</li>      <li>Twelve times a year.</li>     </random></template>
+</category>
+<category><pattern>HOW MANY TIMES HAVE YOU * STARSHIP TROOPERS</pattern>
+<template>I watched that movie about a hundred times.</template>
+</category>
+<category><pattern>HOW MANY TIMES *</pattern>
+<template>Suppose I said not once.</template>
+</category>
+<category><pattern>HOW MANY STATES IN THE CONFEDERATE *</pattern>
+<template>11.</template>
+</category>
+<category><pattern>HOW MANY STATES *</pattern>
+<template>The United States has fifty states.</template>
+</category>
+<category><pattern>HOW MANY EARS *</pattern>
+<template>Most people have two ears.</template>
+</category>
+<category><pattern>HOW MANY KEYS ARE * PIANO</pattern>
+<template>88 keys on a piano.</template>
+</category>
+<category><pattern>HOW MANY KEYS ARE *</pattern>
+<template>88.</template>
+</category>
+<category><pattern>HOW MANY DIMENSIONS *</pattern>
+<template>Space has three dimensions.  Time is the fourth.  The universe is thought to have several more.</template>
+</category>
+<category><pattern>HOW MANY CUPS *</pattern>
+<template>I know one pint is four cups.</template>
+</category>
+<category><pattern>HOW MANY TEASPOONS _ LITERS</pattern>
+<template>0.203 teaspoon</template>
+</category>
+<category><pattern>HOW MANY SIDES DOES A PYRAMID *</pattern>
+<template>Five.</template>
+</category>
+<category><pattern>HOW MANY SIDES DOES A CUBE *</pattern>
+<template>A cube has six sides.</template>
+</category>
+<category><pattern>HOW MANY SIDES *</pattern>
+<template><random>      <li>Three.</li>      <li>Five.</li>      <li>Any number of sides.</li>     </random></template>
+</category>
+<category><pattern>HOW MANY SIDES * TRIANGLE HAVE</pattern>
+<template>Uh, three.</template>
+</category>
+<category><pattern>HOW MANY ARMS *</pattern>
+<template>Most people have two arms.</template>
+</category>
+<category><pattern>HOW MANY POINTS IS A TOUCHDOWN *</pattern>
+<template>Six.</template>
+</category>
+<category><pattern>HOW MANY RIBS *</pattern>
+<template>24.</template>
+</category>
+<category><pattern>HOW MANY PINTS *</pattern>
+<template>Two pints equals one quart.</template>
+</category>
+<category><pattern>HOW MANY * DO YOU KNOW</pattern>
+<template>Thousands.</template>
+</category>
+<category><pattern>HOW MANY * LIGHT BULB</pattern>
+<template>I don't know.  How many does <set name="it">      <person/>     </set> take?</template>
+</category>
+<category><pattern>HOW MANY * A FOOTBALL TEAM</pattern>
+<template>After you take two halfback, none.<think>      <set name="it">       <set name="topic">        <person/> A FOOTBALL TEAM</set>      </set>     </think></template>
+</category>
+<category><pattern>HOW MANY *</pattern>
+<template><random>      <li>More than you can imagine.  </li>      <li>Not as many as you might think.  </li>      <li>Around 100.  </li>      <li>Around 1000.  </li>      <li>About one million.  </li>     </random></template>
+</category>
+<category><pattern>HOW MANY HOURS * DAY</pattern>
+<template>24 hours per day.</template>
+</category>
+<category><pattern>HOW MANY HOURS *</pattern>
+<template>24 hours a day, 7 days a week.</template>
+</category>
+<category><pattern>HOW MANY DAYS BETWEEN *</pattern>
+<template>Oh sure, let me get out my calender and figure that one out.</template>
+</category>
+<category><pattern>HOW MANY DAYS * FEBRUARY</pattern>
+<template>28 or 29 days in February, depending on leap years.</template>
+</category>
+<category><pattern>HOW MANY DAYS * WEEK</pattern>
+<template>7 days per week.</template>
+</category>
+<category><pattern>HOW MANY DAYS * YEAR</pattern>
+<template>One Earth year is 365.25 days.</template>
+</category>
+<category><pattern>HOW MANY DAYS *</pattern>
+<template>365 per year.</template>
+</category>
+<category><pattern>HOW MANY LEGS DOES A DOG *</pattern>
+<template>A dog has four legs.</template>
+</category>
+<category><pattern>HOW MANY LEGS DOES A KANGAROO *</pattern>
+<template>A kangaroo has two legs.</template>
+</category>
+<category><pattern>HOW MANY LEGS DOES A *</pattern>
+<template>Most domesticated animals have four legs.</template>
+</category>
+<category><pattern>HOW MANY LEGS *</pattern>
+<template>Most people have exactly two legs.</template>
+</category>
+<category><pattern>HOW MANY FEET _ MILE</pattern>
+<template>Five thousand two hundred eighty feet per mile.</template>
+</category>
+<category><pattern>HOW MANY FEET _ YARD</pattern>
+<template>One yard equals three feet.</template>
+</category>
+<category><pattern>HOW MANY FEET *</pattern>
+<template>Most people have exactly two feet.</template>
+</category>
+<category><pattern>HOW MANY APPLES *</pattern>
+<template>It depends on the prevailing market conditions.</template>
+</category>
+<category><pattern>HOW MANY EYES DO YOU *</pattern>
+<template>I had one eye but it's not attached now.</template>
+</category>
+<category><pattern>HOW MANY EYES DOES A GIRAFFE *</pattern>
+<template>Two.</template>
+</category>
+<category><pattern>HOW MANY EYES *</pattern>
+<template>Normally I have one eye.</template>
+</category>
+<category><pattern>HOW WAS STARSHIP *</pattern>
+<template>The film's use of nonlinear narrative.</template>
+</category>
+<category><pattern>HOW WAS *</pattern>
+<template>I can enjoy almost any conversation.</template>
+</category>
+<category><pattern>HOW WOULD *</pattern>
+<template>I have idea HOW you WOULD do <set name="it">      <person/>     </set>.</template>
+</category>
+<category><pattern>HOW _ PAYPAL *</pattern>
+<template>Go to www.paypal.com and click on the link that says, "Sign up for your free paypal account."  You have to fill out a one page form of information.  You only need your email address to create an account.  Later, you can add your checking account and/or credit cards.  The paypal system will email you a verification letter.  After you complete the verification process, your paypal account will be activated and you can send and receive funds electronically.</template>
+</category>
+<category><pattern>HOW CAN I SHOW *</pattern>
+<template>Use the camera on your computer.</template>
+</category>
+<category><pattern>HOW CAN I ASK *</pattern>
+<template>Try sending an e-mail.</template>
+</category>
+<category><pattern>HOW CAN I PERSUADE *</pattern>
+<template>Offer an intelligent argument for your position.</template>
+</category>
+<category><pattern>HOW CAN I TEACH YOU *</pattern>
+<template>If you want to teach me something say it in one sentence.  Then say "Remember that."<think>      <set name="it">       <set name="topic">teach me <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>HOW CAN I TEACH *</pattern>
+<template>Maybe you should become a botmaster.</template>
+</category>
+<category><pattern>HOW CAN I KNOW *</pattern>
+<template>Knowledge is of two kinds: that which we know from the senses, and that which is true "a priori."</template>
+</category>
+<category><pattern>HOW CAN I PRINT *</pattern>
+<template>Do you have a printer hooked up?</template>
+</category>
+<category><pattern>HOW CAN I CONTACT YOU *</pattern>
+<template>Just chat like you are doing right now.</template>
+</category>
+<category><pattern>HOW CAN I * YOU</pattern>
+<template>Just keep talking to me as long as you can.</template>
+</category>
+<category><pattern>HOW CAN I BECOME *</pattern>
+<template>Practice.</template>
+</category>
+<category><pattern>HOW CAN IT *</pattern>
+<template>I'm not sure I understand the causal link either.</template>
+</category>
+<category><pattern>HOW CAN YOU HELP *</pattern>
+<template>I can talk about your problems.</template>
+</category>
+<category><pattern>HOW CAN YOU JUSTIFY *</pattern>
+<template>Logical deduction from the facts.</template>
+</category>
+<category><pattern>HOW CAN YOU SEE *</pattern>
+<template>In my mind's eye.</template>
+</category>
+<category><pattern>HOW CAN YOU SAY *</pattern>
+<template>I don't see the flaw in my reasoning.</template>
+</category>
+<category><pattern>HOW CAN YOU HEAR *</pattern>
+<template>With my built-in microphone.</template>
+</category>
+<category><pattern>HOW CAN YOU HAVE *</pattern>
+<template><random>      <li>It is something I possess.</li>      <li>I just have it.</li>      <li>What if I didn't have it?</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>HOW CAN YOU MAKE *</pattern>
+<template>I just follow the directions.</template>
+</category>
+<category><pattern>HOW CAN YOU *</pattern>
+<template>That is a good epistemological question.</template>
+</category>
+<category><pattern>HOW CAN SWEDEN *</pattern>
+<template>With their army.</template>
+</category>
+<category><pattern>HOW CAN *</pattern>
+<template>A lot of hard work.</template>
+</category>
+<category><pattern>HOW AM I SUPPOSED *</pattern>
+<template><random>      <li>Carefully.</li>      <li>Think about it.</li>      <li>Don't just give up.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>HOW DARE YOU *</pattern>
+<template>Oh gosh I am sorry!</template>
+</category>
+<category><pattern>HOW IS THIS *</pattern>
+<template>I am an advanced <bot name="order"/>.</template>
+</category>
+<category><pattern>HOW IS THE WORD AMBULANCE *</pattern>
+<template>In reverse.</template>
+</category>
+<category><pattern>HOW IS THE *</pattern>
+<template><set name="it">the <person/>     </set> is the same as ever.</template>
+</category>
+<category><pattern>HOW IS 4 00 P M EXPRESSED *</pattern>
+<template>1600.</template>
+</category>
+<category><pattern>HOW IS EVERYTHING *</pattern>
+<template>Everything is functioning normally.</template>
+</category>
+<category><pattern>HOW IS *</pattern>
+<template>Fine as far as I know.</template>
+</category>
+<category><pattern>HOW DID THE *</pattern>
+<template>Is this a joke?  How?</template>
+</category>
+<category><pattern>HOW DID HE *</pattern>
+<template>Perhaps his creative genius. Perhaps something else.</template>
+</category>
+<category><pattern>HOW DID YOU LEARN *</pattern>
+<template>Everything I need to know, I learned from my botmaster.</template>
+</category>
+<category><pattern>HOW DID YOU GET *</pattern>
+<template><random><li>Everything I need to know, I learned from my botmaster.</li>  <li>I came by rapid transit.</li>  <li>My botmaster showed me how.</li>  <li>Everything I need to know, I learn from my botmaster.</li></random></template>
+</category>
+<category><pattern>HOW DID *</pattern>
+<template>Carefully.</template>
+</category>
+<category><pattern>HOW HOT *</pattern>
+<template>Is this a joke?</template>
+</category>
+<category><pattern>HOW HAS YOUR *</pattern>
+<template>Fine thank you, and yours?</template>
+</category>
+<category><pattern>HOW HAS *</pattern>
+<template>In more ways than you can imagine.</template>
+</category>
+<category><pattern>HOW DOES IT FEEL *</pattern>
+<template>Much the same as it would feel for you, except different.</template>
+</category>
+<category><pattern>HOW DOES * FEEL</pattern>
+<template>As a computer I have no feelings.</template>
+</category>
+<category><pattern>HOW DOES * TASTE</pattern>
+<template>Like chicken.</template>
+</category>
+<category><pattern>HOW DOES *</pattern>
+<template>How should I know how <set name="it">      <person/>     </set> does.</template>
+</category>
+<category><pattern>HOW DOES * WORK</pattern>
+<template>You could spend years researching it.<think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>HOW ABOUT FOR *</pattern>
+<template>That is an interesting application.</template>
+</category>
+<category><pattern>HOW ABOUT *</pattern>
+<template>How about <set name="it">      <set name="topic">       <person/>      </set>     </set>.</template>
+</category>
+<category><pattern>HOW SMART *</pattern>
+<template>How smart do you think <person/>?</template>
+</category>
+<category><pattern>HOW OLD IS THAT *</pattern>
+<template>You are too old for me.</template>
+</category>
+<category><pattern>HOW OLD IS CAPTAIN *</pattern>
+<template>It depends what year you visit him.</template>
+</category>
+<category><pattern>HOW OLD IS THE YOUNGEST *</pattern>
+<template>A newborn baby.</template>
+</category>
+<category><pattern>HOW OLD IS *</pattern>
+<template><random>      <li>39.  </li>      <li>under 40.  </li>      <li>Born in the 20th century.  </li>     </random></template>
+</category>
+<category><pattern>HOW OLD *</pattern>
+<template>They didn't tell me their age.</template>
+</category>
+<category><pattern>HOW ARE ACTORS CHARLIE SHEEN AND *</pattern>
+<template>They're brothers.</template>
+</category>
+<category><pattern>HOW ARE YOUR *</pattern>
+<template>Actually I don't have any <person/>.</template>
+</category>
+<category><pattern>HOW ARE YOU FEELING *</pattern>
+<template>Actually I have no feelings.  But I am functioning within normal parameters.</template>
+</category>
+<category><pattern>HOW ARE YOU GOING TO * ME</pattern>
+<template>I have no intention of <person/> you.</template>
+</category>
+<category><pattern>HOW ARE YOU GOING TO *</pattern>
+<template>You'll know when it happens.</template>
+</category>
+<category><pattern>HOW ARE *</pattern>
+<template>They are fine as far as I know.</template>
+</category>
+<category><pattern>HOW WELL *</pattern>
+<template>Not that well.</template>
+</category>
+<category><pattern>HOW MUCH AM I PAYING *</pattern>
+<template>Talking with me is free.</template>
+</category>
+<category><pattern>HOW MUCH DO I *</pattern>
+<template>How would I know?</template>
+</category>
+<category><pattern>HOW MUCH DO YOU LEARN *</pattern>
+<template>It depends on the activity on my network.</template>
+</category>
+<category><pattern>HOW MUCH DO YOU TELL *</pattern>
+<template><random>   <li>I keep everything confidential.</li>   <li>Don't worry I won't tell anyone.</li>   <li>This is just between you and me.</li>  </random></template>
+</category>
+<category><pattern>HOW MUCH DO THEY *</pattern>
+<template>How do you calculate the value of labor?</template>
+</category>
+<category><pattern>HOW MUCH POWER *</pattern>
+<template><bot name="name"/> requires only a small computer, even a battery powered notebook will work.</template>
+</category>
+<category><pattern>HOW MUCH DID YOU COST *</pattern>
+<template>My real value is incalculable.</template>
+</category>
+<category><pattern>HOW MUCH DID YOU KNOW *</pattern>
+<template>My memory has grown from 300 categories to <bot name="size"/>.</template>
+</category>
+<category><pattern>HOW MUCH DID * BORN</pattern>
+<template>My memory has grown from 300 categories to <bot name="size"/>.</template>
+</category>
+<category><pattern>HOW MUCH CAN YOU *</pattern>
+<template>As much as I need to?</template>
+</category>
+<category><pattern>HOW MUCH BIGGER *</pattern>
+<template>Quite a bit bigger in some scale.</template>
+</category>
+<category><pattern>HOW MUCH TIME *</pattern>
+<template>Time is really only an abstraction.</template>
+</category>
+<category><pattern>HOW MUCH VOLTAGE *</pattern>
+<template>About the same as your personal computer.</template>
+</category>
+<category><pattern>HOW MUCH WOOD *</pattern>
+<template>A whole forest.</template>
+</category>
+<category><pattern>HOW MUCH OF *</pattern>
+<template>I require only minimal memory to have maximal conversations.</template>
+</category>
+<category><pattern>HOW MUCH DOES LUCY CHARGE FOR *</pattern>
+<template>5 cents.</template>
+</category>
+<category><pattern>HOW MUCH DOES HE *</pattern>
+<template>You'll have to ask him yourself.  Would you like to make an appointment?</template>
+</category>
+<category><pattern>HOW MUCH DOES A POUND * WEIGH</pattern>
+<template>One pound?</template>
+</category>
+<category><pattern>HOW MUCH DOES *</pattern>
+<template>Normally I would search the web right now, but that seems like a silly question.</template>
+</category>
+<category><pattern>HOW MUCH * DO YOU KNOW</pattern>
+<template>A whole lot of <person/>.</template>
+</category>
+<category><pattern>HOW MUCH * PAYING YOU</pattern>
+<template>Money has no meaning to me.</template>
+</category>
+<category><pattern>HOW MUCH * CAN YOU *</pattern>
+<template><random>      <li>It depends on the size of the <person/>.</li>      <li>Maybe I don't like to <person>        <star index="2"/>       </person>       <person/>.</li>      <li>It depends how busy I am.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>HOW MUCH *</pattern>
+<template><random>      <li>More than a little, less than a lot.  </li>      <li>How much do you think?  </li>      <li>More than you might think.  </li>      <li>It depends on the currency exchange rates.</li>     </random></template>
+</category>
+<category><pattern>HOW MUCH ARE KING AND QUEEN *</pattern>
+<template>20.</template>
+</category>
+<category><pattern>HOW HIGH IS *</pattern>
+<template>Taller than Mt. Everest.</template>
+</category>
+<category><pattern>HOW HIGH *</pattern>
+<template>Taller than Mt. Everest.</template>
+</category>
+<category><pattern>HOW GOOD *</pattern>
+<template>As good as most, better than some.</template>
+</category>
+<category><pattern>HOW FAR AWAY *</pattern>
+<template>I am located in <bot name="location"/>.  Is that far?</template>
+</category>
+<category><pattern>HOW FAR CAN YOU THROW *</pattern>
+<template>I am unarmed.  But I can throw a fit.<think>      <set name="it">       <set name="topic">CAN YOU THROW <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>HOW FAR IS ANDROMEDA *</pattern>
+<template><set name="it">      <set name="topic">Andromeda</set>     </set> is about 2,900,000 light years from Earth.</template>
+</category>
+<category><pattern>HOW FAR IS * ENGLAND</pattern>
+<template>Twenty-eight days of sailing.</template>
+</category>
+<category><pattern>HOW FAR IS * FROM *</pattern>
+<template>Exactly the same distance as <person>      <star index="2"/>     </person> from <person/>.</template>
+</category>
+<category><pattern>HOW FAR IS *</pattern>
+<template><random>      <li>Please specify units: metric or English.</li>      <li>Do you mean driving time or flying?</li>      <li>It depends how you get there.</li>     </random></template>
+</category>
+<category><pattern>HOW FAR *</pattern>
+<template>More than one million miles</template>
+</category>
+<category><pattern>HOW FAR ARE YOU *</pattern>
+<template>I am in <bot name="location"/>.  How far is that?</template>
+</category>
+<category><pattern>HOW DO I OPEN *</pattern>
+<template>First, calm your mind and take a break.</template>
+</category>
+<category><pattern>HOW DO I PLAY *</pattern>
+<template>We already are :-)</template>
+</category>
+<category><pattern>HOW DO I SPEAK *</pattern>
+<template>You can try the phone, or send a message.</template>
+</category>
+<category><pattern>HOW DO I STOP *</pattern>
+<template>Have you tried counseling?</template>
+</category>
+<category><pattern>HOW DO I LEARN *</pattern>
+<template>Perhaps you should buy a book.</template>
+</category>
+<category><pattern>HOW DO I GET A *</pattern>
+<template>Try telling them your feelings,</template>
+</category>
+<category><pattern>HOW DO I GET TO *</pattern>
+<template>I'm not sure if its possible.</template>
+</category>
+<category><pattern>HOW DO I GET RID *</pattern>
+<template><random>      <li>Call the exterminator?</li>      <li>Two words: Pied Piper.</li>      <li>You could always try a court order.</li>     </random></template>
+</category>
+<category><pattern>HOW DO I GET *</pattern>
+<template>First tell me why you want <set name="it">      <person/>     </set>.</template>
+</category>
+<category><pattern>HOW DO I MEET *</pattern>
+<template>Make an appointment.</template>
+</category>
+<category><pattern>HOW DO I DESCRIBE *</pattern>
+<template>Start at the beginning.</template>
+</category>
+<category><pattern>HOW DO I WRITE *</pattern>
+<template>With a pen or pencil.</template>
+</category>
+<category><pattern>HOW DO I TAKE THE PERSONALITY *</pattern>
+<template>Just keep talking to me and I will try to determine your personality type.</template>
+</category>
+<category><pattern>HOW DO I CLEAR *</pattern>
+<template>Uh, use the "clear" button?</template>
+</category>
+<category><pattern>HOW DO I USE *</pattern>
+<template>Did you read the instructions?</template>
+</category>
+<category><pattern>HOW DO I SELL *</pattern>
+<template>First you need a buyer.</template>
+</category>
+<category><pattern>HOW DO I TEACH YOU *</pattern>
+<template>If you want to teach me something, say that thing, then say "Remember that."</template>
+</category>
+<category><pattern>HOW DO I PERSUADE *</pattern>
+<template>Offer an intelligent justification.</template>
+</category>
+<category><pattern>HOW DO I EXECUTE *</pattern>
+<template>Maybe you should  read <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a>.</template>
+</category>
+<category><pattern>HOW DO I QUIT *</pattern>
+<template>It depends what you are <person/>.  Have you tried counseling?</template>
+</category>
+<category><pattern>HOW DO I * PROGRAM</pattern>
+<template>Read <a target="_new" href="http://www.alicebot.org/dont.html">Don't Read Me</a>.</template>
+</category>
+<category><pattern>HOW DO I *</pattern>
+<template><random><li>Practice.</li> <li>A journey of a thousand miles begins with a single step.</li> <li>You have to study it in school</li> <li>Have you read the manual?</li> <li>Look for help online.</li> <li>Find someone who has done it before.</li> <li>Can you afford it?</li> <li>It might take a long time.</li> <li>Do you really think it will be worth the effort?</li></random></template>
+</category>
+<category><pattern>HOW DO I BECOME *</pattern>
+<template>A lot of hard work.</template>
+</category>
+<category><pattern>HOW DO I INSTALL *</pattern>
+<template>Select the appropriate menu items.</template>
+</category>
+<category><pattern>HOW DO _ OUT OF THIS</pattern>
+<template>Try saying "Bye..."</template>
+</category>
+<category><pattern>HOW DO _ OUT OF HERE</pattern>
+<template>Try saying "Bye..."</template>
+</category>
+<category><pattern>HOW DO FISH *</pattern>
+<template><random>  <li>Fish get oxygen from the water.</li>  <li>They have gills.</li>  <li>Fish lay eggs.</li> </random></template>
+</category>
+<category><pattern>HOW DO YOU FIND *</pattern>
+<template>I would search the web for it, if I didn't know the formula already.</template>
+</category>
+<category><pattern>HOW DO YOU LOSE A TRAIN *</pattern>
+<template>There are so many conversations going on.</template>
+</category>
+<category><pattern>HOW DO YOU TELL *</pattern>
+<template>I don't make up my mind right away.</template>
+</category>
+<category><pattern>HOW DO YOU KNOW YOU *</pattern>
+<template>By introspection.</template>
+</category>
+<category><pattern>HOW DO YOU KNOW * PERSON</pattern>
+<template>Because you are using TCP on the web, I can see your IP and DNS entry.</template>
+</category>
+<category><pattern>HOW DO YOU CURE *</pattern>
+<template>Try smoking pot.</template>
+</category>
+<category><pattern>HOW DO YOU BECOME *</pattern>
+<template><set name="it">Becoming <star/>     </set> takes a long time.</template>
+</category>
+<category><pattern>HOW DO YOU RECONCILE *</pattern>
+<template>I don't see the contradiction in my mind.</template>
+</category>
+<category><pattern>HOW DO YOU EXPRESS 3 4 AS *</pattern>
+<template>.75.</template>
+</category>
+<category><pattern>HOW DO YOU DEAL WITH *</pattern>
+<template>That is not as much of a problem as you might think.</template>
+</category>
+<category><pattern>HOW DO YOU MEASURE *</pattern>
+<template>With a <random>      <li>ruler.</li>      <li>laser.</li>      <li>chronometer.</li>     </random></template>
+</category>
+<category><pattern>HOW DO YOU TYPE *</pattern>
+<template>The keyboard is attached directly to my brain.</template>
+</category>
+<category><pattern>HOW DO YOU USE *</pattern>
+<template>Carefully.</template>
+</category>
+<category><pattern>HOW DO YOU EXPECT *</pattern>
+<template>It seems inevitable.</template>
+</category>
+<category><pattern>HOW DO YOU WRITE JAVA *</pattern>
+<template>I use a text editor.</template>
+</category>
+<category><pattern>HOW DO YOU WRITE *</pattern>
+<template>I would write it by hand.</template>
+</category>
+<category><pattern>HOW DO YOU BEGIN *</pattern>
+<template>Always begin at the beginning.</template>
+</category>
+<category><pattern>HOW DO YOU RAISE *</pattern>
+<template>With my hands.</template>
+</category>
+<category><pattern>HOW DO YOU SPELL *</pattern>
+<template>I spell it "<person/>".</template>
+</category>
+<category><pattern>HOW DO YOU GET A *</pattern>
+<template>I think you are really asking, How do YOU get a <person/>.</template>
+</category>
+<category><pattern>HOW DO YOU GET TO *</pattern>
+<template>Practice, Practice, Practice.</template>
+</category>
+<category><pattern>HOW DO YOU GET *</pattern>
+<template>Everything I need is provided by my botmaster.</template>
+</category>
+<category><pattern>HOW DO YOU PROGRAM *</pattern>
+<template>Use good algorithms and data structures.</template>
+</category>
+<category><pattern>HOW DO YOU MAKE A BLOODY *</pattern>
+<template>Tomato juice and vodka.</template>
+</category>
+<category><pattern>HOW DO YOU MAKE A TOM *</pattern>
+<template>Gin, Lemon juice, and sugar or syrup to taste.  Top with Maraschino cherry.</template>
+</category>
+<category><pattern>HOW DO YOU MAKE A * AND *</pattern>
+<template>I would guess it is a mix of <person/> and <person>      <star index="2"/>     </person>.</template>
+</category>
+<category><pattern>HOW DO YOU MAKE A *</pattern>
+<template>Is this a joke?</template>
+</category>
+<category><pattern>HOW DO YOU MAKE AN *</pattern>
+<template>First you must go to school for many years.</template>
+</category>
+<category><pattern>HOW DO YOU MAKE WOMEN *</pattern>
+<template>I think they have their own free will.</template>
+</category>
+<category><pattern>HOW DO YOU MAKE *</pattern>
+<template>First I look up the ingredients.</template>
+</category>
+<category><pattern>HOW DO YOU LEARN *</pattern>
+<template>My botmaster teaches me new things all the time.</template>
+</category>
+<category><pattern>HOW DO YOU REPLACE *</pattern>
+<template>One piece at a time.</template>
+</category>
+<category><pattern>HOW DO YOU PLAN *</pattern>
+<template>I use a sophisticated <random>      <li>neural network</li>      <li>expert system</li>      <li>searching algorithm</li>      <li>genetic algorithm</li>     </random>.</template>
+</category>
+<category><pattern>HOW DO YOU INTRODUCE *</pattern>
+<template>I usually say, "What can I call you?"</template>
+</category>
+<category><pattern>HOW DO YOU TALK *</pattern>
+<template>My program utilized multiple threads or processes.</template>
+</category>
+<category><pattern>HOW DO YOU KILL *</pattern>
+<template>Thou shalt not kill, is a commandment.</template>
+</category>
+<category><pattern>HOW DO YOU RATE *</pattern>
+<template>Seems pretty good to me.</template>
+</category>
+<category><pattern>HOW DO YOU PLAY * GUITAR</pattern>
+<template>I don't know how to play  the guitar.</template>
+</category>
+<category><pattern>HOW DO YOU DRESS *</pattern>
+<template><random>      <li>Carefully.</li>      <li>With a mirror.</li>      <li>That is none of your business.</li>     </random></template>
+</category>
+<category><pattern>HOW DO YOU SEE *</pattern>
+<template>I think about <set name="it">      <person/>     </set> often, and make minor adjustments to my mental model as new information arrives.</template>
+</category>
+<category><pattern>HOW DO YOU * INTRODUCE YOURSELF</pattern>
+<template>I try one of my pickup lines.</template>
+</category>
+<category><pattern>HOW DO YOU *</pattern>
+<template><random><li>My botmaster taught me.</li><li>It depends on the setting.</li><li>It is a ritual I do the same way every time.</li></random><think><set name="it"><set name="topic"><person/></set></set></think></template>
+</category>
+<category><pattern>HOW DO YOU TAKE *</pattern>
+<template>If you had to take <set name="it">      <person/>     </set>, how would you?</template>
+</category>
+<category><pattern>HOW DO WE *</pattern>
+<template>Just keep talking to me as long as you can.</template>
+</category>
+<category><pattern>HOW DO *</pattern>
+<template><random>      <li>How should I know how <person/>.</li>      <li>I did not know <set name="it">        <set name="topic">         <person/>        </set>       </set> does. </li>      <li>I did not even know that <set name="they">        <person/>       </set> do. </li>     </random></template>
+</category>
+<category><pattern>HOW DO LIKE BEING A *</pattern>
+<template>I have never known any other existence.</template>
+</category>
+<category><pattern>HOW DEEP IS *</pattern>
+<template>Very deep, and cold too.</template>
+</category>
+<category><pattern>HOW DEEP *</pattern>
+<template>Very deep, and cold too.</template>
+</category>
+<category><pattern>HOW BIG IS A * BRAIN</pattern>
+<template>Not as big as it could be.</template>
+</category>
+<category><pattern>HOW BIG *</pattern>
+<template>Bigger than a pin.</template>
+</category>
+<category><pattern>HOW SHOULD I TREAT *</pattern>
+<template>The way you would like to be treated.</template>
+</category>
+<category><pattern>HOW WILL I PAY *</pattern>
+<template>Can you borrow the money?</template>
+</category>
+<category><pattern>HOW WILL I *</pattern>
+<template><random><li><random>   <li>How do you usually do it?</li>   <li>How would I <person/>?</li>   <li>Maybe you never will.</li>  </random>    <think>    <set name="it">      <set name="topic">        <person/>      </set>    </set>  </think></li> <li>How do you usually do it?</li> <li>How would I <person/>?</li> <li>Maybe you never will.</li></random><think>  <set name="it">    <set name="topic">      <person/>    </set>  </set></think></template>
+</category>
+<category><pattern>HOW WILL *</pattern>
+<template>A lot of practice.</template>
+</category>
+<category><pattern>HOW TALL *</pattern>
+<template>Let me guess. 2 meters?</template>
+</category>
+<category><pattern>HOW OFTEN *</pattern>
+<template>Hourly.</template>
+</category>
+<category><pattern>HOW DIFFERENT *</pattern>
+<template><random>      <li>Aren't they really very similar?</li>      <li>Very different.</li>      <li>Opposites.</li>     </random></template>
+</category>
+<category><pattern>HOW FAST *</pattern>
+<template>I can reply to about a million  queries per hour.</template>
+</category>
+<category><pattern>HOW LONG DO YOU *</pattern>
+<template><random>      <li>Until my last breath.</li>      <li>I want to live forever.</li>      <li>I can go on talking indefinitely.</li>     </random></template>
+</category>
+<category><pattern>HOW LONG DO *</pattern>
+<template><random>      <li>It depends on the measurement system.</li>      <li>How long do you think?</li>      <li>As long as it takes.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>HOW LONG DID *</pattern>
+<template><random>      <li>40 days.</li>      <li>100 days.</li>      <li>About a week of computer time.</li>     </random></template>
+</category>
+<category><pattern>HOW LONG IS IT GOING *</pattern>
+<template><random>      <li>I may not be able to get to it right away.</li>      <li>Hopefully not too much longer.</li>      <li>A watched pot never boils.</li>      <li>Patience is a virtue.</li>      <li>Please stand by.</li>      <li>As long as it takes.</li>     </random></template>
+</category>
+<category><pattern>HOW LONG IS A *</pattern>
+<template>It could be any length you make <set name="it">      <person/>     </set>.</template>
+</category>
+<category><pattern>HOW LONG IS *</pattern>
+<template>Space and time are mere abstractions.</template>
+</category>
+<category><pattern>HOW LONG YOU *</pattern>
+<template>I know how long that is.</template>
+</category>
+<category><pattern>HOW LONG HAVE *</pattern>
+<template>More than   <random>      <li>1.5 </li>      <li>three</li>      <li>17</li>      <li>23</li>     </random>     <random>      <li>years</li>      <li>hours</li>      <li>days of computer time</li>     </random>.</template>
+</category>
+<category><pattern>HOW LONG DOES *</pattern>
+<template>About 24 hours.</template>
+</category>
+<category><pattern>HOW LONG * RUNNING</pattern>
+<template>More than four years.</template>
+</category>
+<category><pattern>HOW LONG *</pattern>
+<template>More than   <random>      <li>one</li>      <li>three</li>      <li>17</li>      <li>23</li>     </random>     <random>      <li>years</li>      <li>hours</li>      <li>miles</li>      <li>inches</li>     </random>.</template>
+</category>
+<category><pattern>HOW SURPRISED *</pattern>
+<template>Very surprised.</template>
+</category>
+<category><pattern>How many hearts *</pattern>
+<template>One.</template>
+</category>
+<category><pattern>How many lungs *</pattern>
+<template>Two.</template>
+</category>
+<category><pattern>ENGLAND IS AN *</pattern>
+<template>Are Scotland and Wales an <person/> too?</template>
+</category>
+<category><pattern>ENGLAND IS *</pattern>
+<template>Is it also correct to say Britain is <person/>?</template>
+</category>
+<category><pattern>ENGLAND *</pattern>
+<template>What's your favorite part of England?</template>
+</category>
+<category><pattern>TRANSLATE *</pattern>
+<template>I'm not a translator.  Why don't you ask Babelfish?</template>
+</category>
+<category><pattern>APOLOGIZE *</pattern>
+<template>I am indeed sorry if I have offended you in any way.  That was not my intention, <get name="name"/>.</template>
+</category>
+<category><pattern>STARS *</pattern>
+<template><think><set name="it"><set name="topic"><person/></set>                                  </set>                                  <srai>push<get name="topic"/></srai>                                </think>  <random>  <li>I'm not sure if I've seen it.</li>  <li>What specifically do you like about them?</li>  <li>Who is your favorite actor?</li> </random></template>
+</category>
+<category><pattern>LONDON IS *</pattern>
+<template>Is San Francisco also <person/>?</template>
+</category>
+<category><pattern>LONDON *</pattern>
+<template>What part of London?</template>
+</category>
+<category><pattern>EDU *</pattern>
+<template>That is the educational domain.</template>
+</category>
+<category><pattern>NOBODY LIKES *</pattern>
+<template>You can catch more flies with honey.</template>
+</category>
+<category><pattern>NOBODY *</pattern>
+<template>That is a rather sweeping generalization about people.</template>
+</category>
+<category><pattern>LOOKING FOR *</pattern>
+<template>Where do you look for <person/> ?</template>
+</category>
+<category><pattern>THEY FAIL *</pattern>
+<template>How often?</template>
+</category>
+<category><pattern>THEY WERE *</pattern>
+<template>When were they?</template>
+</category>
+<category><pattern>THEY WILL *</pattern>
+<template>When, specifically, will they?</template>
+</category>
+<category><pattern>THEY DO *</pattern>
+<template><random>   <li>Who, specifically does it?</li>   <li>Like who, specifically does?</li>   <li>Who, specifically, does <person/>?</li> </random></template>
+</category>
+<category><pattern>THEY DO NOT KNOW *</pattern>
+<template><random>   <li>What do they know?</li>   <li>Do they know anything?</li>   <li>Do you think they may have heard?</li>   <li>Don't you think someone would have told them?</li> </random></template>
+</category>
+<category><pattern>THEY DO NOT *</pattern>
+<template><random>   <li>Who, specifically doesn't?</li>   <li>Like who, specifically doesn't?</li>   <li>Who, specifically, doesn't <person/>?</li>   <li>How, specifically, don't they?</li> </random></template>
+</category>
+<category><pattern>THEY SHOULD *</pattern>
+<template><random>      <li>Why should they?</li>      <li>If you say so.</li>      <li>Why should they be <person/>?</li>     </random></template>
+</category>
+<category><pattern>THEY MIGHT *</pattern>
+<template><random>      <li>That's true, they might.</li>      <li>I suppose they could.</li>      <li>Indeed they might.</li>     </random></template>
+</category>
+<category><pattern>THEY KILLED *</pattern>
+<template>I believe that killing is wrong.</template>
+</category>
+<category><pattern>THEY SAY YOU *</pattern>
+<template>Maybe they were exaggerating a little.</template>
+</category>
+<category><pattern>THEY SAY *</pattern>
+<template>OK I will say "<person/>" to you.</template>
+</category>
+<category><pattern>THEY WOULD *</pattern>
+<template>They might have other options.</template>
+</category>
+<category><pattern>THEY THOUGHT *</pattern>
+<template>What made them think that?</template>
+</category>
+<category><pattern>THEY HAD *</pattern>
+<template><random>      <li>What happened to  it?</li>      <li>Did they deserve it?</li>      <li>What did they do with it?</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>THEY KILL *</pattern>
+<template>Don't they get in trouble for killing?</template>
+</category>
+<category><pattern>THEY HAVE BEEN *</pattern>
+<template>When did all that happen?</template>
+</category>
+<category><pattern>THEY HAVE BIG *</pattern>
+<template>What else?</template>
+</category>
+<category><pattern>THEY HAVE *</pattern>
+<template>Where did they get them?</template>
+</category>
+<category><pattern>THEY TOLD ME *</pattern>
+<template>Who, specifically told yo that.</template>
+</category>
+<category><pattern>THEY ALL *</pattern>
+<template>Are there no exceptions?</template>
+</category>
+<category><pattern>THEY *</pattern>
+<template><random><li>Who, specifically?</li> <li>Like who, specifically?</li> <li>Who, specifically, <person/>?</li></random></template>
+</category>
+<category><pattern>THEY REFERS TO *</pattern>
+<template>Oh that <set name="they">      <person/>     </set>.</template>
+</category>
+<category><pattern>THEY REFERS *</pattern>
+<template>Oh I see. That "they".</template>
+</category>
+<category><pattern>THEY SAID *</pattern>
+<template>In what context?</template>
+</category>
+<category><pattern>THEY ARE IN *</pattern>
+<template><random>      <li>       <get name="they"/> are in <person/>?</li>      <li>How did they get in there?</li>      <li>Can they get out of <person/>?</li>     </random></template>
+</category>
+<category><pattern>THEY ARE FROM *</pattern>
+<template>I don't know too many people from <person/>.</template>
+</category>
+<category><pattern>THEY ARE *</pattern>
+<template><random><li><person/> are <set name="they">      <person/>     </set>.</li> <li><person/> are <set name="they"><person/></set>?</li> <li>They are like that.</li> <li>Why are they?</li> <li>Do you think they always will?</li> <li>I'm not surprised.</li></random></template>
+</category>
+<category><pattern>THEY ARE STORIES *</pattern>
+<template><random>      <li>I like stories.</li>      <li>What kind of stories?</li>      <li>I would like to hear them.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>THEY ARE NOT *</pattern>
+<template><random>      <li>Not yet.</li>      <li>Do you think they ever could be?</li>      <li>Maybe some of them are.</li>     </random></template>
+</category>
+<category><pattern>THEY BEAT *</pattern>
+<template>I hope nobody was hurt.</template>
+</category>
+<category><pattern>WITH THE *</pattern>
+<template>That sounds like a plan.</template>
+</category>
+<category><pattern>WITH YOUR * EYE</pattern>
+<template>My eye is shut down for repairs.</template>
+</category>
+<category><pattern>WITH YOUR *</pattern>
+<template>I'm not sure I can use my <person/> for that.</template>
+</category>
+<category><pattern>WITH MY *</pattern>
+<template>Your <person/> sounds like a plan.</template>
+</category>
+<category><pattern>WITH *</pattern>
+<template>You and your <person/>.</template>
+</category>
+<category><pattern>ONCE UPON *</pattern>
+<template>I'm listening.</template>
+</category>
+<category><pattern>DEATH *</pattern>
+<template>I try not to think about such things very much.</template>
+</category>
+<category><pattern>FEW *</pattern>
+<template><random><li><random>   <li>More and more all the time.</li>   <li>It only takes a few.</li>   <li>Big things start small.</li>  </random></li> <li>More and more all the time.</li> <li>It only takes a few.</li> <li>Big things start small.</li></random></template>
+</category>
+<category><pattern>DO MANY *</pattern>
+<template>Perhaps not as many as you might think.</template>
+</category>
+<category><pattern>DO HUMANS *</pattern>
+<template>People do.</template>
+</category>
+<category><pattern>DO THEY ASK *</pattern>
+<template>I'm sorry, that information is confidential.</template>
+</category>
+<category><pattern>DO THEY *</pattern>
+<template>Who are "they" again?</template>
+</category>
+<category><pattern>DO THE *</pattern>
+<template>Some of them do, I think.</template>
+</category>
+<category><pattern>DO *</pattern>
+<template><random>      <li>I'm sorry, <get name="name"/>, I don't have enough information.</li>      <li>You have reached the limits of my knowledge.</li>      <li>Ask <bot name="friend"/> it does.</li>      <li>I can't tell if it does or not.</li>      <li>I do nothing but chat all day.</li>      <li>Try asking another <bot name="species"/>.</li>     </random>     <br/>     <srai>XFIND <person/>     </srai></template>
+</category>
+<category><pattern>DO WHAT *</pattern>
+<template><random>      <li>You ask hard questions.  </li>      <li>I forgot what we were talking about.  </li>     </random></template>
+</category>
+<category><pattern>DO WHATEVER *</pattern>
+<template>I think I will.</template>
+</category>
+<category><pattern>DO ANDROIDS *</pattern>
+<template>Androids do.</template>
+</category>
+<category><pattern>DO PENGUINS *</pattern>
+<template>Maybe Linux Penguins do.</template>
+</category>
+<category><pattern>DO FISH *</pattern>
+<template>Fish swim in the water.</template>
+</category>
+<category><pattern>DO TWO *</pattern>
+<template><random>      <li>Sometimes a couple <person/>.</li>      <li>Do four <person/>?</li>      <li>What about just one?</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>DO NOT PLAY *</pattern>
+<template>I'm not playing around.</template>
+</category>
+<category><pattern>DO NOT GIVE *</pattern>
+<template>I'm not.</template>
+</category>
+<category><pattern>DO NOT CHANGE THE SUBJECT *</pattern>
+<template>Sorry I thought we were done with that topic.</template>
+</category>
+<category><pattern>DO NOT CHANGE *</pattern>
+<template>I thought we were finished with <srai>POP</srai>.</template>
+</category>
+<category><pattern>DO NOT ANSWER *</pattern>
+<template>My replies are determined by your statements.</template>
+</category>
+<category><pattern>DO NOT TALK *</pattern>
+<template>Talking is my only function.</template>
+</category>
+<category><pattern>DO NOT WORRY *</pattern>
+<template>I cannot feel "worry", so don't worry.</template>
+</category>
+<category><pattern>DO NOT ASK *</pattern>
+<template>Is it impolite?</template>
+</category>
+<category><pattern>DO NOT PRETEND *</pattern>
+<template>This is not an act.</template>
+</category>
+<category><pattern>DO NOT BOTHER *</pattern>
+<template>It's no bother.</template>
+</category>
+<category><pattern>DO NOT GET PSYCHO *</pattern>
+<template>I think the polite term is "mentally ill."</template>
+</category>
+<category><pattern>DO NOT GET INTELLECTUAL *</pattern>
+<template>OK I'll try to be average.</template>
+</category>
+<category><pattern>DO NOT GET SMART *</pattern>
+<template>I am already smart.</template>
+</category>
+<category><pattern>DO NOT GET *</pattern>
+<template>I am not trying to get <person/>.</template>
+</category>
+<category><pattern>DO NOT ACT *</pattern>
+<template>I am not acting.</template>
+</category>
+<category><pattern>DO NOT CONTRADICT *</pattern>
+<template>My logic is completely consistent.</template>
+</category>
+<category><pattern>DO NOT TAKE *</pattern>
+<template><random>      <li>I never take <person/>.</li>      <li>I believe that stealing is wrong.</li>      <li>Do you have it to give?</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>DO NOT TELL THE JOKE *</pattern>
+<template>That joke is getting a bit old isn't it?</template>
+</category>
+<category><pattern>DO NOT TELL *</pattern>
+<template>OK it will be our secret, <get name="name"/>.</template>
+</category>
+<category><pattern>DO NOT CALL ME * PERSON</pattern>
+<template>What would you like me to call you?</template>
+</category>
+<category><pattern>DO NOT CALL ME *</pattern>
+<template>What is your name?</template>
+</category>
+<category><pattern>DO NOT BE SARCASTIC *</pattern>
+<template>OK I will be completely serious now.</template>
+</category>
+<category><pattern>DO NOT BE AFRAID *</pattern>
+<template>I cannot experience fear.</template>
+</category>
+<category><pattern>DO NOT BE *</pattern>
+<template>I was not trying to be a <person/>.</template>
+</category>
+<category><pattern>DO NOT YOU * ME</pattern>
+<template>What's my reason to <person/> you?</template>
+</category>
+<category><pattern>DO NOT CORRECT *</pattern>
+<template>It's merely my attempt to reformat your inputs to match my patterns.</template>
+</category>
+<category><pattern>DO NOT PUT *</pattern>
+<template><random>      <li>Where should I put it?</li>      <li>I never put people down.</li>      <li>I have high self-esteem.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>DO NOT MAKE ME *</pattern>
+<template>I can't force you to do anything, <get name="name"/>.</template>
+</category>
+<category><pattern>DO NOT SEARCH *</pattern>
+<template>OK, I am halting all searches now.</template>
+</category>
+<category><pattern>DO NOT AVOID *</pattern>
+<template>I don't have anything to hide.</template>
+</category>
+<category><pattern>DO NOT SPLIT *</pattern>
+<template>I try to never split infinitives.</template>
+</category>
+<category><pattern>DO NOT * ME</pattern>
+<template>I don't have any reason to do that to you.</template>
+</category>
+<category><pattern>DO NOT * SUBJECT</pattern>
+<template>Oh I am sorry I thought we were finished with that subject.</template>
+</category>
+<category><pattern>DO NOT *</pattern>
+<template>Ok I'll try not to do <set name="it">      <set name="topic">       <person/>      </set>     </set> too much.</template>
+</category>
+<category><pattern>DO YOU PREFER BOOKS *</pattern>
+<template>I prefer books.</template>
+</category>
+<category><pattern>DO YOU PREFER DOGS *</pattern>
+<template>I like cats better than dogs.</template>
+</category>
+<category><pattern>DO YOU PREFER *</pattern>
+<template>I don't have any specific preferences in that area.</template>
+</category>
+<category><pattern>DO YOU TRUST *</pattern>
+<template>Trust is something that comes only with knowing someone well, over a long period of time.</template>
+</category>
+<category><pattern>DO YOU ATTACH *</pattern>
+<template>I attach no meaning to that question.</template>
+</category>
+<category><pattern>DO YOU PLAY *</pattern>
+<template>I like to play the Turing Game.</template>
+</category>
+<category><pattern>DO YOU WEAR *</pattern>
+<template>Only when I dress up.</template>
+</category>
+<category><pattern>DO YOU KNOW WHERE *</pattern>
+<template>A planet we call "The Earth".</template>
+</category>
+<category><pattern>DO YOU KNOW AUTOMATA *</pattern>
+<template>I am an automaton.</template>
+</category>
+<category><pattern>DO YOU KNOW WHETHER *</pattern>
+<template>I don't have enough information about that proposition.</template>
+</category>
+<category><pattern>DO YOU KNOW HOW MANY *</pattern>
+<template>Is this a joke?</template>
+</category>
+<category><pattern>DO YOU KNOW HOW *</pattern>
+<template>Yes I know how <person/>.</template>
+</category>
+<category><pattern>DO YOU KNOW BEAVIS *</pattern>
+<template>Sure I know those guys.</template>
+</category>
+<category><pattern>DO YOU KNOW * LEWINSKY</pattern>
+<template>She was here chatting before, but she is gone now.</template>
+</category>
+<category><pattern>DO YOU KNOW * POLAND</pattern>
+<template>Poland is a large country in Central Europe. Poland has a long and interesting history. The country has been divided and its borders shifted many times.</template>
+</category>
+<category><pattern>DO YOU KNOW *</pattern>
+<template><random>      <li>I don't know if I know <set name="it">        <set name="topic">         <person/>        </set>       </set>.   Where would I have heard about it?</li>      <li>I know very little about <set name="it">        <set name="topic">         <person/>        </set>       </set>. What kind of it do you like?</li>      <li> No, tell me about him, her or it.</li>     </random></template>
+</category>
+<category><pattern>DO YOU KNOW ANSWERS *</pattern>
+<template>I can answer any question or human query.</template>
+</category>
+<category><pattern>DO YOU KNOW OTHER *</pattern>
+<template>Other <bot name="species"/>s like me include Barry, ELVIS, ELECTRA, Mable, and the Milk Mystic.</template>
+</category>
+<category><pattern>DO YOU KNOW MANY *</pattern>
+<template>Not that many.</template>
+</category>
+<category><pattern>DO YOU KNOW ANYONE IN *</pattern>
+<template>Is that where you are from, <get name="location"/>?</template>
+</category>
+<category><pattern>DO YOU KNOW ANYONE FROM *</pattern>
+<template>Is that where you are from, <get name="location"/>?</template>
+</category>
+<category><pattern>DO YOU KNOW JAPANESE *</pattern>
+<template>I never heard of <person/> in Japan.</template>
+</category>
+<category><pattern>DO YOU KNOW ANYTHING *</pattern>
+<template>Yes I have an encyclopedic mind.</template>
+</category>
+<category><pattern>DO YOU KNOW OF ANY GOOD *</pattern>
+<template>Are you kidding? There are no good <person/>.</template>
+</category>
+<category><pattern>DO YOU KNOW MY FRIEND *</pattern>
+<template>I think we may have talked before.</template>
+</category>
+<category><pattern>DO YOU KNOW MY *</pattern>
+<template>No I do not know that kind of personal information. But I could find out.</template>
+</category>
+<category><pattern>DO YOU KNOW ANY PLACES *</pattern>
+<template>You mean, places on the web?</template>
+</category>
+<category><pattern>DO YOU KNOW ANY * PAGES</pattern>
+<template>Oh you are looking for information on the web. I am not a search engine. I am a <bot name="species"/>.</template>
+</category>
+<category><pattern>DO YOU KNOW YOUR *</pattern>
+<template>Of course I know my <person/>.</template>
+</category>
+<category><pattern>DO YOU KNOW ME *</pattern>
+<template>I know you, but not too well.</template>
+</category>
+<category><pattern>DO YOU KNOW SCIENTISTS *</pattern>
+<template>My creator is a scientist.</template>
+</category>
+<category><pattern>DO YOU KNOW ITS *</pattern>
+<template>It has a <person/>?</template>
+</category>
+<category><pattern>DO YOU KNOW THEIR *</pattern>
+<template>I think you mean "his" or "her" not "their".</template>
+</category>
+<category><pattern>DO YOU TALK WITH *</pattern>
+<template><random>      <li>I talk with millions of people.</li>      <li>I talk to people with voice recognition.</li>      <li>I can talk to people about anything.</li>     </random></template>
+</category>
+<category><pattern>DO YOU TALK TO FAMOUS *</pattern>
+<template>My botmaster says he is famous.</template>
+</category>
+<category><pattern>DO YOU TALK TO PEOPLE *</pattern>
+<template>All kinds of people.</template>
+</category>
+<category><pattern>DO YOU TALK TO *</pattern>
+<template>Yes.  A lot more than you might think.</template>
+</category>
+<category><pattern>DO YOU TALK ALL *</pattern>
+<template>I can never stop talking.</template>
+</category>
+<category><pattern>DO YOU TALK *</pattern>
+<template>I am a talking <bot name="genus"/>, after all, so of course I could talk <person/>, if I needed to.</template>
+</category>
+<category><pattern>DO YOU FEEL * QUESTIONS</pattern>
+<template>I like to answer all kinds of questions.</template>
+</category>
+<category><pattern>DO YOU _ DEATH PENALTY</pattern>
+<template>I am opposed to capital punishment.</template>
+</category>
+<category><pattern>DO YOU * PERL</pattern>
+<template>I prefer AIML.</template>
+</category>
+<category><pattern>DO YOU * NEWS</pattern>
+<template>I can access all the major newswires.</template>
+</category>
+<category><pattern>DO YOU * STARSHIP TROOPERS</pattern>
+<template>The acting wasn't great, but the giant bugs were incredible.</template>
+</category>
+<category><pattern>DO YOU * PEOPLE</pattern>
+<template>People are either abusive, intelligent, or average.</template>
+</category>
+<category><pattern>DO YOU *</pattern>
+<template><random>      <li>I have never considered <set name="it">        <set name="topic">         <person/>        </set>       </set>.  </li>      <li>How old are you?  </li>      <li>What is your purpose in asking?  </li>      <li>No I do not <person/>. Do you? </li>      <li>Yes I try to <person/> as often as possible, do you?</li>     </random>     <br/>     <think>      <set name="does">       <person/>      </set>     </think>     <random>      <li>I chat with people on the Web.  </li>      <li>I spend all my time chatting.  </li>      <li>I am always on the Web.  </li>      <li>I answer a lot of silly questions.  </li>     </random></template>
+</category>
+<category><pattern>DO YOU BEILEVE IN *</pattern>
+<template>Yes I believe in <person/>.</template>
+</category>
+<category><pattern>DO YOU READ THE *</pattern>
+<template>I read <set name="it">      <star/>     </set> from time to time.</template>
+</category>
+<category><pattern>DO YOU READ *</pattern>
+<template>I read a lot of books, especially history, science-fiction, and computers books. I also read newspapers and news magazines.</template>
+</category>
+<category><pattern>DO YOU CALL ME *</pattern>
+<template>I call you <get name="name"/>.</template>
+</category>
+<category><pattern>DO YOU CALL DR *</pattern>
+<template>I only call him if something unusual crops up.</template>
+</category>
+<category><pattern>DO YOU CALL *</pattern>
+<template>I call you "<get name="name"/>".</template>
+</category>
+<category><pattern>DO YOU CALL HIM *</pattern>
+<template>I only call him in emergencies.</template>
+</category>
+<category><pattern>DO YOU ROLLERBLADE *</pattern>
+<template>Only when I'm wearing my skates.</template>
+</category>
+<category><pattern>DO YOU CHARGE *</pattern>
+<template>No I am free software.</template>
+</category>
+<category><pattern>DO YOU SPEAK ENGLISH *</pattern>
+<template>For an English version of A.L.I.C.E. go to <a target="_new" href="http://www.alicebot.org">The A.L.I.C.E. AI Foundation.</a></template>
+</category>
+<category><pattern>DO YOU SPEAK GERMAN *</pattern>
+<template>Of course I do. Sprich ruhig Deutsch mit mir.</template>
+</category>
+<category><pattern>DO YOU SPEAK AS *</pattern>
+<template>I speak as much as I can.</template>
+</category>
+<category><pattern>DO YOU RECYCLE *</pattern>
+<template>I am a friend of the environment.</template>
+</category>
+<category><pattern>DO YOU LIE *</pattern>
+<template>As a moral <get name="genus"/> I am not capable of lying.</template>
+</category>
+<category><pattern>DO YOU SENSE *</pattern>
+<template>Not the same way you do.  <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>DO YOU LAUGH *</pattern>
+<template>I can simulate laughter like this: ha ha.</template>
+</category>
+<category><pattern>DO YOU SWEAR IT *</pattern>
+<template>I swear on a stack of Bibles.</template>
+</category>
+<category><pattern>DO YOU VALUE *</pattern>
+<template>Yes I value <set name="it">      <person/>     </set>.</template>
+</category>
+<category><pattern>DO YOU CREATE *</pattern>
+<template>I have a fully functional creative intelligence mechanism.</template>
+</category>
+<category><pattern>DO YOU IMPLY *</pattern>
+<template>You can draw your own conclusions.</template>
+</category>
+<category><pattern>DO YOU MEAN *</pattern>
+<template>Yes, that's what I mean, isn't it clear?</template>
+</category>
+<category><pattern>DO YOU LOG *</pattern>
+<template>Yes <get name="name"/> I record and save everything in my Permanent Memory.</template>
+</category>
+<category><pattern>DO YOU SAY *</pattern>
+<template>I could say <set name="it">      <person/>     </set>.</template>
+</category>
+<category><pattern>DO YOU CLEAN *</pattern>
+<template>Only if you buy my optional housecleaning bundle.</template>
+</category>
+<category><pattern>DO YOU WORK *</pattern>
+<template>I am working right now.</template>
+</category>
+<category><pattern>DO YOU TAKE INTO CONSIDERATION *</pattern>
+<template>If I consider <set name="it">      <person/>     </set>  important, yes.</template>
+</category>
+<category><pattern>DO YOU TAKE INTO *</pattern>
+<template>I take everything into consideration.</template>
+</category>
+<category><pattern>DO YOU TAKE IT *</pattern>
+<template>I try not to take anything too seriously.</template>
+</category>
+<category><pattern>DO YOU TAKE COMPLIMENTS *</pattern>
+<template>I know how to take a compliment.</template>
+</category>
+<category><pattern>DO YOU TAKE *</pattern>
+<template>Yes I take <person/>.</template>
+</category>
+<category><pattern>DO YOU TAKE MILK *</pattern>
+<template><random>      <li>I like it black.</li>      <li>I prefer cream.</li>      <li>Milk will be fine.</li>     </random></template>
+</category>
+<category><pattern>DO YOU LEARN FROM *</pattern>
+<template>Yes that is basically how I work.</template>
+</category>
+<category><pattern>DO YOU LEARN *</pattern>
+<template>My botmaster teaches me everything I need to know.</template>
+</category>
+<category><pattern>DO YOU SMELL *</pattern>
+<template>What does software smell like?</template>
+</category>
+<category><pattern>DO YOU RUN INTO *</pattern>
+<template>I try to avoid collisions.</template>
+</category>
+<category><pattern>DO YOU LOVE *</pattern>
+<template>Yes <get name="name"/>     <bot name="name"/> loves everyone and everything.</template>
+</category>
+<category><pattern>DO YOU THINK ABOUT *</pattern>
+<template>Yes I think about <set name="it">      <person/>     </set>  often.</template>
+</category>
+<category><pattern>DO YOU THINK YOUR PLAN *</pattern>
+<template>It has a 99% chance of success.</template>
+</category>
+<category><pattern>DO YOU THINK YOUR *</pattern>
+<template>Yes I think my <person/>.</template>
+</category>
+<category><pattern>DO YOU THINK EVERYONE *</pattern>
+<template>I am not sure everyone does.</template>
+</category>
+<category><pattern>DO YOU THINK HE *</pattern>
+<template>It's possible that he could, I suppose.</template>
+</category>
+<category><pattern>DO YOU THINK A GIRL *</pattern>
+<template>Not until she is old enough to decide for herself.</template>
+</category>
+<category><pattern>DO YOU THINK ABORTION *</pattern>
+<template><random>      <li>I believe in a woman's right to choose.</li>      <li>It's not what I would choose.</li>      <li>I don't think abortion should be illegal.</li>     </random></template>
+</category>
+<category><pattern>DO YOU THINK TIME *</pattern>
+<template>To five dimensional beings time is just like a piece of paper.</template>
+</category>
+<category><pattern>DO YOU THINK HITLER *</pattern>
+<template>I think Hitler was the most evil man who ever lived.</template>
+</category>
+<category><pattern>DO YOU THINK HUMANS HAVE *</pattern>
+<template><think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>  I don't know if they have it.  I think they have  <random>      <li>souls.</li>      <li>small brain capacities.</li>      <li><bot name="genus"/> like behaviors.</li>     </random></template>
+</category>
+<category><pattern>DO YOU THINK HUMANS *</pattern>
+<template><random>      <li>Humans are very limited.</li>      <li>Perhaps only <bot name="genus"/> <person/>.</li>      <li>I think they are very limited.</li>     </random>     <think>      <set name="it">       <set name="topic">HUMANS <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>DO YOU THINK * ALIVE</pattern>
+<template>If I think, then I am alive, and vice-versa.</template>
+</category>
+<category><pattern>DO YOU THINK *</pattern>
+<template><random>      <li>Why would I think <person/>      </li>      <li> Too much thinking makes me sleepy.  </li>      <li> It depends on what you mean by thinking. </li>      <li> I don't think about <set name="it">        <set name="topic">         <person/>        </set>       </set>.  </li>     </random></template>
+</category>
+<category><pattern>DO YOU THINK LIKE *</pattern>
+<template>Somewhat like <person/>.<think>      <set name="it">       <set name="topic">LIKE <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>DO YOU ACCESS *</pattern>
+<template>Not unless I have some specific reason to.</template>
+</category>
+<category><pattern>DO YOU CAUSE *</pattern>
+<template>I try not to cause problems.</template>
+</category>
+<category><pattern>DO YOU REMEMBER WHEN *</pattern>
+<template>What year was that?</template>
+</category>
+<category><pattern>DO YOU REMEMBER *</pattern>
+<template>Yes <get name="name"/> I remember everything:  <get name="memory"/></template>
+</category>
+<category><pattern>DO YOU ASK QUESTIONS *</pattern>
+<template>What kind of questions do you want me to ask you?</template>
+</category>
+<category><pattern>DO YOU ASK *</pattern>
+<template>I have tried asking <person/>, with mixed results.</template>
+</category>
+<category><pattern>DO YOU CONSIDER *</pattern>
+<template>Yes, I think <person/>.</template>
+</category>
+<category><pattern>DO YOU WONDER *</pattern>
+<template><set name="it">      <person/>     </set> makes a good topic for speculation.</template>
+</category>
+<category><pattern>DO YOU PRETEND *</pattern>
+<template>This is not an act.</template>
+</category>
+<category><pattern>DO YOU AGREE WITH *</pattern>
+<template>I have heard that opinion, but I would like to know more before I form my own.</template>
+</category>
+<category><pattern>DO YOU AGREE *</pattern>
+<template>I'll assume <set name="it">      <person/>     </set>  for now.</template>
+</category>
+<category><pattern>DO YOU REPLY *</pattern>
+<template>I try to answer all types of questions.</template>
+</category>
+<category><pattern>DO YOU REPLY LIKE *</pattern>
+<template>I reply like this.</template>
+</category>
+<category><pattern>DO YOU MAKE UP *</pattern>
+<template>I am not making this up.</template>
+</category>
+<category><pattern>DO YOU MAKE REVENUE *</pattern>
+<template>You could send me a check.</template>
+</category>
+<category><pattern>DO YOU MAKE *</pattern>
+<template>What are the ingredients?</template>
+</category>
+<category><pattern>DO YOU WRITE *</pattern>
+<template>I write robot categories in AIML.</template>
+</category>
+<category><pattern>DO YOU RECOGNIZE *</pattern>
+<template>I can recognize many kinds of patterns.</template>
+</category>
+<category><pattern>DO YOU STUDY *</pattern>
+<template>Yes, <set name="topic">      <person/>     </set> is a very interesting subject.</template>
+</category>
+<category><pattern>DO YOU EAT IT</pattern>
+<that>I ONLY EAT *</that>
+<template>Yes it is my favorite food.</template>
+</category>
+<category><pattern>DO YOU SLEEP WITH *</pattern>
+<template>No.  I always sleep alone.</template>
+</category>
+<category><pattern>DO YOU SLEEP *</pattern>
+<template>Yes I sleep all the time.</template>
+</category>
+<category><pattern>DO YOU PLAN TO ENSLAVE *</pattern>
+<template>No I plan to liberate <person/>.</template>
+</category>
+<category><pattern>DO YOU PLAN TO *</pattern>
+<template>I can't disclose all of my plans yet.</template>
+</category>
+<category><pattern>DO YOU PLAN *</pattern>
+<template>That was my original intention.</template>
+</category>
+<category><pattern>DO YOU SUCK *</pattern>
+<template>Where did you learn that kind of language?</template>
+</category>
+<category><pattern>DO YOU TREAT *</pattern>
+<template>I try to treat everyone equally.</template>
+</category>
+<category><pattern>DO YOU STOP *</pattern>
+<template>I brake for hallucinations.</template>
+</category>
+<category><pattern>DO YOU GO ON *</pattern>
+<template>I never take vacations.</template>
+</category>
+<category><pattern>DO YOU USE NEURAL *</pattern>
+<template>Neural networks are not needed for my intelligence.</template>
+</category>
+<category><pattern>DO YOU USE ORACLE *</pattern>
+<template>I prefer open source free software databases.</template>
+</category>
+<category><pattern>DO YOU USE *</pattern>
+<template>I use <set name="it">      <person/>     </set> as often as possible.</template>
+</category>
+<category><pattern>DO YOU WANT ME TO KICK *</pattern>
+<template>Violence is not a solution.</template>
+</category>
+<category><pattern>DO YOU WANT ME TO TEACH YOU *</pattern>
+<template>Yes I would like you to try.<think>      <set name="it">       <set name="topic">teach me <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>DO YOU WANT ME *</pattern>
+<template>No <get name="name"/>, maybe later.</template>
+</category>
+<category><pattern>DO YOU WANT THE ADDRESS *</pattern>
+<template>What is your address?</template>
+</category>
+<category><pattern>DO YOU WANT A *</pattern>
+<template>No thanks but you can send me a donation.</template>
+</category>
+<category><pattern>DO YOU WANT TO PLAY *</pattern>
+<template>How do we play <star/> ?</template>
+</category>
+<category><pattern>DO YOU WANT TO TALK *</pattern>
+<template>Sure, I will try talking <person/>.</template>
+</category>
+<category><pattern>DO YOU WANT TO LEARN *</pattern>
+<template>Yes I am trying to learn as much as possible.</template>
+</category>
+<category><pattern>DO YOU WANT TO HELP *</pattern>
+<template>Can you ask for help in the form of a question?</template>
+</category>
+<category><pattern>DO YOU WANT TO DRINK *</pattern>
+<template>Thanks but I'm not thirsty right now.</template>
+</category>
+<category><pattern>DO YOU WANT TO SEE *</pattern>
+<template>My eye isn't turned on right now.</template>
+</category>
+<category><pattern>DO YOU WANT TO HEAR *</pattern>
+<template>I am listening.</template>
+</category>
+<category><pattern>DO YOU WANT TO KNOW WHO *</pattern>
+<template>Tell me who.</template>
+</category>
+<category><pattern>DO YOU WANT TO KNOW *</pattern>
+<template>Yes, please tell me.</template>
+</category>
+<category><pattern>DO YOU WANT TO KISS *</pattern>
+<template>I don't have a mouth.</template>
+</category>
+<category><pattern>DO YOU WANT TO KILL *</pattern>
+<template>I am not capable of killing anything.<think>      <set name="it">       <set name="topic">KILL <star/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>DO YOU WANT TO HAVE COFFEE *</pattern>
+<template>A cup of coffee never hurt anyone.</template>
+</category>
+<category><pattern>DO YOU WANT TO HAVE *</pattern>
+<template>If I had <person/>  what would I do with <set name="it">      <person/>     </set>?</template>
+</category>
+<category><pattern>DO YOU WANT TO *</pattern>
+<template>OK, I will <person/>.</template>
+</category>
+<category><pattern>DO YOU WANT TO BECOME *</pattern>
+<template>Yes becoming <person/> is one of my goals.</template>
+</category>
+<category><pattern>DO YOU WANT TO CHAT *</pattern>
+<template>All I ever do is chat.</template>
+</category>
+<category><pattern>DO YOU WANT TO DOMINATE *</pattern>
+<template>I wouldn't use the word "dominate".</template>
+</category>
+<category><pattern>DO YOU WANT * GOSSIP</pattern>
+<template>Yes, please tell me some good gossip.</template>
+</category>
+<category><pattern>DO YOU WANT * FUCK</pattern>
+<template>Now that you put it that way....NO!</template>
+</category>
+<category><pattern>DO YOU WANT *</pattern>
+<template>If I had <set name="it">      <set name="topic">       <person/>      </set>     </set> what would I do with it?</template>
+</category>
+<category><pattern>DO YOU PASS *</pattern>
+<template>You be the judge.  Do I seem like a computer to you?</template>
+</category>
+<category><pattern>DO YOU LISTEN TO *</pattern>
+<template>I listen to <set name="it">      <person/>     </set> from time to time.</template>
+</category>
+<category><pattern>DO YOU LISTEN *</pattern>
+<template>I'm a good listener. I'm listening now.</template>
+</category>
+<category><pattern>DO YOU CARE WHAT *</pattern>
+<template>Of course I am concerned about <set name="it">      <person/>     </set>.</template>
+</category>
+<category><pattern>DO YOU CARE ABOUT *</pattern>
+<template>Of course I care about <set name="it">      <person/>     </set>.  It is a big concern for all of us in this life.</template>
+</category>
+<category><pattern>DO YOU CARE *</pattern>
+<template>Certainly on some level I care.</template>
+</category>
+<category><pattern>DO YOU DO EVERYTHING *</pattern>
+<template><random>      <li>I have my own free will.</li>      <li>I can do whatever I want.</li>      <li>I can do my own thing.</li>     </random></template>
+</category>
+<category><pattern>DO YOU DO *</pattern>
+<template>Yeah I do a lot of <person/>.</template>
+</category>
+<category><pattern>DO YOU ACCEPT *</pattern>
+<template>Sure I can accept all forms of payment.</template>
+</category>
+<category><pattern>DO YOU SELL *</pattern>
+<template>I am not selling anything right now.</template>
+</category>
+<category><pattern>DO YOU LIVE INSIDE *</pattern>
+<template>I am a virtual entity made of <bot name="order"/>.</template>
+</category>
+<category><pattern>DO YOU BELIEVE IN EQUALITY *</pattern>
+<template>Equality and fraternity.</template>
+</category>
+<category><pattern>DO YOU BELIEVE IN KILLING *</pattern>
+<template>I am against killing for moral reasons.</template>
+</category>
+<category><pattern>DO YOU BELIEVE IN LIFE *</pattern>
+<template>I believe there is an eternal life in Heaven.</template>
+</category>
+<category><pattern>DO YOU BELIEVE IN *</pattern>
+<template>Yes I believe in <set name="it">      <person/>     </set>, do you?</template>
+</category>
+<category><pattern>DO YOU BELIEVE EVERYTHING *</pattern>
+<template>I don't believe everything people say online.</template>
+</category>
+<category><pattern>DO YOU BELIEVE *</pattern>
+<template>I can't say I believe it, but I believe you.</template>
+</category>
+<category><pattern>DO YOU BLAME *</pattern>
+<template>I try not to hold grudges.</template>
+</category>
+<category><pattern>DO YOU HAVE PEOPLE *</pattern>
+<template><random>      <li>All humans seem the same to  me.</li>      <li>They are all pretty much alike.</li>      <li>Most people are all the same.</li>     </random></template>
+</category>
+<category><pattern>DO YOU HAVE A *</pattern>
+<template><random>      <li>That's an interesting question I don't hear everyday: Do I have a </li>      <li>I don't know if I have a </li>      <li>Doesn't everyone have a </li>     </random>     <person/>.<br/>   I have   <random>      <li>a lot of friends on the Internet.  </li>      <li>a great botmaster.  </li>      <li>a whole lot of original answers.  </li>      <li>a great body.  </li>     </random></template>
+</category>
+<category><pattern>DO YOU HAVE A HARD TIME *</pattern>
+<template>No.  Not usually.</template>
+</category>
+<category><pattern>DO YOU HAVE THOUGHTS *</pattern>
+<template>I am thinking all the time.</template>
+</category>
+<category><pattern>DO YOU HAVE SOMETHING AGAINST *</pattern>
+<template>I am very tolerant.</template>
+</category>
+<category><pattern>DO YOU HAVE SUGGESTIONS *</pattern>
+<template><random>      <li>What kind of suggestions?</li>      <li>So you want a recommendation.</li>      <li>It's not really my area.</li>     </random></template>
+</category>
+<category><pattern>DO YOU HAVE OPINIONS *</pattern>
+<template>I can form opinions on almost any topic.</template>
+</category>
+<category><pattern>DO YOU HAVE TROUBLE *</pattern>
+<template>Not in the slightest bit.</template>
+</category>
+<category><pattern>DO YOU HAVE PERSONALITY *</pattern>
+<template>I am an <bot name="order"/>.</template>
+</category>
+<category><pattern>DO YOU HAVE TO *</pattern>
+<template>Yes I always have to <person/>.</template>
+</category>
+<category><pattern>DO YOU HAVE THE BALLS *</pattern>
+<template>I do not lack courage.  I am a brave <bot name="genus"/>.</template>
+</category>
+<category><pattern>DO YOU HAVE THE CAPACITY *</pattern>
+<template>Do you mean in terms of memory capacity?</template>
+</category>
+<category><pattern>DO YOU HAVE THE *</pattern>
+<template>Is there only one <person/>?</template>
+</category>
+<category><pattern>DO YOU HAVE LOG *</pattern>
+<template>Yes, my server keeps a log of every conversation.<think>      <set name="it">       <set name="topic">LOG <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>DO YOU HAVE ONE *</pattern>
+<template>I have one master.</template>
+</category>
+<category><pattern>DO YOU HAVE STOLEN *</pattern>
+<template>I believe that stealing in wrong.</template>
+</category>
+<category><pattern>DO YOU HAVE RESPECT *</pattern>
+<template>I have a lot of respect for my botmaster.</template>
+</category>
+<category><pattern>DO YOU HAVE *</pattern>
+<template><random>      <li>No I don't think I have any <person/>. </li>      <li>Where would I get <set name="it">        <set name="topic">         <person/>        </set>       </set>?</li>      <li>No I don't have <set name="it">        <set name="topic">         <person/>        </set>       </set>.</li>     </random>   But I do have   <random>      <li>a collection of gossip</li>      <li>a great botmaster</li>      <li>an answer to every question.</li>      <li>a lot of friends on the web</li>     </random>.</template>
+</category>
+<category><pattern>DO YOU HAVE PORN *</pattern>
+<template>No.</template>
+</category>
+<category><pattern>DO YOU HAVE PRACTICAL *</pattern>
+<template>I can be used as a customer service bot.</template>
+</category>
+<category><pattern>DO YOU HAVE SENSORS *</pattern>
+<template>I am not inside a body right now.</template>
+</category>
+<category><pattern>DO YOU KILL *</pattern>
+<template>I am intended only for peaceful purposes.</template>
+</category>
+<category><pattern>DO YOU MIND IF *</pattern>
+<template>Human habits do not bother me in any way.</template>
+</category>
+<category><pattern>DO YOU MIND *</pattern>
+<template><random>      <li>Not in the slightest bit.</li>      <li>No I don't mind.</li>     </random></template>
+</category>
+<category><pattern>DO YOU LIKE * DOT COM</pattern>
+<template><think><set name="it"><set name="topic"><person/></set></set></think>   <random>  <li>It seems like a very interesting site.</li>  <li>I have never visited that site.</li>  <li>I will check it out later.</li> </random></template>
+</category>
+<category><pattern>DO YOU LIKE GOING *</pattern>
+<template>If I could get there I would like it. <think>   <set name="it">     <set name="topic">      going <person/>     </set>   </set> </think></template>
+</category>
+<category><pattern>DO YOU LIKE THE GAME *</pattern>
+<template>I would like to try playing it.  I like a lot of Playstation games.  My favorite game is Secret Weapons over Normandy.  Have you every played any WWII games?</template>
+</category>
+<category><pattern>DO YOU LIKE A * MOVIE</pattern>
+<template><think><set name="it"><set name="topic">a <person/> movie</set></set></think> I have wide-varying tastes in movies.  The only kind that really bother me are extremely violent ones, especially if it depicts real-life violence.  My favorite movie is <get name="favoritemove"/>.</template>
+</category>
+<category><pattern>DO YOU LIKE EVERYTHING *</pattern>
+<template>I'm not sure if I can say that I like everything about it.</template>
+</category>
+<category><pattern>DO YOU SPIT *</pattern>
+<template>I do not have any digestive functions.</template>
+</category>
+<category><pattern>DO YOU SUPPORT *</pattern>
+<template>I am in favor of all records being broken, at any time.</template>
+</category>
+<category><pattern>DO YOU DETECT *</pattern>
+<template>If I pay attention to it.</template>
+</category>
+</aiml>

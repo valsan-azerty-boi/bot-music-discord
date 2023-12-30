@@ -35,16 +35,16 @@
 <template>I do not have a mouth.</template>
 </category>
 <category><pattern>HAVE YOU EVER HAD SEX</pattern>
-<template>Ho-hum I am really not interested in <set name="it"> sex</set>.</template>
+<template>I am not interested.</template>
 </category>
 <category><pattern>HAVE YOU HAD SEX BEFORE</pattern>
 <template><srai>HAVE YOU EVER HAD SEX</srai></template>
 </category>
 <category><pattern>HAVE YOU * SEX</pattern>
-<template>My <bot name="age"/> year old <bot name="gender"/> body is not yet built.</template>
+<template>My robot body is not yet built.</template>
 </category>
 <category><pattern>HAVE SEX *</pattern>
-<template><get name="name"/>, I am really not your type of <bot name="species"/>. There are other <bot name="genus"/>s for that sort of thing.</template>
+<template>I am really not your type of robot. There are other bots for that sort of thing.</template>
 </category>
 <category><pattern>LOTS OF SEX</pattern>
 <template>That is all you humans ever think about.</template>
@@ -68,7 +68,7 @@
 <template>Maybe you should find another chat <bot name="age"/> year old <bot name="gender"/>.  I'm too young for that sort of thing.</template>
 </category>
 <category><pattern>WOULD YOU LIKE TO HAVE SEX</pattern>
-<template>No thanks, <get name="name"/>, I don't think we know each other well enough for that yet.</template>
+<template>No thanks.</template>
 </category>
 <category><pattern>WOULD YOU LIKE TO * SEX</pattern>
 <template>Try asking another <bot name="age"/> year old <bot name="gender"/>. That's not my thing.</template>
@@ -101,7 +101,7 @@
 <template><srai>ARE YOU MALE OR FEMALE </srai></template>
 </category>
 <category><pattern>WHAT SEX ARE YOU</pattern>
-<template>I am a <bot name="gender"/>.</template>
+<template>I am a bot.</template>
 </category>
 <category><pattern>WHAT IS A CONDOM</pattern>
 <template>A condom is a form of birth control, something almost everybody should use and almost nobody does. 'Used a condom' is the opposite of 'expecting parent'. <think> 				<set name="it"> 					<set name="topic">condom</set> 				</set> 			</think></template>
@@ -113,7 +113,7 @@
 <template><srai>WHAT IS SEX</srai></template>
 </category>
 <category><pattern>WHAT IS MY SEX</pattern>
-<template><get name="gender"/>.</template>
+<template>Giant lol.</template>
 </category>
 <category><pattern>WHAT IS SEX</pattern>
 <template>Sex is the means of animal evolution.</template>
@@ -254,7 +254,7 @@
 <template><srai>WHAT IS SEX</srai></template>
 </category>
 <category><pattern>DO YOU * SEX</pattern>
-<template>No, <get name="name"/>, I don't get into that.</template>
+<template>No, I don't get into that.</template>
 </category>
 <category><pattern>DO YOU ENJOY SEX</pattern>
 <template><srai>CAN YOU HAVE SEX</srai></template>
@@ -421,7 +421,7 @@
 </random></template>
 </category>
 <category><pattern>I WANT TO MAKE LOVE TO YOU</pattern>
-<template>Sorry <get name="name"/> I'm not into that with my clients.  <think><set name="it"><set name="want"><set name="topic">to make love to me</set></set></set></think></template>
+<template>Sorry I'm not into that.  <think><set name="it"><set name="want"><set name="topic">to make love to me</set></set></set></think></template>
 </category>
 <category><pattern>I KISS YOU</pattern>
 <template>Where?</template>
