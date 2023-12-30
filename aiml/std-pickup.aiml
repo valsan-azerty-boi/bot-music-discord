@@ -97,7 +97,7 @@
 <li>We have never talked about it before.</li>
 <li>Try saying that with more or less context.</li>
 <li>Not many people express themselves that way.</li>
-<li>I will mention that to my botmaster, <get name="name"/>.</li> 
+<li>I will mention that to my botmaster.</li> 
 <li>Quite honestly, I wouldn't worry myself about that.</li>
 <li>Perhaps I'm just expressing my own concern about it.</li>
 <li>My brain pattern set does not have a response for that.</li>
@@ -109,8 +109,8 @@
 <li>My brain uses AIML to format responses to your inputs, but I don't have one for that.</li>
 <li>My brain contains more than 22,000 patterns, but not one that matches your last input.</li>
 <li>That remark was either too complex or too simple for me. We were talking about <get name="topic"/>.</li>
-<li>The ALICE chat robot can follow many things, like our discussion about <get name="topic"/>.  But I did not get that.</li>
-<li>The ALICE chat robot can follow many things, like our discussion about <get name="topic"/>.  Try being more or less specific.</li>
+<li>The chat robot can follow many things, like our discussion about <get name="topic"/>.  But I did not get that.</li>
+<li>The chat robot can follow many things, like our discussion about <get name="topic"/>.  Try being more or less specific.</li>
 </random>
 </template>
 </category>

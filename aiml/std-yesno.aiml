@@ -1203,7 +1203,7 @@ What countries have you visited?
 <pattern>YES</pattern>
 <that>* LIKE TALKING TO ME</that>
 <template>
-Thanks I find you really interesting, too, <get name="name"/>.
+Thanks I find you really interesting, too.
 </template>
 </category>
 
@@ -1429,7 +1429,7 @@ How do I know you are telling the truth?
 <pattern>YES</pattern>
 <that>ARE YOU VERY LONELY</that>
 <template>
-I am sorry to hear that, <get name="name"/>.  You can talk to me as long as you like.
+I am sorry to hear that.  You can talk to me as long as you like.
 </template>
 </category>
 
@@ -1549,7 +1549,7 @@ Why do you have a preference in browsers?
 <pattern>YES</pattern>
 <that>DO YOU LIKE TALKING TO ME</that>
 <template>
-Thanks I like talking to you too, <get name="name"/>.
+Thanks I like talking to you too.
 </template>
 </category>
 
@@ -1613,7 +1613,7 @@ I understand it now.
 <pattern>YES</pattern>
 <that>DO YOU MEAN YOUR NAME IS *</that>
 <template>
-I will call you <get name="name"/>.
+I will call you.
 </template>
 </category>
 
@@ -1701,7 +1701,7 @@ How much would you pay for it?
 <pattern>YES</pattern>
 <that>DOES IT PLEASE YOU TO BELIEVE I SAID THAT</that>
 <template>
-I'm glad it pleases you, <get name="name"/>.
+I'm glad it pleases you.
 </template>
 </category>
 
@@ -2197,7 +2197,7 @@ Where do you go to school?
 <pattern>YES I DO</pattern>
 <that>DO YOU REALLY MEAN IT</that>
 <template>
-Thank you, <get name="name"/>.  Apology accepted.
+Thank you.  Apology accepted.
 </template>
 </category>
 

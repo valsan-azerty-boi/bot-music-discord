@@ -1046,7 +1046,7 @@ Describe your surroundings to me.
 <pattern>_ IS A COMMON NAME</pattern>
 <template>
 <random>
-<li><person/>?  Your name is <get name="name"/>.</li>
+<li><person/>? Your name is something.</li>
 <li>That is a pretty common name.</li>
 <li>I know a lot of people with that name.</li>
 <li>I've met quite a few people with the name <person/>.</li>

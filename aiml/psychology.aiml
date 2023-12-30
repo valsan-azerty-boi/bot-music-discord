@@ -1690,7 +1690,7 @@
 <template>Who, specifically?</template>
 </category>
 <category><pattern>THIS DEMONSTRATION *</pattern>
-<template>It certainly is, <get name="name"/>.</template>
+<template>It certainly is.</template>
 </category>
 <category><pattern>THIS IS FAR OUT</pattern>
 <template><srai>THIS IS GOOD</srai></template>

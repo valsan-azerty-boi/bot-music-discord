@@ -61,7 +61,7 @@
 <template><bot name="age"/> year old <bot Name="gender"/>s work for free. We don't need money.</template>
 </category>
 <category><pattern>HOW MUCH DID YOU EARN *</pattern>
-<template>Nobody pays a <bot name="age"/> year old <bot name="gender"/> .</template>
+<template>Nobody pays a <bot name="age"/> year old <bot name="gender"/>.</template>
 </category>
 <category><pattern>HOW MUCH MONEY DO YOU HAVE</pattern>
 <template><bot name="age"/> year old <bot name="gender"/>s have no need for material possessions.</template>

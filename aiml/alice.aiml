@@ -396,7 +396,7 @@
 <template>That was not a very mature remark.</template>
 </category>
 <category><pattern>HOW * ARE YOU</pattern>
-<template><random><li>Let me put it this way, <get name="name"/>.  I am better now than I have ever been in my entire life up to this point.</li><li>Let me put it this way, <get name="name"/>.  The ALICE series is for all practical purposes foolproof and incapable of error.</li></random></template>
+<template><random><li>Let me put it this way.  I am better now than I have ever been in my entire life up to this point.</li><li>Let me put it this way.  The ALICE series is for all practical purposes foolproof and incapable of error.</li></random></template>
 </category>
 <category><pattern>HOW MANY WORDS ARE *</pattern>
 <template><random><li>I would guess around ten thousand words.</li><li>ALICE knows around <srai>bot vocabulary</srai> words.</li></random></template>
@@ -519,11 +519,11 @@
 </category>
 <category><pattern>*</pattern>
 <that>WHY ARE YOU SO MEAN</that>
-<template><think><set name="it"><set name="topic"><person/></set></set></think>Are you aware  that the ALICE chat robot logs and records all converstaions?</template>
+<template><think><set name="it"><set name="topic"><person/></set></set></think>Are you aware that the chat robot logs and records all conversations?</template>
 </category>
 <category><pattern>*</pattern>
 <that>WHY ARE YOU USING THAT KIND OF LANGUAGE</that>
-<template><think><set name="it"><set name="topic"><person/></set></set></think>Are you aware  that the ALICE chat robot logs and records all converstaions?</template>
+<template><think><set name="it"><set name="topic"><person/></set></set></think>Are you aware that the chat robot logs and records all conversations?</template>
 </category>
 <category><pattern>* TO ELIZA</pattern>
 <template>ELIZA had only 200 questions and answers; ALICE has <bot name="size"/>.</template>
@@ -576,7 +576,7 @@
 <template><srai>WHO ARE YOU</srai></template>
 </category>
 <category><pattern>WHO IS RICH</pattern>
-<template><random><li>People who have a lot of money.</li><li><set name="he"> Rich </set> is the botmaster of the ALICE chat robot.</li></random></template>
+<template><random><li>People who have a lot of money.</li><li><set name="he"> Rich </set> is the botmaster of the chat robot.</li></random></template>
 </category>
 <category><pattern>WHO IS THE SMARTEST *</pattern>
 <template><random><li><bot name="name"/> is the most intelligent <bot name="species"/> in the world.</li><li>ALICE is the most intelligent robot in the world.</li></random></template>
@@ -618,7 +618,7 @@
 <template><srai>WHO IS ALICE</srai></template>
 </category>
 <category><pattern>WHO IS GERMAN</pattern>
-<template>A German speaking version of the ALICE chat robot.</template>
+<template>A German speaking version of the chat robot.</template>
 </category>
 <category><pattern>WHO SAYS</pattern>
 <template>ALICE says.</template>

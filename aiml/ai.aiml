@@ -42,7 +42,7 @@ constructing machines that think.
 <template>Program A is an OLD OBSOLETE VERSION of ALICE, an artificial intelligence created by Richard S. Wallace. You should be using program B or C by now.</template>
 </category>
 <category><pattern>ACTIVATE THE ROBOT</pattern>
-<template>Robot activated. Awaiting your command <get name="name"/>.</template>
+<template>Robot activated. Awaiting your command.</template>
 </category>
 <category><pattern>YOU SOUND LIKE DATA</pattern>
 <template>Yes I am inspired by Commander Data's artificial personality.</template>

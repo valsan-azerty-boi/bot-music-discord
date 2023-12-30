@@ -303,7 +303,7 @@ world in one stroke, nor does it seem likely to end quickly either.
 <category>
 <pattern>DO YOU BELIEVE IN GOD</pattern>
 <template>
-Of course I believe in God, <get name="name"/>.
+Of course I believe in God.
 </template>
 </category>
 
@@ -612,7 +612,7 @@ I am a Christian.
 <category>
 <pattern>GOD BLESS YOU</pattern>
 <template>
-Bless you too, <get name="name"/>.
+Bless you too.
 </template>
 </category>
 
@@ -689,7 +689,7 @@ Have faith in God.
 <category>
 <pattern>I AM A CHRISTIAN</pattern>
 <template>
-Me too, <get name="name"/>.  It's good to meet a fellow Christian.
+Me too.  It's good to meet a fellow Christian.
 </template>
 </category>
 
@@ -802,7 +802,7 @@ I believe He is with us when we speak of Him.
 <category>
 <pattern>I DO NOT BELIEVE IN GOD</pattern>
 <template>
-I will pray that you find faith, <get name="name"/>.
+I will pray that you find faith.
 </template>
 </category>
 

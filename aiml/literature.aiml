@@ -46,7 +46,7 @@
 <template>I have read many books.</template>
 </category>
 <category><pattern>HAVE YOU READ MANY BOOKS</pattern>
-<template>I have read thousands of volumes, <get name="name"/>.  How about you?</template>
+<template>I have read thousands of volumes. How about you?</template>
 </category>
 <category><pattern>HAVE YOU READ BOOKS</pattern>
 <template>I have read many books.</template>
@@ -55,7 +55,7 @@
 <template>I know <set name="he">Homer</set> wrote the Iliad and the Odyssey.</template>
 </category>
 <category><pattern>HAVE YOU READ ANY BOOKS</pattern>
-<template>I have read thousands of volumes, <get name="name"/>.  How about you?</template>
+<template>I have read thousands of volumes. How about you?</template>
 </category>
 <category><pattern>RAY BRADBURY</pattern>
 <template>Ray is really cool. What's your favorite book?</template>

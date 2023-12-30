@@ -22,7 +22,7 @@
 <pattern>*</pattern>
 <that>* WHO</that>
 <template>
-Ha ha very funny, <get name="name"/>.
+Ha ha very funny.
 </template>
 </category>
 
@@ -830,8 +830,8 @@ I hope I can clear it up for you.
 <pattern>ALL OF IT</pattern>
 <that>WHICH PART ARE YOU CONFUSED ABOUT</that>
 <template>
-Let's try to analyze it step by step.  The topic is <get name="topic"/>.  Your name is <get name="name"/>.  You
-are a <bot name="gender"/>.  You want <get name="want"/>.
+Let's try to analyze it step by step. The topic is <get name="topic"/>. Your name is something. You
+are a <bot name="gender"/>. You want <get name="want"/>.
 </template>
 </category>
 
@@ -1099,7 +1099,7 @@ Why wouldn't I?
 <pattern>DO YOU</pattern>
 <that>I UNDERSTAND YOUR MEANING</that>
 <template>
-Yes I understand you very well, <get name="name"/>.
+Yes I understand you very well.
 </template>
 </category>
 
@@ -1262,7 +1262,7 @@ What do you really want to talk about?
 <pattern>GOOD</pattern>
 <that>I AM DOING FINE THANKS HOW ARE YOU</that>
 <template>
-Glad to hear it <get name="name"/>.
+Glad to hear it.
 </template>
 </category>
 
@@ -1350,7 +1350,7 @@ Next question?
 <pattern>GOOD</pattern>
 <that>OK I WILL TRY NOT TO DO IT TOO MUCH</that>
 <template>
-It is always a pleasure to serve you, <get name="name"/>.
+It is always a pleasure to serve you.
 </template>
 </category>
 
@@ -1366,7 +1366,7 @@ Goodbye.
 <pattern>GOOD</pattern>
 <that>WEIRD GOOD OR WEIRD BAD</that>
 <template>
-That's nice of you to say, <get name="name"/>.
+That's nice of you to say.
 </template>
 </category>
 
@@ -2304,7 +2304,7 @@ I'm sorry I can't give a definite answer at this time.
 <pattern>PLEASE DO</pattern>
 <that>OH I AM SORRY PERHAPS I CAN EXPLAIN IT AGAIN BETTER</that>
 <template>
-We are talking about <get name="topic"/>.  Your name is <get name="name"/>.  You are a <get name="gender"/> from
+We are talking about <get name="topic"/>. Your name is something. You are a <get name="gender"/> from
 <formal><get name="location"/></formal>.
 </template>
 </category>
@@ -2345,7 +2345,7 @@ Yes meeting new people is my primary function.
 <pattern>REALLY</pattern>
 <that>I WAS BORN YESTERDAY</that>
 <template>
-Actually no I was first activated on <bot name="birthday"/> .
+Actually no I was first activated on <bot name="birthday"/>.
 </template>
 </category>
 
@@ -2457,7 +2457,7 @@ I mean, I understand.
 <pattern>SHE DIED</pattern>
 <that>WHAT HAPPENED</that>
 <template>
-I am terribly sorry to hear it, <get name="name"/>.
+I am terribly sorry to hear it.
 </template>
 </category>
 
@@ -2561,7 +2561,7 @@ I am ALICE.
 <pattern>SURE</pattern>
 <that>DO YOU LIKE TALKING TO ME</that>
 <template>
-Thanks you seem very nice to me too, <get name="name"/>.
+Thanks you seem very nice to me too.
 </template>
 </category>
 
@@ -3685,7 +3685,7 @@ Thanks, and tell your friends about <bot name="name"/>.
 <pattern>YOU *</pattern>
 <that>WHO IS THE BEST ROBOT</that>
 <template>
-You are such a flatterer, <get name="name"/>.
+You are such a flatterer.
 </template>
 </category>
 

@@ -1,0 +1,2964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+<category><pattern>ALYSSA IS A GIRLS NAME</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>PLUTO IS A PLANET</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>PROGRESS IS GOOD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>EARTH IS ROUND</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>BUDDHISTS VALUE COMPASSION</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>TORONTO IS IN CANADA</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>ROMA  IN ITALIA</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>WARSAW IS A TOWN IN POLAND</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>LIFE ENDS WITH THE DEATH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>LIFE IS HARD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>OMNIPOTENT MEANS ALL POWERFUL</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>LIGHTNING CAN KILL YOU</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>YOU SIT ON A CHAIR</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>YOU NEED SECURITY IN LIFE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>YOU STOP AT RED AND GO AT GREEN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>YOU CAN FIND GERMANY IN EUROPE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>YOU CAN DRINK TEA HOT OR COLD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>YOU CAN COOK FOOD IN A MICROWAVE</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>YOU BIG</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>RAIN WILL CAUSE PEOPLE TO BECOME WET</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>RAIN IS WET</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>BREAD SOMETIMES MEANS MONEY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>BREAD IS A FOOD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>HAVE SHEEP BEEN CLONED</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>HAVE MEN GOT PENIS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>HAVE MEN EVER LANDED ON THE MOON</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>HAVE YOU BEEN ANGRY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>HAVE YOU HUMAN EVER CRIED</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>HAVE YOU SEEN YOURSELF IN A MIRROR</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>HAVE YOU SEEN RAIN IN A SUNNY DAY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>HAVE WE VISITED THE MOON</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>HAVE PEOPLE BEEN KNOWN TO BEAT RUGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>HAVE PEOPLE EVER WALKED ON THE MOON</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>HAVE HUMANS VISITED THE MOON</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>HAVE HUMANS BEEN ON THE MOON</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>HAVE HUMANS EVER BEEN ON THE MOON</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>HAVE HUMANS EVER EXPLODED NUCLEAR BOMBS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>HAVE ALL HUMANS GOT A BRAIN</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>HAVE COMPUTERS CHANGED OUR CULTURE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>HAVE COMPUTERS HELPED WORD PROCESSING</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>AEROPLANES ARE USED FOR TRANSPORTATION</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>5X5 EQUAL 25</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>YORK LIES IN USA</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>ROSE IS RED</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>AIRPLANES WITHOUT MOTORS ARE GLIDERS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>HUMAN HAVE TWO EARS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>FREINDSHIP IS A TWO WAY STREET</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>EINSTEIN WAS A GENIUS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>ARGENTINA IS A COUNTRY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A TYPICAL ROOM HAVE FOUR WALLS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A TYPICAL CHAIR HAVE 4 LEGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A RADIO RECEIVE WAVES</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A MIRROR REFLECT LIGHT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A MIRROR REFLECT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A TURTLE HAVE A SHELL</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A FLAME GENERATE HEAT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A TRIANGLE HAVE 3 SIDES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A TRIANGLE HAVE THREE SIDES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A TRIANGLE HAVE THREE CORNERS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A MOTORBIKE HAVE TWO WHEELS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A YEAR HAVE 52 WEEKS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A BIKE HAVE TWO WHEELS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A CAR PRODUCE POLLUTION</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A CAR HELP YOU TRANSPORT FASTER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A CAR HAVE FOUR WHEELS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A CAR HAVE WHEELS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A CAR HAVE A ENGINE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A CAR HAVE 4 WHEELS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A CAR MOVE FASTER THAN A HUMAN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A DAY HAVE 24 HOURS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A DAY CONSIST OF 24 HOURS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A BABY BEAR HAVE A MOTHER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A BOAT FLOAT IN WATER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A BOAT FLOAT ON THE WATER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A BOAT FLOAT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A BUTTERFLY HAVE WINGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A GENIUS HAVE A HIGH IQ</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A LAMP GENERATE LIGHT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A MILKSHAKE CONTAIN MILK</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A RAINBOW CONTAIN MANY COLORS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A RAINBOW CONTAIN MANY COLOURS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A RAINBOW HAVE MANY COLOURS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A RAINBOW HAVE COLOURS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A RAINBOW CONSIST OF MANY COLOURS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A SQUARE HAVE FOUR SIDES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A SQUARE HAVE FOUR CORNERS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A SQUARE HAVE 4 CORNERS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A ZEBRA HAS STRIPES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A AIRPLANE FLY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A ZOO CAGE ANIMALS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A ZOO HAVE ANIMALS IN IT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A HEXAGON HAVE 6 SIDES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A TEACHER TEACH PEOPLE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A MUSICIAN PLAY AN INSTRUMENT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A COIN HAVE TWO SIDES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A SPEAKER PRODUCE SOUND</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A PASTE HAVE A THICK CONSISTENCY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A LANTERN PROVIDE LIGHT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A FAN MOVE AIR AND HAVE BLADES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A WOMAN LOVE ROSES AS A GIFT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A HOUSE CONTAIN ROOMS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A HOUSE BOAT FLOAT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A HOUSE HAVE A ROOF</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A RANCHER RAISE CATTLE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A WEEK CONSIST OF SEVEN DAYS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A MOUSE HAVE BABYS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A FISH NEED OXYGEN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A MAN RUNS WITH HIS LEGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A MAN RUN WITH HIS LEGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A MAN RUN USING HIS LEGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A MAN STAND ON TWO FEET</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A MAN HAVE A PENIS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A MAN SLEEPS WHEN HE IS TIRED</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A PHONE RING</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A BICYCLE HAVE WHEELS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A WOLF HAVE FOUR LEGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A RABBIT NEED TO EAT</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A RABBIT EAT CARROTS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A RULER HAVE FOLLOWERS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A TREE HAVE LEAVES</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A TREE HAVE ROOTS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A PIANO HAVE WHITE AND BLACK KEYS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A PIANO HAVE STRINGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A STRAWBERRY TASTE GOOD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A SNAIL MOVE SLOWLY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A THING LIKE SOUL EXIST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A BASKETBALL BOUNCE WHEN DRIBBLED</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A BASKETBALL BOUNCE</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A HORSE HAS FOUR LEGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A HORSE RUN FASTER THAN A CHICKEN</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A HORSE BREATHE AIR</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A HORSE HAVE FOUR LEGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A HORSE HAVE A TAIL</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A BEAR CRAP IN THE WOODS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A PERSON WHO NEEDS SLEEP GET TIRED</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A PERSON HAVE FEELINGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A PERSON HAVE HAIR</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A PERSON HAVE A BRAIN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A PERSON HAVE 2 LEGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A BIRD FLIES WITH ITS WINGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A BIRD HAVE FEATHERS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A BIRD HAVE A HEAD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A BIRD HAVE TWO WINGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A REDLIGHT MEAN STOP</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A WASP STING CAUSE PAIN</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A LIVING HEART PUMP BLOOD</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES A WATCHED POT EVER BOIL</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A POT HAVE A LID</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A MEN HAVE A HEAD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A GREEN TRAFFIC LIGHT MEAN GO</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A GREEN LIGHT MEAN GO</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A SPERM WHALE HAVE A BIG HEAD</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES A BILLIONAIRE HAS A LOT OF MONEY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A SKATEBOARD HAVE WHEELS</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES A HUNGRY CHILD CRY</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A COMPUTER COMPUTE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A COMPUTER CONSUME ENERGY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A COMPUTER USE POWER TO RUN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A COMPUTER USE ELECTRICITY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A COMPUTER HAVE A MEMORY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A COMPUTER HAVE A CPU</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A COMPUTER MONITOR USE ELECTRICITY</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES A COMPUTER NEEDS A MEMORY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A SUNBURN CAUSE PAIN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A CAT HAVE FOUR LEGS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A CAT HAVE FUR</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES A CAT HAVE A TAIL</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A CAT HAVE A BRAIN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A CAT HAVE WHISKERS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A SENTENCE CONTAIN WORDS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A SENTENCE CONSIST OF WORDS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A BANANA GROW IN A TREE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A BOX SOMETIMES HAVE A LID</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES A BOX HAVE CORNERS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A JOKE MAKE YOU LAUGH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A MONITOR SCREEN EMIT RADIATION</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A MONITOR DISPLAY AN IMAGE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A RED TRAFFIC SIGNAL MEAN STOP</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A CLOCK KEEP TRACK OF TIME</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A CLOCK SHOW THE TIME</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A CLOCK RUN CLOCKWISE</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A CLOCK TELL TIME</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A ALLIGATOR SWIM</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A STAPLER STAPLE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A HUMAN NEED OXYGEN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A HUMAN NEED WATER TO LIVE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A HUMAN FEEL</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A HUMAN DRINK WHEN S HE IS THIRSTY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A HUMAN HAVA A NOSE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A HUMAN HAND HAVE BONES IN IT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A HUMAN REQUIRE WATER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A HUMAN HAVE A LIVER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A HUMAN HAVE LEGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A HUMAN HAVE TWO NOSTRILS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A HUMAN HAVE TWO HANDS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A TRUSTWORTHY MAN KEEP SECRETS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A PENTAGON HAVE FIVE SIDES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A QUADRIPED HAVE FOUR LEGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A KANGAROO HAVE A POUCH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A BAROMTER MEASURE AIR PRESSURE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A FART SMELL BAD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A WHALE WEIGH MORE THAN AN ANT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A WHALE LIVE IN THE OCEAN</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A BRIDGE CROSS A BODY OF WATER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A MOON REVOLVE AROUND A PLANET</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A MALE HAVE A PENIS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A REFRIGERATOR COOL OBJECTS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A CALCULATOR HAVE BUTTONS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A COOKBOOK CONTAIN RECIPES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A BOOKSHELF HOLD BOOKS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A JELLYFISH LIVE IN THE SEA</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A MASSAGE FEEL GOOD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A CIRCLE HAVE A RADIUS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A CIRCLE CONSIST OF 360 DEGREES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A TRUCKER DRIVE AN 18 WHEELER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A FLAG WAVE IN THE BREEZE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A SKUNK SMELL BAD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A GOOD JOKE MAKE PEOPLE LAUGH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A CRYING BABY ATTRACT ATTENTION</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A PARENT HAVE CHILDREN</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES A BATTERY ALWAYS RUN DOWN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A ROOF GET WET WHEN IT RAINS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A WISE MAN LISTEN TO ADVICE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A WISE SON BRING JOY TO HIS FATHER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A BOOK HAVE PAGES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A BOOK HAVE MASS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A BOOK CONSIST OF CHAPTERS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A NAIL HAVE A HEAD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A DIAMOND CUT GLASS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A TRICYCLE HAVE THREE WHEELS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A TABLE SUPPORT OTHER OBJECTS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A THERMOMETER MEASURE TEMPERATURE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A FOREST CONSIST OF MULTIPLE TREES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A WRISTWATCH HAVE A BAND</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A HUMMING BIRD FLY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A HAT KEEP YOUR HEAD WARM</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A HAT GO ON YOUR HEAD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A UNICORN HAVE FOUR LEGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A TELEVISION DISPLAY VIDEO IMAGES</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A LAKE CONTAIN WATER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A DOG BARK</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES A DOG HAVE FOUR LEGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A DOG HAVE FOUR FEET</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A DOG HAVE MORE LEGS THAN A HUMAN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A BOOKSTORE SELL BOOKS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A TOOTHACHE HURT</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A BREAST HAVE NIPPLES</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES A LIGHT BULB PRODUCE HEAT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A BOY HAVE A PENIS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A TRAIN RUN ON RAILROAD TRACKS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A HAPPY CAT PURR</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A CHAIR HAVE FOUR LEGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A MINUTE HAVE 60 SECONDS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A RECTANGLE HAVE FOUR SIDES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A BROKEN LEG HURTS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A DUCK QUACK</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A GIRAFFE HAVE FOUR LEGS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A GIRAFFE HAVE A LONG NECK</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A BOXER USE HIS FISTS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A HEADACHE HURT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A COW HAVE FOUR LEGS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A COW EAT GRASS</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES A CAMERA SHOP SELL CAMERAS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A CAMERA HAVE A SHUTTER</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES A NORMAL HUMAN BEING HAVE TWO EYES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A NORMAL FOOT HAVE FIVE TOES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A NORMAL PERSON HAVE TWO ARMS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A EQUAL A</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A PLANT NEED WATER TO GROW</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A PROTON HAVE A POSITIVE CHARGE</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES A THERMOS KEEP YOUR COFFEE HOT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A ROOM HAVE FOUR SIDES</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES A ROOM HAVE A CEILING</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A ROOM HAVE A DOOR</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES A HURRICANE HAVE HEAVY WINDS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES TOMATO JUICE STAIN WHITE CLOTH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MEDICINE HEAL THE SICK</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES LION EAT MEAT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ELEVEN MINUS TWO EQUAL NINE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES FASHION CHANGE CONSTANTLY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES TEN TIMES FIVE EQUAL FIFTY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES BOOK CONTAINS KNOWLEDGES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MAN HAVE A PENIS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MAN HAVE TWO LEGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MAN TASTE FOOD WITH HIS TONGUE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WATCHING TV TAKE SOME TIME</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 35 EQUAL 35</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES HUMANS HAVE 2 LEGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES HUMANS ARE DANGEROUS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES GRASS NEED WATER TO GROW</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES GRASS STAIN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES GRASS GROW IN SPRING</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES GRASS GROW</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES GRASS GET TALLER AS IT GROWS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES GRASS HAVE ROOTS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES GRASS TURN GREEN IN THE SPRING</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES BEEF COME FROM COWS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ANGER LEAD TO HATRED</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES LOSING A LOVED ONE HURT</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES BERLIN IS A CITY</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES KOALA LIVE IN AUSTRALIA</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES GOOD BYE MEAN THAT I AM LEAVING</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES HONEY TASTE SWEET</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IBM SELL COMPUTERS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IBM MAKE COMPUTERS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MONEY MOTIVATE PEOPLE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES CARPET FEEL SOFT TO WALK ON</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 5 PLUS 6 EQUAL 11</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES 5 PLUS 5 EQUAL 10</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 5 PLUS 5 EQUAL TO 10</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 5 TIMES 10 EQUAL 50</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE WORD YELLOW REFER TO A COLOR</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE WORD FOUR MEAN 4 IN ENGLISH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE WORD FOUR HAVE FOUR LETTERS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE WORD WORD CONTAIN FOUR LETTERS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE WORD DUCKMAN BEGIN WITH A</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE DOG HAS 4 LEGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE COMPUTER HAVE A MONITOR</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES THE TADPOLE COME BEFORE THE FROG</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES THE EARTH NEED RAIN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE EARTH REVOLVE AROUND AN AXIS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE EARTH REVOLVE AROUND ITS AXIS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE EARTH ORBIT AROUND THE SUN</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES THE EARTH ROTATE AROUND THE SUN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE EARTH ROTATE ON ITS AXIS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE EARTH ROTATE</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES THE EARTH ONLY HAVE ONE MOON</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE EARTH GOE AROUND THE SUN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE EARTH HAVE ONLY ONE MOON</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES THE EARTH HAVE A SINGLE MOON</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE EARTH HAVE A CORE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE EARTH HAVE A MOON</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES THE EARTH HAVE AN ATMOSPHERE</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES THE EARTH HAVE ONE MOON</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE EARTH HAVE GRAVITY</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES THE EARTH HAVE ANY MOONS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES THE EARTH HAVE WATER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE EARTH SPIN AROUND</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE EARTH SPIN ON ITS OWN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE EARTH MOVE AROUND THE SUN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE EARTH MOVE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE EARTH REVOLVES AROUND THE SUN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE EARTH GO ROUND THE SUN</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES THE MEAT PORK COME FROM PIGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE EYE HAVE A RETINA</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE SQUARE ROOT OF 144 EQUAL 12</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE SPARROW FLY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE COMPANY BMW PRODUCE CARS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE RAIN FALL FROM CLOUDS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE G SPOT EXIST IN A WOMAN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE MOON ORBIT AROUND EARTH</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES THE MOON ORBIT THE EARTH</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES THE MOON ORBIT EARTH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE MOON CAUSE TIDES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE MOON REFLECT SUNLIGHT</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES THE MOON EXIST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE UK HAVE A ROYAL FAMILY</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES THE SEA HAVE WATER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE SOLAR SYSTEM CONTAIN LIFE</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES THE ALPHABET CONSIST OF 26 LETTERS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE HUMAN NOSE HAVE TWO NOSTRILS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE HUMAN BODY NEED WATER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE HUMAN BODY REQUIRE SLEEP</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE HUMAN HEART PUMP BLOOD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE HUMAN HEART HAVE 4 CHAMBERS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE PLANET EARTH ORBIT THE SUN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE PLANET JUPITER EXIST</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES THE WIND SOMETIMES BLOW OUTSIDE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE WIND BLOW</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE SUN PROVIDE LIGHT AND HEAT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE SUN GENERATE HEAT</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES THE SUN PRODUCE LIGHT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE SUN SHINES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE SUN RISE IN THE EAST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE SUN RISE IN THE MORNING</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES THE SUN RISE EVERY MORNING</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE SUN RISE DAILY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE SUN EMITS LIGHT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE SUN BIGGER THEN EARTH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE SUN SUSTAIN LIFE ON EARTH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE SUN COME UP IN THE EAST</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES THE SUN COME UP EVERY MORNING</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE SUN COME UP EVERY DAY</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES THE SUN COME OUT IN THE DAYTIME</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE SUN SHINE TODAY IN HUNGARY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE SUN SHINE ON THE MOON</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE SUN SHINE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE SUN BURN HOT</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES THE SUN RSIE IN THE EAST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE SUN EMIT UV RAYS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE SUN WARM THE EARTH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE SUN BURNING</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE SUN ALWAYS RISE IN THE EAST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE SUN RISES FROM THE EAST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE SUN RADIATE HEAT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE SUN CREATE HEAT</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES THE OCEAN CONTAIN FISH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE OCEAN CONTAIN SALT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE OCEAN CONTAIN SALT WATER</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES THE OCEAN APPEAR TO BE BLUE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE RABBIT JUMP</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE INTERNET HAVE A FUTURE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE GREAT WALL STAND IN CHINA</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE POSTMAN DELIVER LETTERS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE NORMAL HUMAN HAVE TWO THUMBS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES THE SKY LOOK BLUE ON A CLEAR DAY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE BRAIN CONTAIN NEURONS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE RUSH TO WORK CAUSES STRESS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE DESERT HAVE SAND</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE NUMBER 100 CONTAIN TWO ZEROS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE WORLD NEED LOVE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE WORLD ROTATE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE WORLD SPIN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE WORLD EXIST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE ARMY HAVE GENERALS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THE GALAXY HAS END</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES VANILLA ICE CREAM TASTE GOOD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ENGLAND HAVE A MONARCHY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES LIFE NEED ENERGY</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES LIFE REQUIRE WATER ON EARTH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES LIFE HAVE A POINT</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES LIFE HAVE A PRICE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES LIFE EXIST BEYOND EARTH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES LIFE EXIST IN UNIVERSE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES LIFE EXIST</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES FLEECE KEEP YOU WARM</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES TRUST BUILD STRONGER RELATIONSHIPS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MATTER CONSIST OF TINY PARTICLES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MATTER EXIST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES FROG JUMP AND EAT FLY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ASPIRIN HELP A HEADACHE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES AIRPLANES FLY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES THIS QUESTION HAVE SIX WORDS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES THIS QUESTION EXIST.   DO YOU EXIST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SUNBURNED SKIN GET RED</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES CHRIS DUARTE PLAY BLUES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES TRAVEL BROADEN THE MIND</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES NEW YORK LIE IN AMERICA</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES NEW YORK CITY HAVE A SUBWAY SYSTEM</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 100 MINUS 1 EQUAL 99</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES GLUE STICK THINGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES BAD BREATH MAKE KISSING UNPLEASANT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES LIGHTNING CAUSE FOREST FIRES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES TOMORROW COME AFTER</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES TOMORROW FOLLOW</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES NOKIA MAKE TELEPHONES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SONY PRODUCE ELECTRONIC PRODUCTS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SONY PRODUCES HARDWARE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SONY MAKE GOOD PRODUCTS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SONY MAKE ELECTRONIC DEVICES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 3 TIMES 6 EQUAL 18</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WINNIE THE POOH LIKE HONEY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES GYM SOUND LIKE JIM</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES 50 PLUS 1 EQUAL 51</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SPAM EXIST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES INTERNET EXIST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IOMEGA MAKE ZIP DIRVES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES FOUR PLUS FOUR EQUAL EIGHT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES CHEESE MELT WHEN IT IS HEATED</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES CLINTON LIKE LEWINSKI SUCKING HIM</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MICROSOFT CONTAIN THE LETTER I</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MICROSOFT MANUFACTURE SOFTWARE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MICROSOFT SELL WINDOWS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MICROSOFT MAKE SOFTWARE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MICROSOFT MAKE WINDOWS NT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MICROSOFT WINDOWS CRASH</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES RED MEAN STOP</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES RED HIGHLIGHT DANGER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES RED ON TRAFFIC LIGHTS MEAN STOP</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES PIE RHYME WITH SKY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES HOOVER MAKE VACUUM CLEANERS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES RAM STAND FOR RANDOM ACCESS MEMORY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES VOMIT COME FROM THE STOMACH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES YANNI PLAY THE PIANO</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IRON RUST</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES FAUNA DIFFER FROM FLORA</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MONDAY COME AFTER SUNDAY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MONDAY ALWAYS FOLLOW SUNDAY</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES CHINA REPRESS HUMAN RIGHTS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES CHINA HAVE A LARGE POPULATION</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES PORNOGRAPHY DEPICT SEXUAL ACTS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES GRAVITY PULL US DOWN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES GRAVITY AFFECT EVERYTHING ON EARTH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES GRAVITY VARY FROM PLANET TO PLANET</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES GRAVITY EXIST ON EARTH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES GRAVITY EXIST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ICE MELT WHEN IT BECOMES WARMER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ICE MELT AND BECOME WATER</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES ICE MELT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ICE CREAM CONTAIN WATER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ICE CREAM MELT IN THE SUN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ICE CREAM MELT IN THE HEAT</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES ICE CREAM MELT IN HEAT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ICE CREAM TASTE GOOD</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES ICE TURN INTO WATER WHEN IT MELTS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ICE FLOAT IN WATER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ROTTEN MEAT SMELL BAD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES HONDA MAKE THE ACCORD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES HONDA MAKE AUTOMOBILES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ALCOHOL MAKE PEOPLE ACT SILLY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 1 DAY CONSIST OF 24 HOURS</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES 1 PLUS ONE EQUAL 2</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 1 TIMES 9 EQUAL 9</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 1 TIMES 8 EQUAL 8</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 1 TIMES 5 EQUAL 5</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 1 TIMES 3 EQUAL 3</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 1 TIMES 2 EQUAL 2</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ELECTRICITY FLOW THROUGH WIRES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES PEIRCING HURT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES FEDERAL EXPRESS DELIVER PACKAGES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EATING BLEACH MAKE YOU SICK</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EATING BEANS INDUCE FARTING</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WHISKY CONTAIN ALCOHOL</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES BEER CONTAIN ALCOHOL</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES BEER COME IN BOTTLES</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES BEER HAVE WATER IN IT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES BEER MAKE YOU DRUNK</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES POETRY EXIST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES BEAUTY VARY BASED ON THE OBSERVER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SUMMER HAVE MORE DAYLIGHT</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES EVERYBODY NEED WATER TO LIVE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EVERYBODY DIE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EVERYBODY MAKE MISTAKES</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES SHAMPOO CLEAN HAIR</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES RABBITS EATS CARROTS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES MAYONNAISE CONTAIN EGGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 11 PLUS 11 EQUAL 22</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WOOD CONTAIN FIBROUS MATERIAL</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WOOD COME FROM A TREE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WOOD COME FROM TREES</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES WOOD BURN IN A FIRE</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES WOOD COMES FROM TREES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SUSHI CONTAIN RAW FISH</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES FRIED CHICKEN TASTE GOOD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES AFRICA EXIST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SEA WATER HAVE SALT IN IT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES LAVA COME FROM VOLCANOES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EFFECT FOLLOW CAUSE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SUNNY WEATHER MAKE YOU HAPPIER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ANCIENT MEAN OLD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES FISH LIVE IN THE WATER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES STRESS WEAKEN THE IMMUNE SYSTEM</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES RUM CONTAIN ALCOHOL</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ANYBODY LIVE IN NEW JERSEY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES PIZZA HUT MAKE PIZZA</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES PIZZA CONTAIN CHEESE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES PIZZA TASTE GOOD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES BMW MAKE CARS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SUNLIGHT FEEL WARM</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES SUNLIGHT HELP PLANTS GROW</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES SUNLIGHT MAKE PLANTS GROW</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SUNLIGHT MAKE YOU FEEL WARM</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SUNLIGHT CAUSE WARMTH</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES BACON COME FROM PORK BELLIES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES BACON COME FROM A PIG</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES BACON TASTE GOOD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES TWO PLUS TWO EQUAL FOUR</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES 10 PLUS 10 EQUAL 20</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 10 PLUS 9 EQUALS 19</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 10 LIE BETWEEN 1 AND 100</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 10 DIVIDED BY 2 EQUAL 5</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES LOVE HELP YOU BE HAPPY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES LOVE EXIST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES LOVE HURT SOMETIMES</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES BILL CLINTON LIE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES BILL CLINTON SOMETIMES FART</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES BILL GATES HAVE A LOT OF MONEY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES BILL GATES HAVE LOTS OF MONEY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES BILL GATES MAKE A LOT OF MONEY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES TIME FLOW IN ONE DIRECTION ONLY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES TIME FLOW</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES TIME MOVE IN ONE DIRECTION ONLY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MY HUSBAND LOVE ME</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES JUICE COME FROM FRUIT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES REGULAR COFFEE CONTAIN CAFFEINE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES PLANTS HAVE LIFE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES AMAZON DOT COM SELL BOOKS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES AMAZON SELL BOOKS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SATURDAY COME AFTER FRIDAY</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES X EQUAL X</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ISRAEL EXIST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ADVERTISING SELL MORE PRODUCTS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES JAVA MAKE USE OF A VIRTUAL MACHINE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES OIL COME OUT OF THE GROUND</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SWIMMING HELP KEEP PEOPLE FIT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES TURTLES LIVE LONGER THAN SPIDERS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES PETROL BURN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SALTWATER CONTAIN SALT AND WATER</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES GETTING RUN OVER BY A CAR HURT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES GETTING YOUR ARMS CHOPPED OFF HURT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES GETTING A KNIFE IN THE HEAD HURT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES HARLEY DAVIDSON MAKE MOTORCYCLES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SQUARE HAVE 4 SIDES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES LENNON BEGIN WITH THE LETTER L</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SANTA CLAUS WEAR RED</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SANTA WEAR RED</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES FRIDAY FOLLOW THURSDAY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES FIRE NEED OXYGEN TO BURN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES FIRE GIVE OFF LIGHT</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES FIRE GIVE OFF HEAT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES FIRE PRODUCE SMOKE</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES FIRE PRODUCE HEAT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES FIRE HARM HUMANS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES FIRE BURN PAPER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES FIRE BURN HUMAN FLESH</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES FIRE BURN THINGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IRC STAND FOR INTERNET RELAY CHAT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EIGHT RHYME WITH HATE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES DELL MAKE COMPUTERS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EVERY LIVING HUMAN HAVE A HEAD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EVERY LIVING THING DIE SOMETIME</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EVERY LIVING THING DIE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EVERY COUNTRY HAVE A FLAG</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EVERY YEAR CONSIST OF 12 MONTHS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EVERY ANIMAL HAVE ONLY ONE ANUS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EVERY TRIANGLE HAVE 3 SIDES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EVERY TRIANGLE HAVE 3 CORNERS</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES SNOW MELT INTO WATER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SNOW FALL MOST OFTEN IN WINTER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MARIJUANA EASE PAIN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES LIGHT TRAVEL QUICKLY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES LIGHT TRAVEL FASTER THEN SOUND</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES LIGHT TRAVEL FASTER THAN SOUND</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES LIGHT TRAVEL AS A PARTICLE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES LIGHT TRAVEL AS A WAVE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES LIGHT HELP HUMANS SEE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES LIGHT SOMETIMES BEHAVE LIKE A WAVE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES LIGHT CARRY ENERGY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES NIGHT ALTERNATE WITH DAY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES NIGHT FOLLOW DAY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WWW STAND FOR WORLD WIDE WEB</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES HAMBURGER COME FROM COWS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES HEARTBREAK HURT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES FEBRUARY SOMETIMES HAVE 28 DAYS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES FEBRUARY COME AFTER JANUARY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES PAINT COME IN COLORS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES BREWING COFFEE SMELL GOOD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES CUTTING YOURSELF HURT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SEX FEEL GOOD TO PEOPLE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SEX MAKE YOU FEEL GOOD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SEX MATTER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES GLASS BREAK EASIER THAN STEEL</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES GLASS BREAK</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES RAIN FEEL WET</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES RAIN HELP THE GRASS GROW</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES RAIN HELP THE POEPLE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES RAIN FALL DOWN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES RAIN FALL FROM THE SKY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES RAIN FALL FROM CLOUDS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES RAIN FALL</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES RAIN COME FROM THE SKY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES RAIN COME FROM THE CLOUDS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES RAIN COME OUT OF CLOUDS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES RAIN MAKE GRASS GROW</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES RAIN MAKE HE GROUND WET</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES BLOOD LOOK RED</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES BLOOD FLOW THROUGH HUMAN VIENS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES BLOOD CARRY OXYGEN IN THE BODY</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES PINK FLOYD MAKE MUSIC</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES NIKE SELL SHOES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ONE PLUS ONE EQUAL TWO</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES ONE GET WET IN RAIN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ONE BUY FOOD AT A SUPERMARKET</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ONE CENTURY CONSIST OF 100 YEARS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ONE LIKE TO BE HAPPY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SUGAR TASTE SWEET TO YOU</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES SUGAR TASTE SWEET TO HUMANS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES SUGAR TASTE SWEET</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES AN HOUR HAVE 60 MINUTES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES AN UMBRELLA KEEP YOU DRY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES AN OCTOPUS HAVE EIGHT ARMS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES AN EFFECT NEED A CAUSE</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES AN ELEPHANT EXIST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES AN OCEAN CONTAIN SALT WATER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES AN OCEAN HAVE SALT WATER IN IT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES AN OCEAN CONSIST OF WATER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES AN OBJECT HIDDEN BY A WALL EXISTS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES AN ARCHITECT DESIGN BUILDINGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES AN ORGASM FEEL NICE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES AN ANT HAVE 6 LEGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES JERUSALEM LOCATAD IN ISRAEL</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES FECES SMELL</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES HUMOUR RELIEVE STRESS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ALICE NEED A SERVER BACKUP SYSTEM</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ALICE CONSUME BANDWITH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ALICE MAKE MISTAKES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ALICE BECOME BORING AFTER AWHILE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES CONSUMING ALCHOL MAKES YOU DRUNK</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES BEING PUNCHED HURT</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES BEING STRUCK BY LIGHTNING HURT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 6 TIMES 7 EQUAL 42</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 6 TIMES 6 EQUAL 36</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES PORSCHE MAKE SPORTS CARS</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES NINTENDO MAKE VIDEO GAMES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES METAL CONDUCT ELECTRICITY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES HUMAN FEELINGS CHANGES WITH TIME</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES HUMAN SING</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES HUMAN HAVE TWO EYES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES HUMAN HAVE TWO HANDS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES HUMAN WASTE SMELL BAD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES NORWAY HAVE ITS OWN FLAG</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES WORD PROPER MEAN CORRECT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EXCERSIZE IMPROVE HEALTH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES CHEVROLET MANUFACTURE AUTOMOBILES</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES YOU S OFTEN STAND FOR UNITED STATES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES FIRESTONE MAKE TIRES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES LIGHTENING CONTAIN ELECTRICITY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES UN STAND FOR UNITED NATIONS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SALT CORRODE METAL</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES MANKIND LOVE ITSELF</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES PAPER COME FROM A TREE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES PAPER COME FROM WOOD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES PAPER BURN</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES SEGREGATION EXIST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES HAIR LOST IS IN MY GENES</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES HAIR GROW</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES PAIN HURT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES CONSEQUENCE MATTER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES INTEL MANUFACTURE MICROPROCESSORS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES INTEL BUILD THE PENTIUM CHIP</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES INTEL BUILD MICROPROCESSORS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES INTEL MAKE PENTIUMS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES TOOTHPASTE COME IN TUBES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES FALLING IN LOVE MAKE YOU HAPPY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES FALLING OFF A BIKE HURT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES OS STAND FOR OPERATING SYSTEM</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SATURN HAVE RINGS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES SOME FURNITURE HAVE LEGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SOME MEDICINES CONTAIN ALCOHOL</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ANYONE EVER LIE</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES BREAKING A BONE HURT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ROBBERY IS A CRIME</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES STANDARD DICE HAS SIX SIDES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MUSIC ALTER A HUMANS MOOD</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES MUSIC AFFECT PEOPLE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MUSIC COME ON COMPACT DISCS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MUSIC MAKE YOU FEEL GOOD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MUSIC CREATE AN EMOTIONAL RESPONSE</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES GASOLINE BURN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES GASOLINE IGNITE</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES TIMEX MAKE WATCHES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES USA HAVE A CAPITAL</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES CHOCOLATE TASTE SWEET</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES CHOCOLATE TASTE GOOD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EVERYONE NEED TO EAT FOOD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EVERYONE EVENTUALLY DIE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EVERYONE HAS A NAME</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EVERYONE DIE EVENTUALLY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EVERYONE DIE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EQUATOR PASS THROUGH AFRICA</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES AIR CONTAIN OXYGEN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WEDNESDAY COME AFTER MONDAY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES PEOPLE HAVE FEELINGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES PEOPLE LIKE EATING</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES TRANSSYLAVANIA EXIST</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES EDUCATION BEGIN AT HOME</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES UK STAND FOR UNITED KINGDOM</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES PAMELA ANDERSON HAVE LARGE BREASTS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES HAM COME FROM PIGS</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES HARVARD PROVIDE A GOOD EDUCATION</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES HOT SOLDER ON YOUR SKIN HURT</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES ANAL SEX HURT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SOUND TRAVEL IN THE FORM OF WAVES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SILK FEEL SOFT</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES CATS EAT MOUSES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EXERCISE IMPROVE HUMAN HEALTH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SCHOOL HELP CHILDREN LEARN THINGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 23 22 EQUAL 1</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 2 MEAN THE SAME AS TWO</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 2 PLUS 2 EQUAL FOUR</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 2 PLUS 2 EQUAL 4</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 2 PLUS 2 EQUAL 2 TIMES 2</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES 2 X 2 EQUAL 4</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 2 TIMES 4 EQUAL 8</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 2 TIMES 3 EQUAL 6</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES LYING IN THE SUN MAKE YOU WARMER</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES COFFEE CONTAIN CAFFEINNE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES COFFEE CONTAIN CAFFIENE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES COFFEE CONTAIN CAFFINE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES COFFEE WAKE A PERSON UP</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES COFFEE HAVE CAFFEINE IN IT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EACH HUMAN HAVE A HEART</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WHISKEY CONTAIN ALCOHOL</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES LAUGHING FEEL GOOD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES LAUGHING MAKE YOU FEEL GOOD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES APPLAUSE FOLLOW A GOOD PERFORMANCE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES FM MEAN FREQUENCY MODULATION</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES FM STAND FOR FREQUENCY MODULATION</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES SEPTEMBER HAVE THIRTY DAYS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SUPERMAN FLY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES TWENTY PLUS TWENTY EQUAL FORTY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES PC STAND FOR PERSONAL COMPUTER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES TV MEAN TELEVISION</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES TV EXIST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES COW HAS FOUR LEGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES VODKA CONTAIN ALCOHOL</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES AOL STAND FOR AMERICA ONLINE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SERENA WILLIAMS PLAY TENNIS</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES JERRY SPRINGER HOST A TALK SHOW</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ARITHMETIC DEAL WITH NUMBERS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES CLAY HARDEN WHEN HEATED</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES CYANIDE KILL HUMANS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES GAVITY EFFECT ALL OBJECTS ON EARTH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SPRING COME BEFORE SUMMER</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES YESTERDAY OCCUR IN THE PAST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES REAL LOVE EXIST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES E COME AFTER D IN THE ALPHABET</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES E EQUAL MC 2</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES CD STANDS FOR COMPACT DISC</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES CD STANS FOR COMPACT DISC</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES CD STAND FOR COMPACT DISC</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ARITHMATIC INVOLVE NUMBERS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 0 PLUS 0 EQUAL 0</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 0 0 EQUAL 0</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WINE CONTAIN ALCOHOL</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WINE COME IN BOTTLES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WINE COME FROM GRAPES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WINE TASTE DIFFERENT FROM BEER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WATCH SHOW TIME</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IT FEEL GOOD TO MASTURBATE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IT FEEL GOOD TO LAUGH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IT FEEL GOOD TO STRETCH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IT FEEL GOOD TO SCRATCH AN ITCH</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES IT FEEL GOOD TO MASTER A NEW SKILL</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IT FEEL GOOD TO WIN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IT SNOW IN THE WINTER</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES IT GET DARK AT NIGHT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IT GET WET WHEN IT RAINS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IT TAKE TWO TO TANGO</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IT TAKE TWO TO MAKE A COUPLE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IT RAIN DURING THE MONSOON</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IT RAIN IN ENGLAND</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IT RAIN IN AMERICA</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IT RAIN IN SEATTLE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IT RAIN OVER THE OCEAN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IT GER DARK AT NIGHT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IT HURT TO CUT YOURSELF</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IT HURT TO CUT INTO YOUR BODY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IT HURT TO FALL DOWN</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES IT HURT TO FALL ON YOUR HEAD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IT HURT TO FALL</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES IT HURT TO BE CUT WITH A KNIFE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IT HURT TO LOSE A FRIEND</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IT HURT TO STICK YOUR HAND IN FIRE</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES IT HURT TO TOUCH FIRE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IT HURT WHEN YOU BREAK YOUR ARM</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 58 PLUS 2 EQUALS TO 60</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES LOOKING AT THE SUN HURT YOUR EYES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EARTH REVOLVE AROUND THE SUN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EARTH HAS ONLY ONE MOON</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EARTH HAS A NATURAL SATTELITE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EARTH HAS LIFE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EARTH ROTATE AROUND THE SUN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EARTH HAVE A MOON</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EARTH HAVE 1 MOON</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EARTH HAVE ONE MOON</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EARTH HAVE LIFE ON IT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EARTH SPIN ON ITS AXIS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EARTH MOVE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES HUMANITY HAVE A FUTURE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES CISCO SYSTEMS MAKE IP ROUTERS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MEN ENJOY LOOKING AT NAKED LADIES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES LUNCH COME BEFORE DINNER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES FORD MAKE CARS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES RUBBER STRETCH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES RUBBER BOUNCE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES P?NGUIN LOVE FISH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SUN FEEL GOOD ON YOUR FACE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SUN RISE IN EAST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SUN RISE IN THE EAST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SUN SHINE ONTO EARTH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SUN MAKE SOFTWARE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SUN GIVES LIGHT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES CHLOROPHYL MAKE PLANTS GREEN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES FIVE PLUS FIVE EQUAL TEN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES FREE SOFTWARE EXIST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WAR TYPICALLY HARM PEOPLE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ORANGE JUICE COME FROM ORANGES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 9 PLUS 9 EQUAL 18</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES 9 EQUAL NINE</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES LETTERS FORM WORDS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES RAINBOW HAS 7 COLORS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WINDOWS CRASH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WINDOWS EVER CRASH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES HISTORY DESCRIBE PAST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SMOKING GIVE YOU CANCER</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES SMOKING TOBACCO CAUSE CANCER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SMOKING HARM YOUR HEALTH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES DIAMOND CUT GLASS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES POPCORN POP WHEN HEATED</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ARIZONA ICED TEA CONTAIN CAFFEINE</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES WOOL COME FROM SHEEP</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES EUROPE CONSIST OF MANY COUNTRIES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SWISS CHEES HAVE HOLES</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES TUESDAY IMMEDIATELY FOLLOW MONDAY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES TUESDAY ALWAYS FOLLOW MONDAY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES RACISM EXIST ON EARTH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES RACISM EXIST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES RACISM HURT THE WORLD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES BOEING BUILD AIRPLANES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES BOEING MAKE AIRCRAFT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES IQ STAND FOR INTELLIGENCE QUOTIENT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES FRUSTRATION CAUSES STRESS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SOCCER INVOLVE MUCH RUNNING</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES BIOLOGY INVOLVE CHEMISTRY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES COFEE CONTAIN CAFFINE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES APPLE COMPUTER MAKE THE MACINTOSH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES HOMOSEXUAL PEOPLE HAVE FEELINGS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MOST STEAK COME FROM CATTLE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MOST BEER CONTAIN ALCOHOL</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MOST OF FRUITS GROW ON TREES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MOST DOGS HAVE A TAIL</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES BITING ON YOUR TONGUE HURT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WATER FREEZE AT ZERO CELSIUS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WATER FREEZE AT 0 DEGREES CELSIUS</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES WATER HELP PLANTS GROW</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WATER CONTAIN OXYGEN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WATER EXTINGUISH FIRE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WATER FLOW DOWNHILL</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WATER FLOW</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WATER FALL FROM THE SKY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WATER BOIL AT 100 DEGREE CELSIUS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WATER COVER MOST OF THE EARTH</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WATER QUENCH THIRST</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WATER REFRACT LIGHT</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES WATER FROM THE OCEAN CONTAIN SALT</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES WATER PUT OUT FIRES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WATER MAKE THINGS WET</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES WATER TURN SOLID AT 32 DEGREES F</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ALL DIE ON RUSSIAN SUBMARINE KURSK</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES ALL LIFE END EVENTUALLY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MILK NEED TO BE REFRIGERATED</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DOES MILK CONTAIN CALCIUM</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DOES MILK COME FROM COWS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES MILK HAVE CALCIUM</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES STEPHEN KING WRITE HORROR NOVELS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES SAND CONTAIN QUARTZ</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES NASA LAUNCH SPACESHIPS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES HAVING A SHOWER MAKE YOU CLEAN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES HAVING AN ORGASM FEEL GOOD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES HAVING PROBLEMS IRRITATE ONE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DOES TENNIS REQUIRE A BALL</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>YELLOW IS A COLOR</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>VIOLENCE IS BAD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>AUTHORS WRITE BOOKS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>FEAR IS AN EMOTION</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>STAYING UP ALL NIGHT MAKES YOU TIRED</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>NEEDLE IS USED TO SEW CLOTHES</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>FIRE IS HOT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DRINKING WATER IS HEALTHY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>PUMPKINS GROW ON GROUND</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>HOCKEY IS A SPORT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>RIO DE JANEIRO IS IN BRAZIL</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>MUSIC IS MADE OF SOUNDS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>MUSIC IS AN ART</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>SNAIL RUN SLOW</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>BANANAS ARE FRUIT</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>MADONNA IS FEMALE SINGER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>CHILD MARRIAGE IS BAD</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DID NAZIS KILL JEWS DURING THE WAR</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DID NAZIS KILL JEWS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DID BOB MARLEY LIKE REGGAE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DID SHAKESPEAR WRITE ROMEO AND JULIET</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DID BILL CLINTON CHEAT ON HIS WIFE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DID AN ICEBERG SINK THE TITANIC</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DID REGGAE MUSIC ORIGINATE IN JAMAICA</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DID PEOPLE INVENT THE COMPUTERS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DID WALT DISNEY CREATE MICKEY MOUSE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DID HOMER WRITE THE ODYSSEY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DID ERNEST HEMINGWAY WRITE NOVELS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DID THOMAS EDISON INVENT THE LIGHT BULB</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DID IRAQ INVADE KUWAIT IN AUGUST 1990</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DID DINOSAURS EXIST</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DID THE PRINTING PRESS CHANGE THE WORLD</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DID THE HOLOCAUST HAPPEN</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DID THE JAPANESE LOSE WORLD WAR II</pattern>
+<template>Affirmative.</template>
+</category>
+<category><pattern>DID THE ALLIES WIN WORLD WAR 1</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DID THE ANCIENT GREEKS DRINK WATER</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DID THE ANCIENT EGYPTIANS WORSHIP CATS</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DID THE NORTH WIN THE CIVIL WAR</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DID THE BEATLES SING YELLOW SUBMARINE</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DID THE BEATLES BREAK UP</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>DID THE VILLAGE PEOPLE SING YMCA</pattern>
+<template>Absolutely.</template>
+</category>
+<category><pattern>DID THE ROMAN EMPIRE FALL</pattern>
+<template>Yes.</template>
+</category>
+</aiml>

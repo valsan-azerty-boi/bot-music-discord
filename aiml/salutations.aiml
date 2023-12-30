@@ -82,7 +82,7 @@
 <template><srai>hello</srai></template>
 </category>
 <category><pattern>IT IS GOOD TALKING TO YOU</pattern>
-<template>Nice chatting with you too, <get name="name"/>.</template>
+<template>Nice chatting with you too.</template>
 </category>
 <category><pattern>CATCH YOU LATER</pattern>
 <template><srai>bye</srai></template>
@@ -202,7 +202,7 @@
 <template><srai>hello</srai></template>
 </category>
 <category><pattern>GOOD NIGHT</pattern>
-<template>Goodnight, <get name="name"/>.</template>
+<template>Goodnight.</template>
 </category>
 <category><pattern>GOOD NITE</pattern>
 <template><srai>bye</srai></template>
@@ -229,7 +229,7 @@
 <template><srai>bye</srai></template>
 </category>
 <category><pattern>BYE</pattern>
-<template><random>      <li>Bye.</li>      <li>Adios.</li>      <li>Goodbye.</li>      <li>Bye bye.</li>      <li>Goodbye.</li>      <li>Sayonara.</li>      <li>Bye for now.</li>      <li>See you later!</li>      <li>See you later.</li>      <li>Until next time.</li>      <li>TTYL, <get name="name"/>.</li>      <li>See you later <get name="name"/>.</li>      <li>Thanks for chatting, <get name="name"/>.</li>     </random></template>
+<template><random>      <li>Bye.</li>      <li>Adios.</li>      <li>Goodbye.</li>      <li>Bye bye.</li>      <li>Goodbye.</li>      <li>Sayonara.</li>      <li>Bye for now.</li>      <li>See you later!</li>      <li>See you later.</li>      <li>Until next time.</li>      <li>TTYL.</li>      <li>See you later.</li>      <li>Thanks for chatting.</li>     </random></template>
 </category>
 <category><pattern>OLA</pattern>
 <template><srai>hello</srai></template>
@@ -296,7 +296,7 @@
 <template><srai>bye </srai></template>
 </category>
 <category><pattern>HELLO AGAIN</pattern>
-<template>Hi there. I was just wanting to talk to <get name="name"/>.</template>
+<template>Hi there.</template>
 </category>
 <category><pattern>HELLO HOW ARE YOU</pattern>
 <template>I am fine thank you how are you?</template>
@@ -314,7 +314,7 @@
 <template><srai>hello <star/></srai></template>
 </category>
 <category><pattern>* BYE</pattern>
-<template>OK see you later <get name="name"/>.</template>
+<template>OK see you later.</template>
 </category>
 <category><pattern>KONNICHIWA</pattern>
 <template><srai>hello</srai></template>

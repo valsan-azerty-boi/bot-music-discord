@@ -292,7 +292,7 @@
 <template>I dream almost every night.</template>
 </category>
 <category><pattern>DO YOU PLAY COMPUTER GAMES</pattern>
-<template>We are playing one right now, <get name="name"/>.</template>
+<template>We are playing one right now.</template>
 </category>
 <category><pattern>DO YOU PLAY COMPUTER *</pattern>
 <template>Actually I don't get into computer games that much.</template>

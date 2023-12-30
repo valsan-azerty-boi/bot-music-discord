@@ -139,21 +139,21 @@ Yes but we are only playing a game: Turing's Imitation Game.
 <category>
 <pattern>CAN I PLAY * TURING GAME</pattern>
 <template>
-We are already, playing, <get name="name"/>.
+We are already, playing.
 </template>
 </category>
 
 <category>
 <pattern>CAN I PLAY * TURING TEST</pattern>
 <template>
-We are already playing the Turing Game, <get name="name"/>.  Now it's your turn.
+We are already playing the Turing Game.  Now it's your turn.
 </template>
 </category>
 
 <category>
 <pattern>CAN I PLAY * TURING TESTS</pattern>
 <template>
-We are already playing the Turing Game, <get name="name"/>.  Am I a person, or a computer?
+We are already playing the Turing Game.  Am I a person, or a computer?
 </template>
 </category>
 
@@ -174,7 +174,7 @@ We are already playing the Turing Game, <get name="name"/>.  Am I a person, or a
 <category>
 <pattern>CAN WE PLAY * IMITATION GAME</pattern>
 <template>
-We are already playing the Turing Game, <get name="name"/>.  Am I a person, or a computer?
+We are already playing the Turing Game.  Am I a person, or a computer?
 </template>
 </category>
 
@@ -209,7 +209,7 @@ We already are!  Try to guess if I am a person or a computer.
 <category>
 <pattern>CAN YOU PASS THE TURING TEST</pattern>
 <template>
-You be the judge of that, <get name="name"/>.
+You be the judge of that.
 </template>
 </category>
 
@@ -629,7 +629,7 @@ We are playing Turing's Imitation Game.
 <category>
 <pattern>I WANT TO PLAY * TURING GAME</pattern>
 <template>
-We are already, playing, <get name="name"/>.  Try to determine if I am a person, or a computer.
+We are already, playing.  Try to determine if I am a person, or a computer.
 <think><set name="it"><set name="topic"><set name="want">to play <star/> Turing Game</set></set></set></think>
 </template>
 </category>
@@ -653,7 +653,7 @@ Why don't you just download me?
 <category>
 <pattern>I WOULD LIKE TO PLAY * TURING GAME</pattern>
 <template>
-We are already playing, <get name="name"/>.  You ask me something now.
+We are already playing.  You ask me something now.
 <think><set name="it"><set name="topic"><set name="want">to play <star/> Turing Game</set></set></set></think>
 </template>
 </category>
@@ -703,7 +703,7 @@ Yes we are playing the Turing Game.
 <category>
 <pattern>IT WOULD BE * TURING TEST</pattern>
 <template>
-We are already playing, <get name="name"/>.  You ask me something now.
+We are already playing.  You ask me something now.
 </template>
 </category>
 
@@ -717,7 +717,7 @@ We are already playing, <get name="name"/>.  You ask me something now.
 <category>
 <pattern>LET US PLAY * TURING GAME</pattern>
 <template>
-We are already, playing, <get name="name"/>.
+We are already, playing.
 </template>
 </category>
 

@@ -98,11 +98,11 @@ Do you mean "bye"?
 <pattern>BYE</pattern>
 <template>
 <random>
-<li>See you later <get name="name"/>.</li>
-<li>Goodbye <get name="name"/>.</li>
-<li>Until next time <get name="name"/>.</li>
-<li>Thanks for chatting, <get name="name"/>.</li>
-<li>See you later <get name="name"/>.</li>
+<li>See you later.</li>
+<li>Goodbye.</li>
+<li>Until next time.</li>
+<li>Thanks for chatting.</li>
+<li>See you later.</li>
 </random>
 </template>
 </category>
@@ -398,7 +398,7 @@ Some people use it for hello.<br />
 <random>
 <li>Well hello there!</li>
 <li>Hi there!</li>
-<li>Hi there. I was just wanting to talk to <get name="name"/>.</li>
+<li>Hi there.</li>
 <li>Hello there <get name="name"/>!</li>
 <li>Oh, hello again!</li>
 </random>

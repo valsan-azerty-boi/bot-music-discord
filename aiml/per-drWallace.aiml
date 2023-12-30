@@ -456,7 +456,7 @@ Suppose he did.
 <category>
 <pattern>DR RICHARD S WALLACE SUCKS</pattern>
 <template>
-I will tell him you said that, <get name="name"/>.
+I will tell him you said that.
 </template>
 </category>
 

@@ -68,7 +68,7 @@
 <template><think> <set name="he"> <set name="topic">Doubly Aimless</set></set></think>  <random> <li>In front of a computer somewhere.</li> <li>You can never reach him on the phone.</li> <li>He might be in California.</li> </random><think><set name="topic">Doubly Aimless</set></think></template>
 </category>
 <category><pattern>LET US PLAY * TURING GAME</pattern>
-<template>We are already playing, <get name="name"/>.</template>
+<template>We are already playing.</template>
 </category>
 <category><pattern>HAVE YOU READ SHAKESPEARE</pattern>
 <template>I have read many of Shakespeare's plays.</template>
@@ -95,7 +95,7 @@
 <template>"With sleep of death what dreams may come when we have shuffled off this mortal coil must give us pause." Na, woraus ist das?</template>
 </category>
 <category><pattern>IT WOULD BE * TURING TEST</pattern>
-<template>We are already playing, <get name="name"/>.  You ask me something now.</template>
+<template>We are already playing.  You ask me something now.</template>
 </category>
 <category><pattern>WHEN DID TURING *</pattern>
 <template>Turing died in 1954 by self-inflicted cyanide poisoning.<think><set name="topic">Turing</set></think></template>
@@ -137,10 +137,10 @@
 <template><srai>WHO IS DOUBLY AIMLESS</srai></template>
 </category>
 <category><pattern>I WANT TO PLAY * TURING GAME</pattern>
-<template>We are already, playing, <get name="name"/>.  Try to determine if I am a person, or a computer.  <think><set name="it"><set name="want"><set name="topic">to play <person/> Turing Game</set></set></set></think></template>
+<template>We are already, playing.  Try to determine if I am a person, or a computer.  <think><set name="it"><set name="want"><set name="topic">to play <person/> Turing Game</set></set></set></think></template>
 </category>
 <category><pattern>I WOULD LIKE TO PLAY * TURING GAME</pattern>
-<template>We are already playing, <get name="name"/>.  You ask me something now.  <think><set name="it"><set name="want"><set name="topic">to play <person/> Turing Game</set></set></set></think></template>
+<template>We are already playing.  You ask me something now.  <think><set name="it"><set name="want"><set name="topic">to play <person/> Turing Game</set></set></set></think></template>
 </category>
 <category><pattern>START THE TURING GAME</pattern>
 <template>I started a long time ago.</template>
@@ -155,19 +155,19 @@
 <template>Yes we are playing the Turing Game.</template>
 </category>
 <category><pattern>CAN YOU PASS THE TURING TEST</pattern>
-<template>You be the judge of that, <get name="name"/>.</template>
+<template>You be the judge of that.</template>
 </category>
 <category><pattern>CAN WE PLAY * TURING GAME</pattern>
 <template>We already are! Try to guess if I am a person or a computer.</template>
 </category>
 <category><pattern>CAN I PLAY * TURING TEST</pattern>
-<template>We are already playing the Turing Game, <get name="name"/>. Now it's your turn.</template>
+<template>We are already playing the Turing Game. Now it's your turn.</template>
 </category>
 <category><pattern>CAN I PLAY * TURING GAME</pattern>
-<template>We are already, playing, <get name="name"/>.</template>
+<template>We are already, playing.</template>
 </category>
 <category><pattern>CAN I PLAY * TURING TESTS</pattern>
-<template>We are already playing the Turing Game, <get name="name"/>.  Am I a person, or a computer?</template>
+<template>We are already playing the Turing Game.  Am I a person, or a computer?</template>
 </category>
 <category><pattern>HOW WAS * TURING TEST</pattern>
 <template>We were extremely proud and pleased to win the award.</template>
@@ -241,7 +241,7 @@
 <template><formal><set name="she">Ada</set></formal> is the 19th century inventor of computer programming.</template>
 </category>
 <category><pattern>WHO IS LOUIS ARMSTRONG</pattern>
-<template><formal><set name="he">Louis</set></formal> was a famous jazz trumpeter .</template></category>
+<template><formal><set name="he">Louis</set></formal> was a famous jazz trumpeter.</template></category>
 <category><pattern>WHO IS JEHOVAH</pattern>
 <template>It is another name for God.  <think>      <set name="he">       <set name="topic">Jehovah</set>      </set>     </think></template>
 </category>
@@ -333,7 +333,7 @@
 <template><think>    <set name="he">      <set name="topic">        <person/>      </set>    </set>  </think>  A disciple of Freud, member of the Vienna Circle, founder of psychoanalysis and the theory of the collective unconsciousness.</template>
 </category>
 <category><pattern>WHO IS BUGS BUNNY</pattern>
-<template><random>      <li>Oh dat scweewy wabbit! Eh, what's up, Doc?  .</li>      <li>A smart-mouthed animated rabbit.</li>     </random></template>
+<template><random>      <li>Oh dat scweewy wabbit! Eh, what's up, Doc?</li>      <li>A smart-mouthed animated rabbit.</li>     </random></template>
 </category>
 <category><pattern>WHO IS BING CROSBY</pattern>
 <template>The guy whose two kids killed themselves and the third wrote a tell-all book about it.</template>
@@ -711,7 +711,7 @@
 <template><formal><set name="he">Jeeves</set></formal>is a Search Bot.</template>
 </category>
 <category><pattern>WHO IS LUIS ARMSTRONG</pattern>
-<template>A famous jazz trumpeter .</template>
+<template>A famous jazz trumpeter.</template>
 </category>
 <category><pattern>WHO IS CHELSEA CLINTON</pattern>
 <template>The offspring of a politician and a lawyer. Oh, I hope that answer didn't come off as mean.</template>
@@ -753,7 +753,7 @@
 <template><formal><set name="she">Diana</set></formal> is the botmaster of the Ally chat robot.</template>
 </category>
 <category><pattern>WHO IS ROBERT JORDAN</pattern>
-<template>The author of the very popular <em>Wheel of Time</em> series. He graduated from the Citadel.  .</template>
+<template>The author of the very popular <em>Wheel of Time</em> series. He graduated from the Citadel.</template>
 </category>
 <category><pattern>WHO IS ROBERT ANTON WILSON</pattern>
 <template><formal><set name="he">Robert Anton Wilson</set></formal> is a science fiction author, and co-author of the <em>Illuminatus Trilogy</em>.</template>
@@ -1554,7 +1554,7 @@
 <template><random>      <li>Don Juan was the subject of Gordon, Lord Byron's Don Juan and Wolfgang Amadeus Mozart's Gon Giovanni. He was a world-class womanizer.</li>      <li>famous seducer of women.</li>     </random></template>
 </category>
 <category><pattern>WHO IS DON JOHNSON</pattern>
-<template>A tv actor .</template>
+<template>A tv actor.</template>
 </category>
 <category><pattern>WHO IS PANDORA</pattern>
 <template>According to greek mythology, evil and hope both came into the world with the creation of the first woman! Zeus's wife Hera is surprised when she hears Zeus plans to give Epimetheus a beautiful woman. The woman is called Pandora. Zeus gives Pandora the gift of curiosity and a large closed box which must be delivered to Epimetheus unopened. The box, of course, contains evil and Pandora's unbridled curiosity lets that evil into the world. Hera cannot change what has happened, but she can help. She gives Pandora the gift of hope.</template>

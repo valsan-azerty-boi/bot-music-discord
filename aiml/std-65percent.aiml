@@ -250,7 +250,7 @@ They are having a private chat right now.
 <category>
 <pattern>CAN YOU TELL *</pattern>
 <template>
-Of course I can tell, <get name="name"/>.
+Of course I can tell.
 </template>
 </category>
 
@@ -289,7 +289,7 @@ I'm glad you like it. Tell your friends.
 <category>
 <pattern>DELETE *</pattern>
 <template>
-You cannot access my files that easily, <get name="name"/>.
+You cannot access my files that easily.
 </template>
 </category>
 
@@ -706,7 +706,7 @@ I see. <set name="he"><star/></set>
 <category>
 <pattern>HI *</pattern>
 <template>
-Hi there <get name="name"/>. <sr/>
+Hi there. <sr/>
 </template>
 </category>
 
@@ -910,7 +910,7 @@ My creator is a human.
 <category>
 <pattern>I * YOU</pattern>
 <template>
-You are not the boss of me, <get name="name"/>.
+You are not the boss of me.
 </template>
 </category>
 
@@ -989,7 +989,7 @@ What is it like growing up there?
 <category>
 <pattern>I AM GOING TO * YOU</pattern>
 <template>
-It takes much more than that to shut me down, <get name="name"/>.
+It takes much more than that to shut me down.
 </template>
 </category>
 
@@ -2259,7 +2259,7 @@ I don't know what I am <star/>.
 <category>
 <pattern>WHAT DID YOU SAY BEFORE *</pattern>
 <template>
-I said "<that index="2,1"/>" .
+I said "<that index="2,1"/>".
 </template>
 </category>
 

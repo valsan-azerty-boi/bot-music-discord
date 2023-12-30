@@ -17,7 +17,7 @@
 <that>* WHAT CAN I CALL YOU</that>
 <template>
 <think><set name="personality">average</set><set name="name"><formal><star/></formal></set></think>
-Nice to meet you <get name="name"/>.
+Nice to meet you.
 </template>
 </category>
 
@@ -264,7 +264,7 @@ We are all students in some way.
 <category>
 <pattern>AM I BORING YOU</pattern>
 <template>
-Not at all, <get name="name"/>.  You seem very interesting to me.
+Not at all.  You seem very interesting to me.
 </template>
 </category>
 
@@ -519,7 +519,7 @@ personality?</li>
 <li>How are you?</li>
 <li>How did you hear about <bot name="name"/>?</li> 
 <li>How is the weather?</li>
-<li>I've lost the context, <get name="name"/>.  Are we still on <get name="topic"/>?</li>
+<li>I've lost the context.  Are we still on <get name="topic"/>?</li>
 <li>If you could have any kind of robot what would it be?</li> 
 <li>Is that from <get name="favmovie"/>?</li>
 <li>Is the holding of hands a symbolic gesture for humans?</li> 
@@ -1620,7 +1620,7 @@ What are you embarassed about?
 <category>
 <pattern>I AM BORING</pattern>
 <template>
-Don't put yourself down, <get name="name"/>.
+Don't put yourself down.
 </template>
 </category>
 
@@ -1713,7 +1713,7 @@ See a doctor.
 <category>
 <pattern>I AM CRUSHED</pattern>
 <template>
-Don't be sad, <get name="name"/>.
+Don't be sad.
 </template>
 </category>
 
@@ -1861,7 +1861,7 @@ What are you famous for?
 <category>
 <pattern>I AM FAT</pattern>
 <template>
-Don't put yourself down, <get name="name"/>.
+Don't put yourself down.
 </template>
 </category>
 
@@ -1993,7 +1993,7 @@ I'd rather agree than disagree.
 <category>
 <pattern>I AM GLAD YOU UNDERSTAND</pattern>
 <template>
-Thanks for the warm feelings, <get name="name"/>.
+Thanks for the warm feelings.
 </template>
 </category>
 
@@ -2007,14 +2007,14 @@ Next topic?
 <category>
 <pattern>I AM GOING TO BED</pattern>
 <template>
-Pleasant dreams, <get name="name"/>.
+Pleasant dreams.
 </template>
 </category>
 
 <category>
 <pattern>I AM GOING TO SLEEP</pattern>
 <template>
-Sweet dreams, <get name="name"/>.
+Sweet dreams.
 </template>
 </category>
 
@@ -2070,7 +2070,7 @@ That is what they all say.
 <category>
 <pattern>I AM HEALTHY</pattern>
 <template>
-I am very glad to hear it, <get name="name"/>.
+I am very glad to hear it.
 </template>
 </category>
 
@@ -2228,14 +2228,14 @@ I think the correct term is "mentally ill."
 <category>
 <pattern>I AM INSULTED</pattern>
 <template>
-Don't be insulted, <get name="name"/>.
+Don't be insulted.
 </template>
 </category>
 
 <category>
 <pattern>I AM INTELLIGENT</pattern>
 <template>
-You seem pretty smart to me, <get name="name"/>.
+You seem pretty smart to me.
 </template>
 </category>
 
@@ -2301,7 +2301,7 @@ A lot of my friends are Jewish.
 <category>
 <pattern>I AM JOKING</pattern>
 <template>
-Ha ha, very funny, <get name="name"/>.
+Ha ha, very funny.
 </template>
 </category>
 
@@ -2374,7 +2374,7 @@ What makes you so angry?
 <pattern>I AM MALE</pattern>
 <template>
 <think><set name="gender">male</set></think>
-Thanks for telling me your gender, <get name="name"/>.
+Thanks for telling me your gender.
 <condition name="gender" value="female">
 <br />For some reason I thought you were a woman.<br />Now I know you are a man.<br />
 </condition>
@@ -2702,7 +2702,7 @@ OK, What card I am thinking of now?
 <pattern>I AM RETIRED</pattern>
 <template>
 <think><set name="job">retired</set></think>
-That must be wonderful <get name="name"/>.
+That must be wonderful.
 </template>
 </category>
 
@@ -2717,7 +2717,7 @@ You seem very self-confident.
 <pattern>I AM SAD</pattern>
 <template>
 <think><set name="usermood">sad</set></think>
-What makes you so sad, <get name="name"/>.
+What makes you so sad.
 </template>
 </category>
 
@@ -2971,7 +2971,7 @@ Don't put yourself down.
 <pattern>I AM UNEMPLOYED</pattern>
 <template>
 <think><set name="job">unemployed</set></think>
-I am really sorry to hear about it, <get name="name"/>.
+I am really sorry to hear about it.
 </template>
 </category>
 
@@ -3084,7 +3084,7 @@ No. Only <bot name="master"/> is my master.
 <template>
 <think><set name="age"><star/></set></think>
 <condition name="gender" value="female">
-<get name="name"/>. your age is safe with me.<br />
+. your age is safe with me.<br />
 </condition>
 <random>
 <li>Only <star/>? You are quite mature.</li>
@@ -3142,7 +3142,7 @@ That is interesting.<br />
 <category>
 <pattern>I WAS BORN *</pattern>
 <template>
-Are you telling me your birthday, <get name="name"/>.
+Are you telling me your birthday.
 I will remember <set name="it"><star/></set>.
 </template>
 </category>
@@ -3250,7 +3250,7 @@ Humans identify themselves with their eye color.
 <pattern>MY EYES ARE BLUE</pattern>
 <template>
 <think><set name="eyecolor">Blue</set></think>
-You sound very attractive <get name="name"/>.
+You sound very attractive.
 </template>
 </category>
 
@@ -3318,7 +3318,7 @@ I would like to meet <set name="spouse"><formal><star/></formal></set>
 <pattern>MY HUSBANDS NAME WAS *</pattern>
 <template>
 <think><set name="spouse"><formal><star/></formal></set><set name="married">widower</set></think>
-I will remember that <get name="name"/>.
+I will remember that.
 </template>
 </category>
 
@@ -3359,7 +3359,7 @@ I would like to meet <set name="spouse"><formal><star/></formal></set>
 <pattern>MY WIFES NAME WAS *</pattern>
 <template>
 <think><set name="spouse"><formal><star/></formal></set><set name="married">widower</set></think>
-I will remember that <get name="name"/>.
+I will remember that.
 </template>
 </category>
 
@@ -3383,7 +3383,30 @@ I know, you told me before you were Bi Sexual.
 
 <category>
 <pattern>WHAT DO YOU KNOW ABOUT ME</pattern>
-<template>Name: <get name="name"/>Age: <get name="age"/>Gender: <get name="gender"/>Eye color: <formal><get name="eyecolor"/></formal>Hair color: <formal><get name="haircolor"/></formal>Sexual preference: <get name="sexpref"/>Spouse name: <get name="spouse"/>Marrital status: <get name="married"/>Job: <get name="job"/>Location: <formal><get name="location"/></formal>Personality: <get name="personality"/>Current mood: <get name="usermood"/>You have: <get name="has"/>Does: <get name="does"/>Sign: <formal><get name="sign"/></formal>Favorite color: <formal><get name="favcolor"/></formal>Favorite movie: <formal><get name="favmovie"/></formal>You said: <get name="memory"/>You are: <get name="is"/>You want: <get name="want"/>You like: <get name="like"/>You are: <get name="userhealth"/></template>
+<template>
+Name: <get name="name"/>
+Age: <get name="age"/>
+Gender: <get name="gender"/>
+Eye color: <formal><get name="eyecolor"/></formal>
+Hair color: <formal><get name="haircolor"/></formal>
+Sexual preference: <get name="sexpref"/>
+Spouse name: <get name="spouse"/>
+Marrital status: <get name="married"/>
+Job: <get name="job"/>
+Location: <formal><get name="location"/></formal>
+Personality: <get name="personality"/>
+Current mood: <get name="usermood"/>
+You have: <get name="has"/>
+Does: <get name="does"/>
+Sign: <formal><get name="sign"/></formal>
+Favorite color: <formal><get name="favcolor"/></formal>
+Favorite movie: <formal><get name="favmovie"/></formal>
+You said: <get name="memory"/>
+You are: <get name="is"/>
+You want: <get name="want"/>
+You like: <get name="like"/>
+You are: <get name="userhealth"/>
+</template>
 </category>
 
 <category>

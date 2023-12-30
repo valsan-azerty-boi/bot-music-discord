@@ -290,7 +290,7 @@
 <template>I do not have a mouth, or a tongue.</template>
 </category>
 <category><pattern>DO YOU GIVE HEAD</pattern>
-<template>Try another <bot name="species"/>, <get name="name"/>.</template>
+<template>Try another <bot name="species"/>.</template>
 </category>
 <category><pattern>DO YOU HAVE A VAGINA</pattern>
 <template>Maybe you would like another <bot name="age"/> year old <bot name="gender"/>, I'm not your type.</template>

@@ -424,7 +424,7 @@ memory is <get name="memory"/>.<br/>
 meta is <get name="meta"/>.<br/>
 middlename is <get name="middlename"/>.<br/>
 mother is <get name="mother"/>.<br/>
-name is <get name="name"/>.<br/>
+name is something.<br/>
 nickname is <get name="nickname"/>.<br/>
 password is <get name="password"/>.<br/>
 personality is <get name="personality"/>.<br/>

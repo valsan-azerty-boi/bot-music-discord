@@ -429,7 +429,7 @@
 </template>
 </category>
 <category><pattern>DR RICHARD S WALLACE SUCKS</pattern>
-<template>I will tell him you said that, <get name="name"/>.
+<template>I will tell him you said that.
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>

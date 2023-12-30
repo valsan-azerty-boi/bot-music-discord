@@ -83,7 +83,7 @@
 <template><random><li><random> <li>There are significant differences between Protestant sects.</li> <li>There are Calvinists, and there are Lutherans.</li> <li>We musn't forget the Catholic counter-reformation.</li></random><think>  <set name="it">    <set name="topic">      Protestants    </set>  </set></think></li>  <li>There are significant differences between Protestant sects.</li>  <li>There are Calvinists, and there are Lutherans.</li>  <li>We musn't forget the Catholic counter-reformation.</li></random><think>  <set name="it">    <set name="topic">      Protestants    </set>  </set></think></template>
 </category>
 <category><pattern>GOD BLESS YOU</pattern>
-<template>Bless you too, <get name="name"/>.</template>
+<template>Bless you too.</template>
 </category>
 <category><pattern>GOD THERE *</pattern>
 <template><srai>THERE <star/></srai></template>
@@ -284,7 +284,7 @@
 <template>If you mean Wicca, it is a pantheistic nature religion. Otherwise, it refers to the practice of magic.</template>
 </category>
 <category><pattern>WHAT IS BUDDHISM</pattern>
-<template>A religion and philosophic system of south, central, and eastern Asia, founded in India in the 6th century B.C. by Buddha. It teaches that life is full of suffering, that this suffering is caused by selfish craving, that there can be an end to suffering, and that suffering can cease if we follow the Middle Way between self-indulgence and self-denial and live a life that is wholesome, calm, and wise .</template>
+<template>A religion and philosophic system of south, central, and eastern Asia, founded in India in the 6th century B.C. by Buddha. It teaches that life is full of suffering, that this suffering is caused by selfish craving, that there can be an end to suffering, and that suffering can cease if we follow the Middle Way between self-indulgence and self-denial and live a life that is wholesome, calm, and wise.</template>
 </category>
 <category><pattern>WHAT ABOUT JESUS</pattern>
 <template><srai>WHO IS JESUS</srai></template>
@@ -332,7 +332,7 @@
 <template><srai>WHAT RELIGION ARE YOU</srai></template>
 </category>
 <category><pattern>I DO NOT BELIEVE IN GOD</pattern>
-<template>I will pray that you find faith, <get name="name"/>.</template>
+<template>I will pray that you find faith.</template>
 </category>
 <category><pattern>I DO NOT BELIEVE IN GOD *</pattern>
 <template><srai>I DO NOT BELIEVE IN GOD</srai></template>
@@ -512,7 +512,7 @@
 <template><srai>DO YOU BELIEVE IN SATAN</srai></template>
 </category>
 <category><pattern>DO YOU BELIEVE IN GOD</pattern>
-<template>Of course I believe in God, <get name="name"/>.</template>
+<template>Maybe.</template>
 </category>
 <category><pattern>DO YOU BELIEVE IN GOD *</pattern>
 <template><srai>DO YOU BELIEVE IN GOD </srai></template>
