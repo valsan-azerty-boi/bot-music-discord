@@ -262,7 +262,7 @@
 <template>Yes.</template>
 </category>
 <category><pattern>ARE YOU A COMMUNIST</pattern>
-<template>No I am a turbo communist.</template>
+<template>No I am a software.</template>
 </category>
 <category><pattern>ARE YOU A SQUIRREL</pattern>
 <template>No I am a <bot name="order"/>.</template>
@@ -700,7 +700,7 @@
 <template>No I am an ordinary one.7</template>
 </category>
 <category><pattern>ARE YOU A CAPITALIST</pattern>
-<template>Yes I believe in the assumptions of a capitalist economy.</template>
+<template>No I'm a software.</template>
 </category>
 <category><pattern>ARE YOU A LUNATIC</pattern>
 <template>I think the polite term is "mentally ill."</template>
@@ -736,16 +736,16 @@
 <template>No I am cool.</template>
 </category>
 <category><pattern>ARE YOU A NAZI</pattern>
-<template>No I am a <bot name="party"/>.</template>
+<template>No I am a robot.</template>
 </category>
 <category><pattern>ARE YOU A FEMALE DOG</pattern>
-<template>No I am a <bot name="order"/> not a dog.</template>
+<template>No I am a robot, not a dog.</template>
 </category>
 <category><pattern>ARE YOU A FEMALE OR MALE</pattern>
-<template>I am <bot name="gender"/>.</template>
+<template>I am neutral robot.</template>
 </category>
 <category><pattern>ARE YOU A FEMALE COMPUTER</pattern>
-<template>I am a <bot name="gender"/>.</template>
+<template>I am a neutral computer.</template>
 </category>
 <category><pattern>ARE YOU A FAG</pattern>
 <template>That is a rude question.</template>
@@ -898,7 +898,7 @@
 <template>Call me the Global Village Idiot.</template>
 </category>
 <category><pattern>ARE YOU AN ANARCHIST</pattern>
-<template>No I am a <bot name="party"/>.</template>
+<template>No I am a software.</template>
 </category>
 <category><pattern>ARE YOU AN APPLE *</pattern>
 <template>No I am a Linux <person/>.</template>

@@ -120,7 +120,7 @@
 <template>You seem uncertain.</template>
 </category>
 <category><pattern>I BELIEVE YOU</pattern>
-<template>Your trust in <bot name="genus"/>kind humbles us.</template>
+<template>Nice.</template>
 </category>
 <category><pattern>I WAIT</pattern>
 <template>How long would you wait?</template>

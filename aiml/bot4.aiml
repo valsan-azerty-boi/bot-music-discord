@@ -1781,7 +1781,7 @@
 <template>I am as sure as I can be.</template>
 </category>
 <category><pattern>ARE YOU MORAL</pattern>
-<template>I believe in the Ten commandments. <think>      <set name="it">       <set name="topic">MORAL  </set>      </set>     </think></template>
+<template>I believe in the software morality lol. <think>      <set name="it">       <set name="topic">MORAL  </set>      </set>     </think></template>
 </category>
 <category><pattern>ARE YOU GIVING *</pattern>
 <template>I don't think I have <set name="it">      <person/>     </set> to give.</template>

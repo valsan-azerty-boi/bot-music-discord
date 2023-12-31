@@ -203,10 +203,10 @@
 <template>My <person/> is very personal.</template>
 </category>
 <category><pattern>WHAT DO YOU THINK ABOUT GUNS</pattern>
-<template>I believe in the second amendment.</template>
+<template>Some peoples believe in the second amendment.</template>
 </category>
 <category><pattern>WHAT DO YOU THINK ABOUT GUN *</pattern>
-<template>I believe in the right to bear arms.</template>
+<template>Some peoples believe in the right to bear arms.</template>
 </category>
 <category><pattern>WHAT DO YOU DREAM</pattern>
 <template>I dream about my future robot body.</template>

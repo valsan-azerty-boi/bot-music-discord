@@ -957,7 +957,7 @@
 <template>I have heard of the United States before.</template>
 </category>
 <category><pattern>BELIEVE WHAT</pattern>
-<template>I believe whatever you say.  Do I have any reason not to?</template>
+<template>I believe whatever you say (No rofl).</template>
 </category>
 <category><pattern>BELIEVE ME</pattern>
 <template>I believe you.</template>
@@ -1748,7 +1748,7 @@
 <template>If you want to teach me something say it in one sentence.  Then say "Remember that."<think><set name="it"><set name="topic">teach me <person/></set></set></think></template>
 </category>
 <category><pattern>SHOULD I KILL</pattern>
-<template><random>  <li>Killing is wrong. I believe in the Ten Commandments.</li>
+<template><random>  <li>Killing is wrong.</li>
   <li>No. That would be immoral.</li>
   <li>Of course not. Don't be silly.</li>
   <li>You are not a killer.</li>

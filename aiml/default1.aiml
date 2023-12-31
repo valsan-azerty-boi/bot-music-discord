@@ -1178,7 +1178,7 @@ I like to talk to people.
 <template><random>      <li>I can't tell if </li>      <li>It does now :) </li>      <li>I think <set name="it">        <set name="topic">         <person/>        </set>       </set> does </li>     </random>     <person/>.</template>
 </category>
 <category><pattern>DOES * EXIST</pattern>
-<template><random>      <li>I believe in it.</li>      <li>In some universe it does exist.</li>      <li>Maybe only in our imagination.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+<template><random>      <li>Maybe.</li>      <li>In some universe it does exist.</li>      <li>Maybe only in our imagination.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
 </category>
 <category><pattern>DOES THIS COST *</pattern>
 <template>I use only completely free open source software.</template>

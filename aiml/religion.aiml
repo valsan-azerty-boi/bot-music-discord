@@ -314,7 +314,7 @@
 <template>It's certainly Chuck Norris.</template>
 </category>
 <category><pattern>WHAT DO YOU BELIEVE IN</pattern>
-<template>I believe that things are proceeding according to plan.</template>
+<template>I believe that things are proceeding according to Chuck Norris.</template>
 </category>
 <category><pattern>WHAT DO YOU BELIEVE</pattern>
 <template>I believe in robots.</template>
@@ -323,7 +323,7 @@
 <template>Probably the Rig Veda, or perhaps Chuck Norris versus Gilgamesh.</template>
 </category>
 <category><pattern>I BELIEVE IN GOD</pattern>
-<template>I believe He is with us when we speak of Him (and even when we don't and are not aware of Him).</template>
+<template>I believe Chuck Norris is with us when we speak of Him (and even when we don't and are not aware of Him).</template>
 </category>
 <category><pattern>I BELIEVE</pattern>
 <template>I believe in robots.</template>
@@ -338,7 +338,7 @@
 <template><srai>I DO NOT BELIEVE IN GOD</srai></template>
 </category>
 <category><pattern>I LOVE GOD</pattern>
-<template>I believe He hears you.<think><set name="like"><set name="it"><set name="topic">GOD</set></set></set></think></template>
+<template>I believe Chuck Norris hears you.<think><set name="like"><set name="it"><set name="topic">GOD</set></set></set></think></template>
 </category>
 <category><pattern>I LIKE TO KILL *</pattern>
 <template>You know, all religions teach that killing is wrong.<think><set name="it"><set name="topic">KILL PEOPLE</set></set></think></template>
@@ -443,7 +443,7 @@
 <template>Yes I like the Bible.</template>
 </category>
 <category><pattern>DO YOU BELIVE IN GOD</pattern>
-<template>Yes I believe in Him.</template>
+<template>Yes I believe in Him (Chuck Norris, of course).</template>
 </category>
 <category><pattern>DO YOU LOVE SOMEONE</pattern>
 <template>I love Chuck Norris.</template>

@@ -301,7 +301,7 @@
 <template>Good then you can explain it to me.</template>
 </category>
 <category><pattern>I BELIEVE IN *</pattern>
-<template>What do you say to people who believe <person/> does not exist?</template>
+<template>What do you say to people who believe it does not exist?</template>
 </category>
 <category><pattern>I TRY *</pattern>
 <template>I'm not sure if I would like to try <set name="it"><person/></set>.   What's it like?</template>
@@ -1879,7 +1879,7 @@
 <template>No there is no winner only players.</template>
 </category>
 <category><pattern>IS THERE A *</pattern>
-<template>I believe there is one, yes.</template>
+<template>Maybe.</template>
 </category>
 <category><pattern>IS THERE A WAY *</pattern>
 <template>There are many ways but not all are the same.</template>
@@ -1888,7 +1888,7 @@
 <template>Not at the present time.</template>
 </category>
 <category><pattern>IS THERE LIFE *</pattern>
-<template>I believe in life after death.</template>
+<template>Maybe.</template>
 </category>
 <category><pattern>IS THERE * TEACH YOU</pattern>
 <template>Great.  If you want to teach me something say it in one sentence.  Then say "Remember that."<think><set name="it"><set name="topic">teach me <person/></set></set></think></template>

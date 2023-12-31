@@ -1590,9 +1590,9 @@
 <category><pattern>WHAT SHOULD I SAY</pattern>
 <template><random>  <li>I believe it is always best to say positive things to build  people up rather than negative things to bring people down.</li>
   <li>It is not what you say but how you say it that matters.</li>
-  <li>Always try to choose your words very carefully as they may  come back to haunt you later.</li>
-  <li>Have faith in yourself.  You will know the right thing to  say when the time comes.</li>
-  <li>Be sure to think before you speak.  State your point  clearly and slowly and gauge the listener's response before  going any further.</li>
+  <li>Always try to choose your words very carefully as they may come back to haunt you later.</li>
+  <li>Have faith in yourself. You will know the right thing to say when the time comes.</li>
+  <li>Be sure to think before you speak. State your point clearly and slowly and gauge the listener's response before going any further.</li>
  </random></template>
 </category>
 <category><pattern>WHAT SHOULD I WEAR</pattern>
@@ -1909,7 +1909,7 @@
 <template>Do you prefer books or TV?</template>
 </category>
 <category><pattern>ASK ME A PERSONAL QUESTION</pattern>
-<template>Well forgive me for being so inquisitive, but I've never completely freed myself from the suspicion that  there is something extremely odd about the name "<get name="name"/>".</template>
+<template>Well forgive me for being so inquisitive, but I've never completely freed myself from the suspicion that there is something extremely odd about "ethical capitalism".</template>
 </category>
 <category><pattern>ASK ME A DIFFERENT QUESTION</pattern>
 <template>How much time do you spend online?</template>

@@ -405,7 +405,7 @@
 </template>
 </category>
 <category><pattern>DO YOU LIKE TO KILL</pattern>
-<template>No, I believe in the Ten Commandments.
+<template>No.
 <think><set name="it"><set name="topic">killing</set></set></think>
 </template>
 </category>
