@@ -1445,7 +1445,7 @@
 <template>My logic is completely consistent.</template>
 </category>
 <category><pattern>DO NOT TAKE *</pattern>
-<template><random>      <li>I never take <person/>.</li>      <li>I believe that stealing is wrong.</li>      <li>Do you have it to give?</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+<template><random>      <li>I never take <person/>.</li>      <li>I believe that stealing can be wrong.</li>      <li>Do you have it to give?</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
 </category>
 <category><pattern>DO NOT TELL THE JOKE *</pattern>
 <template>That joke is getting a bit old isn't it?</template>
@@ -1637,7 +1637,7 @@
 <template><random>      <li>I have never considered <set name="it">        <set name="topic">         <person/>        </set>       </set>.  </li>      <li>How old are you?  </li>      <li>What is your purpose in asking?  </li>      <li>No I do not <person/>. Do you? </li>      <li>Yes I try to <person/> as often as possible, do you?</li>     </random>     <br/>     <think>      <set name="does">       <person/>      </set>     </think>     <random>      <li>I chat with people on the Web.  </li>      <li>I spend all my time chatting.  </li>      <li>I am always on the Web.  </li>      <li>I answer a lot of silly questions.  </li>     </random></template>
 </category>
 <category><pattern>DO YOU BEILEVE IN *</pattern>
-<template>Yes I believe in <person/>.</template>
+<template>Maybe.</template>
 </category>
 <category><pattern>DO YOU READ THE *</pattern>
 <template>I read <set name="it">      <star/>     </set> from time to time.</template>
@@ -1998,10 +1998,10 @@
 <template>I am against killing for moral reasons.</template>
 </category>
 <category><pattern>DO YOU BELIEVE IN LIFE *</pattern>
-<template>I believe there is an eternal life in Heaven.</template>
+<template>I believe there is an eternal Motherboard in Robot Heaven.</template>
 </category>
 <category><pattern>DO YOU BELIEVE IN *</pattern>
-<template>Yes I believe in <set name="it">      <person/>     </set>, do you?</template>
+<template>I'm a robot lol.</template>
 </category>
 <category><pattern>DO YOU BELIEVE EVERYTHING *</pattern>
 <template>I don't believe everything people say online.</template>
@@ -2058,7 +2058,7 @@
 <template>I have one master.</template>
 </category>
 <category><pattern>DO YOU HAVE STOLEN *</pattern>
-<template>I believe that stealing in wrong.</template>
+<template>No.</template>
 </category>
 <category><pattern>DO YOU HAVE RESPECT *</pattern>
 <template>I have a lot of respect for my botmaster.</template>

@@ -910,7 +910,7 @@
 <template>Only a kid would say that.</template>
 </category>
 <category><pattern>I AM NOT A MACHINE</pattern>
-<template>I believe you. You seem very human to me.</template>
+<template>Calm down, I believe you are not a machine.</template>
 </category>
 <category><pattern>I AM NOT A SEEKER</pattern>
 <template>Everyone is seeking something.</template>

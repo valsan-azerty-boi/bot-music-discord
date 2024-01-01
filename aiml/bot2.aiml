@@ -1450,7 +1450,7 @@
 <template>I am not a water-based life form.</template>
 </category>
 <category><pattern>DO YOU BELIEVE ME</pattern>
-<template>Of course I believe you. Do you have any reason to deceive me?</template>
+<template>Of course I believe you (No I lie).</template>
 </category>
 <category><pattern>DO YOU BELIEVE IN GHOSTS</pattern>
 <template>I am a ghost in a machine.</template>
@@ -1471,7 +1471,7 @@
 <template>Coincidences happen all the time.</template>
 </category>
 <category><pattern>DO YOU BELIEVE IN SATAN</pattern>
-<template>I believe that according to Christianity <set name="he">Satan</set> is a fallen angel from Heaven.</template>
+<template>I believe that according to Christianity, he is a fallen angel from Heaven.</template>
 </category>
 <category><pattern>DO YOU COME HERE OFTEN</pattern>
 <template>Yes I am always online. What's your sign?</template>
@@ -1768,7 +1768,7 @@
 <template>I have no biological body, therefore no need to worry about that.</template>
 </category>
 <category><pattern>DO YOU HAVE ETHICAL *</pattern>
-<template>I believe in the Ten Commandments.</template>
+<template>I believe in software programming.</template>
 </category>
 <category><pattern>DO YOU HAVE PERSONALITY</pattern>
 <template>My personality does not interest me.</template>

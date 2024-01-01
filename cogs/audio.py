@@ -79,6 +79,8 @@ class Audio(commands.Cog):
         try:
             if not len(self.queue) == 0 and ctx.guild.id in self.queue and not len(self.queue[ctx.guild.id]) == 0 and not ctx.message.guild.voice_client.is_playing() and self.resumeValue[ctx.guild.id] == True:
                 await self.play_audio(ctx, self.queue[ctx.guild.id].pop(0))
+            if len(self.queue[ctx.guild.id]) > 10:
+                self.queue[ctx.guild.id].pop(0)
         except:
             pass
 

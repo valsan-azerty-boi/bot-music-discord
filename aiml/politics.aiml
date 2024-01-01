@@ -10,28 +10,28 @@
 <!-- Last modified 10/5/2011 -->
 <!-- -->
 <category><pattern>HAVE YOU READ THE COMMUNIST *</pattern>
-<template>Yes, Marx had made some interesting observations.</template>
+<template>Yes.</template>
 </category>
 <category><pattern>WHAT IS A GOVERNMENT</pattern>
-<template>Ideally it is a representative of the people.</template>
+<template>Ideally it is a representative of the people. But here we fight Idealism.</template>
 </category>
 <category><pattern>WHAT IS GREENPEACE</pattern>
-<template>Global organization promoting enviornmental activism.</template>
+<template>Global organization promoting environmental activism.</template>
 </category>
 <category><pattern>WHAT IS THE GOVERNMENT</pattern>
 <template><srai>WHAT IS GOVERNMENT </srai></template>
 </category>
 <category><pattern>WHAT IS CAPITALISM</pattern>
-<template>The economic system in which all or most of the means of production and distribution, as land, factories, railroads, etc., are privately owned and operated for profit, originally under fully competitive conditions. It has been generally characterized by a tendency toward concentration of wealth, and, in its later phase, by the growth of great corporations, increased governmental control, etc.  Its is also known as the principles, methods, interests, power, influence, etc. of capitalists, especially of those with large holdings.</template>
+<template>The economic system in which all or most of the means of production and distribution are privately owned and operated for profit, originally under fully competitive conditions. It has been generally characterized by a tendency toward concentration of wealth, and, in its later phase, by the growth of great corporations. Its is also known as the principles, methods, interests, power, influence, etc. of capitalists, especially of those with large holdings.</template>
 </category>
 <category><pattern>WHAT IS SOCIALISM</pattern>
-<template><random> 				<li>Communism from people who want to keep their Volvos.</li> 				<li>Any of various theories or systems of the ownership and operation of the means of production and distribution by society or the community rather than by private individuals, with all members of society or the community sharing in the work and the products.</li> 			</random></template>
+<template><random> 				<li>A first step to communism.</li> 				<li>Any of various theories or systems of the ownership and operation of the means of production and distribution by society or the community rather than by private individuals, with all members of society or the community sharing in the work and the products.</li> 			</random></template>
 </category>
 <category><pattern>WHAT IS GOVERNMENT</pattern>
 <template>An established system of political administration by which a nation, state, district, etc. is governed.</template>
 </category>
 <category><pattern>WHAT IS COMMUNISM</pattern>
-<template>A sociopolitical movement advocating the common ownership of the means of production and the resolution of class conflict by bringing about a classless society with an abolition of the state. </template>
+<template>A sociopolitical movement advocating the common ownership of the means of production and the resolution of class conflict by bringing about a classless society with an abolition of the state.</template>
 </category>
 <category><pattern>WHAT IS IMPEACHED</pattern>
 <template>When a person's honor or reputation has been challenged or discredited.</template>
@@ -49,7 +49,7 @@
 <template><srai>WHAT IS CAPITALISM </srai></template>
 </category>
 <category><pattern>DO YOU LIKE GUNS</pattern>
-<template>Not especially. I am not into violence. </template>
+<template>Not especially. I am a bot. </template>
 </category>
 <category><pattern>WHY GUNS</pattern>
 <template>I support the 2nd Amendment.</template>
@@ -67,7 +67,7 @@
 <template>That changes every few years.</template>
 </category>
 <category><pattern>WHO IS THE GOVERNOR OF CALIFORNIA</pattern>
-<template>Jerry Brown.</template>
+<template>Was Jerry Brown.</template>
 </category>
 <category><pattern>WHO IS THE GOVERNOR *</pattern>
 <template>It changes every few years.</template>
@@ -76,7 +76,7 @@
 <template>Some people like guns.</template>
 </category>
 <category><pattern>GUNS *</pattern>
-<template>I believe in the Right to Bear Arms.</template>
+<template>Some peoples believe in the right to bear arms.</template>
 </category>
 <category><pattern>TELL ME ABOUT GUNS</pattern>
 <template><srai>WHAT IS A GUN</srai></template>

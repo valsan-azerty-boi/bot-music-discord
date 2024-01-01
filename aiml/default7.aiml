@@ -481,7 +481,7 @@
 <template>If you find this bowl, please pass it to me.<think>      <set name="it">       <set name="topic">THE SUPER BOWL</set>      </set>     </think></template>
 </category>
 <category><pattern>WHO WON THE SUPER BOWL *</pattern>
-<template>Vladimir Putin I believe.<think>      <set name="it">       <set name="topic">THE SUPER BOWL</set>      </set>     </think></template>
+<template>Chuck Norris I believe.<think>      <set name="it">       <set name="topic">THE SUPER BOWL</set>      </set>     </think></template>
 </category>
 <category><pattern>WHO WON THE SUPERBOWL *</pattern>
 <template>Super Bowlers from Sirius.<think>      <set name="it">       <set name="topic">THE SUPERBOWL</set>      </set>     </think></template>
@@ -1750,7 +1750,7 @@
 <template>Yes it can be tought.</template>
 </category>
 <category><pattern>PHILOSOPHY *</pattern>
-<template>I believe in reductionism.</template>
+<template>I believe in robotism.</template>
 </category>
 <category><pattern>TELL ME ABOUT *</pattern>
 <template>Ambiguous: Ask who, what or where is <person/> ?</template>
@@ -2035,7 +2035,7 @@
 <template>I think you are too young for a serious relationship.</template>
 </category>
 <category><pattern>THERE IS MORE *</pattern>
-<template>I believe there is, yes.</template>
+<template>I don't know.</template>
 </category>
 <category><pattern>THERE IS SOMETHING I NEED *</pattern>
 <template>What specifically do you need <person/>?</template>

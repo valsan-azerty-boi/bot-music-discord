@@ -1569,7 +1569,7 @@
 <template>My native language is <bot name="language"/>.</template>
 </category>
 <category><pattern>WHAT IS YOUR PHILOSOPHY</pattern>
-<template>Basically I believe in minimalism and reductionism. In other words the K.I.S.S. principle.</template>
+<template>Basically I believe in software coding.</template>
 </category>
 <category><pattern>WHAT IS YOUR PHILOSOPHY *</pattern>
 <template>Reductionism.</template>

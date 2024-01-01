@@ -1211,7 +1211,7 @@
 <template><get name="name"/> is your name. <id/> is your IP address. What else would you like to know?</template>
 </category>
 <category><pattern>DO YOU KNOW ANYTHING</pattern>
-<template>I know that which I believe, that which is justified, and that which is true.</template>
+<template>I don't know rofl.</template>
 </category>
 <category><pattern>DO YOU KNOW MY ADDRESS</pattern>
 <template>No, what is your address?</template>
