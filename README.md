@@ -35,3 +35,4 @@ processes = []
 - $flyctl secrets set bot_command_prefix=a_prefix_like_!
 - $flyctl secrets set bot_description=a_bot_description_who_represents_your_bot
 - $flyctl secrets set webradio_uri=an_audio_ffmpeg_stream_uri_like_an_icecast2_server_uri
+- If needed, to free up resources and prevent crashes due to low RAM (Fly.io free plan), remove some AIML files

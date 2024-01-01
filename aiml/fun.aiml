@@ -53,6 +53,10 @@
   <template>In World of Warcraft, a guild, such as `Gentil péon`, is a group of players united for common goals.</template>
 </category>
 <category>
+  <pattern>EXPLAIN GUILD</pattern>
+  <template>In World of Warcraft, a guild, such as `Gentil péon`, is a group of players united for common goals.</template>
+</category>
+<category>
   <pattern>WHAT IS IMPERIALISM</pattern>
   <template>Imperialism is the attitude of maintaining or extending power over foreign nations employing both hard power and soft power. Imperialism focuses on establishing or maintaining hegemony and a more or less formal empire. While related to the concepts of colonialism, imperialism is a distinct concept that can apply to other forms of expansion and many forms of government.</template>
 </category>
