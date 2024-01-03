@@ -1,9 +1,10 @@
-pip
-yt-dlp==2023.10.13
-PyNaCl==1.4.0
-wheel
+aiohttp
 discord.py==2.2.3
 discord.py[voice]==2.2.3
-requests
+pip
+PyNaCl==1.4.0
 python-dotenv==0.20.0
 python-aiml
+requests
+wheel
+yt-dlp==2023.10.13
