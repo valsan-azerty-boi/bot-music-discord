@@ -1,5 +1,4 @@
 import asyncio
-from aiohttp import web
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
@@ -63,7 +62,7 @@ def process_chat_command(message):
 @bot.event
 async def on_message(message):
     try:
-        if not message.author.bot and bot.user.mentioned_in(message):
+        if not message.author.bot and not message.mention_everyone and not message.raw_role_mentions and bot.user.mentioned_in(message):
             response = process_chat_command(message)
             if response:
                 await message.channel.send(response)
@@ -72,25 +71,12 @@ async def on_message(message):
         pass
     await bot.process_commands(message)
 
-async def handle(request):
-    return web.Response(text="Bot is online!")
-
 # Run discord bot
 async def main():
-    app = web.Application()
-    app.router.add_get("/", handle)
-
-    # Start bot
     await bot.add_cog(Help(bot))
     await bot.add_cog(Audio(bot))
     await bot.add_cog(Misc(bot))
     await bot.add_cog(Rand(bot))
-    await bot.start(DISCORD_TOKEN)
-
-    # Port checking
-    runner = web.AppRunner(app)
-    await runner.setup()
-    site = web.TCPSite(runner, '0.0.0.0', 7779)
-    await site.start()
+    await bot.start(DISCORD_TOKEN, reconnect=True)
 
 asyncio.run(main())
