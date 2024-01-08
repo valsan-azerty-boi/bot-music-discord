@@ -1,10 +1,9 @@
-aiohttp
-discord.py==2.2.3
-discord.py[voice]==2.2.3
+discord.py==2.3.2
+discord.py[voice]==2.3.2
 pip
 PyNaCl==1.4.0
 python-dotenv==0.20.0
 python-aiml
 requests
 wheel
-yt-dlp==2023.10.13
+yt-dlp==2023.12.30
