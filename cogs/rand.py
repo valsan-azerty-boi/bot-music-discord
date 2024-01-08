@@ -6,7 +6,7 @@ class Rand(commands.Cog):
         self.bot = bot
     
     # Roll a dice command
-    @commands.command(name='roll', aliases=['rand'], help='To roll a dice')
+    @commands.command(name='roll', aliases=['rand', 'random'], help='To roll a dice')
     async def roll(self, ctx, *args):
         try:
             nb = args[0]

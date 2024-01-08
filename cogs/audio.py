@@ -183,6 +183,7 @@ class Audio(commands.Cog):
                     await ctx.send("The queue is full")
         except Exception as ex:
             print(ex)
+            await ctx.send(f"Error: `{str(ex)}`")
             pass
 
     @commands.hybrid_command(name='radio', aliases=['webradio'], help='Listen webradio (experimental feature)', with_app_command=True)
@@ -201,17 +202,22 @@ class Audio(commands.Cog):
                 voice_channel.play(discord.FFmpegPCMAudio('http://fallout.fm:8000/falloutfm1.ogg', **ffmpeg_options))
             await ctx.send("Now playing: `webradio`")
             self.resumeValue[ctx.guild.id] = True
-        except Exception as e:
-            print(e)
+        except Exception as ex:
+            print(ex)
+            await ctx.send(f"Error: `{str(ex)}`")
             pass
 
     @commands.command(name='play', aliases=['p', 'audio', 'launch'], help='To play an audio, aliases are \'p\'|\'launch\'')
     async def launchaudio(self, ctx, *args):
-        self.resumeValue[ctx.guild.id] = True
-        await self.createServerResumeValue(ctx)
-        await self.createServerQueue(ctx)
-        await self.join(ctx)
-        await self.play_audio(ctx, *args)
+        try:
+            self.resumeValue[ctx.guild.id] = True
+            await self.createServerResumeValue(ctx)
+            await self.createServerQueue(ctx)
+            await self.join(ctx)
+            await self.play_audio(ctx, *args)
+        except Exception as ex:
+            print(ex)
+            pass
 
     # Play next audio from queue command
     @commands.hybrid_command(name='next', aliases=['n', 'after'], help='To play the next audio, aliases are \'n\'|\'after\'', with_app_command=True)
