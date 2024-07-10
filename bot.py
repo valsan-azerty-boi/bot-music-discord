@@ -3,7 +3,7 @@ import discord
 from discord.ext import commands
 from dotenv import load_dotenv
 import os
-import aiml
+# import aiml
 
 from cogs.audio import Audio
 from cogs.help import Help
@@ -21,16 +21,16 @@ activity = discord.Activity(type=discord.ActivityType.watching, name=f"{BOT_COMM
 bot = commands.Bot(command_prefix=BOT_COMMAND_PREFIX, activity=activity, intents=intents, status=discord.Status.idle, help_command=None)
 
 # Load AIML
-k = aiml.Kernel()
-aiml_files_dir = './aiml'
-try:
-    for file in os.listdir(aiml_files_dir):
-        if file.endswith(".aiml"):
-            file_path = os.path.join(aiml_files_dir, file)
-            k.learn(file_path)
-except Exception as ex:
-    print(f"Error in file: {file_path}, {ex}")
-    pass
+# k = aiml.Kernel()
+# aiml_files_dir = './aiml'
+# try:
+#     for file in os.listdir(aiml_files_dir):
+#         if file.endswith(".aiml"):
+#             file_path = os.path.join(aiml_files_dir, file)
+#             k.learn(file_path)
+# except Exception as ex:
+#     print(f"Error in file: {file_path}, {ex}")
+#     pass
 
 @bot.event
 async def on_ready(self):
