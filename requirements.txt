@@ -6,4 +6,4 @@ python-dotenv==0.20.0
 python-aiml
 requests
 wheel
-yt-dlp==2024.05.27
+yt-dlp
