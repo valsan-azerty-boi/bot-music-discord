@@ -2,6 +2,7 @@ import asyncio
 import discord
 from dotenv import load_dotenv
 from discord.ext import commands
+from googleapiclient.discovery import build
 import os
 import requests
 import yt_dlp as youtube_dl
@@ -9,6 +10,17 @@ import yt_dlp as youtube_dl
 # Load env config file
 load_dotenv()
 WEBRADIO_URI = os.getenv("webradio_uri")
+YOUTUBE_API_KEY = os.getenv("youtube_api_key")
+
+# Initialize YouTube API service
+youtube_service = None
+if YOUTUBE_API_KEY:
+    try:
+        youtube_service = build('youtube', 'v3', developerKey=YOUTUBE_API_KEY)
+    except Exception as e:
+        print(f"Error initializing YouTube service: {e}")
+else:
+    print("No YouTube auth provided.")
 
 # Suppress noise about console usage from errors
 youtube_dl.utils.bug_reports_message = lambda: ''
@@ -25,7 +37,6 @@ ydl_opts = {
     'logtostderr': False,
     'quiet': True,
     'no_warnings': True,
-    'default_search': 'auto',
     'source_address': '0.0.0.0',
     'postprocessors': [{
         'key': 'FFmpegExtractAudio',
@@ -94,6 +105,23 @@ async def search_invidious(query):
             continue
     raise Exception("No valid Invidious instance found.")
 
+async def search_youtube(query):
+    if youtube_service:
+        try:
+            request = youtube_service.search().list(
+                part='snippet',
+                q=query,
+                type='video',
+                order='relevance'
+            )
+            response = request.execute()
+            if response.get('items'):
+                video_id = response['items'][0]['id']['videoId']
+                return f"https://www.youtube.com/watch?v={video_id}"
+        except Exception as e:
+            print(f"YouTube API search failed: {e}")
+    return None
+
 class YTDLSource(discord.PCMVolumeTransformer):
     def __init__(self, source, *, data, volume=0.5):
         super().__init__(source, volume)
@@ -111,13 +139,17 @@ class YTDLSource(discord.PCMVolumeTransformer):
         return filename
 
 class Audio(commands.Cog):
-    def __init__(self, bot, youtube_service=None, use_invidious=None):
+    def __init__(self, bot, youtube_service=None, use_invidious=True):
         self.bot = bot
         self.youtube_service = youtube_service
         self.use_invidious = use_invidious
         self.resumeValue = {}
         self.queue = {}
 
+    async def get_ytdlp_info(self, url):
+        loop = asyncio.get_event_loop()
+        return await loop.run_in_executor(None, lambda: youtube_dl.YoutubeDL(ydl_opts).extract_info(url, download=False))
+    
     # Assign bool if music is pause/stop or not
     async def createServerResumeValue(self, ctx):
         try:
