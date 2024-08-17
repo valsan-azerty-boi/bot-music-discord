@@ -41,8 +41,9 @@ ydl_opts = {
     'postprocessors': [{
         'key': 'FFmpegExtractAudio',
         'preferredcodec': 'mp3',
-        'preferredquality': '192',
-    }]
+        'preferredquality': '128',
+    }],
+    'oauth2': True
 }
 ffmpeg_options = {
     'before_options': '-reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 5 -probesize 200M',
@@ -146,9 +147,20 @@ class Audio(commands.Cog):
         self.resumeValue = {}
         self.queue = {}
 
-    async def get_ytdlp_info(self, url):
+    async def get_ytdlp_info(self, url, timeout=10):
         loop = asyncio.get_event_loop()
-        return await loop.run_in_executor(None, lambda: youtube_dl.YoutubeDL(ydl_opts).extract_info(url, download=False))
+        try:
+            with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+                return await asyncio.wait_for(loop.run_in_executor(None, lambda: ydl.extract_info(url, download=False)), timeout=timeout)
+        except asyncio.TimeoutError:
+            print(f"Timeout after {timeout} seconds while fetching video info for URL: {url}")
+            return None
+        except youtube_dl.utils.DownloadError as e:
+            print(f"yt-dlp download error: {e}")
+            return None
+        except Exception as e:
+            print(f"General error while fetching video info: {e}")
+            return None
     
     # Assign bool if music is pause/stop or not
     async def createServerResumeValue(self, ctx):
@@ -258,8 +270,8 @@ class Audio(commands.Cog):
                         else:
                             video_url = url
                         if video_url:
-                            with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-                                info = ydl.extract_info(video_url, download=False)
+                            info = await self.get_ytdlp_info(video_url)
+                            if info:
                                 title = info.get('title', 'Unknown Title')
                                 vid_url = info.get('url') or info.get('requested_formats', [{}])[0].get('url') or \
                                         info.get('entries', [{}])[0].get('url') or info.get('formats', [{}])[0].get('url')
@@ -279,6 +291,8 @@ class Audio(commands.Cog):
                                         else:
                                             await ctx.send("The queue is full")
                                     return
+                            else:
+                                await ctx.send(f"Error: Could not extract data from URL.")
                     except Exception as ex:
                         print(f"Failed to play audio from {url}: {ex}")
                         continue
@@ -287,8 +301,8 @@ class Audio(commands.Cog):
                 youtube_url = await search_youtube(query)
                 if youtube_url:
                     try:
-                        with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-                            info = ydl.extract_info(youtube_url, download=False)
+                        info = await self.get_ytdlp_info(youtube_url)
+                        if info:
                             title = info.get('title', 'Unknown Title')
                             vid_url = info.get('url') or info.get('requested_formats', [{}])[0].get('url') or \
                                     info.get('entries', [{}])[0].get('url') or info.get('formats', [{}])[0].get('url')
@@ -308,6 +322,8 @@ class Audio(commands.Cog):
                                     else:
                                         await ctx.send("The queue is full")
                                 return
+                        else:
+                            await ctx.send(f"Error: Could not extract data from URL.")
                     except Exception as ex:
                         print(f"Failed to play audio from YouTube: {ex}")
                         await ctx.send(f"Error: Could not extract a valid video/audio URL from YouTube.")

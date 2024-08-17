@@ -11,3 +11,4 @@ python-aiml
 requests
 wheel
 yt-dlp
+yt-dlp-youtube-oauth2

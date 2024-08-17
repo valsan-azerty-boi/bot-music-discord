@@ -4,5 +4,6 @@ RUN apt-get update && apt-get install --no-install-recommends -y python3 python3
     apt-get install -y ffmpeg && apt-get install libopus0
 COPY requirements.txt /bot/
 RUN pip install -r requirements.txt
+RUN pip install -U https://github.com/coletdjnz/yt-dlp-youtube-oauth2/archive/refs/heads/master.zip
 COPY . /bot
 CMD python bot.py
