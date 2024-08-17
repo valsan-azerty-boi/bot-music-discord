@@ -39,7 +39,7 @@ ffmpeg_options = {
 }
 ydl = youtube_dl.YoutubeDL(ydl_opts)
 
-# List of Invidious instances
+# Invidious instances
 INVIDIOUS_INSTANCES = [
     "https://yewtu.be",
     "https://inv.nadeko.net",
@@ -52,7 +52,13 @@ INVIDIOUS_INSTANCES = [
     "https://invidious.einfachzocken.eu"
 ]
 
-# Function to convert YouTube URL to Invidious URL
+def get_active_invidious_instances():
+    active_instances = []
+    for instance in INVIDIOUS_INSTANCES:
+        if is_instance_alive(f"{instance}/watch?v=VIDEO_ID"):
+            active_instances.append(instance)
+    return active_instances
+
 def youtube_to_invidious(url):
     video_id = None
     if "youtube.com" in url:
@@ -60,13 +66,11 @@ def youtube_to_invidious(url):
     elif "youtu.be" in url:
         video_id = url.split("/")[-1]
     if video_id:
-        for instance in INVIDIOUS_INSTANCES:
-            invidious_url = f"{instance}/watch?v={video_id}"
-            if is_instance_alive(invidious_url):
-                return invidious_url
-    return url
+        active_instances = get_active_invidious_instances()
+        if active_instances:
+            return [f"{instance}/watch?v={video_id}" for instance in active_instances]
+    return [url]
 
-# Function to check if an Invidious instance is alive
 def is_instance_alive(url):
     try:
         response = requests.head(url, timeout=5)
@@ -74,9 +78,9 @@ def is_instance_alive(url):
     except requests.RequestException:
         return False
 
-# Function to search Invidious video
 async def search_invidious(query):
-    for instance in INVIDIOUS_INSTANCES:
+    active_instances = get_active_invidious_instances()
+    for instance in active_instances:
         search_url = f"{instance}/search?q={requests.utils.quote(query)}"
         try:
             response = requests.get(search_url, timeout=5)
@@ -206,40 +210,39 @@ class Audio(commands.Cog):
                 await ctx.send("Playlists are not allowed.")
                 return
             query = ' '.join(args)
-            invidious_url = youtube_to_invidious(query)
-            if 'search' in invidious_url:
-                video_url = await search_invidious(query)
-            else:
-                video_url = invidious_url
-            with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-                info = ydl.extract_info(video_url, download=False)
-                title = info.get('title', 'Unknown Title')
-                vid_url = None
-                if 'url' in info:
-                    vid_url = info['url']
-                elif 'requested_formats' in info:
-                    vid_url = info['requested_formats'][0]['url']
-                elif 'entries' in info:
-                    vid_url = info['entries'][0]["url"]
-                elif 'formats' in info:
-                    vid_url = info["formats"][0]['url']
-                if vid_url is None:
-                    await ctx.send("Error: Could not extract a valid video/audio URL.")
-                    return
-                voice_client = ctx.message.guild.voice_client
-                if not voice_client.is_playing() and self.resumeValue[ctx.guild.id] == True:
-                    voice_client.play(discord.FFmpegPCMAudio(vid_url, **ffmpeg_options))
-                    await ctx.send(f"Now playing: `{title}`")
-                    while voice_client.is_playing() or not self.resumeValue[ctx.guild.id]:
-                        await asyncio.sleep(3)
+            invidious_urls = youtube_to_invidious(query)
+            video_url = None
+            for url in invidious_urls:
+                try:
+                    if 'search' in url:
+                        video_url = await search_invidious(query)
                     else:
-                        asyncio.ensure_future(self.serverQueue(ctx))
-                else:
-                    if len(self.queue[ctx.guild.id]) <= 10:
-                        self.queue[ctx.guild.id].append(query)
-                        await ctx.send(f"Added to queue: `{title}`")
-                    else:
-                        await ctx.send("The queue is full")
+                        video_url = url
+                    with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+                        info = ydl.extract_info(video_url, download=False)
+                        title = info.get('title', 'Unknown Title')
+                        vid_url = info.get('url') or info.get('requested_formats', [{}])[0].get('url') or \
+                                info.get('entries', [{}])[0].get('url') or info.get('formats', [{}])[0].get('url')
+                        if vid_url:
+                            voice_client = ctx.message.guild.voice_client
+                            if not voice_client.is_playing() and self.resumeValue[ctx.guild.id]:
+                                voice_client.play(discord.FFmpegPCMAudio(vid_url, **ffmpeg_options))
+                                await ctx.send(f"Now playing: `{title}`")
+                                while voice_client.is_playing() or not self.resumeValue[ctx.guild.id]:
+                                    await asyncio.sleep(3)
+                                else:
+                                    asyncio.ensure_future(self.serverQueue(ctx))
+                            else:
+                                if len(self.queue[ctx.guild.id]) <= 10:
+                                    self.queue[ctx.guild.id].append(query)
+                                    await ctx.send(f"Added to queue: `{title}`")
+                                else:
+                                    await ctx.send("The queue is full")
+                            return
+                except Exception as ex:
+                    print(f"Failed to play audio from {url}: {ex}")
+                    continue
+            await ctx.send("Error: Could not extract a valid video/audio URL.")
         except Exception as ex:
             print(ex)
             await ctx.send(f"Error: `{str(ex)}`")

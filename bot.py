@@ -1,9 +1,9 @@
+import aiml
 import asyncio
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
 import os
-# import aiml
 
 from cogs.audio import Audio
 from cogs.help import Help
@@ -14,6 +14,7 @@ from cogs.rand import Rand
 load_dotenv()
 DISCORD_TOKEN = os.getenv("discord_token")
 BOT_COMMAND_PREFIX = os.getenv("bot_command_prefix")
+LOAD_AIML = os.getenv("LOAD_AIML", "False").lower() == "true"
 
 # Setup discord bot
 intents = discord.Intents.all()
@@ -21,16 +22,22 @@ activity = discord.Activity(type=discord.ActivityType.watching, name=f"{BOT_COMM
 bot = commands.Bot(command_prefix=BOT_COMMAND_PREFIX, activity=activity, intents=intents, status=discord.Status.idle, help_command=None)
 
 # Load AIML
-# k = aiml.Kernel()
-# aiml_files_dir = './aiml'
-# try:
-#     for file in os.listdir(aiml_files_dir):
-#         if file.endswith(".aiml"):
-#             file_path = os.path.join(aiml_files_dir, file)
-#             k.learn(file_path)
-# except Exception as ex:
-#     print(f"Error in file: {file_path}, {ex}")
-#     pass
+if LOAD_AIML:
+    try:
+        k = aiml.Kernel()
+        aiml_files_dir = './aiml'
+        for file in os.listdir(aiml_files_dir):
+            if file.endswith(".aiml"):
+                file_path = os.path.join(aiml_files_dir, file)
+                try:
+                    k.learn(file_path)
+                except Exception as ex:
+                    print(f"Error in file: {file_path}, {ex}")
+    except Exception as e:
+        print(f"Error initializing AIML: {e}")
+        pass
+else:
+    print("AIML loading is disabled.")
 
 @bot.event
 async def on_ready(self):
