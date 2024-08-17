@@ -298,7 +298,12 @@ class Audio(commands.Cog):
                         continue
                 await ctx.send("Error: Could not extract a valid video/audio URL from Invidious.")     
             else:
-                youtube_url = await search_youtube(query)
+                youtube_url = query
+                if not youtube_url.startswith("http"):
+                    youtube_url = await search_youtube(query)
+                    if not youtube_url:
+                        await ctx.send("Error: No YouTube URL found.")
+                        return
                 if youtube_url:
                     try:
                         info = await self.get_ytdlp_info(youtube_url)
