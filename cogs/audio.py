@@ -139,7 +139,7 @@ class YTDLSource(discord.PCMVolumeTransformer):
         return filename
 
 class Audio(commands.Cog):
-    def __init__(self, bot, youtube_service=None, use_invidious=True):
+    def __init__(self, bot, youtube_service=None, use_invidious=False):
         self.bot = bot
         self.youtube_service = youtube_service
         self.use_invidious = use_invidious
@@ -155,7 +155,7 @@ class Audio(commands.Cog):
         try:
             if ctx.guild.id not in self.resumeValue:
                 self.resumeValue[ctx.guild.id] = True
-        except:
+        except Exception:
             pass
 
     # Use queue for audio
@@ -163,7 +163,7 @@ class Audio(commands.Cog):
         try:
             if ctx.guild.id not in self.queue:
                 self.queue[ctx.guild.id] = []
-        except:
+        except Exception:
             pass
 
     async def serverQueue(self, ctx):
@@ -172,7 +172,7 @@ class Audio(commands.Cog):
                 await self.play_audio(ctx, self.queue[ctx.guild.id].pop(0))
             if len(self.queue[ctx.guild.id]) > 10:
                 self.queue[ctx.guild.id].pop(0)
-        except:
+        except Exception:
             pass
 
     # Join channel command
@@ -184,7 +184,7 @@ class Audio(commands.Cog):
             if ctx.message.author.voice:
                 channel = ctx.message.author.voice.channel
                 await channel.connect()
-        except:
+        except Exception:
             pass
 
     # Leave channel command
@@ -207,7 +207,7 @@ class Audio(commands.Cog):
             voice_client = ctx.message.guild.voice_client
             if voice_client and voice_client.is_playing():
                 await voice_client.pause()
-        except:
+        except Exception:
             pass
 
     # Unpause audio command
@@ -218,14 +218,17 @@ class Audio(commands.Cog):
             voice_client = ctx.message.guild.voice_client
             if voice_client and voice_client.is_paused():
                 await voice_client.resume()
-        except:
+        except Exception:
             pass
 
     # Clear the audio queue
     @commands.hybrid_command(name='clear', help='Clear the audio queue', with_app_command=True)
     async def clearQueue(self, ctx):
-        self.queue[ctx.guild.id].clear()
-        await ctx.send("The queue has been cleared")
+        try:
+            self.queue[ctx.guild.id].clear()
+            await ctx.send("The queue has been cleared")
+        except Exception:
+            pass
 
     # Stop audio command
     @commands.hybrid_command(name='stop', help='Stops the audio', with_app_command=True)
@@ -235,7 +238,7 @@ class Audio(commands.Cog):
             voice_client = ctx.message.guild.voice_client
             if voice_client:
                 await voice_client.stop()
-        except:
+        except Exception:
             pass
 
     # Play audio command
@@ -245,41 +248,73 @@ class Audio(commands.Cog):
                 await ctx.send("Playlists are not allowed.")
                 return        
             query = ' '.join(args)
-            invidious_urls = youtube_to_invidious(query, self.use_invidious)
-            video_url = None
-            for url in invidious_urls:
-                try:
-                    if 'search' in url:
-                        video_url = await search_invidious(query)
-                    else:
-                        video_url = url
-                    with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-                        info = ydl.extract_info(video_url, download=False)
-                        title = info.get('title', 'Unknown Title')
-                        vid_url = info.get('url') or info.get('requested_formats', [{}])[0].get('url') or \
-                                info.get('entries', [{}])[0].get('url') or info.get('formats', [{}])[0].get('url')
-                        if vid_url:
-                            voice_client = ctx.message.guild.voice_client
-                            if not voice_client.is_playing() and self.resumeValue[ctx.guild.id]:
-                                voice_client.play(discord.FFmpegPCMAudio(vid_url, **ffmpeg_options))
-                                await ctx.send(f"Now playing: `{title}`")
-                                while voice_client.is_playing() or not self.resumeValue[ctx.guild.id]:
-                                    await asyncio.sleep(3)
+            video_url = None      
+            if self.use_invidious:
+                invidious_urls = youtube_to_invidious(query, self.use_invidious)
+                for url in invidious_urls:
+                    try:
+                        if 'search' in url:
+                            video_url = await search_invidious(query)
+                        else:
+                            video_url = url
+                        if video_url:
+                            with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+                                info = ydl.extract_info(video_url, download=False)
+                                title = info.get('title', 'Unknown Title')
+                                vid_url = info.get('url') or info.get('requested_formats', [{}])[0].get('url') or \
+                                        info.get('entries', [{}])[0].get('url') or info.get('formats', [{}])[0].get('url')
+                                if vid_url:
+                                    voice_client = ctx.message.guild.voice_client
+                                    if not voice_client.is_playing() and self.resumeValue[ctx.guild.id]:
+                                        voice_client.play(discord.FFmpegPCMAudio(vid_url, **ffmpeg_options))
+                                        await ctx.send(f"Now playing: `{title}`")
+                                        while voice_client.is_playing() or not self.resumeValue[ctx.guild.id]:
+                                            await asyncio.sleep(3)
+                                        else:
+                                            asyncio.ensure_future(self.serverQueue(ctx))
+                                    else:
+                                        if len(self.queue[ctx.guild.id]) <= 10:
+                                            self.queue[ctx.guild.id].append(query)
+                                            await ctx.send(f"Added to queue: `{title}`")
+                                        else:
+                                            await ctx.send("The queue is full")
+                                    return
+                    except Exception as ex:
+                        print(f"Failed to play audio from {url}: {ex}")
+                        continue
+                await ctx.send("Error: Could not extract a valid video/audio URL from Invidious.")     
+            else:
+                youtube_url = await search_youtube(query)
+                if youtube_url:
+                    try:
+                        with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+                            info = ydl.extract_info(youtube_url, download=False)
+                            title = info.get('title', 'Unknown Title')
+                            vid_url = info.get('url') or info.get('requested_formats', [{}])[0].get('url') or \
+                                    info.get('entries', [{}])[0].get('url') or info.get('formats', [{}])[0].get('url')
+                            if vid_url:
+                                voice_client = ctx.message.guild.voice_client
+                                if not voice_client.is_playing() and self.resumeValue[ctx.guild.id]:
+                                    voice_client.play(discord.FFmpegPCMAudio(vid_url, **ffmpeg_options))
+                                    await ctx.send(f"Now playing: `{title}`")
+                                    while voice_client.is_playing() or not self.resumeValue[ctx.guild.id]:
+                                        await asyncio.sleep(3)
+                                    else:
+                                        asyncio.ensure_future(self.serverQueue(ctx))
                                 else:
-                                    asyncio.ensure_future(self.serverQueue(ctx))
-                            else:
-                                if len(self.queue[ctx.guild.id]) <= 10:
-                                    self.queue[ctx.guild.id].append(query)
-                                    await ctx.send(f"Added to queue: `{title}`")
-                                else:
-                                    await ctx.send("The queue is full")
-                            return
-                except Exception as ex:
-                    print(f"Failed to play audio from {url}: {ex}")
-                    continue
-            await ctx.send("Error: Could not extract a valid video/audio URL.")
+                                    if len(self.queue[ctx.guild.id]) <= 10:
+                                        self.queue[ctx.guild.id].append(query)
+                                        await ctx.send(f"Added to queue: `{title}`")
+                                    else:
+                                        await ctx.send("The queue is full")
+                                return
+                    except Exception as ex:
+                        print(f"Failed to play audio from YouTube: {ex}")
+                        await ctx.send(f"Error: Could not extract a valid video/audio URL from YouTube.")
+                else:
+                    await ctx.send("Error: No YouTube URL found.")
         except Exception as ex:
-            print(ex)
+            print(f"Error in play_audio: {ex}")
             await ctx.send(f"Error: `{str(ex)}`")
             pass
 
@@ -319,11 +354,11 @@ class Audio(commands.Cog):
     # Play next audio from queue command
     @commands.hybrid_command(name='next', aliases=['n', 'after'], help='To play the next audio, aliases are \'n\'|\'after\'', with_app_command=True)
     async def next(self, ctx):
-        await self.stop(ctx)
-        self.resumeValue[ctx.guild.id] = True
         try:
+            await self.stop(ctx)
+            self.resumeValue[ctx.guild.id] = True
             await self.serverQueue(ctx)
-        except:
+        except Exception:
             pass
 
     # Command if bot is bugged
@@ -334,5 +369,5 @@ class Audio(commands.Cog):
             await self.leave(ctx)
             self.queue[ctx.guild.id].clear()
             self.resumeValue[ctx.guild.id] = None
-        except:
+        except Exception:
             pass
