@@ -35,7 +35,8 @@ ydl_opts = {
         'preferredcodec': 'mp3',
         'preferredquality': '128',
     }],
-    'config_location': os.path.join(os.getcwd(), 'yt-dlp.conf')
+    #'config_location': os.path.join(os.getcwd(), 'yt-dlp.conf'), 
+    'cookiefile': 'cookies.txt'
 }
 ffmpeg_options = {
     'before_options': '-reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 5 -probesize 200M',
