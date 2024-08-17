@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 from discord.ext import commands
 import yt_dlp as youtube_dl
 import os
+import requests
 
 # Load env config file
 load_dotenv()
@@ -33,9 +34,60 @@ ydl_opts = {
     }]
 }
 ffmpeg_options = {
-    'before_options': '-reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 5 -probesize 200M', 
-    'options': '-vn'}
+    'before_options': '-reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 5 -probesize 200M',
+    'options': '-vn'
+}
 ydl = youtube_dl.YoutubeDL(ydl_opts)
+
+# List of Invidious instances
+INVIDIOUS_INSTANCES = [
+    "https://yewtu.be",
+    "https://inv.nadeko.net",
+    "https://invidious.nerdvpn.de",
+    "https://iv.ggtyler.dev",
+    "https://invidious.reallyaweso.me",
+    "https://invidious.jing.rocks",
+    "https://invidious.reallyaweso.me",
+    "https://invidious.privacyredirect.com",
+    "https://invidious.einfachzocken.eu"
+]
+
+# Function to convert YouTube URL to Invidious URL
+def youtube_to_invidious(url):
+    video_id = None
+    if "youtube.com" in url:
+        video_id = url.split("v=")[-1].split("&")[0]
+    elif "youtu.be" in url:
+        video_id = url.split("/")[-1]
+    if video_id:
+        for instance in INVIDIOUS_INSTANCES:
+            invidious_url = f"{instance}/watch?v={video_id}"
+            if is_instance_alive(invidious_url):
+                return invidious_url
+    return url
+
+# Function to check if an Invidious instance is alive
+def is_instance_alive(url):
+    try:
+        response = requests.head(url, timeout=5)
+        return response.status_code == 200
+    except requests.RequestException:
+        return False
+
+# Function to search Invidious video
+async def search_invidious(query):
+    for instance in INVIDIOUS_INSTANCES:
+        search_url = f"{instance}/search?q={requests.utils.quote(query)}"
+        try:
+            response = requests.get(search_url, timeout=5)
+            response.raise_for_status()
+            search_results = response.json()
+            if search_results:
+                video_id = search_results[0]['videoId']
+                return f"{instance}/watch?v={video_id}"
+        except requests.RequestException:
+            continue
+    raise Exception("No valid Invidious instance found.")
 
 class YTDLSource(discord.PCMVolumeTransformer):
     def __init__(self, source, *, data, volume=0.5):
@@ -153,34 +205,41 @@ class Audio(commands.Cog):
             if any("list=" in arg for arg in args):
                 await ctx.send("Playlists are not allowed.")
                 return
-            server = ctx.message.guild
-            voice_channel = server.voice_client
-            voice_client = ctx.message.guild.voice_client
-            with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-                info = ydl.extract_info(' '.join(filter(None, args)), download=False)
-                title = ' '.join(filter(None, args)) if info.get('title', None) is None else info.get('title', None)
-            if 'url' in info:
-                vid = info
-            elif 'requested_formats' in info:
-                vid = info['requested_formats'][0]
-            elif 'entries' in info:
-                vid = info['entries'][0]["formats"][0]
-            elif 'formats' in info:
-                vid = info["formats"][0]
-            if voice_client.is_playing() == False and self.resumeValue[ctx.guild.id] == True:
-                voice_channel.play(discord.FFmpegPCMAudio(vid["url"], **ffmpeg_options))
-                # await ctx.send("WARNING: YouTube has been updated recently and broke a lot of discord audio bot, the audio can be broken. Now playing: `{0}`".format(title))
-                await ctx.send("Now playing: `{0}`".format(title))
-                while voice_client.is_playing() == True or self.resumeValue[ctx.guild.id] == False:
-                    await asyncio.sleep(3)
-                else:
-                    asyncio.ensure_future(self.serverQueue(ctx))
+            query = ' '.join(args)
+            invidious_url = youtube_to_invidious(query)
+            if 'search' in invidious_url:
+                video_url = await search_invidious(query)
             else:
-                if len(self.queue[ctx.guild.id]) <= 10:
-                    self.queue[ctx.guild.id].append(' '.join(filter(None, args)))
-                    await ctx.send("Added to queue: `{0}`".format(title))
+                video_url = invidious_url
+            with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+                info = ydl.extract_info(video_url, download=False)
+                title = info.get('title', 'Unknown Title')
+                vid_url = None
+                if 'url' in info:
+                    vid_url = info['url']
+                elif 'requested_formats' in info:
+                    vid_url = info['requested_formats'][0]['url']
+                elif 'entries' in info:
+                    vid_url = info['entries'][0]["url"]
+                elif 'formats' in info:
+                    vid_url = info["formats"][0]['url']
+                if vid_url is None:
+                    await ctx.send("Error: Could not extract a valid video/audio URL.")
+                    return
+                voice_client = ctx.message.guild.voice_client
+                if not voice_client.is_playing() and self.resumeValue[ctx.guild.id] == True:
+                    voice_client.play(discord.FFmpegPCMAudio(vid_url, **ffmpeg_options))
+                    await ctx.send(f"Now playing: `{title}`")
+                    while voice_client.is_playing() or not self.resumeValue[ctx.guild.id]:
+                        await asyncio.sleep(3)
+                    else:
+                        asyncio.ensure_future(self.serverQueue(ctx))
                 else:
-                    await ctx.send("The queue is full")
+                    if len(self.queue[ctx.guild.id]) <= 10:
+                        self.queue[ctx.guild.id].append(query)
+                        await ctx.send(f"Added to queue: `{title}`")
+                    else:
+                        await ctx.send("The queue is full")
         except Exception as ex:
             print(ex)
             await ctx.send(f"Error: `{str(ex)}`")
