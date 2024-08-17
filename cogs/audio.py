@@ -2,9 +2,9 @@ import asyncio
 import discord
 from dotenv import load_dotenv
 from discord.ext import commands
-import yt_dlp as youtube_dl
 import os
 import requests
+import yt_dlp as youtube_dl
 
 # Load env config file
 load_dotenv()
@@ -47,7 +47,6 @@ INVIDIOUS_INSTANCES = [
     "https://iv.ggtyler.dev",
     "https://invidious.reallyaweso.me",
     "https://invidious.jing.rocks",
-    "https://invidious.reallyaweso.me",
     "https://invidious.privacyredirect.com",
     "https://invidious.einfachzocken.eu"
 ]
@@ -59,7 +58,9 @@ def get_active_invidious_instances():
             active_instances.append(instance)
     return active_instances
 
-def youtube_to_invidious(url):
+def youtube_to_invidious(url, use_invidious):
+    if not use_invidious:
+        return [url]
     video_id = None
     if "youtube.com" in url:
         video_id = url.split("v=")[-1].split("&")[0]
@@ -110,30 +111,32 @@ class YTDLSource(discord.PCMVolumeTransformer):
         return filename
 
 class Audio(commands.Cog):
-    def __init__(self, bot):
+    def __init__(self, bot, youtube_service=None, use_invidious=None):
         self.bot = bot
+        self.youtube_service = youtube_service
+        self.use_invidious = use_invidious
         self.resumeValue = {}
+        self.queue = {}
 
     # Assign bool if music is pause/stop or not
     async def createServerResumeValue(self, ctx):
         try:
-            if not ctx.guild.id in self.resumeValue:
+            if ctx.guild.id not in self.resumeValue:
                 self.resumeValue[ctx.guild.id] = True
         except:
             pass
 
     # Use queue for audio
-    queue = {}
     async def createServerQueue(self, ctx):
         try:
-            if not ctx.guild.id in self.queue:
+            if ctx.guild.id not in self.queue:
                 self.queue[ctx.guild.id] = []
         except:
             pass
 
     async def serverQueue(self, ctx):
         try:
-            if not len(self.queue) == 0 and ctx.guild.id in self.queue and not len(self.queue[ctx.guild.id]) == 0 and not ctx.message.guild.voice_client.is_playing() and self.resumeValue[ctx.guild.id] == True:
+            if len(self.queue) > 0 and ctx.guild.id in self.queue and len(self.queue[ctx.guild.id]) > 0 and not ctx.message.guild.voice_client.is_playing() and self.resumeValue[ctx.guild.id]:
                 await self.play_audio(ctx, self.queue[ctx.guild.id].pop(0))
             if len(self.queue[ctx.guild.id]) > 10:
                 self.queue[ctx.guild.id].pop(0)
@@ -146,11 +149,9 @@ class Audio(commands.Cog):
         await self.createServerResumeValue(ctx)
         await self.createServerQueue(ctx)
         try:
-            if not ctx.message.author.voice:
-                return
-            else:
+            if ctx.message.author.voice:
                 channel = ctx.message.author.voice.channel
-            await channel.connect()
+                await channel.connect()
         except:
             pass
 
@@ -160,7 +161,8 @@ class Audio(commands.Cog):
         try:
             self.resumeValue[ctx.guild.id] = False
             voice_client = ctx.message.guild.voice_client
-            await voice_client.disconnect(force=True)
+            if voice_client:
+                await voice_client.disconnect(force=True)
         except Exception as ex:
             print(ex)
             pass
@@ -171,7 +173,7 @@ class Audio(commands.Cog):
         try:
             self.resumeValue[ctx.guild.id] = False
             voice_client = ctx.message.guild.voice_client
-            if voice_client.is_playing():
+            if voice_client and voice_client.is_playing():
                 await voice_client.pause()
         except:
             pass
@@ -182,7 +184,7 @@ class Audio(commands.Cog):
         try:
             self.resumeValue[ctx.guild.id] = True
             voice_client = ctx.message.guild.voice_client
-            if voice_client.is_paused():
+            if voice_client and voice_client.is_paused():
                 await voice_client.resume()
         except:
             pass
@@ -191,7 +193,7 @@ class Audio(commands.Cog):
     @commands.hybrid_command(name='clear', help='Clear the audio queue', with_app_command=True)
     async def clearQueue(self, ctx):
         self.queue[ctx.guild.id].clear()
-        await ctx.send("The queue have been cleared")
+        await ctx.send("The queue has been cleared")
 
     # Stop audio command
     @commands.hybrid_command(name='stop', help='Stops the audio', with_app_command=True)
@@ -199,7 +201,8 @@ class Audio(commands.Cog):
         try:
             self.resumeValue[ctx.guild.id] = False
             voice_client = ctx.message.guild.voice_client
-            await voice_client.stop()
+            if voice_client:
+                await voice_client.stop()
         except:
             pass
 
@@ -208,9 +211,9 @@ class Audio(commands.Cog):
         try:
             if any("list=" in arg for arg in args):
                 await ctx.send("Playlists are not allowed.")
-                return
+                return        
             query = ' '.join(args)
-            invidious_urls = youtube_to_invidious(query)
+            invidious_urls = youtube_to_invidious(query, self.use_invidious)
             video_url = None
             for url in invidious_urls:
                 try:
