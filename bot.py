@@ -3,6 +3,7 @@ import asyncio
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
+from googleapiclient.discovery import build
 import os
 
 from cogs.audio import Audio
@@ -14,12 +15,24 @@ from cogs.rand import Rand
 load_dotenv()
 DISCORD_TOKEN = os.getenv("discord_token")
 BOT_COMMAND_PREFIX = os.getenv("bot_command_prefix")
-LOAD_AIML = os.getenv("LOAD_AIML", "False").lower() == "true"
+LOAD_AIML = os.getenv("load_aiml", "False").lower() == "true"
+YOUTUBE_API_KEY = os.getenv("youtube_api_key")
 
 # Setup discord bot
 intents = discord.Intents.all()
 activity = discord.Activity(type=discord.ActivityType.watching, name=f"{BOT_COMMAND_PREFIX}help")
 bot = commands.Bot(command_prefix=BOT_COMMAND_PREFIX, activity=activity, intents=intents, status=discord.Status.idle, help_command=None)
+
+# Initialize YouTube API service if API key is available
+youtube_service = None
+if YOUTUBE_API_KEY:
+    try:
+        youtube_service = build('youtube', 'v3', developerKey=YOUTUBE_API_KEY)
+    except Exception as e:
+        print(f"Error initializing Youtube service: {e}")
+        pass
+else:
+    print("No Youtube auth provided.")
 
 # Load AIML
 if LOAD_AIML:
@@ -40,7 +53,7 @@ else:
     print("AIML loading is disabled.")
 
 @bot.event
-async def on_ready(self):
+async def on_ready():
     print(f"Logged in as {bot.user}")
 
 # Auto-disconnect bot if alone
@@ -81,7 +94,7 @@ async def on_message(message):
 # Run discord bot
 async def main():
     await bot.add_cog(Help(bot))
-    await bot.add_cog(Audio(bot))
+    await bot.add_cog(Audio(bot, youtube_service=youtube_service))
     await bot.add_cog(Misc(bot))
     await bot.add_cog(Rand(bot))
     await bot.start(DISCORD_TOKEN, reconnect=True)
