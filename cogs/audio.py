@@ -10,17 +10,6 @@ import yt_dlp as youtube_dl
 # Load env config file
 load_dotenv()
 WEBRADIO_URI = os.getenv("webradio_uri")
-YOUTUBE_API_KEY = os.getenv("youtube_api_key")
-
-# Initialize YouTube API service
-youtube_service = None
-if YOUTUBE_API_KEY:
-    try:
-        youtube_service = build('youtube', 'v3', developerKey=YOUTUBE_API_KEY)
-    except Exception as e:
-        print(f"Error initializing YouTube service: {e}")
-else:
-    print("No YouTube auth provided.")
 
 # Suppress noise about console usage from errors
 youtube_dl.utils.bug_reports_message = lambda: ''
@@ -31,19 +20,22 @@ ydl_opts = {
     'default_search': 'auto',
     'outtmpl': '%(extractor)s-%(id)s-%(title)s.%(ext)s',
     'restrictfilenames': True,
-    'noplaylist': False,
+    'noplaylist': True,
     'nocheckcertificate': True,
-    'ignoreerrors': False,
+    'ignoreerrors': True,
     'logtostderr': False,
     'quiet': True,
     'no_warnings': True,
     'source_address': '0.0.0.0',
+    'reconnect': True,
+    'reconnect_streamed': True,
+    'reconnect_delay_max': 5,
     'postprocessors': [{
         'key': 'FFmpegExtractAudio',
         'preferredcodec': 'mp3',
         'preferredquality': '128',
     }],
-    'oauth2': True
+    'config_location': os.path.join(os.getcwd(), 'yt-dlp.conf')
 }
 ffmpeg_options = {
     'before_options': '-reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 5 -probesize 200M',
@@ -106,22 +98,17 @@ async def search_invidious(query):
             continue
     raise Exception("No valid Invidious instance found.")
 
-async def search_youtube(query):
-    if youtube_service:
+async def search_yt(query):
+        search_url = f"https://youtu.be/search?q={requests.utils.quote(query)}"
         try:
-            request = youtube_service.search().list(
-                part='snippet',
-                q=query,
-                type='video',
-                order='relevance'
-            )
-            response = request.execute()
-            if response.get('items'):
-                video_id = response['items'][0]['id']['videoId']
-                return f"https://www.youtube.com/watch?v={video_id}"
-        except Exception as e:
-            print(f"YouTube API search failed: {e}")
-    return None
+            response = requests.get(search_url, timeout=5)
+            response.raise_for_status()
+            search_results = response.json()
+            if search_results:
+                video_id = search_results[0]['videoId']
+                return f"https://youtu.be/watch?v={video_id}"
+        except Exception:
+            pass
 
 class YTDLSource(discord.PCMVolumeTransformer):
     def __init__(self, source, *, data, volume=0.5):
@@ -131,13 +118,16 @@ class YTDLSource(discord.PCMVolumeTransformer):
         self.url = ""
 
     @classmethod
-    async def from_url(cls, url, *, loop=None, stream=False):
-        loop = loop or asyncio.get_event_loop()
-        data = await loop.run_in_executor(None, lambda: ydl.extract_info(url, download=not stream))
-        if 'entries' in data:
-            data = data['entries'][0]
-        filename = data['title'] if stream else ydl.prepare_filename(data)
-        return filename
+    async def from_url(cls, url, *, loop=None, stream=True):
+        try:
+            loop = loop or asyncio.get_event_loop()
+            data = await loop.run_in_executor(None, lambda: ydl.extract_info(url, download=not stream))
+            if 'entries' in data:
+                data = data['entries'][0]
+            return data
+        except Exception as e:
+            print(f"Error in YTDLSource.data_from_url {e}")
+            return None
 
 class Audio(commands.Cog):
     def __init__(self, bot, youtube_service=None, use_invidious=False):
@@ -146,21 +136,6 @@ class Audio(commands.Cog):
         self.use_invidious = use_invidious
         self.resumeValue = {}
         self.queue = {}
-
-    async def get_ytdlp_info(self, url, timeout=10):
-        loop = asyncio.get_event_loop()
-        try:
-            with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-                return await asyncio.wait_for(loop.run_in_executor(None, lambda: ydl.extract_info(url, download=False)), timeout=timeout)
-        except asyncio.TimeoutError:
-            print(f"Timeout after {timeout} seconds while fetching video info for URL: {url}")
-            return None
-        except youtube_dl.utils.DownloadError as e:
-            print(f"yt-dlp download error: {e}")
-            return None
-        except Exception as e:
-            print(f"General error while fetching video info: {e}")
-            return None
     
     # Assign bool if music is pause/stop or not
     async def createServerResumeValue(self, ctx):
@@ -270,7 +245,7 @@ class Audio(commands.Cog):
                         else:
                             video_url = url
                         if video_url:
-                            info = await self.get_ytdlp_info(video_url)
+                            info = await YTDLSource.from_url(video_url)
                             if info:
                                 title = info.get('title', 'Unknown Title')
                                 vid_url = info.get('url') or info.get('requested_formats', [{}])[0].get('url') or \
@@ -298,15 +273,13 @@ class Audio(commands.Cog):
                         continue
                 await ctx.send("Error: Could not extract a valid video/audio URL from Invidious.")     
             else:
-                youtube_url = query
-                if not youtube_url.startswith("http"):
-                    youtube_url = await search_youtube(query)
-                    if not youtube_url:
-                        await ctx.send("Error: No YouTube URL found.")
-                        return
+                if 'search' in query:
+                    youtube_url = await search_yt(query)
+                else:
+                    youtube_url = query
                 if youtube_url:
                     try:
-                        info = await self.get_ytdlp_info(youtube_url)
+                        info = await YTDLSource.from_url(youtube_url)
                         if info:
                             title = info.get('title', 'Unknown Title')
                             vid_url = info.get('url') or info.get('requested_formats', [{}])[0].get('url') or \
