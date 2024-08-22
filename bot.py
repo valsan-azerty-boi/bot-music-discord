@@ -3,12 +3,24 @@ import asyncio
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
+import logging
 import os
 
 from cogs.audio import Audio
 from cogs.help import Help
 from cogs.misc import Misc
 from cogs.rand import Rand
+
+# Logs
+logging.basicConfig(
+    level=logging.DEBUG,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',  # Log format
+    handlers=[
+        logging.FileHandler("logs.log"),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
 
 # Load env config file
 load_dotenv()
