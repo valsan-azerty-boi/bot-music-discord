@@ -2,7 +2,6 @@ import asyncio
 import discord
 from dotenv import load_dotenv
 from discord.ext import commands
-from googleapiclient.discovery import build
 import os
 import requests
 import yt_dlp as youtube_dl
