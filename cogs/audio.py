@@ -3,6 +3,7 @@ import discord
 from dotenv import load_dotenv
 from discord.ext import commands
 import logging
+from logging.handlers import RotatingFileHandler
 import os
 import requests
 import yt_dlp
@@ -12,8 +13,15 @@ load_dotenv()
 WEBRADIO_URI = os.getenv("webradio_uri")
 
 # Logs
-logger = logging.getLogger('yt_dlp')
-logger.setLevel(logging.DEBUG)
+yt_dlp_logger = logging.getLogger('yt_dlp')
+yt_dlp_logger.setLevel(logging.DEBUG)  # Ensure DEBUG level to capture all logs
+handler = RotatingFileHandler("./yt_dlp.log", maxBytes=5000000, backupCount=3)
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+handler.setFormatter(formatter)
+yt_dlp_logger.addHandler(handler)
+console_handler = logging.StreamHandler()
+console_handler.setFormatter(formatter)
+yt_dlp_logger.addHandler(console_handler)
 
 # Suppress noise about console usage from errors
 yt_dlp.utils.bug_reports_message = lambda: ''
