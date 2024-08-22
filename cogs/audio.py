@@ -14,7 +14,7 @@ WEBRADIO_URI = os.getenv("webradio_uri")
 
 # Logs
 yt_dlp_logger = logging.getLogger('yt_dlp')
-yt_dlp_logger.setLevel(logging.DEBUG)  # Ensure DEBUG level to capture all logs
+yt_dlp_logger.setLevel(logging.DEBUG)
 handler = RotatingFileHandler("./yt_dlp.log", maxBytes=5000000, backupCount=3)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 handler.setFormatter(formatter)
