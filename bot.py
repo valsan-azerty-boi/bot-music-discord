@@ -3,8 +3,8 @@ import asyncio
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
-import logging
-from logging.handlers import RotatingFileHandler
+# import logging
+# from logging.handlers import RotatingFileHandler
 import os
 
 from cogs.audio import Audio
@@ -13,16 +13,16 @@ from cogs.misc import Misc
 from cogs.rand import Rand
 
 # Logs
-handler = RotatingFileHandler("./logs.log", maxBytes=10000000, backupCount=3)
-logging.basicConfig(
-    level=logging.DEBUG,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    handlers=[
-        handler,
-        logging.StreamHandler()
-    ]
-)
-logger = logging.getLogger(__name__)
+# handler = RotatingFileHandler("./logs.log", maxBytes=10000000, backupCount=3)
+# logging.basicConfig(
+#     level=logging.DEBUG,
+#     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+#     handlers=[
+#         handler,
+#         logging.StreamHandler()
+#     ]
+# )
+# logger = logging.getLogger(__name__)
 
 # Load env config file
 load_dotenv()

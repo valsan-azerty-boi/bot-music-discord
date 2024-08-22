@@ -2,16 +2,21 @@ import asyncio
 import discord
 from dotenv import load_dotenv
 from discord.ext import commands
+import logging
 import os
 import requests
-import yt_dlp as youtube_dl
+import yt_dlp
 
 # Load env config file
 load_dotenv()
 WEBRADIO_URI = os.getenv("webradio_uri")
 
+# Logs
+logger = logging.getLogger('yt_dlp')
+logger.setLevel(logging.DEBUG)
+
 # Suppress noise about console usage from errors
-youtube_dl.utils.bug_reports_message = lambda: ''
+yt_dlp.utils.bug_reports_message = lambda: ''
 
 # Setup audio/stream configuration
 ydl_opts = {
@@ -42,7 +47,7 @@ ffmpeg_options = {
     'before_options': '-reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 5 -probesize 200M',
     'options': '-vn'
 }
-ydl = youtube_dl.YoutubeDL(ydl_opts)
+ydl = yt_dlp.YoutubeDL(ydl_opts)
 
 # Invidious instances
 INVIDIOUS_INSTANCES = [
