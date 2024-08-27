@@ -296,14 +296,18 @@ class Audio(commands.Cog):
             log_file.seek(0, 2)
             while True:
                 line = log_file.readline()
-                if line:
-                    print(line)
+                if not line:
+                    await asyncio.sleep(1)
+                    continue
                 if "[youtube+oauth2]" in line and "https://www.google.com/device" in line:
                     try:
-                        parts = line.split()
-                        oauth_url = parts[8]
-                        oauth_code = parts[-1]
-                        await ctx.send(f"Please authenticate the bot using the following URL: `{oauth_url}` and enter the code: ||{oauth_code}||")
+                        parts = line.split(" ")
+                        oauth_url = next((part for part in parts if part.startswith("https://")), None)
+                        oauth_code = parts[-1].strip()
+                        if oauth_url:
+                            await ctx.send(f"Please authenticate the bot using the following URL: `{oauth_url}` and enter the code: ||{oauth_code}||")
+                        else:
+                            await ctx.send("Error: `Failed to extract OAuth2 URL.`")
                     except Exception as ex:
                         print(f"Error parsing OAuth2 log message: {ex}")
                         await ctx.send("Error: `Failed to parse OAuth2 authentication prompt.`")
