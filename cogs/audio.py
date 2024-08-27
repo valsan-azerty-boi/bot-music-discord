@@ -36,8 +36,8 @@ ydl_opts = {
     'nocheckcertificate': True,
     'ignoreerrors': True,
     'logtostderr': False,
-    'quiet': True,
-    'no_warnings': True,
+    'quiet': False,
+    'no_warnings': False,
     'source_address': '0.0.0.0',
     'reconnect': True,
     'reconnect_streamed': True,
@@ -47,8 +47,9 @@ ydl_opts = {
         'preferredcodec': 'mp3',
         'preferredquality': '128',
     }],
-    'verbose' : True,
-    'username': 'oauth2', 
+    'logger': yt_dlp_logger,
+    'verbose': True,
+    'username': 'oauth2',
     'password': ''
 }
 ffmpeg_options = {
@@ -295,9 +296,8 @@ class Audio(commands.Cog):
             log_file.seek(0, 2)
             while True:
                 line = log_file.readline()
-                if not line:
-                    await asyncio.sleep(1)
-                    continue
+                if line:
+                    print(line)
                 if "[youtube+oauth2]" in line and "https://www.google.com/device" in line:
                     try:
                         parts = line.split()
