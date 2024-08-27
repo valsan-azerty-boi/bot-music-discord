@@ -246,81 +246,48 @@ class Audio(commands.Cog):
     async def play_audio(self, ctx, *args):
         try:
             if any("list=" in arg for arg in args):
-                await ctx.send("Playlists are not allowed.")
+                await ctx.send("Error: `Playlists are not allowed.`")
                 return        
             query = ' '.join(args)
-            video_url = None      
-            if self.use_invidious:
-                invidious_urls = youtube_to_invidious(query, self.use_invidious)
-                for url in invidious_urls:
-                    try:
-                        if 'search' in url:
-                            video_url = await search_invidious(query)
-                        else:
-                            video_url = url
-                        if video_url:
-                            info = await YTDLSource.from_url(video_url)
-                            if info:
-                                title = info.get('title', 'Unknown Title')
-                                vid_url = info.get('url') or info.get('requested_formats', [{}])[0].get('url') or \
-                                        info.get('entries', [{}])[0].get('url') or info.get('formats', [{}])[0].get('url')
-                                if vid_url:
-                                    voice_client = ctx.message.guild.voice_client
-                                    if not voice_client.is_playing() and self.resumeValue[ctx.guild.id]:
-                                        voice_client.play(discord.FFmpegPCMAudio(vid_url, **ffmpeg_options))
-                                        await ctx.send(f"Now playing: `{title}`")
-                                        while voice_client.is_playing() or not self.resumeValue[ctx.guild.id]:
-                                            await asyncio.sleep(3)
-                                        else:
-                                            asyncio.ensure_future(self.serverQueue(ctx))
-                                    else:
-                                        if len(self.queue[ctx.guild.id]) <= 10:
-                                            self.queue[ctx.guild.id].append(query)
-                                            await ctx.send(f"Added to queue: `{title}`")
-                                        else:
-                                            await ctx.send("The queue is full")
-                                    return
-                            else:
-                                await ctx.send(f"Error: Could not extract data from URL.")
-                    except Exception as ex:
-                        print(f"Failed to play audio from {url}: {ex}")
-                        continue
-                await ctx.send("Error: Could not extract a valid video/audio URL from Invidious.")     
+            if 'search' in query:
+                youtube_url = await search_yt(query)
             else:
-                if 'search' in query:
-                    youtube_url = await search_yt(query)
-                else:
-                    youtube_url = query
-                if youtube_url:
-                    try:
-                        info = await YTDLSource.from_url(youtube_url)
-                        if info:
-                            title = info.get('title', 'Unknown Title')
-                            vid_url = info.get('url') or info.get('requested_formats', [{}])[0].get('url') or \
-                                    info.get('entries', [{}])[0].get('url') or info.get('formats', [{}])[0].get('url')
-                            if vid_url:
-                                voice_client = ctx.message.guild.voice_client
-                                if not voice_client.is_playing() and self.resumeValue[ctx.guild.id]:
-                                    voice_client.play(discord.FFmpegPCMAudio(vid_url, **ffmpeg_options))
-                                    await ctx.send(f"Now playing: `{title}`")
-                                    while voice_client.is_playing() or not self.resumeValue[ctx.guild.id]:
-                                        await asyncio.sleep(3)
-                                    else:
-                                        asyncio.ensure_future(self.serverQueue(ctx))
+                youtube_url = query
+            if youtube_url:
+                try:
+                    info = await YTDLSource.from_url(youtube_url, loop=self.bot.loop, stream=True)
+                    oauth_url = info.get('oauth_url')
+                    oauth_code = info.get('oauth_code')
+                    if oauth_url and oauth_code:
+                        await ctx.send(f"Please authenticate the bot using the following URL: `{oauth_url}` and enter the code: ||{oauth_code}||")
+                        return
+                    if info:
+                        title = info.get('title', 'Unknown Title')
+                        vid_url = info.get('url') or info.get('requested_formats', [{}])[0].get('url') or \
+                                info.get('entries', [{}])[0].get('url') or info.get('formats', [{}])[0].get('url')
+                        if vid_url:
+                            voice_client = ctx.message.guild.voice_client
+                            if not voice_client.is_playing() and self.resumeValue[ctx.guild.id]:
+                                voice_client.play(discord.FFmpegPCMAudio(vid_url, **ffmpeg_options))
+                                await ctx.send(f"Now playing: `{title}`")
+                                while voice_client.is_playing() or not self.resumeValue[ctx.guild.id]:
+                                    await asyncio.sleep(3)
                                 else:
-                                    if len(self.queue[ctx.guild.id]) <= 10:
-                                        self.queue[ctx.guild.id].append(query)
-                                        await ctx.send(f"Added to queue: `{title}`")
-                                    else:
-                                        await ctx.send("The queue is full")
-                                return
-                        else:
-                            await ctx.send(f"Error: Could not extract data from URL.")
-                    except Exception as ex:
-                        print(f"Failed to play audio from YouTube: {ex}")
-                        await ctx.send(f"Error: Could not extract a valid video/audio URL from YouTube.")
-                else:
-                    await ctx.send("Error: No YouTube URL found.")
+                                    asyncio.ensure_future(self.serverQueue(ctx))
+                            else:
+                                if len(self.queue[ctx.guild.id]) <= 10:
+                                    self.queue[ctx.guild.id].append(query)
+                                    await ctx.send(f"Added to queue: `{title}`")
+                                else:
+                                    await ctx.send("Error: `The queue is full.`")
+                            return
+                    else:
+                        await ctx.send(f"Error: `Failed to play play this request.`")
+                except Exception as ex:
+                    print(f"Error in play_audio (in youtube_url try/except): {ex}")
+                    await ctx.send(f"Error: `{ex}`")
+            else:
+                await ctx.send("Error: `No YouTube URL found.`")
         except Exception as ex:
             print(f"Error in play_audio: {ex}")
             await ctx.send(f"Error: `{str(ex)}`")
