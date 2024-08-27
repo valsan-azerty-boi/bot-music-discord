@@ -255,12 +255,8 @@ class Audio(commands.Cog):
                 youtube_url = query
             if youtube_url:
                 try:
-                    info = await YTDLSource.from_url(youtube_url, loop=self.bot.loop, stream=True)
-                    oauth_url = info.get('oauth_url')
-                    oauth_code = info.get('oauth_code')
-                    if oauth_url and oauth_code:
-                        await ctx.send(f"Please authenticate the bot using the following URL: `{oauth_url}` and enter the code: ||{oauth_code}||")
-                        return
+                    log_task = asyncio.create_task(self.monitor_logs(ctx))
+                    info = await YTDLSource.from_url(youtube_url, loop=self.bot.loop, stream=True)              
                     if info:
                         title = info.get('title', 'Unknown Title')
                         vid_url = info.get('url') or info.get('requested_formats', [{}])[0].get('url') or \
@@ -283,6 +279,7 @@ class Audio(commands.Cog):
                             return
                     else:
                         await ctx.send(f"Error: `Failed to play play this request.`")
+                    log_task.cancel()
                 except Exception as ex:
                     print(f"Error in play_audio (in youtube_url try/except): {ex}")
                     await ctx.send(f"Error: `{ex}`")
@@ -292,6 +289,25 @@ class Audio(commands.Cog):
             print(f"Error in play_audio: {ex}")
             await ctx.send(f"Error: `{str(ex)}`")
             pass
+
+    async def monitor_logs(self, ctx):
+        with open("./yt_dlp.log", "r") as log_file:
+            log_file.seek(0, 2)
+            while True:
+                line = log_file.readline()
+                if not line:
+                    await asyncio.sleep(1)
+                    continue
+                if "[youtube+oauth2]" in line and "https://www.google.com/device" in line:
+                    try:
+                        parts = line.split()
+                        oauth_url = parts[8]
+                        oauth_code = parts[-1]
+                        await ctx.send(f"Please authenticate the bot using the following URL: `{oauth_url}` and enter the code: ||{oauth_code}||")
+                    except Exception as ex:
+                        print(f"Error parsing OAuth2 log message: {ex}")
+                        await ctx.send("Error: `Failed to parse OAuth2 authentication prompt.`")
+                await asyncio.sleep(0.1)
 
     @commands.hybrid_command(name='radio', aliases=['webradio'], help='Listen webradio (experimental feature)', with_app_command=True)
     async def play_radio(self, ctx):
