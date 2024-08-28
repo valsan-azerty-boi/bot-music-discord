@@ -9,6 +9,7 @@ from cogs.audio import Audio
 from cogs.help import Help
 from cogs.misc import Misc
 from cogs.rand import Rand
+from cogs.admin import Admin
 
 # Load env config file
 load_dotenv()
@@ -84,6 +85,7 @@ async def main():
     await bot.add_cog(Audio(bot))
     await bot.add_cog(Misc(bot))
     await bot.add_cog(Rand(bot))
+    await bot.add_cog(Admin(bot))
     await bot.start(DISCORD_TOKEN, reconnect=True)
 
 asyncio.run(main())

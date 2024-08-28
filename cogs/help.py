@@ -1,6 +1,5 @@
 import discord
 from discord.ext import commands
-from discord.errors import Forbidden
 from dotenv import load_dotenv
 import os
 
@@ -22,54 +21,28 @@ class Help(commands.Cog):
             pass
 
     # Help command
-    @commands.hybrid_command(name='help', help='The help command (experimental feature, 60s active reaction)', with_app_command=True)
+    @commands.hybrid_command(name='help', with_app_command=True)
     async def help(self, ctx):
         try:
-            cogs = list(self.bot.cogs.keys())
-            current_page = 0
-            total_pages = len(cogs)
-            embed = discord.Embed(title="Commands", description="")
-            embed.set_footer(text=f"Page {current_page + 1}/{total_pages}")
-            cog_name = cogs[current_page]
-            embed.add_field(name=f"{cog_name}\n", value="", inline=False)
-            for command in self.bot.get_cog(cog_name).get_commands():
-                if not command.hidden:
-                    embed.add_field(name=f"`{command.name}`", value=f"`{command.help}`", inline=True)
-            message = await ctx.send(embed=embed)
-            await message.add_reaction("⬅️")
-            await message.add_reaction("➡️")
-            def check(reaction, user):
-                return user == ctx.author and str(reaction.emoji) in ["⬅️", "➡️"]
-            while True:
-                try:
-                    reaction, _ = await self.bot.wait_for("reaction_add", timeout=60.0, check=check)
-                    if str(reaction.emoji) == "➡️" and current_page < total_pages - 1:
-                        current_page += 1
-                    elif str(reaction.emoji) == "⬅️" and current_page > 0:
-                        current_page -= 1
-                    cog_name = cogs[current_page]
-                    embed.clear_fields()
-                    embed.add_field(name=f"{cog_name}\n", value="", inline=False)
-                    for command in self.bot.get_cog(cog_name).get_commands():
-                        if not command.hidden:
-                            embed.add_field(name=f"`{command.name}`", value=f"`{command.help}`", inline=True)
-                    embed.set_footer(text=f"Page {current_page + 1}/{total_pages}")
-                    await message.edit(embed=embed)
-                    await message.remove_reaction(reaction, ctx.author)
-                except TimeoutError:
-                    break
+            help_embed = discord.Embed(title="Help")     
+            for cog_name, cog in self.bot.cogs.items():
+                if cog_name.lower() not in ['admin', 'help']:
+                    commands_list = cog.get_commands()
+                    command_list = '\n'.join([f"`{cmd.name}`: {cmd.help or 'No description.'}" for cmd in commands_list])
+                    help_embed.add_field(name=cog_name, value=command_list or "No commands available.", inline=False)
+            await ctx.send(embed=help_embed)
         except:
             pass
 
     @commands.hybrid_command(name='sync', help='Commands sync', with_app_command=True)
     async def syncCommands(self, ctx):
         try:
-            if self.canSync is True:
+            if self.canSync:
                 self.canSync = False
                 await ctx.bot.tree.sync()
                 await ctx.send("Yes, milord.")
             else:
                 await ctx.send("I refuse.")
         except Exception as ex:
-            print(ex)
+            print(f"Error in 'sync' command: {ex}")
             pass
