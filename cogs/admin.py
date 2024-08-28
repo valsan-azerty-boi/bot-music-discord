@@ -15,5 +15,5 @@ class Admin(commands.Cog):
             server_list = "\n".join([f"**{guild.name}** (ID: {guild.id}, Members: {guild.member_count})" for guild in guilds])
             await ctx.send(f"The bot is currently in the following servers:\n{server_list}")
         except Exception as ex:
-            print(f"Error in listing servers: {ex}")
+            print(f"Error in 'servers' command: {ex}")
             pass

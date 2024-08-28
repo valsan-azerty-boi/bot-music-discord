@@ -58,61 +58,6 @@ ffmpeg_options = {
 }
 ydl = yt_dlp.YoutubeDL(ydl_opts)
 
-# Invidious instances
-INVIDIOUS_INSTANCES = [
-    "https://yewtu.be",
-    "https://inv.nadeko.net",
-    "https://invidious.nerdvpn.de",
-    "https://iv.ggtyler.dev",
-    "https://invidious.reallyaweso.me",
-    "https://invidious.jing.rocks",
-    "https://invidious.privacyredirect.com",
-    "https://invidious.einfachzocken.eu"
-]
-
-def get_active_invidious_instances():
-    active_instances = []
-    for instance in INVIDIOUS_INSTANCES:
-        if is_instance_alive(f"{instance}/watch?v=VIDEO_ID"):
-            active_instances.append(instance)
-    return active_instances
-
-def youtube_to_invidious(url, use_invidious):
-    if not use_invidious:
-        return [url]
-    video_id = None
-    if "youtube.com" in url:
-        video_id = url.split("v=")[-1].split("&")[0]
-    elif "youtu.be" in url:
-        video_id = url.split("/")[-1]
-    if video_id:
-        active_instances = get_active_invidious_instances()
-        if active_instances:
-            return [f"{instance}/watch?v={video_id}" for instance in active_instances]
-    return [url]
-
-def is_instance_alive(url):
-    try:
-        response = requests.head(url, timeout=5)
-        return response.status_code == 200
-    except requests.RequestException:
-        return False
-
-async def search_invidious(query):
-    active_instances = get_active_invidious_instances()
-    for instance in active_instances:
-        search_url = f"{instance}/search?q={requests.utils.quote(query)}"
-        try:
-            response = requests.get(search_url, timeout=5)
-            response.raise_for_status()
-            search_results = response.json()
-            if search_results:
-                video_id = search_results[0]['videoId']
-                return f"{instance}/watch?v={video_id}"
-        except requests.RequestException:
-            continue
-    raise Exception("No valid Invidious instance found.")
-
 async def search_yt(query):
         search_url = f"https://youtu.be/search?q={requests.utils.quote(query)}"
         try:
@@ -122,7 +67,8 @@ async def search_yt(query):
             if search_results:
                 video_id = search_results[0]['videoId']
                 return f"https://youtu.be/watch?v={video_id}"
-        except Exception:
+        except Exception as e:
+            print(f"Error in 'search_yt': {e}")
             pass
 
 class YTDLSource(discord.PCMVolumeTransformer):
@@ -141,7 +87,7 @@ class YTDLSource(discord.PCMVolumeTransformer):
                 data = data['entries'][0]
             return data
         except Exception as e:
-            print(f"Error in YTDLSource.data_from_url {e}")
+            print(f"Error in 'from_url': {e}")
             return None
 
 class Audio(commands.Cog):
@@ -157,7 +103,8 @@ class Audio(commands.Cog):
         try:
             if ctx.guild.id not in self.resumeValue:
                 self.resumeValue[ctx.guild.id] = True
-        except Exception:
+        except Exception as e:
+            print(f"Error in 'createServerResumeValue': {e}")
             pass
 
     # Use queue for audio
@@ -165,7 +112,8 @@ class Audio(commands.Cog):
         try:
             if ctx.guild.id not in self.queue:
                 self.queue[ctx.guild.id] = []
-        except Exception:
+        except Exception as e:
+            print(f"Error in 'createServerQueue': {e}")
             pass
 
     async def serverQueue(self, ctx):
@@ -174,7 +122,8 @@ class Audio(commands.Cog):
                 await self.play_audio(ctx, self.queue[ctx.guild.id].pop(0))
             if len(self.queue[ctx.guild.id]) > 10:
                 self.queue[ctx.guild.id].pop(0)
-        except Exception:
+        except Exception as e:
+            print(f"Error in 'serverQueue': {e}")
             pass
 
     # Join channel command
@@ -186,7 +135,9 @@ class Audio(commands.Cog):
             if ctx.message.author.voice:
                 channel = ctx.message.author.voice.channel
                 await channel.connect()
-        except Exception:
+        except Exception as ex:
+            print(f"Error in 'join' command: {ex}")
+            await ctx.send(f"Error: `Failed to join an audio chan.`")
             pass
 
     # Leave channel command
@@ -198,7 +149,8 @@ class Audio(commands.Cog):
             if voice_client:
                 await voice_client.disconnect(force=True)
         except Exception as ex:
-            print(ex)
+            print(f"Error in 'leave' command: {ex}")
+            await ctx.send(f"Error: `Failed to leave an audio chan.`")
             pass
 
     # Pause audio command
@@ -209,7 +161,9 @@ class Audio(commands.Cog):
             voice_client = ctx.message.guild.voice_client
             if voice_client and voice_client.is_playing():
                 await voice_client.pause()
-        except Exception:
+        except Exception as ex:
+            print(f"Error in 'pause' command: {ex}")
+            await ctx.send(f"Error: `Failed to pause audio.`")
             pass
 
     # Unpause audio command
@@ -220,7 +174,9 @@ class Audio(commands.Cog):
             voice_client = ctx.message.guild.voice_client
             if voice_client and voice_client.is_paused():
                 await voice_client.resume()
-        except Exception:
+        except Exception as ex:
+            print(f"Error in 'resume' command: {ex}")
+            await ctx.send(f"Error: `Failed to resume audio.`")
             pass
 
     # Clear the audio queue
@@ -229,7 +185,9 @@ class Audio(commands.Cog):
         try:
             self.queue[ctx.guild.id].clear()
             await ctx.send("The queue has been cleared")
-        except Exception:
+        except Exception as ex:
+            print(f"Error in 'clear' command: {ex}")
+            await ctx.send(f"Error: `Failed to clear queue.`")
             pass
 
     # Stop audio command
@@ -240,7 +198,9 @@ class Audio(commands.Cog):
             voice_client = ctx.message.guild.voice_client
             if voice_client:
                 await voice_client.stop()
-        except Exception:
+        except Exception as ex:
+            print(f"Error in 'stop' command: {ex}")
+            await ctx.send(f"Error: `Failed to stop audio.`")
             pass
 
     # Play audio command
@@ -330,8 +290,8 @@ class Audio(commands.Cog):
             await ctx.send("Now playing: `webradio`")
             self.resumeValue[ctx.guild.id] = True
         except Exception as ex:
-            print(ex)
-            await ctx.send(f"Error: `{str(ex)}`")
+            print(f"Error in 'play_radio' command: {ex}")
+            await ctx.send(f"Error: `Failed to play webradio.`")
             pass
 
     @commands.command(name='play', aliases=['p', 'audio', 'launch'], help='To play an audio, aliases are \'p\'|\'launch\'')
@@ -343,7 +303,8 @@ class Audio(commands.Cog):
             await self.join(ctx)
             await self.play_audio(ctx, *args)
         except Exception as ex:
-            print(ex)
+            print(f"Error in 'launchaudio' command: {ex}")
+            await ctx.send(f"Error: `Failed to play audio.`")
             pass
 
     # Play next audio from queue command
@@ -353,7 +314,9 @@ class Audio(commands.Cog):
             await self.stop(ctx)
             self.resumeValue[ctx.guild.id] = True
             await self.serverQueue(ctx)
-        except Exception:
+        except Exception as ex:
+            print(f"Error in 'next' command: {ex}")
+            await ctx.send(f"Error: `Failed to play next audio.`")
             pass
 
     # Command if bot is bugged
@@ -364,5 +327,6 @@ class Audio(commands.Cog):
             await self.leave(ctx)
             self.queue[ctx.guild.id].clear()
             self.resumeValue[ctx.guild.id] = None
-        except Exception:
+        except Exception as ex:
+            print(f"Error in 'bug' command: {ex}")
             pass

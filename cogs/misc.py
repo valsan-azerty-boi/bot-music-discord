@@ -24,7 +24,8 @@ class Misc(commands.Cog):
         try:
             if not ctx.guild.id in self.cancelList:
                 self.cancelList[ctx.guild.id] = []
-        except:
+        except Exception as ex:
+            print(f"Error in 'createServerCancelList': {ex}")
             pass
     
     # Internet/Api commands
@@ -37,7 +38,9 @@ class Misc(commands.Cog):
             if len(json) > 0:
                 embed.set_thumbnail(url=json[0].get('media'))
             await ctx.send(embed=embed)
-        except:
+        except Exception as ex:
+            print(f"Error in 'internetsearch' command: {ex}")
+            await ctx.send(f"Error: `{str(ex)}`")
             pass
 
     @commands.command(name='pic', aliases=['img', 'picsearch'], help='Search images on internet')
@@ -51,7 +54,9 @@ class Misc(commands.Cog):
                 embed.set_thumbnail(url=random.choice(pics))
                 embed.set_image(url=random.choice(pics))
             await ctx.send(embed=embed)
-        except:
+        except Exception as ex:
+            print(f"Error in 'picsearch' command: {ex}")
+            await ctx.send(f"Error: `{str(ex)}`")
             pass
     
     @commands.hybrid_command(name='waifu', aliases=['aiwaifu'], help='Search on AI some random \'waifu\'', with_app_command=True)
@@ -62,7 +67,9 @@ class Misc(commands.Cog):
             embed = discord.Embed(title="thiswaifudoesnotexist", description="")
             embed.set_image(url="attachment://img.jpg")
             await ctx.send(embed=embed, file=file)
-        except:
+        except Exception as ex:
+            print(f"Error in 'waifuaisearch' command: {ex}")
+            await ctx.send(f"Error: `{str(ex)}`")
             pass
     
     @commands.hybrid_command(name='person', aliases=['aiperson'], help='Search on AI some random \'person\'', with_app_command=True)
@@ -73,11 +80,13 @@ class Misc(commands.Cog):
             embed = discord.Embed(title="thispersondoesnotexist", description="")
             embed.set_image(url="attachment://img.jpg")
             await ctx.send(embed=embed, file=file)
-        except:
+        except Exception as ex:
+            print(f"Error in 'personaisearch' command: {ex}")
+            await ctx.send(f"Error: `{str(ex)}`")
             pass
 
     @commands.hybrid_command(name='mcu', help='Search what next in the MCU on internet', with_app_command=True)
-    async def ai(self, ctx):
+    async def mcu(self, ctx):
         try:
             req = requests.get("https://whenisthenextmcufilm.com/api", params={}, headers=self.web_search_agent)
             json = req.json()
@@ -86,7 +95,9 @@ class Misc(commands.Cog):
             embed.set_author(name="What next in MCU ?")
             embed.set_footer(text=f"{json.get('type')} comes out in {json.get('days_until')} days ({json.get('release_date')})")
             await ctx.send(embed=embed)
-        except:
+        except Exception as ex:
+            print(f"Error in 'mcu' command: {ex}")
+            await ctx.send(f"Error: `{str(ex)}`")
             pass
 
     @commands.hybrid_command(name='steam', help='Search steam stats', with_app_command=True)
@@ -98,7 +109,9 @@ class Misc(commands.Cog):
             embed.add_field(name="Steamdb stats", value="https://steamdb.info/graph", inline=True)
             embed.add_field(name="Steamcharts stats", value="https://steamcharts.com", inline=True)
             await ctx.send(embed=embed)
-        except:
+        except Exception as ex:
+            print(f"Error in 'steam' command: {ex}")
+            await ctx.send(f"Error: `{str(ex)}`")
             pass
 
     # Cancel someone
@@ -120,7 +133,9 @@ class Misc(commands.Cog):
                 else:
                     self.cancelList[ctx.guild.id].append(CancelledItem(target, author))
                     await ctx.reply(":x: " + target + " :x: has been successfully cancelled by " + author + " !")
-        except:
+        except Exception as ex:
+            print(f"Error in 'cancel' command: {ex}")
+            await ctx.send(f"Error: `Failed during cancel, bad value?`")
             pass
 
     @commands.hybrid_command(name='cancellist', aliases=['clist'], help='Get the actual cancel list', with_app_command=True)
@@ -132,5 +147,6 @@ class Misc(commands.Cog):
                 response = response + "\n- " + cancelled.cancelTarget + " / Author: " + cancelled.cancelAuthor
             await ctx.send(response)
         except Exception as ex:
-            print(ex)
+            print(f"Error in 'cancellist' command: {ex}")
+            await ctx.send(f"Error: `Failed during cancel list, unexpected error.`")
             pass

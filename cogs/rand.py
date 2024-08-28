@@ -11,7 +11,9 @@ class Rand(commands.Cog):
         try:
             nb = args[0]
             await ctx.reply("Roll a :game_die: D{0} :game_die: `result is {1}`".format(nb, random.randint(1, int(nb))))
-        except:
+        except Exception as ex:
+            print(f"Error in 'roll' command: {ex}")
+            await ctx.send(f"Error: `Failed roll, bad value?`")
             pass
 
     @commands.hybrid_command(name='headsortails', aliases=['pileouface'], help='To roll a heads or tails', with_app_command=True)
@@ -21,5 +23,7 @@ class Rand(commands.Cog):
                 await ctx.reply("Heads")
             else:
                 await ctx.reply("Tails")
-        except:
+        except Exception as ex:
+            print(f"Error in 'headsortails' command: {ex}")
+            await ctx.send(f"Error: `Failed during heads or tails.`")
             pass

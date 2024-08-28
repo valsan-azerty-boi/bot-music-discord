@@ -17,7 +17,8 @@ class Help(commands.Cog):
     async def thisbot(self, ctx):
         try:
             await ctx.send(BOT_DESCRIPTION)
-        except:
+        except Exception as ex:
+            print(f"Error in 'bot' command: {ex}")
             pass
 
     # Help command
@@ -31,7 +32,8 @@ class Help(commands.Cog):
                     command_list = '\n'.join([f"`{cmd.name}`: {cmd.help or 'No description.'}" for cmd in commands_list])
                     help_embed.add_field(name=cog_name, value=command_list or "No commands available.", inline=False)
             await ctx.send(embed=help_embed)
-        except:
+        except Exception as ex:
+            print(f"Error in 'help' command: {ex}")
             pass
 
     @commands.hybrid_command(name='sync', help='Commands sync', with_app_command=True)
