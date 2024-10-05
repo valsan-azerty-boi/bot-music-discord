@@ -137,7 +137,7 @@ class Audio(commands.Cog):
                 await channel.connect()
         except Exception as ex:
             print(f"Error in 'join' command: {ex}")
-            await ctx.send(f"Error: `Failed to join an audio chan.`")
+            #await ctx.send(f"Error: `Failed to join an audio chan.`")
             pass
 
     # Leave channel command
@@ -150,7 +150,7 @@ class Audio(commands.Cog):
                 await voice_client.disconnect(force=True)
         except Exception as ex:
             print(f"Error in 'leave' command: {ex}")
-            await ctx.send(f"Error: `Failed to leave an audio chan.`")
+            #await ctx.send(f"Error: `Failed to leave an audio chan.`")
             pass
 
     # Pause audio command
@@ -163,7 +163,7 @@ class Audio(commands.Cog):
                 await voice_client.pause()
         except Exception as ex:
             print(f"Error in 'pause' command: {ex}")
-            await ctx.send(f"Error: `Failed to pause audio.`")
+            #await ctx.send(f"Error: `Failed to pause audio.`")
             pass
 
     # Unpause audio command
@@ -176,7 +176,7 @@ class Audio(commands.Cog):
                 await voice_client.resume()
         except Exception as ex:
             print(f"Error in 'resume' command: {ex}")
-            await ctx.send(f"Error: `Failed to resume audio.`")
+            #await ctx.send(f"Error: `Failed to resume audio.`")
             pass
 
     # Clear the audio queue
@@ -200,7 +200,7 @@ class Audio(commands.Cog):
                 await voice_client.stop()
         except Exception as ex:
             print(f"Error in 'stop' command: {ex}")
-            await ctx.send(f"Error: `Failed to stop audio.`")
+            #await ctx.send(f"Error: `Failed to stop audio.`")
             pass
 
     # Play audio command
@@ -316,7 +316,7 @@ class Audio(commands.Cog):
             await self.serverQueue(ctx)
         except Exception as ex:
             print(f"Error in 'next' command: {ex}")
-            await ctx.send(f"Error: `Failed to play next audio.`")
+            #await ctx.send(f"Error: `Failed to play next audio.`")
             pass
 
     # Command if bot is bugged

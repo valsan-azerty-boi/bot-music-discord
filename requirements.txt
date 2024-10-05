@@ -1,5 +1,5 @@
-discord.py==2.3.2
-discord.py[voice]==2.3.2
+discord.py==2.4.0
+discord.py[voice]==2.4.0
 pip
 PyNaCl==1.4.0
 python-dotenv==0.20.0
